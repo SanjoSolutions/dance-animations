@@ -26,12 +26,10 @@
         <aside>
           <div class="field"><label for="style">Dance style</label><select class="form-select" id="style" disabled></select></div>
           <div class="field"><label for="animation">Animation</label><select class="form-select" id="animation" disabled></select></div>
-          <div class="character-actions">
-            <div class="field" id="character-field" hidden><label for="character">Character</label><select class="form-select" id="character" disabled></select></div>
-            <div class="selection-actions d-flex justify-content-end"><a id="report-error" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer" hidden>Report error</a></div>
-          </div>
+          <div class="field" id="character-field" hidden><label for="character">Character</label><select class="form-select" id="character" disabled></select></div>
           <div class="field"><label for="mode">Playback mode</label><select class="form-select" id="mode" disabled><option value="single">Single</option><option value="sequential">Sequential</option><option value="random" selected>Random</option></select></div>
           <div class="field" id="interval-field" hidden><label for="interval">Bars per move</label><input class="form-control" id="interval" type="number" min="0" step="1" value="0" required /><small class="muted">0 uses the animation duration.</small></div>
+          <div class="selection-actions d-flex justify-content-end"><a id="report-error" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer" hidden>Report error</a></div>
         </aside>
         <section class="viewer" aria-label="3D dance preview">
           <div id="viewport"><div class="viewport-label">Drag to orbit · Scroll to zoom</div><div id="status" role="status" aria-live="polite">Loading animation library…</div></div>
