@@ -7,6 +7,10 @@ button, select { cursor: pointer; }
 a { color: inherit; }
 header { min-height: 86px; display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 24px 38px; border-bottom: 1px solid #2a303b; }
 .brand { display: flex; gap: 12px; align-items: center; font-size: 22px; font-weight: 600; text-decoration: none; }
+.brand-links { display: flex; align-items: center; gap: 12px; }
+.repository-link { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 6px; }
+.repository-link:hover { background: var(--border); }
+.repository-link img { display: block; width: 24px; height: auto; }
 header { flex-wrap: wrap; }
 .generation-note { flex-basis: 100%; margin: 0; font-size: 14px; line-height: 1.6; color: var(--muted); }
 .mark { color: #b1eb68; font-size: 32px; }
