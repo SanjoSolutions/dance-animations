@@ -9,7 +9,8 @@
     "build": "tsc --noEmit && python scripts/license_notices.py && vite build && node scripts/copy-demo-assets.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "check": "tsc --noEmit && python scripts/validate_assets.py && python scripts/validate_licenses.py",
-    "test": "node --test src/*.test.mjs"
+    "test": "node --test src/*.test.mjs src/music/*.test.mjs",
+    "music:prepare": "python scripts/music/prepare.py"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",

@@ -71,6 +71,7 @@ class LicenseNotices:
     def write(self):
         self.collect_packages()
         rows = self.collect_assets()
+        music_rows, music_count = self.collect_music()
         shutil.copyfile(ROOT / 'LICENSE', self.destination / 'project-MIT-0.txt')
         shutil.copyfile(ROOT / 'scripts/blender/extensions/game_rig_tools/LICENSE', self.destination / 'GPL-3.0.txt')
         page = f'''<!doctype html>
@@ -88,6 +89,13 @@ class LicenseNotices:
 <h1>Licenses and credits</h1>
 <p>Original project content uses MIT-0 adapted to content. Third-party assets and code retain their licenses.</p>
 <p><a href="third-party/project-MIT-0.txt">Project license</a> · <a href="third-party/npm-notices.txt">Dependency licenses and copyrights</a> · <a href="third-party/asset-notices.txt">Original asset notices and modifications</a></p>
+<h2 id="music">Music</h2>
+<p>The 92 dance styles use {music_count} edited excerpts of human compositions and recordings by Kevin MacLeod (<a href="https://incompetech.com/">incompetech.com</a>), licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a>. Commercial use, adaptations, and redistribution are permitted with attribution, a license link, and an indication of changes. Preserve these credits when reusing the music.</p>
+<p>The recordings were published before 2020. The composer dates his first use of music AI to 2020 in his <a href="https://incompetech.com/wordpress/2025/07/the-ai-elephant-in-the-room/">production history</a>. Human compositions include sampled and synthesized instruments.</p>
+<p>Related styles share recordings. Broader rhythm matches carry a practice accompaniment label in the player. Each track is an excerpt converted to mono PCM, peak normalized, and faded briefly at its loop edges. Recorded tempo and pitch are preserved; dance animation timing adapts to the music. The individual changes, source hashes, rhythm choices, and timing references accompany the <a href="music.json">music catalog</a> and <a href="assets/music/selections.json">recording evidence</a>. <a href="third-party/music-notices.txt">Download attribution credits</a> · <a href="third-party/CC-BY-4.0.txt">Full music license</a></p>
+<div class="table-responsive" tabindex="0" role="region" aria-label="Music credits">
+<table class="table"><thead><tr><th scope="col">Recording</th><th scope="col">Credit</th><th scope="col">Dance styles</th><th scope="col">License and source</th><th scope="col">Changes</th></tr></thead><tbody>{music_rows}</tbody></table>
+</div>
 <h2>Characters and clothing</h2>
 <p>MakeHuman/MPFB hm08 base mesh and system assets: Data Collection AB, Joel Palmius, Jonas Hauquier; <a href="third-party/CC0-1.0.txt">CC0</a> (September 2020 release).</p>
 <div class="table-responsive" tabindex="0" role="region" aria-label="Character and clothing credits">
@@ -107,6 +115,28 @@ class LicenseNotices:
         (ROOT / 'licenses.html').write_text(page + '\n', newline='\n')
         self.credit_models()
         print('Collected dependency licenses, original asset notices, and website credits.')
+
+    def collect_music(self):
+        tracks = json.loads((ROOT / 'music.json').read_text(encoding='utf-8'))['tracks']
+        labels = {style['id']: style['label'] for style in json.loads((ROOT / 'catalog.json').read_text())['styles']}
+        groups = {}
+        for track in tracks:
+            groups.setdefault(track['recording'], []).append(track)
+        rows, notices = [], []
+        for group in sorted(groups.values(), key=lambda group: (group[0]['title'], group[0]['tempo'])):
+            track = group[0]
+            credit = f'{track["title"]} — {track["author"]} (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.'
+            if track['composer'] != track['author']:
+                credit += f' Composition: {track["composer"]}.'
+            if track['contributors']:
+                credit += ' ' + track['contributors'] + '.'
+            styles = ', '.join(labels[entry['style']] for entry in group)
+            notices.append(f'{credit}\n{track["licenseUrl"]}\nSource: {track["source"]}\nStyles: {styles}\nChanges: {track["changes"]}\nSource SHA-256: {track["sourceSha256"]}\nExcerpt SHA-256: {track["sha256"]}')
+            rows.append('<tr>' + ''.join(f'<td>{html.escape(value)}</td>' for value in (track['title'], credit, styles)) +
+                        f'<td><a href="{html.escape(track["licenseUrl"])}">{track["license"]}</a> · <a href="{html.escape(track["source"])}">Source</a></td>' +
+                        f'<td>{html.escape(track["changes"])}</td></tr>')
+        (self.destination / 'music-notices.txt').write_text('\n\n'.join(notices) + '\n', encoding='utf-8', newline='\n')
+        return '\n'.join(rows), len(groups)
 
     @staticmethod
     def credit_models():
