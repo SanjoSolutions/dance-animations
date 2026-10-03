@@ -1,6 +1,6 @@
 # Local validation
 
-The library contains 3,512 runtime clips and 3,512 Blender sources across 93 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
+The library contains 3,500 runtime clips and 3,500 Blender sources across 92 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
 
 The automated checks cover:
 
