@@ -4,7 +4,7 @@ from collections import Counter
 import json
 from pathlib import Path
 import sys
-from import_assets import read_glb, write_glb, STYLES
+from import_assets import read_glb, write_glb, retrieve_playback_variants, STYLES
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -37,18 +37,20 @@ def preserve_duration(path, duration):
 
 def main(results):
     catalog = json.loads((ROOT/'catalog.json').read_text())
-    entries = {entry['id']:entry for entry in catalog['animations']}
+    entries = {variant['id']:variant for entry in catalog['animations']
+               for variant in retrieve_playback_variants(entry)}
     failures = []
     for path in results:
         result = json.loads(Path(path).read_text())
         failures.extend(result['failures'])
         for entry in result['animations']:
-            previous = entries.get(entry['id'],{})
             entry['duration'] = max(entry['duration'],1/24)
             preserve_duration(ROOT/entry['file'],entry['duration'])
-            for key in ('originalExport','originalExportSha256'):
-                if previous.get(key):entry[key] = previous[key]
-            entries[entry['id']] = entry
+            for variant in retrieve_playback_variants(entry):
+                previous = entries.get(variant['id'],{})
+                for key in ('originalExport','originalExportSha256'):
+                    if previous.get(key):variant[key] = previous[key]
+                entries[variant['id']] = variant
     inventory = json.loads((ROOT/'source-inventory.json').read_text())
     sources = {entry['sourceFile']:entry for entry in entries.values() if entry['sourceFile']}
     for record in inventory:

@@ -254,7 +254,7 @@
     {
       "id": "jazz",
       "label": "Jazz",
-      "playable": 18,
+      "playable": 36,
       "sources": 18
     },
     {
@@ -22644,9 +22644,24 @@
     {
       "id": "jazz_isolation_head",
       "style": "jazz",
-      "label": "Jazz isolation head",
+      "label": "Jazz isolation head \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.5,
+      "file": "animations/jazz/jazz_isolation_head.glb",
+      "sourceFile": "animations/jazz/sources/jazz_isolation_head.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "2dd0643a602581c47839948e7005e57ddd4be550d1e3dc22e68e0f495ddff53c",
+      "animationName": "jazz_isolation_head.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_isolation_head_woman",
+      "style": "jazz",
+      "label": "Jazz isolation head \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.5,
@@ -22661,9 +22676,24 @@
     {
       "id": "jazz_kick_front_left",
       "style": "jazz",
-      "label": "Jazz kick front left",
+      "label": "Jazz kick front left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.75,
+      "file": "animations/jazz/jazz_kick_front_left.glb",
+      "sourceFile": "animations/jazz/sources/jazz_kick_front_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "67682b3a35acfe93a91ee7329fb43a16d14242f77e3a2630cb6467d3fb9122bb",
+      "animationName": "jazz_kick_front_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_kick_front_left_woman",
+      "style": "jazz",
+      "label": "Jazz kick front left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.75,
@@ -22678,9 +22708,24 @@
     {
       "id": "jazz_passe_turn_left",
       "style": "jazz",
-      "label": "Jazz passe turn left",
+      "label": "Jazz passe turn left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 5.0,
+      "file": "animations/jazz/jazz_passe_turn_left.glb",
+      "sourceFile": "animations/jazz/sources/jazz_passe_turn_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "e10250d5d8914e493465a2ad9b4e4465a5a67f896977925882da6078893dad58",
+      "animationName": "jazz_passe_turn_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_passe_turn_left_woman",
+      "style": "jazz",
+      "label": "Jazz passe turn left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 5.0,
@@ -22695,9 +22740,24 @@
     {
       "id": "jazz_position_contraction",
       "style": "jazz",
-      "label": "Jazz position contraction",
+      "label": "Jazz position contraction \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_contraction.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_contraction.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "8e9208cdabdbd6e587b20930d07fb54826b48184c8e161ab08958d05fd72f6e9",
+      "animationName": "jazz_position_contraction.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_contraction_woman",
+      "style": "jazz",
+      "label": "Jazz position contraction \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22712,9 +22772,24 @@
     {
       "id": "jazz_position_high_v",
       "style": "jazz",
-      "label": "Jazz position high v",
+      "label": "Jazz position high v \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_high_v.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_high_v.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "96921e83dee43afc8b25dbb4bdcd7c7df1631d3ac729fb7540e8ad44ace070bc",
+      "animationName": "jazz_position_high_v.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_high_v_woman",
+      "style": "jazz",
+      "label": "Jazz position high v \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22729,9 +22804,24 @@
     {
       "id": "jazz_position_jazz_fourth_left",
       "style": "jazz",
-      "label": "Jazz position jazz fourth left",
+      "label": "Jazz position jazz fourth left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_jazz_fourth_left.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_jazz_fourth_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "cb5b97e0751d0d71b47ee37be0e9d24489bb015c041557a7aa12fc42740713ef",
+      "animationName": "jazz_position_jazz_fourth_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_jazz_fourth_left_woman",
+      "style": "jazz",
+      "label": "Jazz position jazz fourth left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22746,9 +22836,24 @@
     {
       "id": "jazz_position_jazz_fourth_right",
       "style": "jazz",
-      "label": "Jazz position jazz fourth right",
+      "label": "Jazz position jazz fourth right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_jazz_fourth_right.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_jazz_fourth_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0adf97c94df9e772a8473472073871fe36441948d024ab5f16b7d173c2cd55e4",
+      "animationName": "jazz_position_jazz_fourth_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_jazz_fourth_right_woman",
+      "style": "jazz",
+      "label": "Jazz position jazz fourth right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22763,9 +22868,24 @@
     {
       "id": "jazz_position_jazz_l_left",
       "style": "jazz",
-      "label": "Jazz position jazz l left",
+      "label": "Jazz position jazz l left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_jazz_l_left.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_jazz_l_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "80d28e59d0decfc7d9259f11c32a912b2896937f50908c5093f89e4d703f4c21",
+      "animationName": "jazz_position_jazz_l_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_jazz_l_left_woman",
+      "style": "jazz",
+      "label": "Jazz position jazz l left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22780,9 +22900,24 @@
     {
       "id": "jazz_position_jazz_l_right",
       "style": "jazz",
-      "label": "Jazz position jazz l right",
+      "label": "Jazz position jazz l right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_jazz_l_right.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_jazz_l_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "ec633f6b88a243853f57411f829a0d308cf5572aca3bee9a90f8c160ce7ae636",
+      "animationName": "jazz_position_jazz_l_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_jazz_l_right_woman",
+      "style": "jazz",
+      "label": "Jazz position jazz l right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22797,9 +22932,24 @@
     {
       "id": "jazz_position_low_v",
       "style": "jazz",
-      "label": "Jazz position low v",
+      "label": "Jazz position low v \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_low_v.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_low_v.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "f40e91cc85e3cc24d5a1f8f44f2bdf2f08d31f3ff3d64bbfb6d4953b9064342a",
+      "animationName": "jazz_position_low_v.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_low_v_woman",
+      "style": "jazz",
+      "label": "Jazz position low v \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22814,9 +22964,24 @@
     {
       "id": "jazz_position_parallel_first",
       "style": "jazz",
-      "label": "Jazz position parallel first",
+      "label": "Jazz position parallel first \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_parallel_first.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_parallel_first.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "25b181486eb95680784550e63d5c55b14a98992246f3d5524bdb15972c1f7271",
+      "animationName": "jazz_position_parallel_first.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_parallel_first_woman",
+      "style": "jazz",
+      "label": "Jazz position parallel first \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22831,9 +22996,24 @@
     {
       "id": "jazz_position_parallel_second",
       "style": "jazz",
-      "label": "Jazz position parallel second",
+      "label": "Jazz position parallel second \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_parallel_second.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_parallel_second.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "a0d4d6bd65b9d2c14fff33b71e0a7ea8f412c98f3c0d6fc5fb5739e8efe9ca1d",
+      "animationName": "jazz_position_parallel_second.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_parallel_second_woman",
+      "style": "jazz",
+      "label": "Jazz position parallel second \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22848,9 +23028,24 @@
     {
       "id": "jazz_position_release",
       "style": "jazz",
-      "label": "Jazz position release",
+      "label": "Jazz position release \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_release.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_release.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "1d5964f243e06588cc1bfb325193d249791183195e4d732e628da5f183be2d12",
+      "animationName": "jazz_position_release.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_release_woman",
+      "style": "jazz",
+      "label": "Jazz position release \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22865,9 +23060,24 @@
     {
       "id": "jazz_position_rounded_first",
       "style": "jazz",
-      "label": "Jazz position rounded first",
+      "label": "Jazz position rounded first \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_rounded_first.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_rounded_first.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "6be51ba43d76bf30ea017e2a392c3bac4007bea1659c71420f521a791e07352e",
+      "animationName": "jazz_position_rounded_first.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_rounded_first_woman",
+      "style": "jazz",
+      "label": "Jazz position rounded first \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22882,9 +23092,24 @@
     {
       "id": "jazz_position_t_arms",
       "style": "jazz",
-      "label": "Jazz position t arms",
+      "label": "Jazz position t arms \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_t_arms.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_t_arms.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "2348990bfcdc1267b98f45be4e210fc6eaecbae0988affb7b807585fc1e4b167",
+      "animationName": "jazz_position_t_arms.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_t_arms_woman",
+      "style": "jazz",
+      "label": "Jazz position t arms \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22899,9 +23124,24 @@
     {
       "id": "jazz_position_turned_out_first",
       "style": "jazz",
-      "label": "Jazz position turned out first",
+      "label": "Jazz position turned out first \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_turned_out_first.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_turned_out_first.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "52e3190f6cb50c1a3a9403e7005f4e7a8800ad73d3ff2f4184aefc6ceb09f24e",
+      "animationName": "jazz_position_turned_out_first.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_turned_out_first_woman",
+      "style": "jazz",
+      "label": "Jazz position turned out first \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22916,9 +23156,24 @@
     {
       "id": "jazz_position_turned_out_second",
       "style": "jazz",
-      "label": "Jazz position turned out second",
+      "label": "Jazz position turned out second \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/jazz/jazz_position_turned_out_second.glb",
+      "sourceFile": "animations/jazz/sources/jazz_position_turned_out_second.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "8bd21789c12e53ca453aa12b1e88102b115eb5fde510e8dee303c6f2e72253ef",
+      "animationName": "jazz_position_turned_out_second.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_position_turned_out_second_woman",
+      "style": "jazz",
+      "label": "Jazz position turned out second \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -22933,9 +23188,24 @@
     {
       "id": "jazz_step_touch",
       "style": "jazz",
-      "label": "Jazz step touch",
+      "label": "Jazz step touch \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.25,
+      "file": "animations/jazz/jazz_step_touch.glb",
+      "sourceFile": "animations/jazz/sources/jazz_step_touch.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "34678e14dfc6e3e3ea9b764fae053f49d99ea50ff8edcf977bc8e67551323f0c",
+      "animationName": "jazz_step_touch.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "jazz_step_touch_woman",
+      "style": "jazz",
+      "label": "Jazz step touch \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.25,
