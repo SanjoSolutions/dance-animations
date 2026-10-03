@@ -1,0 +1,9 @@
+GitHub Invertocat logo
+
+Copyright and trademark: GitHub, Inc.
+Source: https://brand.github.com/GitHub_Logos.zip
+Usage guidelines: https://brand.github.com/foundations/logo
+
+The supplied black and white SVG files are original GitHub Brand Toolkit
+assets. The demo uses the logo as a link to its GitHub project repository.
+GitHub's logo guidelines permit this use.

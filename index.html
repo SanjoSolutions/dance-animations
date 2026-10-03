@@ -9,7 +9,19 @@
   </head>
   <body>
     <div id="app">
-      <header><a class="brand" href="./">Dance animations</a><span id="catalog-count" class="muted"></span><p class="generation-note">Animations have been initially generated with OpenAI Astra (High). They might contain errors. Improvement PRs are welcomed.</p></header>
+      <header>
+        <div class="brand-links">
+          <a class="brand" href="./">Dance animations</a>
+          <a class="repository-link" href="https://github.com/SanjoSolutions/dance-animations" target="_blank" rel="noopener noreferrer" aria-label="GitHub repository (opens in a new tab)" title="GitHub repository">
+            <picture>
+              <source srcset="./github/github-mark-white.svg" media="(prefers-color-scheme: dark)" />
+              <img src="./github/github-mark-black.svg" width="98" height="96" alt="" />
+            </picture>
+          </a>
+        </div>
+        <span id="catalog-count" class="muted"></span>
+        <p class="generation-note">Animations have been initially generated with OpenAI Astra (High). They might contain errors. Improvement PRs are welcomed.</p>
+      </header>
       <main>
         <aside>
           <div class="field"><label for="style">Dance style</label><select class="form-select" id="style" disabled></select></div>
