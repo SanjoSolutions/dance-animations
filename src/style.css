@@ -16,6 +16,7 @@ aside { padding: 44px 30px 32px 38px; border-right: 1px solid #2a303b; }
 .eyebrow { color: #b1eb68; font-size: 12px; letter-spacing: .13em; font-weight: 600; }
 h1 { font-size: 28px; font-weight: 500; line-height: 1.25; margin: 14px 0 30px; }
 .field { margin-bottom: 24px; }
+.character-actions { grid-column: 1 / -1; }
 .field label { display: block; font-size: 14px; margin-bottom: 10px; color: #c3cbd9; }
 select { border: 1px solid #3c4656; border-radius: 6px; background: #1d2430; color: #eef1f7; padding: 12px; width: 100%; min-height: 44px; }
 select:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid #b1eb68; outline-offset: 3px; }
@@ -55,5 +56,5 @@ select, button { background-color: var(--control); color: var(--text); border-co
 .transport { background: var(--surface); }
 #status { background: var(--studio); }
 select:focus-visible, button:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible { outline-color: var(--accent); }
-@media(max-width: 850px) { header { padding: 20px; flex-wrap: wrap; } main { grid-template-columns: 1fr; } aside { border-right: 0; padding: 26px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; } .eyebrow,h1,dl,.study-note,details,.asset-link { grid-column: 1 / -1; } h1 { margin: 8px 0 24px; font-size: 28px; } dl { margin: 6px 0; padding-top: 18px; } dl div { display: inline-flex; margin-right: 20px; } .study-note { margin: 10px 0; } #viewport { height: 58dvh; min-height: 370px; flex: none; } .transport { padding: 18px 20px; } }
+@media(max-width: 850px) { header { padding: 20px; flex-wrap: wrap; } main { grid-template-columns: 1fr; } aside { border-right: 0; padding: 26px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; } .character-actions { display: flex; align-items: flex-end; gap: 18px; } .character-actions > .field { flex: 1; min-width: 0; } .selection-actions { flex: 1; margin-bottom: 24px; } .eyebrow,h1,dl,.study-note,details,.asset-link { grid-column: 1 / -1; } h1 { margin: 8px 0 24px; font-size: 28px; } dl { margin: 6px 0; padding-top: 18px; } dl div { display: inline-flex; margin-right: 20px; } .study-note { margin: 10px 0; } #viewport { height: 58dvh; min-height: 370px; flex: none; } .transport { padding: 18px 20px; } }
 @media(max-width: 480px) { aside { display: block; } .animation-info { padding: 20px; } .viewport-label { left: 20px; right: 20px; flex-direction: column; gap: 6px; } .loop { margin-left: 0; } .transport-top { gap: 10px; } }

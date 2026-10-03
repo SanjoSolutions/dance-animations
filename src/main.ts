@@ -14,6 +14,7 @@ function element<T extends HTMLElement>(id: string): T {
 const style = element<HTMLSelectElement>('style');
 const animation = element<HTMLSelectElement>('animation');
 const character = element<HTMLSelectElement>('character');
+const reportError = element<HTMLAnchorElement>('report-error');
 const status = element('status');
 const play = element<HTMLButtonElement>('play');
 const restart = element<HTMLButtonElement>('restart');
@@ -31,6 +32,17 @@ let selection = 0;
 
 function timeLabel(time: number): string {
   return `${Math.floor(time / 60)}:${(time % 60).toFixed(1).padStart(4, '0')}`;
+}
+
+function retrieveReportUrl(entry: DanceAnimation): string {
+  const demoUrl = new URL('https://sanjosolutions.github.io/dance-animations/');
+  demoUrl.searchParams.set('style', entry.style);
+  demoUrl.searchParams.set('animation', entry.id);
+  if (entry.performers.length === 1) demoUrl.searchParams.set('character', entry.performers[0]);
+  const issueUrl = new URL('https://github.com/SanjoSolutions/dance-animations/issues/new');
+  issueUrl.searchParams.set('title', `Animation error: ${entry.label}`);
+  issueUrl.searchParams.set('body', `Animation: ${entry.label} (${entry.id})\nDemo: ${demoUrl.href}\n\n`);
+  return issueUrl.href;
 }
 
 async function initialize(): Promise<void> {
@@ -64,6 +76,8 @@ async function initialize(): Promise<void> {
     status.textContent = entry ? 'Loading animation…' : 'This style has editable sources with runtime exports pending. See the source inventory.';
     element<HTMLAnchorElement>('download').hidden = true;
     element<HTMLAnchorElement>('source').hidden = true;
+    reportError.hidden = !entry;
+    if (entry) reportError.href = retrieveReportUrl(entry);
     if (!entry) return;
     if (pushHistory) {
       const url = new URL(location.href);
