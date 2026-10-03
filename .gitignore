@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.cache/
+__pycache__/
+*.pyc
+*.blend[0-9]*
+*.log
+.DS_Store

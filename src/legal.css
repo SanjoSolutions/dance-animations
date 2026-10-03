@@ -1,0 +1,16 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root { color-scheme: light dark; }
+body { margin: 0; background: light-dark(#f8f9fa, #10141c); color: light-dark(#20252d, #eef1f7); }
+.legal-page { max-width: 800px; margin: 0 auto; padding: 28px 20px; line-height: 1.7; }
+.credits-page { max-width: 1000px; }
+.credits-page .table { min-width: 640px; --bs-table-bg: transparent; --bs-table-color: inherit; --bs-table-border-color: light-dark(#d8dde4, #303744); }
+.credits-page th, .credits-page td { padding: 12px; overflow-wrap: anywhere; }
+.table-responsive:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+h1 { margin: 28px 0; font-size: 2rem; }
+h2 { margin-top: 28px; font-size: 1.25rem; }
+a { color: inherit; text-underline-offset: 3px; overflow-wrap: anywhere; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+address { font-style: normal; }
+.legal-footer { margin-top: 32px; padding-top: 20px; border-top: 1px solid light-dark(#d8dde4, #303744); }
+.legal-footer nav { display: flex; flex-wrap: wrap; gap: 12px 24px; }

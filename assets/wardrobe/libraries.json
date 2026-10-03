@@ -1,0 +1,107 @@
+{
+  "aethelraed_flapper_dress": {
+    "file": "assets/wardrobe/aethelraed_flapper_dress.blend",
+    "meshes": {
+      "Woman": "Woman.aethelraed_flapper_dress.mesh"
+    }
+  },
+  "female_casualsuit01": {
+    "file": "assets/wardrobe/female_casualsuit01.blend",
+    "meshes": {
+      "Woman": "Woman.female_casualsuit01.mesh"
+    }
+  },
+  "female_casualsuit02": {
+    "file": "assets/wardrobe/female_casualsuit02.blend",
+    "meshes": {
+      "Woman": "Woman.female_casualsuit02.mesh"
+    }
+  },
+  "male_casualsuit03": {
+    "file": "assets/wardrobe/male_casualsuit03.blend",
+    "meshes": {
+      "Man": "Man.male_casualsuit03.mesh"
+    }
+  },
+  "male_casualsuit04": {
+    "file": "assets/wardrobe/male_casualsuit04.blend",
+    "meshes": {
+      "Man": "Man.male_casualsuit04.mesh"
+    }
+  },
+  "male_casualsuit06": {
+    "file": "assets/wardrobe/male_casualsuit06.blend",
+    "meshes": {
+      "Man": "Man.male_casualsuit06.mesh"
+    }
+  },
+  "mindfront_ballet_dress_the_swan": {
+    "file": "assets/wardrobe/mindfront_ballet_dress_the_swan.blend",
+    "meshes": {
+      "Woman": "Woman.mindfront_ballet_dress_the_swan.mesh"
+    }
+  },
+  "punkduck_sleeveless_shirt": {
+    "file": "assets/wardrobe/punkduck_sleeveless_shirt.blend",
+    "meshes": {
+      "Man": "Man.punkduck_sleeveless_shirt.mesh"
+    }
+  },
+  "punkduck_tennis_shoes": {
+    "file": "assets/wardrobe/punkduck_tennis_shoes.blend",
+    "meshes": {
+      "Man": "Man.punkduck_tennis_shoes.mesh",
+      "Woman": "Woman.punkduck_tennis_shoes.mesh"
+    }
+  },
+  "shoes01": {
+    "file": "assets/wardrobe/shoes01.blend",
+    "meshes": {
+      "Man": "Man.shoes01.mesh"
+    }
+  },
+  "shoes03": {
+    "file": "assets/wardrobe/shoes03.blend",
+    "meshes": {
+      "Man": "Man.shoes03.mesh"
+    }
+  },
+  "toigo_ballet_flats": {
+    "file": "assets/wardrobe/toigo_ballet_flats.blend",
+    "meshes": {
+      "Man": "Man.toigo_ballet_flats.mesh",
+      "Woman": "Woman.toigo_ballet_flats.mesh"
+    }
+  },
+  "toigo_camisole_dress_with_full_skirt": {
+    "file": "assets/wardrobe/toigo_camisole_dress_with_full_skirt.blend",
+    "meshes": {
+      "Woman": "Woman.toigo_camisole_dress_with_full_skirt.mesh"
+    }
+  },
+  "toigo_fisherman_sweater": {
+    "file": "assets/wardrobe/toigo_fisherman_sweater.blend",
+    "meshes": {
+      "Woman": "Woman.toigo_fisherman_sweater.mesh"
+    }
+  },
+  "toigo_halter_dress_knee_length": {
+    "file": "assets/wardrobe/toigo_halter_dress_knee_length.blend",
+    "meshes": {
+      "Woman": "Woman.toigo_halter_dress_knee_length.mesh"
+    }
+  },
+  "toigo_male_suit_3": {
+    "file": "assets/wardrobe/toigo_male_suit_3.blend",
+    "meshes": {
+      "Man": "Man.toigo_male_suit_3.mesh"
+    }
+  },
+  "toigo_wool_pants": {
+    "file": "assets/wardrobe/toigo_wool_pants.blend",
+    "meshes": {
+      "Man": "Man.toigo_wool_pants.mesh",
+      "Woman": "Woman.toigo_wool_pants.mesh"
+    }
+  }
+}

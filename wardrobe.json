@@ -1,0 +1,13 @@
+{
+  "default": "street",
+  "profiles": {
+    "street": {"label": "Street practice", "styles": [], "man": ["male_casualsuit06", "punkduck_tennis_shoes"], "woman": ["female_casualsuit01", "punkduck_tennis_shoes"]},
+    "club": {"label": "Club practice", "styles": ["afro_house", "amapiano", "dancehall", "naija", "gogo", "solo_disco_dance", "disco_freestyle", "waacking", "vogue"], "man": ["male_casualsuit04", "punkduck_tennis_shoes"], "woman": ["female_casualsuit02", "punkduck_tennis_shoes"]},
+    "formal": {"label": "Ballroom", "styles": ["american_bolero", "foxtrot", "quickstep", "slow_waltz", "viennese_waltz", "cross_step_waltz", "slow_dance", "tango", "nightclub_two_step", "mazurka"], "man": ["toigo_male_suit_3", "shoes03"], "woman": ["toigo_camisole_dress_with_full_skirt", "toigo_ballet_flats"]},
+    "latin": {"label": "Latin", "styles": ["ballroom_samba", "bachata", "brazilian_zouk", "cumbia", "flamenco", "forro", "kizomba", "lambada", "partner_mambo", "merengue", "partner_cha_cha", "partner_paso_doble", "partner_rumba", "solo_paso_doble", "salsa", "samba_de_gafieira", "semba", "solo_cha_cha", "solo_rumba", "solo_samba", "urban_kiz"], "man": ["toigo_male_suit_3", "shoes03"], "woman": ["toigo_halter_dress_knee_length", "toigo_ballet_flats"]},
+    "swing": {"label": "Swing", "styles": ["solo_charleston", "boogie_woogie", "jive", "modern_jive", "rock_n_roll", "swing", "solo_jazz", "tap", "musical_theatre", "blues"], "man": ["male_casualsuit03", "shoes01"], "woman": ["aethelraed_flapper_dress", "toigo_ballet_flats"]},
+    "ballet": {"label": "Ballet", "styles": ["ballet"], "man": ["punkduck_sleeveless_shirt", "toigo_wool_pants", "toigo_ballet_flats"], "woman": ["mindfront_ballet_dress_the_swan", "toigo_ballet_flats"]},
+    "practice": {"label": "Movement practice", "styles": ["contemporary", "lyrical", "jazz", "fusion", "playful_freestyle", "belly", "bhangra", "bollywood", "irish_stepdance", "partner_polka", "partner_schottische"], "man": ["punkduck_sleeveless_shirt", "toigo_wool_pants", "punkduck_tennis_shoes"], "woman": ["toigo_fisherman_sweater", "toigo_wool_pants", "punkduck_tennis_shoes"]},
+    "pole": {"label": "Pole practice", "styles": ["pole_dance"], "man": ["punkduck_sleeveless_shirt", "toigo_wool_pants"], "woman": ["toigo_fisherman_sweater", "toigo_wool_pants"]}
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "left_arm": [
+    "DEF-shoulder.L",
+    "DEF-upper_arm.L",
+    "DEF-forearm.L",
+    "DEF-hand.L",
+    "DEF-thumb.*.L",
+    "DEF-f_index.*.L",
+    "DEF-f_middle.*.L",
+    "DEF-f_ring.*.L",
+    "DEF-f_pinky.*.L",
+    "DEF-palm.*.L"
+  ],
+  "right_arm": [
+    "DEF-shoulder.R",
+    "DEF-upper_arm.R",
+    "DEF-forearm.R",
+    "DEF-hand.R",
+    "DEF-thumb.*.R",
+    "DEF-f_index.*.R",
+    "DEF-f_middle.*.R",
+    "DEF-f_ring.*.R",
+    "DEF-f_pinky.*.R",
+    "DEF-palm.*.R"
+  ],
+  "head": [
+    "DEF-spine.004",
+    "DEF-spine.005",
+    "DEF-spine.006"
+  ],
+  "torso": [
+    "DEF-spine",
+    "DEF-spine.001",
+    "DEF-spine.002",
+    "DEF-spine.003",
+    "DEF-breast.L",
+    "DEF-breast.R"
+  ],
+  "left_leg": [
+    "DEF-thigh.L",
+    "DEF-shin.L",
+    "DEF-foot.L",
+    "DEF-toe.L"
+  ],
+  "right_leg": [
+    "DEF-thigh.R",
+    "DEF-shin.R",
+    "DEF-foot.R",
+    "DEF-toe.R"
+  ]
+}

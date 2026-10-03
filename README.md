@@ -1,0 +1,9 @@
+# Dance animations
+
+Free dance animations.
+
+[Open the animation library](https://sanjosolutions.github.io/dance-animations/).
+
+Animations have been initially generated with OpenAI Astra (High). They might contain errors. Improvement PRs are welcomed.
+
+Right now many of the animations contain errors of various degrees. The idea is that someone can fix them either manually or via capable models like OpenAI Astra and then contribute the fixes back, so the work is only required to be done once. I have generated the initial animations with a weekly Pro 20x usage and might contribute further improvements as I find spare usage.

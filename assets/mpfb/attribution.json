@@ -1,0 +1,202 @@
+{
+  "skins/young_caucasian_male": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "old_caucasian_male_detailed",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "eyes/materials": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Eyeblue",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "teeth/teeth_base": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Teeth_Base",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "tongue/tongue01": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "tongue01",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "skins/young_caucasian_female": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "young_caucasian_female",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "eyebrows/eyebrow007": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "eyebrow007",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "eyelashes/eyelashes01": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Eyelashes01",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/male_casualsuit03": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "male_casualsuit03",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/male_casualsuit04": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "male_casualsuit04",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/male_casualsuit06": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "male_casualsuit06",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/punkduck_sleeveless_shirt": {
+    "author": "punkduck",
+    "license": "CC BY 3.0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Sleeveless",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "clothes/punkduck_tennis_shoes": {
+    "author": "punkduck",
+    "license": "CC  BY 3.0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "TennisShoes",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+  },
+  "clothes/shoes01": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "shoes01",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/shoes03": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "shoes03",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/toigo_ballet_flats": {
+    "author": "MRT",
+    "license": "CC0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Flats_ballet",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/toigo_male_suit_3": {
+    "author": "MRT",
+    "license": "CC0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained. Tie geometry removed for the plain-shirt outfit.",
+    "title": "Suit3",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/toigo_wool_pants": {
+    "author": "MRT",
+    "license": "CC0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained. Body coverage masks added for the full-length women's outfits.",
+    "title": "Pants_Wool",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/aethelraed_flapper_dress": {
+    "author": "AEthelraed_Unraed",
+    "license": "CC0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Flapper_Dress_1",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/female_casualsuit01": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "female_casualsuit01",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/female_casualsuit02": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "female_casualsuit02",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/mindfront_ballet_dress_the_swan": {
+    "author": "Mindfront (Sweden)",
+    "license": "CC BY 4.0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Ballet_dress_The_Swan",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "clothes/toigo_camisole_dress_with_full_skirt": {
+    "author": "MRT",
+    "license": "CC0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Dress_Camisole_Full_Skirt",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/toigo_fisherman_sweater": {
+    "author": "MRT",
+    "license": "CC0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained. Body coverage masks added for the full-length women's outfits.",
+    "title": "Sweater_Fisherman",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "clothes/toigo_halter_dress_knee_length": {
+    "author": "MRT",
+    "license": "CC0",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained.",
+    "title": "Dress_Knee_Halter",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "hair/braid01": {
+    "author": "MakeHuman system assets: Data Collection AB, Joel Palmius, Jonas Hauquier",
+    "license": "CC0 (September 2020 release)",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks.html",
+    "changes": "Fitted to standard MPFB characters, PBR material conversion, skinned GLB export. Original asset files retained. Melissa braid and #36241a color from a-game/playground/playground.tscn, fitted to the standard Woman; head-bone skinning and shader tint baked into the texture.",
+    "title": "Braid01",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+}
