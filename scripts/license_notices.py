@@ -19,17 +19,13 @@ class LicenseNotices:
     def collect_packages(self):
         packages = json.loads((ROOT / 'package-lock.json').read_text())['packages']
         sections = []
-        for folder in sorted(packages):
+        for folder, package_record in sorted(packages.items()):
             directory = ROOT / folder
-            if folder and directory.is_dir():
+            is_runtime_dependency = not package_record.get('dev', False)
+            if folder and is_runtime_dependency and directory.is_dir():
                 package = json.loads((directory / 'package.json').read_text())
                 files = sorted(path for path in directory.iterdir() if path.is_file()
                                and path.name.lower().startswith(('license', 'copying', 'notice')))
-                # Platform-specific build binaries use their parent package's license.
-                if not files and package['name'].startswith('@esbuild/'):
-                    files = [ROOT / 'node_modules/esbuild/LICENSE.md']
-                if not files and package['name'].startswith('@rollup/rollup-'):
-                    files = [ROOT / 'node_modules/rollup/LICENSE.md']
                 if not files:
                     raise ValueError('Supply the original license notice for ' + package['name'])
                 heading = f"{package['name']} {package['version']} ({package.get('license', 'see notice')})"

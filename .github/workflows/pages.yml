@@ -29,6 +29,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: npm ci
+      - run: python scripts/license_notices.test.py
       - run: npm run check
       - run: npm test
       - run: python scripts/lfs_policy.py check
