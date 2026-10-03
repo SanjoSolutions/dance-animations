@@ -8,6 +8,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
+    music = json.loads((ROOT / 'music.json').read_text())
+    for track in music['tracks']:
+        assert track['license'] == 'MIT-0' and track['provenance'] and track['arrangement']
+        assert (ROOT / 'public' / track['licenseFile']).read_bytes() == (ROOT / 'LICENSE').read_bytes()
+    assert 'original instrumental compositions' in (ROOT / 'licenses.html').read_text()
     notices = (ROOT / 'public/third-party/npm-notices.txt').read_text()
     for name in ('three', 'bootstrap'):
         package = json.loads((ROOT / 'node_modules' / name / 'package.json').read_text())

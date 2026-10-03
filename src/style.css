@@ -31,6 +31,10 @@ dt { color: #9ba5b8; } dd { margin: 0; text-align: right; }
 .study-note { color: #9ba5b8; font-size: 14px; line-height: 1.7; margin: 30px 0 20px; }
 .asset-link { display: block; color: #b1eb68; font-size: 14px; margin-top: 12px; text-underline-offset: 4px; }
 [hidden] { display: none !important; }
+.music-controls { display: flex; align-items: center; gap: 12px; margin-top: 16px; font-size: 14px; flex-wrap: wrap; }
+.music-controls label:first-child { display: flex; align-items: center; gap: 8px; }
+.music-controls #volume { width: 100px; }
+.music-info { margin: 20px 0 0; font-size: 14px; color: var(--muted); }
 details { margin-top: 28px; color: #9ba5b8; font-size: 14px; line-height: 1.6; } summary { cursor: pointer; color: #c3cbd9; }
 .viewer { display: flex; flex-direction: column; min-width: 0; background: #171e29; }
 #viewport { position: relative; flex: 1; min-height: 500px; overflow: hidden; }

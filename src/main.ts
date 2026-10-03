@@ -5,6 +5,7 @@ import { DanceViewer } from './viewer';
 import { retrieveMoves, retrieveVariant, type DanceMove } from './moves';
 import type { Performer } from './clip-binding';
 import { retrieveAnimationData } from './animation-asset';
+import type { MusicCatalog } from './music/timing';
 
 function element<T extends HTMLElement>(id: string): T {
   const result = document.getElementById(id);
@@ -20,6 +21,8 @@ const play = element<HTMLButtonElement>('play');
 const restart = element<HTMLButtonElement>('restart');
 const timeline = element<HTMLInputElement>('timeline');
 const loop = element<HTMLInputElement>('loop');
+const music = element<HTMLInputElement>('music');
+const musicStatus = element('music-status');
 const colorScheme = window.matchMedia('(prefers-color-scheme: dark)');
 function applyTheme(): void {
   document.documentElement.dataset.bsTheme = colorScheme.matches ? 'dark' : 'light';
@@ -49,6 +52,10 @@ async function initialize(): Promise<void> {
   const response = await fetch(assetUrl('catalog.json'));
   if (!response.ok) throw new Error(`Could not load the library (${response.status}).`);
   const catalog = await response.json() as DanceCatalog;
+  const musicResponse = await fetch(assetUrl('music.json'));
+  if (!musicResponse.ok) throw new Error(`Could not load the music library (${musicResponse.status}).`);
+  const musicCatalog = await musicResponse.json() as MusicCatalog;
+  const tracks = new Map(musicCatalog.tracks.map(track => [track.style, track]));
   element('catalog-count').textContent = `${catalog.styles.length} styles · ${catalog.animations.length.toLocaleString()} animations`;
   element('source-count').textContent = `${catalog.sourceCount.toLocaleString()} editable sources; ${catalog.sourceOnlyCount.toLocaleString()} with a runtime export pending.`;
   const entries = new Map<string, DanceAnimation>(catalog.animations.map(entry => [entry.id, entry]));
@@ -59,6 +66,11 @@ async function initialize(): Promise<void> {
   }
   viewer = new DanceViewer(element('viewport'));
   await viewer.initialize(catalog);
+  viewer.onMusicError = message => {
+    music.checked = false;
+    musicStatus.hidden = false;
+    musicStatus.textContent = message;
+  };
   viewer.onTime = (time, duration, isPaused) => {
     paused = isPaused;
     play.textContent = isPaused ? 'Play' : 'Pause';
@@ -71,13 +83,16 @@ async function initialize(): Promise<void> {
     const token = ++selection;
     const move = moves.find(move => move.id === animation.value);
     const entry = move ? retrieveVariant(move, character.value as Performer || preferredCharacter) : undefined;
+    viewer.clear();
     play.disabled = restart.disabled = timeline.disabled = true;
+    music.disabled = true;
     status.hidden = false;
     status.textContent = entry ? 'Loading animation…' : 'This style has editable sources with runtime exports pending. See the source inventory.';
     element<HTMLAnchorElement>('download').hidden = true;
     element<HTMLAnchorElement>('source').hidden = true;
     reportError.hidden = !entry;
     if (entry) reportError.href = retrieveReportUrl(entry);
+    element<HTMLAnchorElement>('music-download').hidden = true;
     if (!entry) return;
     if (pushHistory) {
       const url = new URL(location.href);
@@ -88,13 +103,22 @@ async function initialize(): Promise<void> {
       if (url.href !== location.href) history.pushState(null, '', url);
     }
     try {
-      const applied = await viewer.select(entry);
+      const track = tracks.get(entry.style);
+      if (!track) throw new Error(`Choose a music track for ${entry.style}.`);
+      const applied = await viewer.select(entry, track);
       if (!applied || token !== selection) return;
       status.hidden = true;
       play.disabled = restart.disabled = timeline.disabled = false;
+      music.disabled = false;
       element('performers').textContent = entry.performers.map(actor => actor[0].toUpperCase() + actor.slice(1)).join(' + ');
       element('duration').textContent = `${entry.duration.toFixed(2)} s`;
       element('export-status').textContent = entry.status;
+      element('music-title').textContent = track.title;
+      element('music-tempo').textContent = `${track.tempo.toFixed(2).replace(/\.00$/, '')} BPM · ${track.meter === 12 ? '12-beat compás' : `${track.meter}/4`} · ${track.license}`;
+      const musicDownload = element<HTMLAnchorElement>('music-download');
+      musicDownload.href = assetUrl(track.file);
+      musicDownload.download = `${track.style}.wav`;
+      musicDownload.hidden = false;
       const download = element<HTMLAnchorElement>('download');
       download.href = assetUrl(entry.file);
       download.download = `${entry.id}.glb`;
@@ -165,6 +189,15 @@ async function initialize(): Promise<void> {
   loop.addEventListener('change', () => viewer.setLoop(loop.checked));
   element<HTMLSelectElement>('speed').addEventListener('change', event => viewer.setSpeed(Number((event.target as HTMLSelectElement).value)));
   timeline.addEventListener('input', () => { viewer.setPaused(true); viewer.seek(Number(timeline.value)); });
+  music.addEventListener('change', () => {
+    musicStatus.hidden = true;
+    void viewer.setMusic(music.checked).catch(error => {
+      music.checked = false;
+      musicStatus.hidden = false;
+      musicStatus.textContent = error instanceof Error ? error.message : String(error);
+    });
+  });
+  element<HTMLInputElement>('volume').addEventListener('input', event => viewer.setVolume(Number((event.target as HTMLInputElement).value)));
 }
 
 initialize().catch(error => {

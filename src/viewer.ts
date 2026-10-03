@@ -1,6 +1,6 @@
 import {
   AnimationAction, AnimationMixer, Box3, Color, DirectionalLight, Group,
-  HemisphereLight, LoopOnce, LoopRepeat, Mesh, MeshStandardMaterial,
+  HemisphereLight, LoopOnce, Mesh, MeshStandardMaterial,
   Object3D, PerspectiveCamera, PlaneGeometry, Scene, Vector3, WebGLRenderer,
   GridHelper, SRGBColorSpace, ACESFilmicToneMapping,
 } from 'three';
@@ -12,6 +12,8 @@ import { bindClip, type Performer } from './clip-binding';
 import { assetUrl, type DanceAnimation, type DanceCatalog } from './catalog';
 import { retrieveAnimationData } from './animation-asset';
 import { retrieveCharacterFile } from './wardrobe';
+import { DancePlayback } from './music/playback';
+import type { MusicTrack } from './music/timing';
 
 export class DanceViewer {
   private readonly renderer = new WebGLRenderer({ antialias: true });
@@ -25,14 +27,13 @@ export class DanceViewer {
   private group?: Group;
   private mixer?: AnimationMixer;
   private action?: AnimationAction;
+  private readonly playback = new DancePlayback();
   private request = 0;
-  private previous = 0;
-  private speed = 1;
-  private looping = true;
-  private paused = false;
   onTime: (time: number, duration: number, paused: boolean) => void = () => {};
+  onMusicError: (message: string) => void = () => {};
 
   constructor(private readonly container: HTMLElement) {
+    this.playback.onError = message => this.onMusicError(message);
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.renderer.outputColorSpace = SRGBColorSpace;
     this.renderer.toneMapping = ACESFilmicToneMapping;
@@ -67,7 +68,7 @@ export class DanceViewer {
     preference.addEventListener('change', applyTheme);
     new ResizeObserver(() => this.resize()).observe(container);
     this.resize();
-    this.renderer.setAnimationLoop(timestamp => this.render(timestamp));
+    this.renderer.setAnimationLoop(() => this.render());
   }
 
   async initialize(catalog: DanceCatalog): Promise<void> {
@@ -77,9 +78,13 @@ export class DanceViewer {
     }));
   }
 
-  async select(entry: DanceAnimation): Promise<boolean> {
+  async select(entry: DanceAnimation, track: MusicTrack): Promise<boolean> {
     const request = ++this.request;
-    const source = await this.loader.parseAsync(await retrieveAnimationData(entry), '');
+    this.playback.clear();
+    const [source, music] = await Promise.all([
+      retrieveAnimationData(entry).then(data => this.loader.parseAsync(data, '')),
+      this.playback.prepare(assetUrl(track.file)),
+    ]);
     if (request !== this.request) return false;
     const catalog = this.catalog;
     if (!catalog) throw new Error('Load the dance catalog before selecting an animation.');
@@ -109,7 +114,7 @@ export class DanceViewer {
     if (request !== this.request) return false;
     const mixer = new AnimationMixer(next);
     const action = mixer.clipAction(clip);
-    action.setLoop(this.looping ? LoopRepeat : LoopOnce, this.looping ? Infinity : 1);
+    action.setLoop(LoopOnce, 1);
     action.clampWhenFinished = true;
     action.play();
     mixer.setTime(0);
@@ -133,7 +138,7 @@ export class DanceViewer {
     this.mixer = mixer;
     this.action = action;
     this.scene.add(next);
-    this.paused = false;
+    this.playback.select(clip.duration, track, music);
     const size = bounds.getSize(new Vector3());
     const distance = Math.max(size.y, size.x / this.camera.aspect, size.z, 1.6) * 2;
     this.controls.target.set(0, center.y, 0);
@@ -142,26 +147,14 @@ export class DanceViewer {
     return true;
   }
 
-  setPaused(paused: boolean): void { this.paused = paused; }
-  setSpeed(speed: number): void { this.speed = speed; }
-  setLoop(looping: boolean): void {
-    this.looping = looping;
-    this.action?.setLoop(looping ? LoopRepeat : LoopOnce, looping ? Infinity : 1);
-    if (this.action?.paused) this.seek(0);
-  }
-  seek(time: number): void {
-    if (this.action && this.mixer) {
-      this.action.paused = false;
-      this.action.enabled = true;
-      this.action.time = Math.max(0, Math.min(time, this.action.getClip().duration));
-      this.mixer.update(0);
-    }
-  }
-  restart(): void {
-    this.action?.reset().play();
-    this.paused = false;
-    this.mixer?.update(0);
-  }
+  clear(): void { ++this.request; this.playback.clear(); }
+  setPaused(paused: boolean): void { this.playback.setPaused(paused); }
+  setSpeed(speed: number): void { this.playback.setSpeed(speed); }
+  setLoop(looping: boolean): void { this.playback.setLoop(looping); }
+  setMusic(enabled: boolean): Promise<void> { return this.playback.setMusic(enabled); }
+  setVolume(volume: number): void { this.playback.setVolume(volume); }
+  seek(time: number): void { this.playback.seek(time); }
+  restart(): void { this.playback.restart(); }
 
   private resize(): void {
     const width = Math.max(this.container.clientWidth, 1);
@@ -171,11 +164,15 @@ export class DanceViewer {
     this.renderer.setSize(width, height, false);
   }
 
-  private render(timestamp: number): void {
-    const elapsed = this.previous ? Math.min((timestamp - this.previous) / 1000, .1) : 0;
-    this.previous = timestamp;
-    if (!this.paused) this.mixer?.update(elapsed * this.speed);
-    if (this.action) this.onTime(this.action.time, this.action.getClip().duration, this.paused || this.action.paused);
+  private render(): void {
+    if (this.action && this.mixer) {
+      const position = this.playback.retrievePosition();
+      this.action.paused = false;
+      this.action.enabled = true;
+      this.action.time = position.sourceTime;
+      this.mixer.update(0);
+      this.onTime(position.time, position.duration, position.paused);
+    }
     this.controls.update();
     this.renderer.render(this.scene, this.camera);
   }

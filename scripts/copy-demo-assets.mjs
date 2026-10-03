@@ -5,6 +5,8 @@ import catalog from '../catalog.json' with { type: 'json' };
 
 await mkdir('dist/animations', { recursive: true });
 await cp('models', 'dist/models', { recursive: true });
+await cp('assets/music', 'dist/assets/music', { recursive: true });
+await cp('music.json', 'dist/music.json');
 // Pages serves runtime assets only. Editable Blender sources remain in Git.
 for (const entry of catalog.animations) {
   if (entry.file) {

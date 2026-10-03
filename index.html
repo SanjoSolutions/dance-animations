@@ -36,12 +36,15 @@
           <div class="transport">
             <div class="transport-top"><button id="play" disabled>Pause</button><button id="restart" disabled aria-label="Restart animation">Restart</button><span id="time">0:00 / 0:00</span><label class="loop"><input id="loop" type="checkbox" checked /> Loop</label><label class="speed-label">Speed <select id="speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label></div>
             <label class="sr-only" for="timeline">Animation time</label><input id="timeline" type="range" min="0" max="1" step="0.001" value="0" disabled />
+            <div class="music-controls"><label><input id="music" type="checkbox" disabled /> Music</label><label for="volume">Volume</label><input id="volume" type="range" min="0" max="1" step="0.05" value="0.65" /><span id="music-status" role="status" hidden></span></div>
           </div>
           <div class="animation-info">
             <dl><div><dt>Performers</dt><dd id="performers">—</dd></div><div><dt>Duration</dt><dd id="duration">—</dd></div><div><dt>Export</dt><dd id="export-status">—</dd></div></dl>
             <p class="study-note">Check foot placement, hands, and loop seams before reuse.</p>
             <a id="download" class="asset-link" hidden>Download animation GLB</a>
             <a id="source" class="asset-link" hidden>Download Blender source</a>
+            <p class="music-info"><span id="music-title"></span><br /><span id="music-tempo"></span></p>
+            <a id="music-download" class="asset-link" hidden>Download music WAV</a>
             <details><summary>Source inventory</summary><p id="source-count"></p><p>Blender sources and existing review records are included in the repository.</p><p><a href="./licenses.html">Licenses and credits</a></p></details>
           </div>
         </section>

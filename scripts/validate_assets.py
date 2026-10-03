@@ -10,6 +10,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from import_assets import read_glb
+from music.validate import validate_music
 
 
 def main():
@@ -17,6 +18,7 @@ def main():
     sources = json.loads((ROOT / 'source-inventory.json').read_text())
     identifiers = set()
     sizes = []
+    sizes.extend(validate_music(catalog))
     for entry in catalog['animations']:
         assert entry['id'] not in identifiers, f'Duplicate clip: {entry["id"]}'
         identifiers.add(entry['id'])

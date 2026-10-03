@@ -88,6 +88,8 @@ class LicenseNotices:
 <h1>Licenses and credits</h1>
 <p>Original project content uses MIT-0 adapted to content. Third-party assets and code retain their licenses.</p>
 <p><a href="third-party/project-MIT-0.txt">Project license</a> · <a href="third-party/npm-notices.txt">Dependency licenses and copyrights</a> · <a href="third-party/asset-notices.txt">Original asset notices and modifications</a></p>
+<h2>Music</h2>
+<p>All 92 practice tracks are original instrumental compositions and synthesized sounds created by Codex for this project. The music, arrangements, and renderer use the <a href="third-party/project-MIT-0.txt">project MIT-0 license</a>, with permission for commercial use, modification, and redistribution. Each style includes its own downloadable WAV. Track provenance, timing references, and SHA-256 hashes accompany the <a href="music.json">music catalog</a>.</p>
 <h2>Characters and clothing</h2>
 <p>MakeHuman/MPFB hm08 base mesh and system assets: Data Collection AB, Joel Palmius, Jonas Hauquier; <a href="third-party/CC0-1.0.txt">CC0</a> (September 2020 release).</p>
 <div class="table-responsive" tabindex="0" role="region" aria-label="Character and clothing credits">
