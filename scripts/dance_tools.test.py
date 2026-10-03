@@ -1,4 +1,5 @@
 """Exercise the portable studio and native authoring workflow with Blender 5.2."""
+import json
 from pathlib import Path
 import sys
 
@@ -35,7 +36,9 @@ def main():
             assert binding and binding.part == part
         rig.interactable_anatomy_part = 'AUTO'
     chooser = TrackChooser(bpy.context.scene)
-    assert len(chooser.retrieve_choices()) >= 3512
+    sources = json.loads((ROOT / 'source-inventory.json').read_text())
+    choices = {name for name, label, description in chooser.retrieve_choices()}
+    assert {source['id'] for source in sources} <= choices
     chooser.apply('salsa_basic')
     assert bpy.context.scene['dance_wardrobe_profile'] == 'latin'
     assert 'salsa_basic' in chooser.retrieve_tracks()
