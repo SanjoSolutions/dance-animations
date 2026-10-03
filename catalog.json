@@ -230,7 +230,7 @@
     {
       "id": "gogo",
       "label": "Go-go",
-      "playable": 64,
+      "playable": 128,
       "sources": 64
     },
     {
@@ -19579,9 +19579,24 @@
     {
       "id": "gogo_alternating_points",
       "style": "gogo",
-      "label": "Gogo alternating points",
+      "label": "Gogo alternating points \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_alternating_points.glb",
+      "sourceFile": "animations/gogo/sources/gogo_alternating_points.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "383f27ebd6aa8f23f086e544784491945f92d220350c30c6a0261bfcb0f1d360",
+      "animationName": "gogo_alternating_points.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_alternating_points_woman",
+      "style": "gogo",
+      "label": "Gogo alternating points \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19596,9 +19611,24 @@
     {
       "id": "gogo_arm_rolls",
       "style": "gogo",
-      "label": "Gogo arm rolls",
+      "label": "Gogo arm rolls \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_arm_rolls.glb",
+      "sourceFile": "animations/gogo/sources/gogo_arm_rolls.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "bef37d485852a3c5d1530a19d8b317cbb0f9ba6ba7fe56f603adc24f70f9ba18",
+      "animationName": "gogo_arm_rolls.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_arm_rolls_woman",
+      "style": "gogo",
+      "label": "Gogo arm rolls \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19613,9 +19643,24 @@
     {
       "id": "gogo_arm_wave_left",
       "style": "gogo",
-      "label": "Gogo arm wave left",
+      "label": "Gogo arm wave left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_arm_wave_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_arm_wave_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "809e6b8bad71a621569b9a348f5296194d613d3bc96162bad8e5880d294b3c9f",
+      "animationName": "gogo_arm_wave_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_arm_wave_left_woman",
+      "style": "gogo",
+      "label": "Gogo arm wave left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19630,9 +19675,24 @@
     {
       "id": "gogo_arm_wave_right",
       "style": "gogo",
-      "label": "Gogo arm wave right",
+      "label": "Gogo arm wave right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_arm_wave_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_arm_wave_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "3a8896f83e2b834dfdccfe3f58eda438a3192dfa2376abcb31d4eda61be46b89",
+      "animationName": "gogo_arm_wave_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_arm_wave_right_woman",
+      "style": "gogo",
+      "label": "Gogo arm wave right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19647,9 +19707,24 @@
     {
       "id": "gogo_body_roll_left",
       "style": "gogo",
-      "label": "Gogo body roll left",
+      "label": "Gogo body roll left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_body_roll_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_body_roll_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "dd7c37bf8cd28e2d6656703e6c30c782e6112b102cc1d7ece2c961cebbad3532",
+      "animationName": "gogo_body_roll_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_body_roll_left_woman",
+      "style": "gogo",
+      "label": "Gogo body roll left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19664,9 +19739,24 @@
     {
       "id": "gogo_body_roll_right",
       "style": "gogo",
-      "label": "Gogo body roll right",
+      "label": "Gogo body roll right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_body_roll_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_body_roll_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "68f6f0a5c5d76981396311936ac3973661ecf64870070e4163dc356504e2a649",
+      "animationName": "gogo_body_roll_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_body_roll_right_woman",
+      "style": "gogo",
+      "label": "Gogo body roll right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19681,9 +19771,24 @@
     {
       "id": "gogo_bounce",
       "style": "gogo",
-      "label": "Gogo bounce",
+      "label": "Gogo bounce \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_bounce.glb",
+      "sourceFile": "animations/gogo/sources/gogo_bounce.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "d92d76d4887962aa3877151a022d9300a859f7ebb6f70c0ada2c2cbbc29f9517",
+      "animationName": "gogo_bounce.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_bounce_woman",
+      "style": "gogo",
+      "label": "Gogo bounce \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19698,9 +19803,24 @@
     {
       "id": "gogo_box_step",
       "style": "gogo",
-      "label": "Gogo box step",
+      "label": "Gogo box step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_box_step.glb",
+      "sourceFile": "animations/gogo/sources/gogo_box_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "68ff9e0f04114e0a7c92b9f2df4b76f34a8d26133ac39faa7b52fa78b2a4ad13",
+      "animationName": "gogo_box_step.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_box_step_woman",
+      "style": "gogo",
+      "label": "Gogo box step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19715,9 +19835,24 @@
     {
       "id": "gogo_chest_circle",
       "style": "gogo",
-      "label": "Gogo chest circle",
+      "label": "Gogo chest circle \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_chest_circle.glb",
+      "sourceFile": "animations/gogo/sources/gogo_chest_circle.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "b7777fe13c76d214379daa234899f7b2eb3b17ab2f9937310a27b60eb1b36e65",
+      "animationName": "gogo_chest_circle.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_chest_circle_woman",
+      "style": "gogo",
+      "label": "Gogo chest circle \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19732,9 +19867,24 @@
     {
       "id": "gogo_chest_pop",
       "style": "gogo",
-      "label": "Gogo chest pop",
+      "label": "Gogo chest pop \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_chest_pop.glb",
+      "sourceFile": "animations/gogo/sources/gogo_chest_pop.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "acd6237cca5e8bb6c027699289babd2dfc60184051d99f3ed4d7df30a744824f",
+      "animationName": "gogo_chest_pop.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_chest_pop_woman",
+      "style": "gogo",
+      "label": "Gogo chest pop \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19749,9 +19899,24 @@
     {
       "id": "gogo_diagonal_sweeps",
       "style": "gogo",
-      "label": "Gogo diagonal sweeps",
+      "label": "Gogo diagonal sweeps \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_diagonal_sweeps.glb",
+      "sourceFile": "animations/gogo/sources/gogo_diagonal_sweeps.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "ee81810eb83a305afef8fa55e4727ffb9eaf19644ddc9cf41a21453cf461d474",
+      "animationName": "gogo_diagonal_sweeps.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_diagonal_sweeps_woman",
+      "style": "gogo",
+      "label": "Gogo diagonal sweeps \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19766,9 +19931,24 @@
     {
       "id": "gogo_double_step_touch",
       "style": "gogo",
-      "label": "Gogo double step touch",
+      "label": "Gogo double step touch \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_double_step_touch.glb",
+      "sourceFile": "animations/gogo/sources/gogo_double_step_touch.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "618b5ff771a0776f134977f5f3a6f1beae2dbf1c5252fd33ac5ba6728914dd5e",
+      "animationName": "gogo_double_step_touch.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_double_step_touch_woman",
+      "style": "gogo",
+      "label": "Gogo double step touch \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19783,9 +19963,24 @@
     {
       "id": "gogo_forward_punches",
       "style": "gogo",
-      "label": "Gogo forward punches",
+      "label": "Gogo forward punches \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_forward_punches.glb",
+      "sourceFile": "animations/gogo/sources/gogo_forward_punches.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "2c93ee11e1be33c9bfff1150021a5c01d820c72a9ae9678122acc845ce0eaea9",
+      "animationName": "gogo_forward_punches.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_forward_punches_woman",
+      "style": "gogo",
+      "label": "Gogo forward punches \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19800,9 +19995,24 @@
     {
       "id": "gogo_front_back_rock",
       "style": "gogo",
-      "label": "Gogo front back rock",
+      "label": "Gogo front back rock \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_front_back_rock.glb",
+      "sourceFile": "animations/gogo/sources/gogo_front_back_rock.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "be1325c503181a06cb4a66d979dca90370a2212bb342bfb51e85c06fa7eb8ee7",
+      "animationName": "gogo_front_back_rock.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_front_back_rock_woman",
+      "style": "gogo",
+      "label": "Gogo front back rock \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19817,9 +20027,24 @@
     {
       "id": "gogo_full_turn_left",
       "style": "gogo",
-      "label": "Gogo full turn left",
+      "label": "Gogo full turn left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_full_turn_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_full_turn_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "28c6e2598799df94a7a03109ae8a0f69416c2f83bc1dcc814615ce042b677faf",
+      "animationName": "gogo_full_turn_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_full_turn_left_woman",
+      "style": "gogo",
+      "label": "Gogo full turn left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19834,9 +20059,24 @@
     {
       "id": "gogo_full_turn_right",
       "style": "gogo",
-      "label": "Gogo full turn right",
+      "label": "Gogo full turn right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_full_turn_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_full_turn_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "e5638e1affc97e9813477c69aeb200d0e11621838de5db7249e0f6ead37122d6",
+      "animationName": "gogo_full_turn_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_full_turn_right_woman",
+      "style": "gogo",
+      "label": "Gogo full turn right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19851,9 +20091,24 @@
     {
       "id": "gogo_grapevine_left",
       "style": "gogo",
-      "label": "Gogo grapevine left",
+      "label": "Gogo grapevine left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_grapevine_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_grapevine_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "cfd5e9f28762ef0cd8f5a0a7c07f0dc6cb320a959e3a687af8e40bde2345877c",
+      "animationName": "gogo_grapevine_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_grapevine_left_woman",
+      "style": "gogo",
+      "label": "Gogo grapevine left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19868,9 +20123,24 @@
     {
       "id": "gogo_grapevine_right",
       "style": "gogo",
-      "label": "Gogo grapevine right",
+      "label": "Gogo grapevine right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_grapevine_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_grapevine_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "56821c3e2d14587e02b82b97a2feb2d0018c4a92636c1256d82e19a6af1e5a99",
+      "animationName": "gogo_grapevine_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_grapevine_right_woman",
+      "style": "gogo",
+      "label": "Gogo grapevine right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19885,9 +20155,24 @@
     {
       "id": "gogo_half_turn_left",
       "style": "gogo",
-      "label": "Gogo half turn left",
+      "label": "Gogo half turn left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_half_turn_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_half_turn_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "f2b2e383e041c97a6218cd71b0276b098f303dd9ad6f9087bfe5f04d285c851e",
+      "animationName": "gogo_half_turn_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_half_turn_left_woman",
+      "style": "gogo",
+      "label": "Gogo half turn left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19902,9 +20187,24 @@
     {
       "id": "gogo_half_turn_right",
       "style": "gogo",
-      "label": "Gogo half turn right",
+      "label": "Gogo half turn right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_half_turn_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_half_turn_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0c2a138dc74f3c39e2c04939bf6b2814d5e29cfa89001f70a813565902d95e7d",
+      "animationName": "gogo_half_turn_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_half_turn_right_woman",
+      "style": "gogo",
+      "label": "Gogo half turn right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19919,9 +20219,24 @@
     {
       "id": "gogo_heel_digs",
       "style": "gogo",
-      "label": "Gogo heel digs",
+      "label": "Gogo heel digs \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_heel_digs.glb",
+      "sourceFile": "animations/gogo/sources/gogo_heel_digs.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "98bed53dda084ce4406c03ae87d57629189b5455f2f47698bd591a4ad18a792e",
+      "animationName": "gogo_heel_digs.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_heel_digs_woman",
+      "style": "gogo",
+      "label": "Gogo heel digs \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19936,9 +20251,24 @@
     {
       "id": "gogo_high_v_groove",
       "style": "gogo",
-      "label": "Gogo high v groove",
+      "label": "Gogo high v groove \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_high_v_groove.glb",
+      "sourceFile": "animations/gogo/sources/gogo_high_v_groove.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "ada6e818d3867b75afc2c509789786ff353f8a834db492b4e8922247c3295610",
+      "animationName": "gogo_high_v_groove.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_high_v_groove_woman",
+      "style": "gogo",
+      "label": "Gogo high v groove \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19953,9 +20283,24 @@
     {
       "id": "gogo_hip_bumps_left",
       "style": "gogo",
-      "label": "Gogo hip bumps left",
+      "label": "Gogo hip bumps left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_hip_bumps_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_hip_bumps_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "6760fe928401a23745bdd37fa5cfa0f2cc65f3a341af0d94847abab4d068cd35",
+      "animationName": "gogo_hip_bumps_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_hip_bumps_left_woman",
+      "style": "gogo",
+      "label": "Gogo hip bumps left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19970,9 +20315,24 @@
     {
       "id": "gogo_hip_bumps_right",
       "style": "gogo",
-      "label": "Gogo hip bumps right",
+      "label": "Gogo hip bumps right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_hip_bumps_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_hip_bumps_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "fc32a3a471dc97750c28766e4ad5c7ea6aeb7a0a3b4bd093f315f16168c64103",
+      "animationName": "gogo_hip_bumps_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_hip_bumps_right_woman",
+      "style": "gogo",
+      "label": "Gogo hip bumps right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -19987,9 +20347,24 @@
     {
       "id": "gogo_hip_circle_left",
       "style": "gogo",
-      "label": "Gogo hip circle left",
+      "label": "Gogo hip circle left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_hip_circle_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_hip_circle_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0d7c7a262775caa1d5eb52dd7671b5c427647cd2c3ea65fbc233d54bc6f72ef1",
+      "animationName": "gogo_hip_circle_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_hip_circle_left_woman",
+      "style": "gogo",
+      "label": "Gogo hip circle left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20004,9 +20379,24 @@
     {
       "id": "gogo_hip_circle_right",
       "style": "gogo",
-      "label": "Gogo hip circle right",
+      "label": "Gogo hip circle right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_hip_circle_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_hip_circle_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "13f712d3d44052fec559eac379464422b9cabae7918c9c260570bf0e21d6cdcc",
+      "animationName": "gogo_hip_circle_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_hip_circle_right_woman",
+      "style": "gogo",
+      "label": "Gogo hip circle right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20021,9 +20411,24 @@
     {
       "id": "gogo_hip_figure_eight",
       "style": "gogo",
-      "label": "Gogo hip figure eight",
+      "label": "Gogo hip figure eight \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_hip_figure_eight.glb",
+      "sourceFile": "animations/gogo/sources/gogo_hip_figure_eight.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "17fdcfd945cbfa798cf9ad9fd859093e231de6d922e22082f95ff36a69360716",
+      "animationName": "gogo_hip_figure_eight.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_hip_figure_eight_woman",
+      "style": "gogo",
+      "label": "Gogo hip figure eight \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20038,9 +20443,24 @@
     {
       "id": "gogo_hip_sway",
       "style": "gogo",
-      "label": "Gogo hip sway",
+      "label": "Gogo hip sway \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_hip_sway.glb",
+      "sourceFile": "animations/gogo/sources/gogo_hip_sway.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "6a651ffe49b53c47caeffbb592fa2b03fedb0b6619ff4e215fc03eb06225be95",
+      "animationName": "gogo_hip_sway.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_hip_sway_woman",
+      "style": "gogo",
+      "label": "Gogo hip sway \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20055,9 +20475,24 @@
     {
       "id": "gogo_knee_lifts",
       "style": "gogo",
-      "label": "Gogo knee lifts",
+      "label": "Gogo knee lifts \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_knee_lifts.glb",
+      "sourceFile": "animations/gogo/sources/gogo_knee_lifts.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "98ae80919d9d27e2b0928c438f6414b35390f91d296fb7b4188eec47fe96e75e",
+      "animationName": "gogo_knee_lifts.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_knee_lifts_woman",
+      "style": "gogo",
+      "label": "Gogo knee lifts \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20072,9 +20507,24 @@
     {
       "id": "gogo_low_kicks",
       "style": "gogo",
-      "label": "Gogo low kicks",
+      "label": "Gogo low kicks \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_low_kicks.glb",
+      "sourceFile": "animations/gogo/sources/gogo_low_kicks.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0d1339df005f9a05aec67fc5ce0aaaca93bfdc3f8cd740533e213e93b3436ff9",
+      "animationName": "gogo_low_kicks.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_low_kicks_woman",
+      "style": "gogo",
+      "label": "Gogo low kicks \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20089,9 +20539,24 @@
     {
       "id": "gogo_march",
       "style": "gogo",
-      "label": "Gogo march",
+      "label": "Gogo march \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_march.glb",
+      "sourceFile": "animations/gogo/sources/gogo_march.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "2cbb71ada2ddbe5d679d37cca14be9ac21f099bfe868cef26499abbe020b40be",
+      "animationName": "gogo_march.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_march_woman",
+      "style": "gogo",
+      "label": "Gogo march \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20106,9 +20571,24 @@
     {
       "id": "gogo_overhead_pumps",
       "style": "gogo",
-      "label": "Gogo overhead pumps",
+      "label": "Gogo overhead pumps \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_overhead_pumps.glb",
+      "sourceFile": "animations/gogo/sources/gogo_overhead_pumps.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0cfc388901d12bcde742a8ec0262bb3bc435c06cbabf29ffcec8011dbbcacbce",
+      "animationName": "gogo_overhead_pumps.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_overhead_pumps_woman",
+      "style": "gogo",
+      "label": "Gogo overhead pumps \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20123,9 +20603,24 @@
     {
       "id": "gogo_pose_frame_head",
       "style": "gogo",
-      "label": "Gogo pose frame head",
+      "label": "Gogo pose frame head \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_frame_head.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_frame_head.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "5a24cfc64cdabba23c6077a9585eb63634f668a80dc5c99e08a764a1ae05cf7e",
+      "animationName": "gogo_pose_frame_head.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_frame_head_woman",
+      "style": "gogo",
+      "label": "Gogo pose frame head \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20140,9 +20635,24 @@
     {
       "id": "gogo_pose_high_v",
       "style": "gogo",
-      "label": "Gogo pose high v",
+      "label": "Gogo pose high v \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_high_v.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_high_v.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "d0084897ad24136cd1f6560547f55efb66be9a629ee1c1fedfa6c70487266bb1",
+      "animationName": "gogo_pose_high_v.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_high_v_woman",
+      "style": "gogo",
+      "label": "Gogo pose high v \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20157,9 +20667,24 @@
     {
       "id": "gogo_pose_hip_left",
       "style": "gogo",
-      "label": "Gogo pose hip left",
+      "label": "Gogo pose hip left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_hip_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_hip_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0f776d012f82905a3831dc77e3a8342760fc6812e22158ff6eaeba56c2046f4f",
+      "animationName": "gogo_pose_hip_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_hip_left_woman",
+      "style": "gogo",
+      "label": "Gogo pose hip left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20174,9 +20699,24 @@
     {
       "id": "gogo_pose_hip_right",
       "style": "gogo",
-      "label": "Gogo pose hip right",
+      "label": "Gogo pose hip right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_hip_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_hip_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "07fc68edd3d912850a7fa44e1c16e331d86f157d73cc052ffadbf8e18229cc0f",
+      "animationName": "gogo_pose_hip_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_hip_right_woman",
+      "style": "gogo",
+      "label": "Gogo pose hip right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20191,9 +20731,24 @@
     {
       "id": "gogo_pose_low",
       "style": "gogo",
-      "label": "Gogo pose low",
+      "label": "Gogo pose low \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_low.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_low.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "5d63caf54e499e82f99c4e4158760109bf32d9890d32fa9d08727461ed8bd425",
+      "animationName": "gogo_pose_low.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_low_woman",
+      "style": "gogo",
+      "label": "Gogo pose low \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20208,9 +20763,24 @@
     {
       "id": "gogo_pose_narrow",
       "style": "gogo",
-      "label": "Gogo pose narrow",
+      "label": "Gogo pose narrow \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_narrow.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_narrow.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "1c33ec8cfa8c4a553fd983e7513c7723342aa52eb678fa69a48523f297bc1661",
+      "animationName": "gogo_pose_narrow.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_narrow_woman",
+      "style": "gogo",
+      "label": "Gogo pose narrow \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20225,9 +20795,24 @@
     {
       "id": "gogo_pose_point_left",
       "style": "gogo",
-      "label": "Gogo pose point left",
+      "label": "Gogo pose point left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_point_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_point_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "ac2cde3c386a3f7abda09cf6b88bd02f8a2cbb21404926ea552d4b0f875bacdf",
+      "animationName": "gogo_pose_point_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_point_left_woman",
+      "style": "gogo",
+      "label": "Gogo pose point left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20242,9 +20827,24 @@
     {
       "id": "gogo_pose_point_right",
       "style": "gogo",
-      "label": "Gogo pose point right",
+      "label": "Gogo pose point right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_point_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_point_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "ae5e9f80d1e5db5747e0bf0776946392b31ebcf9e23dba1f51414f66de7d3142",
+      "animationName": "gogo_pose_point_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_point_right_woman",
+      "style": "gogo",
+      "label": "Gogo pose point right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20259,9 +20859,24 @@
     {
       "id": "gogo_pose_ready",
       "style": "gogo",
-      "label": "Gogo pose ready",
+      "label": "Gogo pose ready \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_ready.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_ready.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "aacc6b3f133223cc7e0a3c9f6f245bf6bfc64df89b134d37fb0c8d66a65f951d",
+      "animationName": "gogo_pose_ready.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_ready_woman",
+      "style": "gogo",
+      "label": "Gogo pose ready \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20276,9 +20891,24 @@
     {
       "id": "gogo_pose_side_reach",
       "style": "gogo",
-      "label": "Gogo pose side reach",
+      "label": "Gogo pose side reach \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_side_reach.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_side_reach.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "4dc127c66420415d297093a5f353c5091c0e80ed4449f44861c46f001967323f",
+      "animationName": "gogo_pose_side_reach.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_side_reach_woman",
+      "style": "gogo",
+      "label": "Gogo pose side reach \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20293,9 +20923,24 @@
     {
       "id": "gogo_pose_stagger_left",
       "style": "gogo",
-      "label": "Gogo pose stagger left",
+      "label": "Gogo pose stagger left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_stagger_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_stagger_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "a325b1ef00055c480b97380fbbbf4684cd6d73e8bd757d311edf4f8e88713c94",
+      "animationName": "gogo_pose_stagger_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_stagger_left_woman",
+      "style": "gogo",
+      "label": "Gogo pose stagger left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20310,9 +20955,24 @@
     {
       "id": "gogo_pose_stagger_right",
       "style": "gogo",
-      "label": "Gogo pose stagger right",
+      "label": "Gogo pose stagger right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_stagger_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_stagger_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "eabf375c1e8a688d5bc3b01a3ca9c07c71c200dbc78799ece1ac52def49c3d8c",
+      "animationName": "gogo_pose_stagger_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_stagger_right_woman",
+      "style": "gogo",
+      "label": "Gogo pose stagger right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20327,9 +20987,24 @@
     {
       "id": "gogo_pose_wide",
       "style": "gogo",
-      "label": "Gogo pose wide",
+      "label": "Gogo pose wide \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/gogo/gogo_pose_wide.glb",
+      "sourceFile": "animations/gogo/sources/gogo_pose_wide.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "49a9c39a8d0f7b8a7fc39925f237997aadabf1e145f70f6c7215877d2654bce7",
+      "animationName": "gogo_pose_wide.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_pose_wide_woman",
+      "style": "gogo",
+      "label": "Gogo pose wide \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -20344,9 +21019,24 @@
     {
       "id": "gogo_quarter_turn_left",
       "style": "gogo",
-      "label": "Gogo quarter turn left",
+      "label": "Gogo quarter turn left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_quarter_turn_left.glb",
+      "sourceFile": "animations/gogo/sources/gogo_quarter_turn_left.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "bc4fd3df0d9d26be368dab5210fcc48bbe67d15b2c162bf91dba5ee859159f9e",
+      "animationName": "gogo_quarter_turn_left.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_quarter_turn_left_woman",
+      "style": "gogo",
+      "label": "Gogo quarter turn left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20361,9 +21051,24 @@
     {
       "id": "gogo_quarter_turn_right",
       "style": "gogo",
-      "label": "Gogo quarter turn right",
+      "label": "Gogo quarter turn right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_quarter_turn_right.glb",
+      "sourceFile": "animations/gogo/sources/gogo_quarter_turn_right.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "cf474244c64360667cb7b4d96cf16d4879a11b5b32400ed3b30cce4e66f8b77a",
+      "animationName": "gogo_quarter_turn_right.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_quarter_turn_right_woman",
+      "style": "gogo",
+      "label": "Gogo quarter turn right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20378,9 +21083,24 @@
     {
       "id": "gogo_shoulder_roll",
       "style": "gogo",
-      "label": "Gogo shoulder roll",
+      "label": "Gogo shoulder roll \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_shoulder_roll.glb",
+      "sourceFile": "animations/gogo/sources/gogo_shoulder_roll.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "7b4fcfafcc2d0f2d6e639e284f17e459ca64e24807fcb7bb816ab02c65c0eff2",
+      "animationName": "gogo_shoulder_roll.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_shoulder_roll_woman",
+      "style": "gogo",
+      "label": "Gogo shoulder roll \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20395,9 +21115,24 @@
     {
       "id": "gogo_shoulder_shimmy",
       "style": "gogo",
-      "label": "Gogo shoulder shimmy",
+      "label": "Gogo shoulder shimmy \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_shoulder_shimmy.glb",
+      "sourceFile": "animations/gogo/sources/gogo_shoulder_shimmy.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "c16440b5bf5d9d0c5c0ab4fcfd5a820205e91681a8989bf003f9be3eb664db5b",
+      "animationName": "gogo_shoulder_shimmy.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_shoulder_shimmy_woman",
+      "style": "gogo",
+      "label": "Gogo shoulder shimmy \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20412,9 +21147,24 @@
     {
       "id": "gogo_shuffle",
       "style": "gogo",
-      "label": "Gogo shuffle",
+      "label": "Gogo shuffle \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_shuffle.glb",
+      "sourceFile": "animations/gogo/sources/gogo_shuffle.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "2360fd0ee036b4c0660b530f7f21bd5da88cb04454e91b4c73f9b09164eb9755",
+      "animationName": "gogo_shuffle.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_shuffle_woman",
+      "style": "gogo",
+      "label": "Gogo shuffle \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20429,9 +21179,24 @@
     {
       "id": "gogo_side_bend",
       "style": "gogo",
-      "label": "Gogo side bend",
+      "label": "Gogo side bend \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_side_bend.glb",
+      "sourceFile": "animations/gogo/sources/gogo_side_bend.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "44769ec4d091e8d527b94fa292802449cdc3f32ffc080cc97870a0600013550a",
+      "animationName": "gogo_side_bend.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_side_bend_woman",
+      "style": "gogo",
+      "label": "Gogo side bend \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20446,9 +21211,24 @@
     {
       "id": "gogo_side_reaches",
       "style": "gogo",
-      "label": "Gogo side reaches",
+      "label": "Gogo side reaches \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_side_reaches.glb",
+      "sourceFile": "animations/gogo/sources/gogo_side_reaches.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "8d2fe4a013f9b7c4fd227325abd326cccdca9b8e62b6a1c0720cc3699b13084e",
+      "animationName": "gogo_side_reaches.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_side_reaches_woman",
+      "style": "gogo",
+      "label": "Gogo side reaches \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20463,9 +21243,24 @@
     {
       "id": "gogo_skater_step",
       "style": "gogo",
-      "label": "Gogo skater step",
+      "label": "Gogo skater step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_skater_step.glb",
+      "sourceFile": "animations/gogo/sources/gogo_skater_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "61cd15610530191ea00412ffba692aba9eb9de77196b470cecf11040edbb4869",
+      "animationName": "gogo_skater_step.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_skater_step_woman",
+      "style": "gogo",
+      "label": "Gogo skater step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20480,9 +21275,24 @@
     {
       "id": "gogo_step_touch",
       "style": "gogo",
-      "label": "Gogo step touch",
+      "label": "Gogo step touch \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_step_touch.glb",
+      "sourceFile": "animations/gogo/sources/gogo_step_touch.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "45157d2403eb8d20a2a62295c9953b5d9228516dee9e5c5e2eec7d2ef121a552",
+      "animationName": "gogo_step_touch.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_step_touch_woman",
+      "style": "gogo",
+      "label": "Gogo step touch \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20497,9 +21307,24 @@
     {
       "id": "gogo_transition_frame_head_to_ready",
       "style": "gogo",
-      "label": "Gogo transition frame head to ready",
+      "label": "Gogo transition frame head to ready \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_frame_head_to_ready.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_frame_head_to_ready.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "6cc10f07c3835d9ae54ee3b1fe3ea342d350c015eb38bb766030aba5945d6ae5",
+      "animationName": "gogo_transition_frame_head_to_ready.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_frame_head_to_ready_woman",
+      "style": "gogo",
+      "label": "Gogo transition frame head to ready \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20514,9 +21339,24 @@
     {
       "id": "gogo_transition_high_v_to_ready",
       "style": "gogo",
-      "label": "Gogo transition high v to ready",
+      "label": "Gogo transition high v to ready \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_high_v_to_ready.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_high_v_to_ready.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "f610ab9e438fda2c4fe9a15550d801d85452a288b3f9e56afd406c3894ae0cff",
+      "animationName": "gogo_transition_high_v_to_ready.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_high_v_to_ready_woman",
+      "style": "gogo",
+      "label": "Gogo transition high v to ready \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20531,9 +21371,24 @@
     {
       "id": "gogo_transition_low_to_ready",
       "style": "gogo",
-      "label": "Gogo transition low to ready",
+      "label": "Gogo transition low to ready \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_low_to_ready.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_low_to_ready.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "7fc0a457411c396b6befe58ce99bf0c6c9cf3113f13d0aef96877811917a334f",
+      "animationName": "gogo_transition_low_to_ready.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_low_to_ready_woman",
+      "style": "gogo",
+      "label": "Gogo transition low to ready \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20548,9 +21403,24 @@
     {
       "id": "gogo_transition_ready_to_frame_head",
       "style": "gogo",
-      "label": "Gogo transition ready to frame head",
+      "label": "Gogo transition ready to frame head \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_ready_to_frame_head.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_ready_to_frame_head.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "b698f8ba3457a0dd2bbf509ca6833d740f6b2a0352b68b44f7d6263217f31989",
+      "animationName": "gogo_transition_ready_to_frame_head.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_ready_to_frame_head_woman",
+      "style": "gogo",
+      "label": "Gogo transition ready to frame head \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20565,9 +21435,24 @@
     {
       "id": "gogo_transition_ready_to_high_v",
       "style": "gogo",
-      "label": "Gogo transition ready to high v",
+      "label": "Gogo transition ready to high v \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_ready_to_high_v.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_ready_to_high_v.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "eb74ed539770407ca86a4645272d918963a6c733fb51facd566bb4fde3588730",
+      "animationName": "gogo_transition_ready_to_high_v.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_ready_to_high_v_woman",
+      "style": "gogo",
+      "label": "Gogo transition ready to high v \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20582,9 +21467,24 @@
     {
       "id": "gogo_transition_ready_to_low",
       "style": "gogo",
-      "label": "Gogo transition ready to low",
+      "label": "Gogo transition ready to low \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_ready_to_low.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_ready_to_low.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "ecc31caac00216cd0d2b81152c1885702b1f4ac2b9702cf5bae171c9f89b0176",
+      "animationName": "gogo_transition_ready_to_low.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_ready_to_low_woman",
+      "style": "gogo",
+      "label": "Gogo transition ready to low \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20599,9 +21499,24 @@
     {
       "id": "gogo_transition_ready_to_wide",
       "style": "gogo",
-      "label": "Gogo transition ready to wide",
+      "label": "Gogo transition ready to wide \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_ready_to_wide.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_ready_to_wide.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "fe4881ee435097231a35190a79240fedf86260cecffd000f1b48a98c8c3ea6ad",
+      "animationName": "gogo_transition_ready_to_wide.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_ready_to_wide_woman",
+      "style": "gogo",
+      "label": "Gogo transition ready to wide \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20616,9 +21531,24 @@
     {
       "id": "gogo_transition_wide_to_ready",
       "style": "gogo",
-      "label": "Gogo transition wide to ready",
+      "label": "Gogo transition wide to ready \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/gogo/gogo_transition_wide_to_ready.glb",
+      "sourceFile": "animations/gogo/sources/gogo_transition_wide_to_ready.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "e69d002a089f21ada8d5d748984f14ea11d1e915e0893afa5dac2ac554fbd982",
+      "animationName": "gogo_transition_wide_to_ready.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_transition_wide_to_ready_woman",
+      "style": "gogo",
+      "label": "Gogo transition wide to ready \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -20633,9 +21563,24 @@
     {
       "id": "gogo_twist",
       "style": "gogo",
-      "label": "Gogo twist",
+      "label": "Gogo twist \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_twist.glb",
+      "sourceFile": "animations/gogo/sources/gogo_twist.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "1cec4b10a522dbcb6a81dbb7edc15eedc50aa3fc92bd119c83776e913ea0abf0",
+      "animationName": "gogo_twist.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_twist_woman",
+      "style": "gogo",
+      "label": "Gogo twist \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,
@@ -20650,9 +21595,24 @@
     {
       "id": "gogo_v_step",
       "style": "gogo",
-      "label": "Gogo v step",
+      "label": "Gogo v step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 4.0,
+      "file": "animations/gogo/gogo_v_step.glb",
+      "sourceFile": "animations/gogo/sources/gogo_v_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "46d1bcc5a5ce44668ee9940fd132c7326a7b5e5017257e705586168c02c022f4",
+      "animationName": "gogo_v_step.review",
+      "status": "Saved-source draft preview"
+    },
+    {
+      "id": "gogo_v_step_woman",
+      "style": "gogo",
+      "label": "Gogo v step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 4.0,

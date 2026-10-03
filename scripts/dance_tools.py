@@ -31,7 +31,7 @@ def export_action(action, destination=None, update_catalog=True):
     from single_action_bake import SingleActionBake
     from single_animation_export import AnimationClipScene
     from animation_participants import AnimationParticipants, retrieve_selection
-    from import_assets import read_glb, export_animation, style_for, STYLES
+    from import_assets import read_glb, export_animation, retrieve_playback_variants, style_for, STYLES
     if action.library:
         raise ValueError('Open the Blender source or copy the animation to export its editable controls')
     rigs = [bpy.context.scene.objects[name + '.rigify_deform'] for name in ('Man', 'Woman')]
@@ -66,7 +66,10 @@ def export_action(action, destination=None, update_catalog=True):
             performers=performers, duration=duration, file=destination.relative_to(ROOT).as_posix(),
             sourceFile=source.relative_to(ROOT).as_posix(), sourceSha256=hashlib.sha256(source.read_bytes()).hexdigest(),
             animationName=baked_name, status='Native deformation bake')
-        catalog['animations'] = sorted([item for item in catalog['animations'] if item['id'] != action.name] + [entry], key=lambda item:(item['style'],item['id']))
+        variants = retrieve_playback_variants(entry)
+        catalog['animations'] = sorted([item for item in catalog['animations']
+            if item['id'] != action.name and item['file'] != entry['file']] + variants,
+            key=lambda item:(item['style'],item['id']))
         inventory = json.loads((ROOT / 'source-inventory.json').read_text())
         record = next((item for item in inventory if item['file'] == entry['sourceFile']), None)
         if record is None:

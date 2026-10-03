@@ -182,6 +182,17 @@ def participants(document, animation):
     return sorted(performers)
 
 
+def retrieve_playback_variants(entry):
+    """Expose shared-origin solo action slots as character choices."""
+    if entry['style'] == 'gogo' and len(entry['performers']) > 1:
+        # The Man choice retains existing library URLs.
+        return [dict(entry, id=entry['id'] if actor == 'man' else f'{entry["id"]}_{actor}',
+                     label=f'{entry["label"]} · {actor.capitalize()}', performers=[actor])
+                for actor in entry['performers']]
+    else:
+        return [entry]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('source', type=Path)
@@ -255,6 +266,8 @@ def main():
         'mesh': 'Standard MPFB base body'} for actor in ('man', 'woman')}
     for record in inventory:
         record['runtimeExport'] = entries.get(record['id'], {}).get('file')
+    entries = {variant['id']: variant for entry in entries.values()
+               for variant in retrieve_playback_variants(entry)}
     available = Counter(entry['style'] for entry in entries.values())
     authored = Counter(entry['style'] for entry in inventory)
     styles = [{'id': style, 'label': STYLES[style], 'playable': available[style], 'sources': authored[style]}
