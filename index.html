@@ -30,20 +30,22 @@
             <div class="field" id="character-field" hidden><label for="character">Character</label><select class="form-select" id="character" disabled></select></div>
             <div class="selection-actions d-flex justify-content-end"><a id="report-error" class="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer" hidden>Report error</a></div>
           </div>
+          <div class="field"><label for="mode">Playback mode</label><select class="form-select" id="mode" disabled><option value="single">Single</option><option value="sequential">Sequential</option><option value="random" selected>Random</option></select></div>
+          <div class="field" id="interval-field" hidden><label for="interval">Bars per move</label><input class="form-control" id="interval" type="number" min="0" step="1" value="0" required /><small class="muted">0 uses the animation duration.</small></div>
         </aside>
         <section class="viewer" aria-label="3D dance preview">
           <div id="viewport"><div class="viewport-label">Drag to orbit · Scroll to zoom</div><div id="status" role="status" aria-live="polite">Loading animation library…</div></div>
           <div class="transport">
-            <div class="transport-top"><button id="play" disabled>Pause</button><button id="restart" disabled aria-label="Restart animation">Restart</button><span id="time">0:00 / 0:00</span><label class="loop"><input id="loop" type="checkbox" checked /> Loop</label><label class="speed-label">Speed <select id="speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label></div>
+            <div class="transport-top"><button id="play" disabled>Pause</button><button id="restart" disabled aria-label="Restart animation">Restart</button><span id="time">0:00 / 0:00</span><label class="loop"><input id="loop" type="checkbox" checked /> Loop</label><label class="speed-label" title="Music sets the dance tempo. This control applies to silent preview.">Preview speed <select id="speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label></div>
             <label class="sr-only" for="timeline">Animation time</label><input id="timeline" type="range" min="0" max="1" step="0.001" value="0" disabled />
-            <div class="music-controls"><label><input id="music" type="checkbox" disabled /> Music</label><label for="volume">Volume</label><input id="volume" type="range" min="0" max="1" step="0.05" value="0.65" /><span id="music-status" role="status" hidden></span></div>
+            <div class="music-controls"><label><input id="music" type="checkbox" checked disabled /> Music</label><label for="volume">Volume</label><input id="volume" type="range" min="0" max="1" step="0.05" value="0.5" /><span class="muted">Music sets the dance tempo.</span><span id="music-status" role="status" hidden></span></div>
           </div>
           <div class="animation-info">
             <dl><div><dt>Performers</dt><dd id="performers">—</dd></div><div><dt>Duration</dt><dd id="duration">—</dd></div><div><dt>Export</dt><dd id="export-status">—</dd></div></dl>
             <p class="study-note">Check foot placement, hands, and loop seams before reuse.</p>
             <a id="download" class="asset-link" hidden>Download animation GLB</a>
             <a id="source" class="asset-link" hidden>Download Blender source</a>
-            <p class="music-info"><span id="music-title"></span><br /><span id="music-tempo"></span></p>
+            <p class="music-info"><span id="music-title"></span><br /><span id="music-tempo"></span><br /><span id="music-fit"></span><br /><a id="music-source" target="_blank" rel="noopener"></a> · <a id="music-license" target="_blank" rel="noopener"></a><br /><span id="music-contributors"></span><span>Edited practice excerpt. <a href="licenses.html#music">Credits and changes</a></span></p>
             <a id="music-download" class="asset-link" hidden>Download music WAV</a>
             <details><summary>Source inventory</summary><p id="source-count"></p><p>Blender sources and existing review records are included in the repository.</p><p><a href="./licenses.html">Licenses and credits</a></p></details>
           </div>

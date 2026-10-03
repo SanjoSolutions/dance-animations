@@ -1,5 +1,6 @@
 """Check redistributable model credits, runtime notices, and authoring archives."""
 import json
+import html
 from pathlib import Path
 import zipfile
 from import_assets import read_glb
@@ -9,10 +10,17 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     music = json.loads((ROOT / 'music.json').read_text())
+    music_notices = (ROOT / 'public/third-party/music-notices.txt').read_text(encoding='utf-8')
+    credits = (ROOT / 'licenses.html').read_text(encoding='utf-8')
     for track in music['tracks']:
-        assert track['license'] == 'MIT-0' and track['provenance'] and track['arrangement']
-        assert (ROOT / 'public' / track['licenseFile']).read_bytes() == (ROOT / 'LICENSE').read_bytes()
-    assert 'original instrumental compositions' in (ROOT / 'licenses.html').read_text()
+        assert track['license'] == 'CC-BY-4.0' and track['provenance'] and track['evidence']
+        assert track['licenseUrl'] == 'https://creativecommons.org/licenses/by/4.0/'
+        assert (ROOT / 'public' / track['licenseFile']).is_file()
+        for value in (track['title'], track['author'], track['source'], track['changes']):
+            assert value in music_notices, (track['style'], value)
+            assert html.escape(value) in credits, (track['style'], value)
+        assert track['sourceSha256'] in music_notices
+        assert track['contributors'] in music_notices
     notices = (ROOT / 'public/third-party/npm-notices.txt').read_text()
     for name in ('three', 'bootstrap'):
         package = json.loads((ROOT / 'node_modules' / name / 'package.json').read_text())

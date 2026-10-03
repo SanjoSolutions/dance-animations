@@ -1,0 +1,399 @@
+Allada — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500001
+Styles: Naija, Semba
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 5afef97467ef2738016d1b604a3797165c8c076f90b86c379cae0b05c8a9ac1a
+Excerpt SHA-256: 73c6535a4f2616878aedf8d824e51ee97245d2f4652e11eb71be2b264227c1d9
+
+At The Shore — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100770
+Styles: Kizomba
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: e4aff4b7e7b2a46a5003d51054e850ccedd66734080d43d7b57ba37e10b9dbb5
+Excerpt SHA-256: 36c6dd70415f08da479d44cfb5d2699e35cebc86e55ae29d4d6671df19ae8deb
+
+Aurea Carmina — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400006
+Styles: New York hustle
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 042d981e68f149fb0e5c34a44be64f6775262f1c3c2cdbda69a401903bad49f9
+Excerpt SHA-256: b04197254dcf5976990326973cf2981701245f35aeea8395ea1074c807b6ee14
+
+Basic Implosion — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600032
+Styles: Hip hop, Wobble
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 72f3a5b2086e0452f5f6f3b10c97e4b267f222ed4b9fc777de340efbcfc8f523
+Excerpt SHA-256: b61b3cb8e90a89d8d0453beb6f19bb322df7e52cd31f4056058a26503d198aa2
+
+Bummin on Tremelo — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700032
+Styles: Monkey, Watusi
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: bddefba384d462e0e2d9b1d4111ea7fc8cee5a5a34e920f3366d8237a061e9c5
+Excerpt SHA-256: ef276a193f22597c03dec6fcb284aad24dad1b33c3a46567a93c6a458540522c
+
+Carnivale Intrigue — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500028
+Styles: Ballroom samba
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 4ed1611677fc0ee66b4f16256ea01e926c430ac173442d9b78822de5a3558693
+Excerpt SHA-256: 7ca9da263b05398ae4caeeaf1aaa330e299d372b26b3493715ee2addcf788d82
+
+Celtic Impulse — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100297
+Styles: Irish stepdance
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 25db9b02ceb9875234f323cc89d38dcdbff2f0bb232d1dd0f662aa9ca5eddd8f
+Excerpt SHA-256: c02a79d896e716c091af344285894416d6cd3632b8576f9f1bd482c763295d21
+
+Chill Wave — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600048
+Styles: Amapiano, Fusion
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 7f07fbf89860959ff527f7b74606146dd0b0de263739989a70ce712c7c361614
+Excerpt SHA-256: 3374136f69072b4b3a321f0d2c2e42edb2285c4a5a64ce6bce09e3b92ece796b
+
+Cipher — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100844
+Styles: Pole dance, Robot
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: d3d0614535a61d748e2fd8d5117fc4d781022a7624794802a2462d8af3fdd522
+Excerpt SHA-256: e6f078d77df7f149d8a4297d6d8bf17d42321f1d7758bc983d75869a6b3bceba
+
+Circus Waltz — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100291
+Styles: Viennese waltz
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: b2d506be69f8ba91669f68868eda1c3370b75ab8293ea6d5933693f68a60ecc9
+Excerpt SHA-256: e00bbaef787794b07e8259262dcdb673b55462a8c3d5e7873a958d4c01c68b47
+
+Court of the Queen — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100728
+Styles: Ballet, Country waltz, Cross-step waltz, Mazurka, Slow waltz
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: ff1d075bcd1c79205f529aea0b6280335ee11e7f8628aac2068492708a59cf4c
+Excerpt SHA-256: d14ae63f5c290e39d88655d1e663b4e70c5bcd1f450ba2ccc7d027eb85bbceb2
+
+Danger Storm — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500065
+Styles: Tutting
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 449d192b3fa50064d985883b5253dea58e09c3eb0860610d0b7c367f44110372
+Excerpt SHA-256: 07890007ab507f19406e60a6bea9873d73247fd6e3984caf78252f4100677149
+
+Del Rio Bravo — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900031
+Styles: Forró, Schottische
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 517cea42e2004b4993e6df24440dc3ed71f57ae3e5da78036f6e8a6a8a37485a
+Excerpt SHA-256: 9e75f6625dd78d41016ee1fcd08462e92b50d3f4cca8018c947156f5585c9e15
+
+Disco Medusae — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500041
+Styles: Disco freestyle, Vogue
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 1b54c9d99110f5ad3e8ced322681f0f81d18c919434e55375b40dc75c8bb09f3
+Excerpt SHA-256: b5b7a7bca9142cc14f62ac8d74fa93f75fe5a82ceb0a8f6de0a386756c12d48c
+
+Dreamer — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600043
+Styles: Contemporary, Lyrical, Nightclub two-step, Slow dance
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 615e65c9ca131c11f8e12970644ed74ef822ec4f643b1d9d0085a223600bcdfb
+Excerpt SHA-256: 75b408859354f6d4a82c8df30d477272238acf321d9f59e9a2bfd6c7d774198b
+
+EDM Detection Mode — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500026
+Styles: Afro house, Cutting shapes, House, Litefeet
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 746f7b1d4dad9c949a67bc063e0ca79da34452c69cd98f4ab9c16a712e92e951
+Excerpt SHA-256: 1a0181c842a201c0f4565029c79782a8b54378d96befde379147d0d27295e377
+
+El Magicia — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100242
+Styles: Partner paso doble, Paso doble
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 858c9bc3538c4015a85a2bdba3fee00cbb885adc9e49c7b9242123cf43bb23fc
+Excerpt SHA-256: 49f63a9e194f2d8d5ed51209dfbf575b4832bf8c579755a4f9df1d8a8cd2ff7b
+
+Funk Game Loop — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100839
+Styles: Breaking, Funky chicken, Popping
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 77ee6c6263db62f5a14ecfdf9e8f758c61683a9d139e611a64790800bd9ea24f
+Excerpt SHA-256: 09fc89e0727897e93d8880d041bf77bab8da022878642d3f42187879993fbf36
+
+Got Funk — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200005
+Styles: Go-go, Locking
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: ecd3073c0dd028ddb2da1ed8892443f73be019bd1161f99c75b573556d5e1299
+Excerpt SHA-256: 05192b425a3ff05853a32c54c9d857d33a0c5ff3d088b7fd70874d2b95621bbb
+
+Happy Bee — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1300014
+Styles: Mashed potato, Twist
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 06f7dfd763a0bcc33fdf29ecf904c23753deaf392c8c7686902bfb943ba99576
+Excerpt SHA-256: e59b099d18356ca880d19ea76154d5450a065c76656dcfd6447ee9480c2306c2
+
+Hillbilly Swing — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900032
+Styles: Boot scootin’ boogie, Country swing
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 5e43f64e6dd09234094eaf1e122523d7845e11566b5809a8f0cd5d8ff97543cb
+Excerpt SHA-256: 172e05aa601f41cc15da948a11d778e4290edb49b05e41567b6d16a4b04deff0
+
+Hot Swing — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100202
+Styles: Jazz, Charleston, Solo jazz, Swing
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: b8ffccb85d145b00d39505fcd405a27a7b632af153db54862511209c2232cdc5
+Excerpt SHA-256: f3373da9d6949b6015a8a75de9da7a79db57acffc2c74bfc8a313190a9b00c17
+
+Hustle — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100793
+Styles: Boogie-woogie
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 8acbe21e78162eb14e75e914554d774585e6e7e9f29cc641047bccbd7b42dfd1
+Excerpt SHA-256: 9bac68d70a2abaf13160f01da7c64b728853f8b2294c96c09a627cbe4ac57959
+
+Hyperfun — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400038
+Styles: Musical theatre
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: ac3dcc688f183717cf3001a3250c2625ccaa2e97676aa9ab5cb3a8583b8611e1
+Excerpt SHA-256: 271f465b314179bcb36c3ea1379ec1f0c3a9d6e67be1a9c807020bf1012b6124
+
+Jalandhar — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400018
+Styles: Bhangra, Bollywood
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 3f518d9eeba6011473e3c46920b5b776b53091eb22cb005c723ec311d3fecfad
+Excerpt SHA-256: 75ce714d9f10ccec292c327ff4fc00a9404a255a75c09e91141f057e91545418
+
+Lagoa v1 — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100864
+Styles: Solo samba
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 96793a74a2af53fe2f42220be26af0a8eee3caed48933753777f703d5aa90766
+Excerpt SHA-256: 2e977f25f2ad66ae3e9ee47089aebdb3e3b238612dac9419c011bbe8ac8139b7
+
+Maccary Bay — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. Guitar: Brett Van Donsel.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500019
+Styles: Dancehall
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: a9370ec56a66baf4af23f8998b673a1e8dcfa7ca5b67f3d74b4ff6ed5e96af99
+Excerpt SHA-256: e40ddc7a101039425012ba8e413af9868967c176702f5e2d574e30718163ba04
+
+Mystery Bazaar — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700005
+Styles: Belly dance
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: c4cd13a22b5bcf2191e2de0f8c30b94751987ee47ffcaff7bd9b76a4f81305d0
+Excerpt SHA-256: 23f13abcfbd2c053f2620d3eeb1489c0d1c759d28ae0eff78fe7578b98ad2104
+
+No Frills Cumbia — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100892
+Styles: Cumbia
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 1af7ded8a7e47f9861d979180ac98f81a28db2ffca107dc6ad84c7d4207f640e
+Excerpt SHA-256: 4bcb155cadb1180c1138cf79b535390f150f01bb73e69556127c2e9433345bf0
+
+No Frills Salsa — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100133
+Styles: Mambo, Salsa
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 6085bc6196130231953012ed26e35655c6c9cd7e85fd8e29876a4b1bc62b08b0
+Excerpt SHA-256: d50e84f5297152caf4f9e3b1f81037a652079f8a7fdeaeb5d701fb975eca61a7
+
+Notanico Merengue — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100130
+Styles: Lambada, Merengue
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: b88a89782ddba8a2e97ed2cd759586f28cdf943688d7a1cdc5e611249c517bbf
+Excerpt SHA-256: d89bc516373125d39bec47b04525e002457e255612156850fa1cd944a057a739
+
+OctoBlues — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. Guitar: Brett Van Donsel.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500083
+Styles: Blues
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: e4835bb1d5e1146b8466a617dd17325a1e2d727e99cb6e01c2dd42a1ac8f2f4a
+Excerpt SHA-256: 6ea242b9c173ffd485efcec6fe925dac7c1bdef69f8835e3491403adbd5010c7
+
+Olde Timey — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100126
+Styles: Tap
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: eadfc5b76b7b27d4e940086ea4606e5618a4fdd27749229b17fa9e9f831b59bc
+Excerpt SHA-256: a69c314df6ff0fbc62ee19bfc683dc717bcf07e36e06042f73018c1b14969eb3
+
+Peppy Pepe — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100115
+Styles: Partner cha-cha, Solo cha-cha
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 3dac8d1055026341345b196a56b0a94f4480f304e87de550d25805e36a0b6fcb
+Excerpt SHA-256: 78055521fdd5acbb5e517a91b0525d332f2d9f24b847432574cb5eea7feff1be
+
+Pyro Flow — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500039
+Styles: Urban kiz
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 83aedd1335da6bf58797f39d041806e6f0728f7c625fd0c388d3e686fbb9fb0d
+Excerpt SHA-256: 599a7f871ff75240a41147157236feba5e955e2b6b25a0269129f694628826f0
+
+Raving Energy — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900013
+Styles: K-pop Neon Practice, Shuffle
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 0aa9c5fc963d458a75df8760d67b5709465ba8badccd2cd356310ea856250b50
+Excerpt SHA-256: bbe9c7ba68e38e4a9254f0cfe91cfcff609334abeb6fb8f26b1866e74e1f1e27
+
+Samba Isobel — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700071
+Styles: Samba de gafieira
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 563bd5a5686560f56f012d302a672796110cab392a0e3ecbbfdd8f96c6489527
+Excerpt SHA-256: a753caeb95fb29c3c1b43abac84ec4d22ea6801964105ebde1dca4771f9da608
+
+Sancho Panza gets a Latte — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100088
+Styles: American bolero, Bachata, Flamenco, Partner rumba, Solo rumba
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 1ab10cb06745286d2cdb04d1c9a494a26da9b3eb6b29dd78d4da49017d4ec03f
+Excerpt SHA-256: c53fd67b493347c89283256b1307a15d9dc92a6a0facfd2bdc31fcc01d07d417
+
+Smooth Move — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100528
+Styles: Cha Cha Slide, Electric slide
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 443e6f94ce1ae153894c03359a48f796f2c147df2b064907cea76656597de128
+Excerpt SHA-256: 65206a5b4f943e891f7509788dc3c046476044d4a0c9ede540e14863ca36ebfe
+
+Still Pickin — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900033
+Styles: Country two-step, Triple two-step
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 12e9061971fb64798468d54c27b3a0b762bda15a8898b8b5b7ee9efa706f5db3
+Excerpt SHA-256: 5d07f67f5f6e44d7c8b2997acd021c54d454fbaa49fbed40e26ac136294cb29e
+
+Stringed Disco — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100059
+Styles: Disco, Waacking
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: d8e5946c7510e8cb3304b98d1e704e9ce91046e2e22ac5c7bb023364b42efca6
+Excerpt SHA-256: 8b1e651f1ff5afd74ce36df8607b00a453a4d3c6b6e2272609851deb0a6048dc
+
+Surf Shimmy — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700018
+Styles: Jive, Rock ’n’ roll
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 932424252801c51a6385c1339ebb57571cee76eda6431eaa338dcacb677c4d94
+Excerpt SHA-256: c194a3ee1eb18f8b8e05f6d82a8b70306bc1e841bea8a6cc1d19021dcc412402
+
+Sweeter Vermouth — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100712
+Styles: Quickstep
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 38b885879d7414369a1442b58035cc191f84e8984af15e8133e21be962ff1a41
+Excerpt SHA-256: d511361273ab74726fb5319a492110a4719b7290ec96c6b1a1e580549ddabc06
+
+Tango de Manzana — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100404
+Styles: Tango
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 2a26c442ae7e09e2023618c514795518887109591960b5072024bc483c7e9634
+Excerpt SHA-256: 110fc4cfcddacaaa567b445be596ee0e429781691cccea52d5044bd20e1e47d1
+
+Twisted — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400046
+Styles: Modern jive
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 56a2305a7b0356a9e0054fc4d8636a6d86f366578618f7271880136defe7ccda
+Excerpt SHA-256: 0f7d70dd20a722db1b353839b97f14682cce74197d4cfc2a3eb7066928eca41e
+
+Ultra Polka — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500069
+Styles: Chicken dance, Polka
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: a203ed9f89f5509efb339e7a625b0c4fb04255f360214bd17f6ba06d8060bd81
+Excerpt SHA-256: cec19f27b44b80198081c5a847f428d83575fb6b0853b5b9310564d4f241fef5
+
+Verano Sensual — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900020
+Styles: Brazilian zouk
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 5f2f0d683dc2c5dde34b7f9b66aaf0c780324bfb9f8a7a3b4a1dccad5a6c65e1
+Excerpt SHA-256: feecad0eff1f81ee202c30ade762947fde58204ecb7219d5554a7f8272927c58
+
+Who Likes to Party — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200075
+Styles: Cupid shuffle, Discofox, Playful freestyle
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 4a5d168d1714f750c85a928db9f61dba7e4c4a188965fdaac659f58daff4f7d6
+Excerpt SHA-256: c67505bb84cad197a5e42820d6cbe8618c9b21882d3fb935bec98ee476da81fb
+
+Zazie — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1700062
+Styles: Foxtrot
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 82782a7152573f3f644a42a5f83d270c19543eeb5d322bfdea9966883ce132c3
+Excerpt SHA-256: 3c7426a511626f967d381307cfc5c2fda978060230fb40ded2173b0e0e083e9c
+
+ZigZag — Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.
+https://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600049
+Styles: Krump
+Changes: Excerpted at a measured beat, converted to mono 22050 Hz PCM, peak normalized, and given 8-millisecond edge fades for looping. Recorded tempo and pitch preserved.
+Source SHA-256: 1f5d7add0da7d9f821fd2a86a202c6df978df080ee9635d7bac327d40fec06f8
+Excerpt SHA-256: 0bfe63cf0141b410cf3897ac6d1bef27438b8a233c053dcea9df05a8576bc859

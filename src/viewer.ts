@@ -1,6 +1,6 @@
 import {
-  AnimationAction, AnimationMixer, Box3, Color, DirectionalLight, Group,
-  HemisphereLight, LoopOnce, Mesh, MeshStandardMaterial,
+  Box3, Color, DirectionalLight, Group,
+  HemisphereLight, Mesh, MeshStandardMaterial,
   Object3D, PerspectiveCamera, PlaneGeometry, Scene, Vector3, WebGLRenderer,
   GridHelper, SRGBColorSpace, ACESFilmicToneMapping,
 } from 'three';
@@ -13,7 +13,8 @@ import { assetUrl, type DanceAnimation, type DanceCatalog } from './catalog';
 import { retrieveAnimationData } from './animation-asset';
 import { retrieveCharacterFile } from './wardrobe';
 import { DancePlayback } from './music/playback';
-import type { MusicTrack } from './music/timing';
+import { PhraseTiming, type MusicTrack } from './music/timing';
+import { DanceMotion } from './motion';
 
 export class DanceViewer {
   private readonly renderer = new WebGLRenderer({ antialias: true });
@@ -25,8 +26,9 @@ export class DanceViewer {
   private catalog?: DanceCatalog;
   private readonly props: { template: GLTF; styles: string[] }[] = [];
   private group?: Group;
-  private mixer?: AnimationMixer;
-  private action?: AnimationAction;
+  private motion?: DanceMotion;
+  private performers = new Map<Performer, Object3D>();
+  private style?: string;
   private readonly playback = new DancePlayback();
   private request = 0;
   onTime: (time: number, duration: number, paused: boolean) => void = () => {};
@@ -78,9 +80,9 @@ export class DanceViewer {
     }));
   }
 
-  async select(entry: DanceAnimation, track: MusicTrack): Promise<boolean> {
+  async select(entry: DanceAnimation, track: MusicTrack, interval?: number): Promise<boolean> {
     const request = ++this.request;
-    this.playback.clear();
+    this.playback.beginSelection(track.style);
     const [source, music] = await Promise.all([
       retrieveAnimationData(entry).then(data => this.loader.parseAsync(data, '')),
       this.playback.prepare(assetUrl(track.file)),
@@ -88,73 +90,87 @@ export class DanceViewer {
     if (request !== this.request) return false;
     const catalog = this.catalog;
     if (!catalog) throw new Error('Load the dance catalog before selecting an animation.');
-    const templates = await Promise.all(entry.performers.map(actor => {
-      const file = retrieveCharacterFile(catalog, entry.style, actor);
-      let template = this.templates.get(file);
-      if (!template) {
-        template = this.loader.loadAsync(assetUrl(file)).catch(error => {
-          this.templates.delete(file);
-          throw error;
-        });
-        this.templates.set(file, template);
+    const continuing = this.motion && this.style === entry.style && this.performers.size === entry.performers.length
+      && entry.performers.every(actor => this.performers.has(actor));
+    let applied: boolean;
+    if (continuing) {
+      const motion = this.motion!;
+      const clip = await bindClip(source, this.performers);
+      if (request !== this.request) return false;
+      motion.prepare(clip);
+      const duration = Math.min(.35, 30 / track.tempo, new PhraseTiming(clip.duration, track).duration / 2);
+      applied = await this.playback.select(clip.duration, track, music, start => motion.select(clip, start, duration), interval);
+      if (!applied) motion.release(clip);
+    } else {
+      const templates = await Promise.all(entry.performers.map(actor => {
+        const file = retrieveCharacterFile(catalog, entry.style, actor);
+        let template = this.templates.get(file);
+        if (!template) {
+          template = this.loader.loadAsync(assetUrl(file)).catch(error => {
+            this.templates.delete(file);
+            throw error;
+          });
+          this.templates.set(file, template);
+        }
+        return template;
+      }));
+      if (request !== this.request) return false;
+      const next = new Group();
+      const performers = new Map<Performer, Object3D>();
+      for (const [index, actor] of entry.performers.entries()) {
+        const model = clone(templates[index].scene);
+        next.add(model);
+        performers.set(actor, model);
       }
-      return template;
-    }));
-    if (request !== this.request) return false;
-    const next = new Group();
-    const performers = new Map<Performer, Object3D>();
-    for (const [index, actor] of entry.performers.entries()) {
-      const template = templates[index];
-      const model = clone(template.scene);
-      next.add(model);
-      performers.set(actor, model);
+      const clip = await bindClip(source, performers);
+      const props = this.props.filter(prop => prop.styles.includes(entry.style));
+      for (const prop of props) next.add(clone(prop.template.scene));
+      if (request !== this.request) return false;
+      const motion = new DanceMotion(next, performers, props.length === 0);
+      motion.select(clip, 0, 0);
+      // Initial framing covers the phrase and preserves each partner's authored spacing.
+      const bounds = new Box3();
+      for (const fraction of [0, .25, .5, .75, 1]) {
+        motion.update(clip.duration * fraction, clip.duration * fraction);
+        next.updateMatrixWorld(true);
+        bounds.union(new Box3().setFromObject(next, true));
+      }
+      motion.update(0, 0);
+      const center = bounds.getCenter(new Vector3());
+      next.position.set(-center.x, 0, -center.z);
+      const size = bounds.getSize(new Vector3());
+      const distance = Math.max(size.y, size.x / this.camera.aspect, size.z, 1.6) * 2;
+      applied = await this.playback.select(clip.duration, track, music, () => {
+        const sameStyle = this.style === entry.style;
+        if (this.group) {
+          if (sameStyle) next.position.copy(this.group.position);
+          this.scene.remove(this.group);
+          this.motion?.dispose();
+        }
+        this.group = next;
+        this.motion = motion;
+        this.performers = performers;
+        this.style = entry.style;
+        this.scene.add(next);
+        if (!sameStyle) {
+          this.controls.target.set(0, center.y, 0);
+          this.camera.position.set(distance * .32, center.y + distance * .15, distance);
+          this.controls.update();
+        }
+      }, interval);
+      if (!applied) motion.dispose();
     }
-    const clip = await bindClip(source, performers);
-    for (const prop of this.props.filter(prop => prop.styles.includes(entry.style))) next.add(clone(prop.template.scene));
-    if (request !== this.request) return false;
-    const mixer = new AnimationMixer(next);
-    const action = mixer.clipAction(clip);
-    action.setLoop(LoopOnce, 1);
-    action.clampWhenFinished = true;
-    action.play();
-    mixer.setTime(0);
-    // Fit the camera to a few positions throughout the phrase, preserving the
-    // authored distance between partners and the character's floor height.
-    const bounds = new Box3();
-    for (const fraction of [0, .25, .5, .75, 1]) {
-      mixer.setTime(clip.duration * fraction);
-      next.updateMatrixWorld(true);
-      bounds.union(new Box3().setFromObject(next, true));
-    }
-    mixer.setTime(0);
-    const center = bounds.getCenter(new Vector3());
-    next.position.set(-center.x, 0, -center.z);
-    if (this.group) this.scene.remove(this.group);
-    if (this.mixer && this.group) {
-      this.mixer.stopAllAction();
-      this.mixer.uncacheRoot(this.group);
-    }
-    this.group = next;
-    this.mixer = mixer;
-    this.action = action;
-    this.scene.add(next);
-    this.playback.select(clip.duration, track, music);
-    const size = bounds.getSize(new Vector3());
-    const distance = Math.max(size.y, size.x / this.camera.aspect, size.z, 1.6) * 2;
-    this.controls.target.set(0, center.y, 0);
-    this.camera.position.set(distance * .32, center.y + distance * .15, distance);
-    this.controls.update();
-    return true;
+    return applied;
   }
 
-  clear(): void { ++this.request; this.playback.clear(); }
+  beginSelection(style?: string): void { ++this.request; this.playback.beginSelection(style); }
   setPaused(paused: boolean): void { this.playback.setPaused(paused); }
   setSpeed(speed: number): void { this.playback.setSpeed(speed); }
-  setLoop(looping: boolean): void { this.playback.setLoop(looping); }
+  setLoop(looping: boolean, advancing = false): void { this.playback.setLoop(looping, advancing); }
   setMusic(enabled: boolean): Promise<void> { return this.playback.setMusic(enabled); }
   setVolume(volume: number): void { this.playback.setVolume(volume); }
-  seek(time: number): void { this.playback.seek(time); }
-  restart(): void { this.playback.restart(); }
+  seek(time: number): void { this.motion?.finishTransition(); this.playback.seek(time); }
+  restart(): void { this.motion?.finishTransition(); this.playback.restart(); }
 
   private resize(): void {
     const width = Math.max(this.container.clientWidth, 1);
@@ -165,12 +181,9 @@ export class DanceViewer {
   }
 
   private render(): void {
-    if (this.action && this.mixer) {
+    if (this.motion) {
       const position = this.playback.retrievePosition();
-      this.action.paused = false;
-      this.action.enabled = true;
-      this.action.time = position.sourceTime;
-      this.mixer.update(0);
+      this.motion.update(position.sourceTime, position.elapsed);
       this.onTime(position.time, position.duration, position.paused);
     }
     this.controls.update();

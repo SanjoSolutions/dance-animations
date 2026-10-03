@@ -4,12 +4,22 @@ export interface MusicTrack {
   file: string;
   /** Quarter-note beats per minute. */
   tempo: number;
+  /** Authored motion tempo in quarter-note beats per minute. */
+  animationTempo: number;
   meter: number;
   beats: number;
   /** In seconds. */
   duration: number;
   license: string;
   licenseFile: string;
+  author: string;
+  composer: string;
+  contributors: string;
+  source: string;
+  licenseUrl: string;
+  fit: string;
+  /** Automatic move interval in bars; zero uses each animation's duration. */
+  changeInterval: number;
   timingBasis: string;
   /** Closing pose hold in seconds, excluded from cyclic sampling. */
   endingHold: number;
@@ -26,7 +36,7 @@ export class PhraseTiming {
 
   constructor(sourceDuration: number, track: MusicTrack) {
     this.sourceDuration = Math.max(sourceDuration - track.endingHold, .001);
-    this.beats = Math.max(.5, Math.round(this.sourceDuration * track.tempo / 60 * 2) / 2);
+    this.beats = Math.max(.5, Math.round(this.sourceDuration * track.animationTempo / 60 * 2) / 2);
     this.duration = this.beats * 60 / track.tempo;
   }
 
