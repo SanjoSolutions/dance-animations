@@ -164,7 +164,7 @@
     {
       "id": "cutting_shapes",
       "label": "Cutting shapes",
-      "playable": 36,
+      "playable": 72,
       "sources": 36
     },
     {
@@ -13227,9 +13227,25 @@
     {
       "id": "cutting_shapes_back_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes back step",
+      "label": "Cutting shapes back step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_back_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_back_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "392359d7f57b1c444db03eeb0b718df93766b20ff30c8e7c433afbb7319621fc",
+      "animationName": "cutting_shapes_back_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_back_step"
+    },
+    {
+      "id": "cutting_shapes_back_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes back step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13239,14 +13255,31 @@
       "originalExportSha256": null,
       "sourceSha256": "392359d7f57b1c444db03eeb0b718df93766b20ff30c8e7c433afbb7319621fc",
       "animationName": "cutting_shapes_back_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_back_step"
     },
     {
       "id": "cutting_shapes_charleston",
       "style": "cutting_shapes",
-      "label": "Charleston",
+      "label": "Charleston \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2,
+      "file": "animations/cutting_shapes/cutting_shapes_charleston.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_charleston.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_charleston_baked_3301d04ce5a4.glb",
+      "originalExportSha256": "313e52bdac6d6128c48efe690694edc4fff567006e70dc5f2ffb3a3cf11020ac",
+      "animationName": "cutting_shapes_charleston.baked",
+      "status": "Game export",
+      "sourceSha256": "4d7cbb42bf673ec376b0046d2bc18b4a0174b658e9849f57c4d3ec8451312a1a",
+      "moveId": "cutting_shapes_charleston"
+    },
+    {
+      "id": "cutting_shapes_charleston_woman",
+      "style": "cutting_shapes",
+      "label": "Charleston \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2,
@@ -13256,14 +13289,31 @@
       "originalExportSha256": "313e52bdac6d6128c48efe690694edc4fff567006e70dc5f2ffb3a3cf11020ac",
       "animationName": "cutting_shapes_charleston.baked",
       "status": "Game export",
-      "sourceSha256": "4d7cbb42bf673ec376b0046d2bc18b4a0174b658e9849f57c4d3ec8451312a1a"
+      "sourceSha256": "4d7cbb42bf673ec376b0046d2bc18b4a0174b658e9849f57c4d3ec8451312a1a",
+      "moveId": "cutting_shapes_charleston"
     },
     {
       "id": "cutting_shapes_cross_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes cross step",
+      "label": "Cutting shapes cross step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_cross_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_cross_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "05dea74b6588b3fa75c56764cb0d39f164b19ed647634ce96045bfb194d58c55",
+      "animationName": "cutting_shapes_cross_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_cross_step"
+    },
+    {
+      "id": "cutting_shapes_cross_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes cross step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13273,14 +13323,31 @@
       "originalExportSha256": null,
       "sourceSha256": "05dea74b6588b3fa75c56764cb0d39f164b19ed647634ce96045bfb194d58c55",
       "animationName": "cutting_shapes_cross_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_cross_step"
     },
     {
       "id": "cutting_shapes_diamond",
       "style": "cutting_shapes",
-      "label": "Cutting shapes diamond",
+      "label": "Cutting shapes diamond \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_diamond.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_diamond.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "015dd7b92ca1bb4e725abd2cb0ae089a6c35b5fc7c0eebbb3482cf4fbc568519",
+      "animationName": "cutting_shapes_diamond.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_diamond"
+    },
+    {
+      "id": "cutting_shapes_diamond_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes diamond \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13290,14 +13357,31 @@
       "originalExportSha256": null,
       "sourceSha256": "015dd7b92ca1bb4e725abd2cb0ae089a6c35b5fc7c0eebbb3482cf4fbc568519",
       "animationName": "cutting_shapes_diamond.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_diamond"
     },
     {
       "id": "cutting_shapes_enter_charleston",
       "style": "cutting_shapes",
-      "label": "Cutting shapes enter charleston",
+      "label": "Cutting shapes enter charleston \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_enter_charleston.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_enter_charleston.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "1a8ad6ea2b87475a072eca1d56054484b4e712153a521da1c78a1c4d1f3cbb68",
+      "animationName": "cutting_shapes_enter_charleston.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_charleston"
+    },
+    {
+      "id": "cutting_shapes_enter_charleston_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes enter charleston \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13307,14 +13391,31 @@
       "originalExportSha256": null,
       "sourceSha256": "1a8ad6ea2b87475a072eca1d56054484b4e712153a521da1c78a1c4d1f3cbb68",
       "animationName": "cutting_shapes_enter_charleston.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_charleston"
     },
     {
       "id": "cutting_shapes_enter_cross_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes enter cross step",
+      "label": "Cutting shapes enter cross step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_enter_cross_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_enter_cross_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "276791501b19fb407ece3511c60db17d44916936126e68649cfe31a6965df9c6",
+      "animationName": "cutting_shapes_enter_cross_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_cross_step"
+    },
+    {
+      "id": "cutting_shapes_enter_cross_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes enter cross step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13324,14 +13425,31 @@
       "originalExportSha256": null,
       "sourceSha256": "276791501b19fb407ece3511c60db17d44916936126e68649cfe31a6965df9c6",
       "animationName": "cutting_shapes_enter_cross_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_cross_step"
     },
     {
       "id": "cutting_shapes_enter_heel_toe",
       "style": "cutting_shapes",
-      "label": "Cutting shapes enter heel toe",
+      "label": "Cutting shapes enter heel toe \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_enter_heel_toe.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_enter_heel_toe.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "bea5e2e42715def4698ab2d09cee3701675460a96cc2c803a394f940edc4ce9f",
+      "animationName": "cutting_shapes_enter_heel_toe.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_heel_toe"
+    },
+    {
+      "id": "cutting_shapes_enter_heel_toe_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes enter heel toe \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13341,14 +13459,31 @@
       "originalExportSha256": null,
       "sourceSha256": "bea5e2e42715def4698ab2d09cee3701675460a96cc2c803a394f940edc4ce9f",
       "animationName": "cutting_shapes_enter_heel_toe.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_heel_toe"
     },
     {
       "id": "cutting_shapes_enter_kick_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes enter kick step",
+      "label": "Cutting shapes enter kick step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_enter_kick_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_enter_kick_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "5a5618bd8ef36f5dec26c508577faa8969976a17d7007ae1c89902ccd045de8c",
+      "animationName": "cutting_shapes_enter_kick_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_kick_step"
+    },
+    {
+      "id": "cutting_shapes_enter_kick_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes enter kick step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13358,14 +13493,31 @@
       "originalExportSha256": null,
       "sourceSha256": "5a5618bd8ef36f5dec26c508577faa8969976a17d7007ae1c89902ccd045de8c",
       "animationName": "cutting_shapes_enter_kick_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_kick_step"
     },
     {
       "id": "cutting_shapes_enter_running_man",
       "style": "cutting_shapes",
-      "label": "Cutting shapes enter running man",
+      "label": "Cutting shapes enter running man \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_enter_running_man.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_enter_running_man.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "34964b73113b28f7ffcf661c3c9f37c083653cb382302b4e9fe0ec7410b5d383",
+      "animationName": "cutting_shapes_enter_running_man.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_running_man"
+    },
+    {
+      "id": "cutting_shapes_enter_running_man_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes enter running man \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13375,14 +13527,31 @@
       "originalExportSha256": null,
       "sourceSha256": "34964b73113b28f7ffcf661c3c9f37c083653cb382302b4e9fe0ec7410b5d383",
       "animationName": "cutting_shapes_enter_running_man.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_enter_running_man"
     },
     {
       "id": "cutting_shapes_exit_charleston",
       "style": "cutting_shapes",
-      "label": "Cutting shapes exit charleston",
+      "label": "Cutting shapes exit charleston \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_exit_charleston.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_exit_charleston.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "376582455c348895e7a2ba66684a3fd7988d7ceb52138a3d4693a27324f7101a",
+      "animationName": "cutting_shapes_exit_charleston.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_charleston"
+    },
+    {
+      "id": "cutting_shapes_exit_charleston_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes exit charleston \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13392,14 +13561,31 @@
       "originalExportSha256": null,
       "sourceSha256": "376582455c348895e7a2ba66684a3fd7988d7ceb52138a3d4693a27324f7101a",
       "animationName": "cutting_shapes_exit_charleston.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_charleston"
     },
     {
       "id": "cutting_shapes_exit_cross_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes exit cross step",
+      "label": "Cutting shapes exit cross step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_exit_cross_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_exit_cross_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0f3fef2eecc524a1536c4ffcb603dab6c73213061ad9a0cf67ea7634073c6a43",
+      "animationName": "cutting_shapes_exit_cross_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_cross_step"
+    },
+    {
+      "id": "cutting_shapes_exit_cross_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes exit cross step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13409,14 +13595,31 @@
       "originalExportSha256": null,
       "sourceSha256": "0f3fef2eecc524a1536c4ffcb603dab6c73213061ad9a0cf67ea7634073c6a43",
       "animationName": "cutting_shapes_exit_cross_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_cross_step"
     },
     {
       "id": "cutting_shapes_exit_heel_toe",
       "style": "cutting_shapes",
-      "label": "Cutting shapes exit heel toe",
+      "label": "Cutting shapes exit heel toe \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_exit_heel_toe.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_exit_heel_toe.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "10d767dc38840f65e4d7140ed8ac8c9a0b752a800a800598f923ec95600e6be9",
+      "animationName": "cutting_shapes_exit_heel_toe.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_heel_toe"
+    },
+    {
+      "id": "cutting_shapes_exit_heel_toe_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes exit heel toe \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13426,14 +13629,31 @@
       "originalExportSha256": null,
       "sourceSha256": "10d767dc38840f65e4d7140ed8ac8c9a0b752a800a800598f923ec95600e6be9",
       "animationName": "cutting_shapes_exit_heel_toe.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_heel_toe"
     },
     {
       "id": "cutting_shapes_exit_kick_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes exit kick step",
+      "label": "Cutting shapes exit kick step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_exit_kick_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_exit_kick_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "a6493d6c2a11d99c43015f0f305c1228b73079b1f64fbd5c35cb581eaddb525c",
+      "animationName": "cutting_shapes_exit_kick_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_kick_step"
+    },
+    {
+      "id": "cutting_shapes_exit_kick_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes exit kick step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13443,14 +13663,31 @@
       "originalExportSha256": null,
       "sourceSha256": "a6493d6c2a11d99c43015f0f305c1228b73079b1f64fbd5c35cb581eaddb525c",
       "animationName": "cutting_shapes_exit_kick_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_kick_step"
     },
     {
       "id": "cutting_shapes_exit_running_man",
       "style": "cutting_shapes",
-      "label": "Cutting shapes exit running man",
+      "label": "Cutting shapes exit running man \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.5,
+      "file": "animations/cutting_shapes/cutting_shapes_exit_running_man.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_exit_running_man.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "b60a3c3b5a869ed4fffeeda348620239d385a2f739eebd8d9eb35a51585ea1e2",
+      "animationName": "cutting_shapes_exit_running_man.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_running_man"
+    },
+    {
+      "id": "cutting_shapes_exit_running_man_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes exit running man \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.5,
@@ -13460,14 +13697,31 @@
       "originalExportSha256": null,
       "sourceSha256": "b60a3c3b5a869ed4fffeeda348620239d385a2f739eebd8d9eb35a51585ea1e2",
       "animationName": "cutting_shapes_exit_running_man.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_exit_running_man"
     },
     {
       "id": "cutting_shapes_groove",
       "style": "cutting_shapes",
-      "label": "Cutting shapes groove",
+      "label": "Cutting shapes groove \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2,
+      "file": "animations/cutting_shapes/cutting_shapes_groove.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_groove.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_groove_baked_9bbedbda9b6b.glb",
+      "originalExportSha256": "3d4c40dc29bc0761cc1d7ca63349663315e7f8e23f8662ac0d4b8c8099e9350c",
+      "animationName": "cutting_shapes_groove.baked",
+      "status": "Game export",
+      "sourceSha256": "e40a946879f0539898553c71c509da4490633a8f5da0191baf537eff9a52221e",
+      "moveId": "cutting_shapes_groove"
+    },
+    {
+      "id": "cutting_shapes_groove_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes groove \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2,
@@ -13477,14 +13731,31 @@
       "originalExportSha256": "3d4c40dc29bc0761cc1d7ca63349663315e7f8e23f8662ac0d4b8c8099e9350c",
       "animationName": "cutting_shapes_groove.baked",
       "status": "Game export",
-      "sourceSha256": "e40a946879f0539898553c71c509da4490633a8f5da0191baf537eff9a52221e"
+      "sourceSha256": "e40a946879f0539898553c71c509da4490633a8f5da0191baf537eff9a52221e",
+      "moveId": "cutting_shapes_groove"
     },
     {
       "id": "cutting_shapes_happy_feet",
       "style": "cutting_shapes",
-      "label": "Cutting shapes happy feet",
+      "label": "Cutting shapes happy feet \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_happy_feet.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_happy_feet.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_happy_feet_baked_b1a0fb05a4c5.glb",
+      "originalExportSha256": "4788ff6ea002f8a0b0b94364322821fa8b6bd2d09913b9bf2f424d60715d6f40",
+      "animationName": "cutting_shapes_happy_feet.baked",
+      "status": "Game export",
+      "sourceSha256": "f63a35181492cc830f7422e54b01b348ab5134dff6de0f8820235948f1fc0545",
+      "moveId": "cutting_shapes_happy_feet"
+    },
+    {
+      "id": "cutting_shapes_happy_feet_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes happy feet \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13494,14 +13765,31 @@
       "originalExportSha256": "4788ff6ea002f8a0b0b94364322821fa8b6bd2d09913b9bf2f424d60715d6f40",
       "animationName": "cutting_shapes_happy_feet.baked",
       "status": "Game export",
-      "sourceSha256": "f63a35181492cc830f7422e54b01b348ab5134dff6de0f8820235948f1fc0545"
+      "sourceSha256": "f63a35181492cc830f7422e54b01b348ab5134dff6de0f8820235948f1fc0545",
+      "moveId": "cutting_shapes_happy_feet"
     },
     {
       "id": "cutting_shapes_heel_tap",
       "style": "cutting_shapes",
-      "label": "Cutting shapes heel tap",
+      "label": "Cutting shapes heel tap \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/cutting_shapes/cutting_shapes_heel_tap.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_heel_tap.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "8fa9b46367f95f2d036cc18805a48b4689d36213f9bc9f3b48af67754302b696",
+      "animationName": "cutting_shapes_heel_tap.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_heel_tap"
+    },
+    {
+      "id": "cutting_shapes_heel_tap_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes heel tap \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -13511,14 +13799,31 @@
       "originalExportSha256": null,
       "sourceSha256": "8fa9b46367f95f2d036cc18805a48b4689d36213f9bc9f3b48af67754302b696",
       "animationName": "cutting_shapes_heel_tap.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_heel_tap"
     },
     {
       "id": "cutting_shapes_heel_toe",
       "style": "cutting_shapes",
-      "label": "Cutting shapes heel toe",
+      "label": "Cutting shapes heel toe \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_heel_toe.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_heel_toe.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_heel_toe_baked_0aa2d1cfad12.glb",
+      "originalExportSha256": "d49d1eedd8c87a4b9b0c86b0398ec2ee8f3d85952bb8cfb5b886caec964ba2d7",
+      "animationName": "cutting_shapes_heel_toe.baked",
+      "status": "Game export",
+      "sourceSha256": "5b2c40e0a98ae960e981daab0920f22224b1edf8cc274164557ae158ce5b1314",
+      "moveId": "cutting_shapes_heel_toe"
+    },
+    {
+      "id": "cutting_shapes_heel_toe_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes heel toe \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13528,14 +13833,31 @@
       "originalExportSha256": "d49d1eedd8c87a4b9b0c86b0398ec2ee8f3d85952bb8cfb5b886caec964ba2d7",
       "animationName": "cutting_shapes_heel_toe.baked",
       "status": "Game export",
-      "sourceSha256": "5b2c40e0a98ae960e981daab0920f22224b1edf8cc274164557ae158ce5b1314"
+      "sourceSha256": "5b2c40e0a98ae960e981daab0920f22224b1edf8cc274164557ae158ce5b1314",
+      "moveId": "cutting_shapes_heel_toe"
     },
     {
       "id": "cutting_shapes_kick_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes kick step",
+      "label": "Cutting shapes kick step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/cutting_shapes/cutting_shapes_kick_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_kick_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "92b6b0aa08b175e8ddd9c59efc925ec794e84fa46bef7db0f0c96849b4004ce5",
+      "animationName": "cutting_shapes_kick_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_kick_step"
+    },
+    {
+      "id": "cutting_shapes_kick_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes kick step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -13545,14 +13867,31 @@
       "originalExportSha256": null,
       "sourceSha256": "92b6b0aa08b175e8ddd9c59efc925ec794e84fa46bef7db0f0c96849b4004ce5",
       "animationName": "cutting_shapes_kick_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_kick_step"
     },
     {
       "id": "cutting_shapes_knee_lift",
       "style": "cutting_shapes",
-      "label": "Cutting shapes knee lift",
+      "label": "Cutting shapes knee lift \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/cutting_shapes/cutting_shapes_knee_lift.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_knee_lift.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0f82624f45dc44d185eab3ee43c64e03f1bafa4400aee751c7b2c115bc41b60a",
+      "animationName": "cutting_shapes_knee_lift.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_knee_lift"
+    },
+    {
+      "id": "cutting_shapes_knee_lift_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes knee lift \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -13562,14 +13901,31 @@
       "originalExportSha256": null,
       "sourceSha256": "0f82624f45dc44d185eab3ee43c64e03f1bafa4400aee751c7b2c115bc41b60a",
       "animationName": "cutting_shapes_knee_lift.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_knee_lift"
     },
     {
       "id": "cutting_shapes_quarter_turn",
       "style": "cutting_shapes",
-      "label": "Cutting shapes quarter turn",
+      "label": "Cutting shapes quarter turn \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_quarter_turn.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_quarter_turn.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "425dc692978af026293ac58cdd66cb20603004e627ebad373f457d7910ba1b98",
+      "animationName": "cutting_shapes_quarter_turn.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_quarter_turn"
+    },
+    {
+      "id": "cutting_shapes_quarter_turn_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes quarter turn \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13579,14 +13935,31 @@
       "originalExportSha256": null,
       "sourceSha256": "425dc692978af026293ac58cdd66cb20603004e627ebad373f457d7910ba1b98",
       "animationName": "cutting_shapes_quarter_turn.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_quarter_turn"
     },
     {
       "id": "cutting_shapes_ready",
       "style": "cutting_shapes",
-      "label": "Cutting shapes ready",
+      "label": "Cutting shapes ready \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_ready.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_ready.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_ready_baked_7c55a11e1386.glb",
+      "originalExportSha256": "c294db58cf82de305e650caf501a7e95774f43da7611135ad060a09db4eb0941",
+      "animationName": "cutting_shapes_ready.baked",
+      "status": "Game export",
+      "sourceSha256": "532f7db96b68a876a0ad629d7265673d1a3ef1b35dc3405d8360fd2f3e52a322",
+      "moveId": "cutting_shapes_ready"
+    },
+    {
+      "id": "cutting_shapes_ready_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes ready \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13596,14 +13969,31 @@
       "originalExportSha256": "c294db58cf82de305e650caf501a7e95774f43da7611135ad060a09db4eb0941",
       "animationName": "cutting_shapes_ready.baked",
       "status": "Game export",
-      "sourceSha256": "532f7db96b68a876a0ad629d7265673d1a3ef1b35dc3405d8360fd2f3e52a322"
+      "sourceSha256": "532f7db96b68a876a0ad629d7265673d1a3ef1b35dc3405d8360fd2f3e52a322",
+      "moveId": "cutting_shapes_ready"
     },
     {
       "id": "cutting_shapes_reverse_charleston",
       "style": "cutting_shapes",
-      "label": "Cutting shapes reverse charleston",
+      "label": "Cutting shapes reverse charleston \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_reverse_charleston.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_reverse_charleston.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "0f6b9eccf9702337f155968d0f97223ec7686057b27b916d824075af170c620b",
+      "animationName": "cutting_shapes_reverse_charleston.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_reverse_charleston"
+    },
+    {
+      "id": "cutting_shapes_reverse_charleston_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes reverse charleston \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13613,14 +14003,31 @@
       "originalExportSha256": null,
       "sourceSha256": "0f6b9eccf9702337f155968d0f97223ec7686057b27b916d824075af170c620b",
       "animationName": "cutting_shapes_reverse_charleston.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_reverse_charleston"
     },
     {
       "id": "cutting_shapes_running_man",
       "style": "cutting_shapes",
-      "label": "Cutting shapes running",
+      "label": "Cutting shapes running \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_running_man.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_running_man.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_running_man_baked_0b64136260b8.glb",
+      "originalExportSha256": "115393e2e17d1418c451f0a9be01a796669e3f41fcd6dce3f6bba08f9bc6ce95",
+      "animationName": "cutting_shapes_running_man.baked",
+      "status": "Game export",
+      "sourceSha256": "ff187b3c683d246d40af0b2f03786bc21ac2e64addd2589f9d6906232a6d2799",
+      "moveId": "cutting_shapes_running_man"
+    },
+    {
+      "id": "cutting_shapes_running_man_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes running \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13630,14 +14037,31 @@
       "originalExportSha256": "115393e2e17d1418c451f0a9be01a796669e3f41fcd6dce3f6bba08f9bc6ce95",
       "animationName": "cutting_shapes_running_man.baked",
       "status": "Game export",
-      "sourceSha256": "ff187b3c683d246d40af0b2f03786bc21ac2e64addd2589f9d6906232a6d2799"
+      "sourceSha256": "ff187b3c683d246d40af0b2f03786bc21ac2e64addd2589f9d6906232a6d2799",
+      "moveId": "cutting_shapes_running_man"
     },
     {
       "id": "cutting_shapes_scissors",
       "style": "cutting_shapes",
-      "label": "Cutting shapes scissors",
+      "label": "Cutting shapes scissors \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/cutting_shapes/cutting_shapes_scissors.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_scissors.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "8675102ca558d4b13e207f2447e31beedd059cbb6545e2adb56c9f3f867ee6d8",
+      "animationName": "cutting_shapes_scissors.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_scissors"
+    },
+    {
+      "id": "cutting_shapes_scissors_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes scissors \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -13647,14 +14071,31 @@
       "originalExportSha256": null,
       "sourceSha256": "8675102ca558d4b13e207f2447e31beedd059cbb6545e2adb56c9f3f867ee6d8",
       "animationName": "cutting_shapes_scissors.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_scissors"
     },
     {
       "id": "cutting_shapes_side_slide",
       "style": "cutting_shapes",
-      "label": "Cutting shapes side slide",
+      "label": "Cutting shapes side slide \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_side_slide.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_side_slide.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "35330d5a9ea2ca20ff18759274da6fc793a4714d867565bf4677fa289c618b24",
+      "animationName": "cutting_shapes_side_slide.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_side_slide"
+    },
+    {
+      "id": "cutting_shapes_side_slide_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes side slide \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13664,14 +14105,31 @@
       "originalExportSha256": null,
       "sourceSha256": "35330d5a9ea2ca20ff18759274da6fc793a4714d867565bf4677fa289c618b24",
       "animationName": "cutting_shapes_side_slide.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_side_slide"
     },
     {
       "id": "cutting_shapes_skater",
       "style": "cutting_shapes",
-      "label": "Cutting shapes skater",
+      "label": "Cutting shapes skater \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_skater.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_skater.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "da9e32f03b587a7f41d89740ea0bbd4f1002ca0c5177a93d8a4f91f5964e0778",
+      "animationName": "cutting_shapes_skater.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_skater"
+    },
+    {
+      "id": "cutting_shapes_skater_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes skater \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13681,14 +14139,31 @@
       "originalExportSha256": null,
       "sourceSha256": "da9e32f03b587a7f41d89740ea0bbd4f1002ca0c5177a93d8a4f91f5964e0778",
       "animationName": "cutting_shapes_skater.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_skater"
     },
     {
       "id": "cutting_shapes_small_running_man",
       "style": "cutting_shapes",
-      "label": "Small running",
+      "label": "Small running \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_small_running_man.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_small_running_man.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_small_running_man_baked_09594a5d95f4.glb",
+      "originalExportSha256": "7a93ce260673829748bca62defaf54a184487a394e02e2e2163df38e520a1d0f",
+      "animationName": "cutting_shapes_small_running_man.baked",
+      "status": "Game export",
+      "sourceSha256": "f1c247e74e27545f4bed76c170d4ae55f6d44e573ca4f77add0ac4ca5970f9d1",
+      "moveId": "cutting_shapes_small_running_man"
+    },
+    {
+      "id": "cutting_shapes_small_running_man_woman",
+      "style": "cutting_shapes",
+      "label": "Small running \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13698,14 +14173,31 @@
       "originalExportSha256": "7a93ce260673829748bca62defaf54a184487a394e02e2e2163df38e520a1d0f",
       "animationName": "cutting_shapes_small_running_man.baked",
       "status": "Game export",
-      "sourceSha256": "f1c247e74e27545f4bed76c170d4ae55f6d44e573ca4f77add0ac4ca5970f9d1"
+      "sourceSha256": "f1c247e74e27545f4bed76c170d4ae55f6d44e573ca4f77add0ac4ca5970f9d1",
+      "moveId": "cutting_shapes_small_running_man"
     },
     {
       "id": "cutting_shapes_stagger_left",
       "style": "cutting_shapes",
-      "label": "Cutting shapes stagger left",
+      "label": "Cutting shapes stagger left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_stagger_left.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_stagger_left.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_stagger_left_baked_d7ba94f98174.glb",
+      "originalExportSha256": "b9d69887d2f4d43a8a930c8d355978d912b1298d62cf972423fdcb23a35e61ff",
+      "animationName": "cutting_shapes_stagger_left.baked",
+      "status": "Game export",
+      "sourceSha256": "ef15ae0f1b3869a91aed6714a7903a52241c2c781859ad3e9f9999634a53c9ab",
+      "moveId": "cutting_shapes_stagger_left"
+    },
+    {
+      "id": "cutting_shapes_stagger_left_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes stagger left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13715,14 +14207,31 @@
       "originalExportSha256": "b9d69887d2f4d43a8a930c8d355978d912b1298d62cf972423fdcb23a35e61ff",
       "animationName": "cutting_shapes_stagger_left.baked",
       "status": "Game export",
-      "sourceSha256": "ef15ae0f1b3869a91aed6714a7903a52241c2c781859ad3e9f9999634a53c9ab"
+      "sourceSha256": "ef15ae0f1b3869a91aed6714a7903a52241c2c781859ad3e9f9999634a53c9ab",
+      "moveId": "cutting_shapes_stagger_left"
     },
     {
       "id": "cutting_shapes_stagger_right",
       "style": "cutting_shapes",
-      "label": "Cutting shapes stagger right",
+      "label": "Cutting shapes stagger right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_stagger_right.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_stagger_right.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_stagger_right_baked_dc97415d986e.glb",
+      "originalExportSha256": "c4666238aba40c0d6bea6ad47500a16c56c78793287af3760226495b27084c47",
+      "animationName": "cutting_shapes_stagger_right.baked",
+      "status": "Game export",
+      "sourceSha256": "499cfeb199d025d71c0d30b92388b16d11a9a793aa37ef31009f6aa60e14e2ef",
+      "moveId": "cutting_shapes_stagger_right"
+    },
+    {
+      "id": "cutting_shapes_stagger_right_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes stagger right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13732,14 +14241,31 @@
       "originalExportSha256": "c4666238aba40c0d6bea6ad47500a16c56c78793287af3760226495b27084c47",
       "animationName": "cutting_shapes_stagger_right.baked",
       "status": "Game export",
-      "sourceSha256": "499cfeb199d025d71c0d30b92388b16d11a9a793aa37ef31009f6aa60e14e2ef"
+      "sourceSha256": "499cfeb199d025d71c0d30b92388b16d11a9a793aa37ef31009f6aa60e14e2ef",
+      "moveId": "cutting_shapes_stagger_right"
     },
     {
       "id": "cutting_shapes_step_touch",
       "style": "cutting_shapes",
-      "label": "Cutting shapes step touch",
+      "label": "Cutting shapes step touch \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2,
+      "file": "animations/cutting_shapes/cutting_shapes_step_touch.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_step_touch.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_step_touch_baked_560bfbcc0cc6.glb",
+      "originalExportSha256": "bea5f8e86880094b902f229a2693a9d830cb06d76f382d2eda60153e0196fa2f",
+      "animationName": "cutting_shapes_step_touch.baked",
+      "status": "Game export",
+      "sourceSha256": "b433d33855d6f83f831a31e58777011cbc61ab3c47c2200ba8ee51bc211ba56b",
+      "moveId": "cutting_shapes_step_touch"
+    },
+    {
+      "id": "cutting_shapes_step_touch_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes step touch \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2,
@@ -13749,14 +14275,31 @@
       "originalExportSha256": "bea5f8e86880094b902f229a2693a9d830cb06d76f382d2eda60153e0196fa2f",
       "animationName": "cutting_shapes_step_touch.baked",
       "status": "Game export",
-      "sourceSha256": "b433d33855d6f83f831a31e58777011cbc61ab3c47c2200ba8ee51bc211ba56b"
+      "sourceSha256": "b433d33855d6f83f831a31e58777011cbc61ab3c47c2200ba8ee51bc211ba56b",
+      "moveId": "cutting_shapes_step_touch"
     },
     {
       "id": "cutting_shapes_t_step_left",
       "style": "cutting_shapes",
-      "label": "Cutting shapes t step left",
+      "label": "Cutting shapes t step left \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_t_step_left.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_t_step_left.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_t_step_left_baked_36fdb1b974d2.glb",
+      "originalExportSha256": "5ba6d8cd60cbb5ba38d28c990c632f245bfa55d5249d9ef35437da688e80f460",
+      "animationName": "cutting_shapes_t_step_left.baked",
+      "status": "Game export",
+      "sourceSha256": "589a75e0524cd66cecf0cdce340c7b71306fcc2a559ade12f3f562deefcf6682",
+      "moveId": "cutting_shapes_t_step_left"
+    },
+    {
+      "id": "cutting_shapes_t_step_left_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes t step left \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13766,14 +14309,31 @@
       "originalExportSha256": "5ba6d8cd60cbb5ba38d28c990c632f245bfa55d5249d9ef35437da688e80f460",
       "animationName": "cutting_shapes_t_step_left.baked",
       "status": "Game export",
-      "sourceSha256": "589a75e0524cd66cecf0cdce340c7b71306fcc2a559ade12f3f562deefcf6682"
+      "sourceSha256": "589a75e0524cd66cecf0cdce340c7b71306fcc2a559ade12f3f562deefcf6682",
+      "moveId": "cutting_shapes_t_step_left"
     },
     {
       "id": "cutting_shapes_t_step_right",
       "style": "cutting_shapes",
-      "label": "Cutting shapes t step right",
+      "label": "Cutting shapes t step right \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_t_step_right.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_t_step_right.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_t_step_right_baked_c0aab5247e1f.glb",
+      "originalExportSha256": "79d246bac8126d9f4bd974677863c0185cc9ab6c3d29390a133030014e2387b7",
+      "animationName": "cutting_shapes_t_step_right.baked",
+      "status": "Game export",
+      "sourceSha256": "b6970f1bebf160cbd3fd51b7f7559665e2fe00770f274500bb3c16b19455e2d4",
+      "moveId": "cutting_shapes_t_step_right"
+    },
+    {
+      "id": "cutting_shapes_t_step_right_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes t step right \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13783,14 +14343,31 @@
       "originalExportSha256": "79d246bac8126d9f4bd974677863c0185cc9ab6c3d29390a133030014e2387b7",
       "animationName": "cutting_shapes_t_step_right.baked",
       "status": "Game export",
-      "sourceSha256": "b6970f1bebf160cbd3fd51b7f7559665e2fe00770f274500bb3c16b19455e2d4"
+      "sourceSha256": "b6970f1bebf160cbd3fd51b7f7559665e2fe00770f274500bb3c16b19455e2d4",
+      "moveId": "cutting_shapes_t_step_right"
     },
     {
       "id": "cutting_shapes_toe_tap",
       "style": "cutting_shapes",
-      "label": "Cutting shapes toe tap",
+      "label": "Cutting shapes toe tap \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1.0,
+      "file": "animations/cutting_shapes/cutting_shapes_toe_tap.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_toe_tap.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "a8df05202e74c83d526f898c5685d83996db68cdc3335a39b9b134e447431455",
+      "animationName": "cutting_shapes_toe_tap.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_toe_tap"
+    },
+    {
+      "id": "cutting_shapes_toe_tap_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes toe tap \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1.0,
@@ -13800,14 +14377,31 @@
       "originalExportSha256": null,
       "sourceSha256": "a8df05202e74c83d526f898c5685d83996db68cdc3335a39b9b134e447431455",
       "animationName": "cutting_shapes_toe_tap.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_toe_tap"
     },
     {
       "id": "cutting_shapes_v_step",
       "style": "cutting_shapes",
-      "label": "Cutting shapes v step",
+      "label": "Cutting shapes v step \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 2.0,
+      "file": "animations/cutting_shapes/cutting_shapes_v_step.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_v_step.blend",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "sourceSha256": "d380bdae7019fef5963abe481448ca5438a37e20b3852df0d02c4038fe8c1e17",
+      "animationName": "cutting_shapes_v_step.review",
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_v_step"
+    },
+    {
+      "id": "cutting_shapes_v_step_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes v step \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 2.0,
@@ -13817,14 +14411,31 @@
       "originalExportSha256": null,
       "sourceSha256": "d380bdae7019fef5963abe481448ca5438a37e20b3852df0d02c4038fe8c1e17",
       "animationName": "cutting_shapes_v_step.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "moveId": "cutting_shapes_v_step"
     },
     {
       "id": "cutting_shapes_wide",
       "style": "cutting_shapes",
-      "label": "Cutting shapes wide",
+      "label": "Cutting shapes wide \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 1,
+      "file": "animations/cutting_shapes/cutting_shapes_wide.glb",
+      "sourceFile": "animations/cutting_shapes/sources/cutting_shapes_wide.blend",
+      "originalExport": "models/player/animation_updates/cutting_shapes_wide_baked_514432d6db8d.glb",
+      "originalExportSha256": "187633959741412169804a13ac7525e12ff0118cf7c49369aefcd27322ea9830",
+      "animationName": "cutting_shapes_wide.baked",
+      "status": "Game export",
+      "sourceSha256": "cf4a7130e24d5a234257d993ddd37207f7da434fc45e995352b00aa363c1aece",
+      "moveId": "cutting_shapes_wide"
+    },
+    {
+      "id": "cutting_shapes_wide_woman",
+      "style": "cutting_shapes",
+      "label": "Cutting shapes wide \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 1,
@@ -13834,7 +14445,8 @@
       "originalExportSha256": "187633959741412169804a13ac7525e12ff0118cf7c49369aefcd27322ea9830",
       "animationName": "cutting_shapes_wide.baked",
       "status": "Game export",
-      "sourceSha256": "cf4a7130e24d5a234257d993ddd37207f7da434fc45e995352b00aa363c1aece"
+      "sourceSha256": "cf4a7130e24d5a234257d993ddd37207f7da434fc45e995352b00aa363c1aece",
+      "moveId": "cutting_shapes_wide"
     },
     {
       "id": "dancehall_man_body_wave",
