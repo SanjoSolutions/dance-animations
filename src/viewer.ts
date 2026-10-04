@@ -15,6 +15,7 @@ import { retrieveCharacterFile } from './wardrobe';
 import { DancePlayback } from './music/playback';
 import { PhraseTiming, type MusicTrack } from './music/timing';
 import { DanceMotion } from './motion';
+import { createCharacterPreview } from './character-preview';
 
 export class DanceViewer {
   private readonly renderer = new WebGLRenderer({ antialias: true });
@@ -29,6 +30,7 @@ export class DanceViewer {
   private motion?: DanceMotion;
   private performers = new Map<Performer, Object3D>();
   private style?: string;
+  private previewRotation?: number;
   private readonly playback = new DancePlayback();
   private request = 0;
   onTime: (time: number, duration: number, paused: boolean) => void = () => {};
@@ -90,7 +92,8 @@ export class DanceViewer {
     if (request !== this.request) return false;
     const catalog = this.catalog;
     if (!catalog) throw new Error('Load the dance catalog before selecting an animation.');
-    const continuing = this.motion && this.style === entry.style && this.performers.size === entry.performers.length
+    const continuing = this.motion && this.style === entry.style && this.previewRotation === entry.previewRotation
+      && this.performers.size === entry.performers.length
       && entry.performers.every(actor => this.performers.has(actor));
     let applied: boolean;
     if (continuing) {
@@ -118,7 +121,7 @@ export class DanceViewer {
       const next = new Group();
       const performers = new Map<Performer, Object3D>();
       for (const [index, actor] of entry.performers.entries()) {
-        const model = clone(templates[index].scene);
+        const model = createCharacterPreview(templates[index].scene, entry.previewRotation);
         next.add(model);
         performers.set(actor, model);
       }
@@ -151,6 +154,7 @@ export class DanceViewer {
         this.motion = motion;
         this.performers = performers;
         this.style = entry.style;
+        this.previewRotation = entry.previewRotation;
         this.scene.add(next);
         if (!sameStyle) {
           this.controls.target.set(0, center.y, 0);

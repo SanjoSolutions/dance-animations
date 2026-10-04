@@ -1,6 +1,6 @@
 # Local validation
 
-The library contains 3,564 playback variants backed by 3,500 runtime clips and 3,500 Blender sources across 92 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
+The library contains 3,582 selectable runtime variants from 3,500 GLB clips and 3,500 Blender sources across 92 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
 
 The automated checks cover:
 
@@ -8,6 +8,7 @@ The automated checks cover:
 - Both full MPFB bodies have human proportions at rest and during a solo move. The Woman body's inherited scale was corrected in both Blender studios and the exported model.
 - Paired playback binds each performer independently.
 - Each of the 64 Go-go moves offers selectable Man and Woman solos. Each choice binds that performer's original tracks from the shared GLB and retains the source hash, duration, animation name, and draft review status. Catalog imports, saved-source preview merges, and native exports preserve the character choices.
+- Each of the 18 Jazz moves offers Man and Woman solo choices. Their shared-origin source slots describe independent solos; each choice binds that character's original tracks from the shared GLB and retains source provenance and draft status. The 17 saved Euler studies receive whole-character preview heading corrections (Man −90 degrees, Woman +90 degrees) so both face forward, matching the quaternion front kick. Poses and travel rotate together; source files and downloaded GLBs retain their recorded transforms.
 - Move grouping separates dance style and character from move names and preserves move words such as “Running man.” Selection changes push browser history entries with their URL parameters; Back and Forward restore the style, move, and character. The website uses in-memory selections and browser history.
 - Clip delivery preserves GLB bytes through explicit gzip transport and automatic HTTP decompression.
 - The native studio lists the entire library and loads sources on selection, keeping its initial action set compact. Selected libraries resolve inside this project.
@@ -26,8 +27,8 @@ The automated checks cover:
 - Dependency copyright notices, character asset credits, and the complete GPL extension source accompany the website and installation archive. Character exports embed their applicable credits; Blender artifacts retain license and attribution texts.
 - TypeScript checking, source hash validation, GLB structure validation, and the Vite production build pass. Packaged runtime assets occupy approximately 728 MiB, with Blender sources kept in Git.
 
-Browser review covered complete Man and Woman models, solo character selection, all 128 Go-go character choices with history navigation and reload, paired merengue playback, OS dark mode, and the packaged preview's compressed delivery. The source's historical dance review records remain under `source-review-records/`.
+Browser review covered complete Man and Woman models, solo character selection, paired merengue playback, OS dark mode, and the packaged preview's compressed delivery. The source's historical dance review records remain under `source-review-records/`.
 
 These checks establish asset coverage and structural playback. Each procedural study and provisional export retains its review status; dance accuracy, foot placement, hand contacts, performer clearance, and loop seams remain individual visual review tasks.
 
-Run `npm run check`, `npm test`, `npm run build`, and `python scripts/import_assets.test.py`. Run `scripts/dance_tools.test.py`, `scripts/wardrobe.test.py`, and `scripts/link_wardrobe.test.py` with `blender --factory-startup --background --python-exit-code 1 --python <script>`. Run `scripts/character_library.test.py` with MPFB enabled using `blender --background --python-exit-code 1 --python scripts/character_library.test.py`. The [Blender guide](blender.md) describes authoring and extension installation.
+Run `npm run check`, `npm test`, and `npm run build`. Run `scripts/dance_tools.test.py`, `scripts/wardrobe.test.py`, and `scripts/link_wardrobe.test.py` with `blender --factory-startup --background --python-exit-code 1 --python <script>`. Run `scripts/character_library.test.py` with MPFB enabled using `blender --background --python-exit-code 1 --python scripts/character_library.test.py`. The [Blender guide](blender.md) describes authoring and extension installation.

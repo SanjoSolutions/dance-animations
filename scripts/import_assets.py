@@ -10,6 +10,7 @@ from collections import Counter
 import copy
 import hashlib
 import json
+import math
 from pathlib import Path
 import re
 import shutil
@@ -184,13 +185,24 @@ def participants(document, animation):
 
 def retrieve_playback_variants(entry):
     """Expose shared-origin solo action slots as character choices."""
-    if entry['style'] == 'gogo' and len(entry['performers']) > 1:
+    if entry['style'] in {'jazz', 'gogo'} and len(entry['performers']) > 1:
         # The Man choice retains existing library URLs.
-        return [dict(entry, id=entry['id'] if actor == 'man' else f'{entry["id"]}_{actor}',
+        variants = [dict(entry, id=entry['id'] if actor == 'man' else f'{entry["id"]}_{actor}',
                      label=f'{entry["label"]} · {actor.capitalize()}', performers=[actor])
                 for actor in entry['performers']]
     else:
-        return [entry]
+        variants = [dict(entry)]
+    for variant in variants:
+        if variant['style'] == 'jazz':
+            # The saved Euler studies face opposite sides; the quaternion kick faces forward.
+            source = (Path(variant['sourceFile']).stem if variant.get('sourceFile')
+                      else variant['id'].removesuffix('_woman').removesuffix('_man'))
+            if source != 'jazz_kick_front_left' and variant['status'] == 'Saved-source draft preview':
+                actor = variant['performers'][0]
+                variant['previewRotation'] = -math.pi / 2 if actor == 'man' else math.pi / 2
+            else:
+                variant.pop('previewRotation', None)
+    return variants
 
 
 def main():
