@@ -1,0 +1,113 @@
+{
+  "clip": "salsa_cross_body_outside_turn",
+  "date": "2026-10-04",
+  "units": "meters",
+  "frameRange": [
+    0,
+    160
+  ],
+  "fps": 24,
+  "duration": 6.666666507720947,
+  "animationName": "salsa_cross_body_outside_turn.review",
+  "blenderVersion": "5.2.2 LTS",
+  "sourceVersion": [
+    5,
+    2,
+    45
+  ],
+  "dependencies": {
+    "animations/salsa/sources/salsa_cross_body_outside_turn.blend": "76d481af4de395e251975b8a910d7f4cda6528ffd62a1edf1f5d01e31106683d",
+    "animations/shared_scene_data.blend": "c0ffb9e16789f1b15c9e4b8b55097bdd1658e1634e6cf8dcf6ccf9a683b5e094",
+    "assets/characters/mpfb-characters.blend": "3e422c42ec5ffc3dec22d18521c0c95125e40bfed4a599cb0c2ec0ee633b9e3b",
+    "models/mpfb-man.glb": "a0f54db5aaae69e41d23591b93a1afcea43f93096cc4ef580a1aa18d9b5014cd",
+    "models/mpfb-woman.glb": "c5c813bac76172b8b36dd0852fa455a951fc8c2b0ef1e2ef52d5f9b8516e6754",
+    "models/wardrobe/latin/mpfb-man.glb": "f371474363b76203f92704e65152cbf2af162d51ff57ffff6677ce715e23453e",
+    "models/wardrobe/latin/mpfb-woman.glb": "2f07cb5a2e136ffb8e47f7257a13e53c1e6e8f68671c857c6fe495629dae9e0c"
+  },
+  "exportSha256": "8760caae67f1f1415938aeac880952a38208c9edac9e28fb82f074f2f995e169",
+  "exportBytes": 579072,
+  "originalExportSha256": "71dc58f5c814f128b38534fb6d40238af2e5493e413661a9029e4f58dcb31c05",
+  "changedTracks": [
+    "DEF-breastL.position"
+  ],
+  "preservedTracks": 1259,
+  "repairedPositionSamples": 161,
+  "tolerances": {
+    "torsoLocalBone": 0.0003,
+    "torsoLocalSkin": 0.0003,
+    "integerNativePosition": 1e-05,
+    "fractionalNativePosition": 0.005
+  },
+  "results": [
+    {
+      "revision": "original",
+      "file": "models/mpfb-man.glb",
+      "samples": 641,
+      "chestVerticesAboveFortyPercentWeight": 116,
+      "maxTorsoLocalBoneDrift": 0.9651943765203568,
+      "maxTorsoLocalSkinDrift": 0.9651944343073547,
+      "surfaceCoverage": "evaluated chest vertices",
+      "maxNativePositionError": 0.9651954586314611,
+      "maxIntegerNativePositionError": 0.9651954586314611
+    },
+    {
+      "revision": "original",
+      "file": "models/wardrobe/latin/mpfb-man.glb",
+      "samples": 641,
+      "chestVerticesAboveFortyPercentWeight": 0,
+      "maxTorsoLocalBoneDrift": 0.9651943765203568,
+      "maxTorsoLocalSkinDrift": null,
+      "surfaceCoverage": "chest body surface masked by Latin clothing",
+      "maxNativePositionError": 0.9651954586314611,
+      "maxIntegerNativePositionError": 0.9651954586314611
+    },
+    {
+      "revision": "repaired",
+      "file": "models/mpfb-man.glb",
+      "samples": 641,
+      "chestVerticesAboveFortyPercentWeight": 116,
+      "maxTorsoLocalBoneDrift": 1.6384671605209357e-05,
+      "maxTorsoLocalSkinDrift": 2.4667653257352793e-05,
+      "surfaceCoverage": "evaluated chest vertices",
+      "maxNativePositionError": 0.0033314602641728096,
+      "maxIntegerNativePositionError": 2.235201267227409e-07
+    },
+    {
+      "revision": "repaired",
+      "file": "models/wardrobe/latin/mpfb-man.glb",
+      "samples": 641,
+      "chestVerticesAboveFortyPercentWeight": 0,
+      "maxTorsoLocalBoneDrift": 1.6384671605209357e-05,
+      "maxTorsoLocalSkinDrift": null,
+      "surfaceCoverage": "chest body surface masked by Latin clothing",
+      "maxNativePositionError": 0.0033314602641728096,
+      "maxIntegerNativePositionError": 2.235201267227409e-07
+    }
+  ],
+  "generatorRevision": "ea7972601a13183f454fcd094897fbb34838c48c",
+  "helperHashes": {
+    "scripts/open_studio.py": "9b87ca52e05ab65936ad880ed3053966bdf7def07fc380c0dbdb87a1bbf7e905",
+    "scripts/dance_tools.py": "8ded18f8a3f660fbb0b67be330014443c63d12f3daa49e10215a715f24dc0b29",
+    "scripts/player_assets/animation_files.py": "f7185f237050292ab942278d32b509d98650993fad1da6167113651f53ce77df",
+    "scripts/player_assets/animation_export_evaluation.py": "0a651813b9bee7c28c17e79ecc3d11ed34557310b097419e064cd51d3028e408",
+    "src/clip-binding.ts": "91cb20b4b960975c6ad6cb9dbb2c61edb345ac058344fe25ba95c4763a8c6652"
+  },
+  "coverage": {
+    "authoredControls": "Existing source retained; chest/torso deformation evaluated through native controls. Choreographic review retains its recorded procedural-study status.",
+    "savedSourcePlayback": "Fresh Blender 5.2.2 startup through scripts/open_studio.py; native chooser selected salsa_cross_body_outside_turn; frames 0\u2013160 at 24 FPS.",
+    "deformationBake": "Saved-source draft preview retained. This repair samples evaluated native deformation; a new Action Bakery bake belongs to separate delivery.",
+    "runtimeExport": "One translation track replaced from 161 integer source frames. All 1,259 other channels retain their decoded times and values; single animation identity and duration retained. Standard Meshopt fallback buffer metadata restored during encoding.",
+    "visualReview": "Chromium/Three.js with actual MPFB base mesh, before/after rendered at frames 0, 40, 80, 100, 120, 160; viewpoint follows torso heading. Screenshot records frame 100.",
+    "skinCoverage": "116 Man base-body vertices with left-chest weight above 40%, evaluated at 641 quarter-frame poses. Latin chest body vertices are masked by clothing; Latin joints checked through the full move.",
+    "regressionCoverage": "Both chest joints for Man and Woman, with both base and Latin outfit skeletons, at 641 poses including the endpoint. Test failed on original GLB and passes on repaired GLB.",
+    "checks": {
+      "npm run check": "passed (3,582 runtime variants, 3,500 source hashes, music and licensing)",
+      "npm test": "passed (40 tests)",
+      "npm run build": "passed (3,582 packaged variants)",
+      "git diff --check": "passed",
+      "python scripts/lfs_policy.py check": "passed"
+    },
+    "sourceProvenance": "Source/catalog/inventory bytes retained; catalog status remains Saved-source draft preview.",
+    "remainingScope": "Native versus runtime fractional positions retain integer-sampled interpolation error, measured at 3.3315 mm; stored integer poses agree within 0.000224 mm. Foot contacts, full-body clearance, and broader dance review retain historical coverage."
+  }
+}
