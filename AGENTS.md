@@ -7,7 +7,7 @@ Co-authored-by: Codex <noreply@openai.com>
 ## GitHub
 
 Identify Codex-authored GitHub communication as written by Codex.
-Publish only after the user approves the local quality review.
+Publish only to main after the user approves the local quality review.
 
 ## Assets
 
