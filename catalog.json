@@ -22655,7 +22655,8 @@
       "originalExportSha256": null,
       "sourceSha256": "2dd0643a602581c47839948e7005e57ddd4be550d1e3dc22e68e0f495ddff53c",
       "animationName": "jazz_isolation_head.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_isolation_head_woman",
@@ -22671,7 +22672,8 @@
       "originalExportSha256": null,
       "sourceSha256": "2dd0643a602581c47839948e7005e57ddd4be550d1e3dc22e68e0f495ddff53c",
       "animationName": "jazz_isolation_head.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_kick_front_left",
@@ -22719,7 +22721,8 @@
       "originalExportSha256": null,
       "sourceSha256": "e10250d5d8914e493465a2ad9b4e4465a5a67f896977925882da6078893dad58",
       "animationName": "jazz_passe_turn_left.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_passe_turn_left_woman",
@@ -22735,7 +22738,8 @@
       "originalExportSha256": null,
       "sourceSha256": "e10250d5d8914e493465a2ad9b4e4465a5a67f896977925882da6078893dad58",
       "animationName": "jazz_passe_turn_left.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_contraction",
@@ -22751,7 +22755,8 @@
       "originalExportSha256": null,
       "sourceSha256": "8e9208cdabdbd6e587b20930d07fb54826b48184c8e161ab08958d05fd72f6e9",
       "animationName": "jazz_position_contraction.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_contraction_woman",
@@ -22767,7 +22772,8 @@
       "originalExportSha256": null,
       "sourceSha256": "8e9208cdabdbd6e587b20930d07fb54826b48184c8e161ab08958d05fd72f6e9",
       "animationName": "jazz_position_contraction.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_high_v",
@@ -22783,7 +22789,8 @@
       "originalExportSha256": null,
       "sourceSha256": "96921e83dee43afc8b25dbb4bdcd7c7df1631d3ac729fb7540e8ad44ace070bc",
       "animationName": "jazz_position_high_v.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_high_v_woman",
@@ -22799,7 +22806,8 @@
       "originalExportSha256": null,
       "sourceSha256": "96921e83dee43afc8b25dbb4bdcd7c7df1631d3ac729fb7540e8ad44ace070bc",
       "animationName": "jazz_position_high_v.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_fourth_left",
@@ -22815,7 +22823,8 @@
       "originalExportSha256": null,
       "sourceSha256": "cb5b97e0751d0d71b47ee37be0e9d24489bb015c041557a7aa12fc42740713ef",
       "animationName": "jazz_position_jazz_fourth_left.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_fourth_left_woman",
@@ -22831,7 +22840,8 @@
       "originalExportSha256": null,
       "sourceSha256": "cb5b97e0751d0d71b47ee37be0e9d24489bb015c041557a7aa12fc42740713ef",
       "animationName": "jazz_position_jazz_fourth_left.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_fourth_right",
@@ -22847,7 +22857,8 @@
       "originalExportSha256": null,
       "sourceSha256": "0adf97c94df9e772a8473472073871fe36441948d024ab5f16b7d173c2cd55e4",
       "animationName": "jazz_position_jazz_fourth_right.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_fourth_right_woman",
@@ -22863,7 +22874,8 @@
       "originalExportSha256": null,
       "sourceSha256": "0adf97c94df9e772a8473472073871fe36441948d024ab5f16b7d173c2cd55e4",
       "animationName": "jazz_position_jazz_fourth_right.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_l_left",
@@ -22879,7 +22891,8 @@
       "originalExportSha256": null,
       "sourceSha256": "80d28e59d0decfc7d9259f11c32a912b2896937f50908c5093f89e4d703f4c21",
       "animationName": "jazz_position_jazz_l_left.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_l_left_woman",
@@ -22895,7 +22908,8 @@
       "originalExportSha256": null,
       "sourceSha256": "80d28e59d0decfc7d9259f11c32a912b2896937f50908c5093f89e4d703f4c21",
       "animationName": "jazz_position_jazz_l_left.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_l_right",
@@ -22911,7 +22925,8 @@
       "originalExportSha256": null,
       "sourceSha256": "ec633f6b88a243853f57411f829a0d308cf5572aca3bee9a90f8c160ce7ae636",
       "animationName": "jazz_position_jazz_l_right.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_jazz_l_right_woman",
@@ -22927,7 +22942,8 @@
       "originalExportSha256": null,
       "sourceSha256": "ec633f6b88a243853f57411f829a0d308cf5572aca3bee9a90f8c160ce7ae636",
       "animationName": "jazz_position_jazz_l_right.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_low_v",
@@ -22943,7 +22959,8 @@
       "originalExportSha256": null,
       "sourceSha256": "f40e91cc85e3cc24d5a1f8f44f2bdf2f08d31f3ff3d64bbfb6d4953b9064342a",
       "animationName": "jazz_position_low_v.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_low_v_woman",
@@ -22959,7 +22976,8 @@
       "originalExportSha256": null,
       "sourceSha256": "f40e91cc85e3cc24d5a1f8f44f2bdf2f08d31f3ff3d64bbfb6d4953b9064342a",
       "animationName": "jazz_position_low_v.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_parallel_first",
@@ -22975,7 +22993,8 @@
       "originalExportSha256": null,
       "sourceSha256": "25b181486eb95680784550e63d5c55b14a98992246f3d5524bdb15972c1f7271",
       "animationName": "jazz_position_parallel_first.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_parallel_first_woman",
@@ -22991,7 +23010,8 @@
       "originalExportSha256": null,
       "sourceSha256": "25b181486eb95680784550e63d5c55b14a98992246f3d5524bdb15972c1f7271",
       "animationName": "jazz_position_parallel_first.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_parallel_second",
@@ -23007,7 +23027,8 @@
       "originalExportSha256": null,
       "sourceSha256": "a0d4d6bd65b9d2c14fff33b71e0a7ea8f412c98f3c0d6fc5fb5739e8efe9ca1d",
       "animationName": "jazz_position_parallel_second.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_parallel_second_woman",
@@ -23023,7 +23044,8 @@
       "originalExportSha256": null,
       "sourceSha256": "a0d4d6bd65b9d2c14fff33b71e0a7ea8f412c98f3c0d6fc5fb5739e8efe9ca1d",
       "animationName": "jazz_position_parallel_second.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_release",
@@ -23039,7 +23061,8 @@
       "originalExportSha256": null,
       "sourceSha256": "1d5964f243e06588cc1bfb325193d249791183195e4d732e628da5f183be2d12",
       "animationName": "jazz_position_release.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_release_woman",
@@ -23055,7 +23078,8 @@
       "originalExportSha256": null,
       "sourceSha256": "1d5964f243e06588cc1bfb325193d249791183195e4d732e628da5f183be2d12",
       "animationName": "jazz_position_release.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_rounded_first",
@@ -23071,7 +23095,8 @@
       "originalExportSha256": null,
       "sourceSha256": "6be51ba43d76bf30ea017e2a392c3bac4007bea1659c71420f521a791e07352e",
       "animationName": "jazz_position_rounded_first.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_rounded_first_woman",
@@ -23087,7 +23112,8 @@
       "originalExportSha256": null,
       "sourceSha256": "6be51ba43d76bf30ea017e2a392c3bac4007bea1659c71420f521a791e07352e",
       "animationName": "jazz_position_rounded_first.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_t_arms",
@@ -23103,7 +23129,8 @@
       "originalExportSha256": null,
       "sourceSha256": "2348990bfcdc1267b98f45be4e210fc6eaecbae0988affb7b807585fc1e4b167",
       "animationName": "jazz_position_t_arms.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_t_arms_woman",
@@ -23119,7 +23146,8 @@
       "originalExportSha256": null,
       "sourceSha256": "2348990bfcdc1267b98f45be4e210fc6eaecbae0988affb7b807585fc1e4b167",
       "animationName": "jazz_position_t_arms.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_turned_out_first",
@@ -23135,7 +23163,8 @@
       "originalExportSha256": null,
       "sourceSha256": "52e3190f6cb50c1a3a9403e7005f4e7a8800ad73d3ff2f4184aefc6ceb09f24e",
       "animationName": "jazz_position_turned_out_first.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_turned_out_first_woman",
@@ -23151,7 +23180,8 @@
       "originalExportSha256": null,
       "sourceSha256": "52e3190f6cb50c1a3a9403e7005f4e7a8800ad73d3ff2f4184aefc6ceb09f24e",
       "animationName": "jazz_position_turned_out_first.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_position_turned_out_second",
@@ -23167,7 +23197,8 @@
       "originalExportSha256": null,
       "sourceSha256": "8bd21789c12e53ca453aa12b1e88102b115eb5fde510e8dee303c6f2e72253ef",
       "animationName": "jazz_position_turned_out_second.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_position_turned_out_second_woman",
@@ -23183,7 +23214,8 @@
       "originalExportSha256": null,
       "sourceSha256": "8bd21789c12e53ca453aa12b1e88102b115eb5fde510e8dee303c6f2e72253ef",
       "animationName": "jazz_position_turned_out_second.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jazz_step_touch",
@@ -23199,7 +23231,8 @@
       "originalExportSha256": null,
       "sourceSha256": "34678e14dfc6e3e3ea9b764fae053f49d99ea50ff8edcf977bc8e67551323f0c",
       "animationName": "jazz_step_touch.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": -1.5707963267948966
     },
     {
       "id": "jazz_step_touch_woman",
@@ -23215,7 +23248,8 @@
       "originalExportSha256": null,
       "sourceSha256": "34678e14dfc6e3e3ea9b764fae053f49d99ea50ff8edcf977bc8e67551323f0c",
       "animationName": "jazz_step_touch.review",
-      "status": "Saved-source draft preview"
+      "status": "Saved-source draft preview",
+      "previewRotation": 1.5707963267948966
     },
     {
       "id": "jive_american_spin",

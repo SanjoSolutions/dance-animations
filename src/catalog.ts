@@ -6,6 +6,8 @@ export interface DanceAnimation {
   duration: number;
   file: string;
   transportFile?: string;
+  /** Preview heading around the vertical axis, in radians. */
+  previewRotation?: number;
   sourceFile: string | null;
   animationName: string;
   status: string;
