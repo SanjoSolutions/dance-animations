@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "reviews": [
+    {
+      "move": "follower_underarm_right",
+      "captures": 61,
+      "performers": "Man + Woman",
+      "exportStatus": "Saved-source draft preview",
+      "animation": "follower_underarm_right:partners"
+    },
+    {
+      "move": "follower_double_turn",
+      "captures": 61,
+      "performers": "Man + Woman",
+      "exportStatus": "Saved-source draft preview",
+      "animation": "follower_double_turn:partners"
+    },
+    {
+      "move": "inside_turn_pass",
+      "captures": 61,
+      "performers": "Man + Woman",
+      "exportStatus": "Saved-source draft preview",
+      "animation": "inside_turn_pass:partners"
+    },
+    {
+      "move": "side_break_right",
+      "captures": 61,
+      "performers": "Man + Woman",
+      "exportStatus": "Saved-source draft preview",
+      "animation": "side_break_right:partners"
+    }
+  ]
+}

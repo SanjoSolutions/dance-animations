@@ -135,6 +135,8 @@ def register():
         track_chooser.TRACKCHOOSER_PT_tracks.append(draw_export)
     animation_files.prepare_animation_file()
     scene = bpy.context.scene
+    from animation_joint_frames import AnimationJointFrames
+    AnimationJointFrames(scene).restore()
     if len(scene.GRT_Action_Bakery_Rig_Pairs) == 0:
         for actor in ('Man', 'Woman'):
             pair = scene.GRT_Action_Bakery_Rig_Pairs.add()
