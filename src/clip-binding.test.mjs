@@ -21,7 +21,7 @@ const catalog = JSON.parse(await readFile('catalog.json', 'utf8'));
 const man = await load(catalog.models.man.file);
 const woman = await load(catalog.models.woman.file);
 
-for (const [style, label, count] of [['jazz', 'Jazz', 18], ['gogo', 'Go-go', 64]]) {
+for (const [style, label, count] of [['jazz', 'Jazz', 18], ['gogo', 'Go-go', 64], ['solo_disco_dance', 'Disco', 1]]) {
   test(`every ${label} move offers Man and Woman solos with their original tracks and provenance`, async () => {
     const moves = retrieveMoves(catalog.animations, style);
     assert.equal(moves.length, count);

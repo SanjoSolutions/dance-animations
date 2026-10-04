@@ -185,7 +185,7 @@ def participants(document, animation):
 
 def retrieve_playback_variants(entry):
     """Expose shared-origin solo action slots as character choices."""
-    if entry['style'] in {'jazz', 'gogo'} and len(entry['performers']) > 1:
+    if entry['style'] in {'jazz', 'gogo', 'solo_disco_dance'} and len(entry['performers']) > 1:
         # The Man choice retains existing library URLs.
         variants = [dict(entry, id=entry['id'] if actor == 'man' else f'{entry["id"]}_{actor}',
                      label=f'{entry["label"]} · {actor.capitalize()}', performers=[actor])

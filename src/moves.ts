@@ -27,6 +27,7 @@ export function retrieveMoves(entries: DanceAnimation[], style: string): DanceMo
       name = name.replace(/^(man|woman)_/, '');
     }
     if (!actorRemoved) name = name.replace(/_(man|woman)$/, '');
+    if (name === 'man' || name === 'woman') name = 'routine';
     const solo = entry.performers.length === 1;
     const id = solo ? name : `${name}:partners`;
     const group = groups.get(id) ?? {

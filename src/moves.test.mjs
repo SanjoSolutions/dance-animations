@@ -14,6 +14,17 @@ test('style prefixes and character suffixes become separate selectors', () => {
   assert.equal(move.label, 'Basic forward back');
   assert.equal(retrieveVariant(move, 'woman').id, 'solo_rumba_basic_forward_back_man');
 });
+test('a routine named after its style groups both solo character choices', () => {
+  const moves = retrieveMoves([
+    entry('solo_disco_dance', ['man'], 'solo_disco_dance'),
+    entry('solo_disco_dance_woman', ['woman'], 'solo_disco_dance'),
+  ], 'solo_disco_dance');
+  assert.equal(moves.length, 1);
+  assert.equal(moves[0].label, 'Routine');
+  assert.ok(moves[0].solo);
+  assert.equal(retrieveVariant(moves[0], 'man').id, 'solo_disco_dance');
+  assert.equal(retrieveVariant(moves[0], 'woman').id, 'solo_disco_dance_woman');
+});
 test('a move name retains meaningful words and recognizes style aliases', () => {
   assert.equal(retrieveMoves([entry('shuffle_man_running_man',['man'],'shuffle')],'shuffle')[0].label,'Running man');
   assert.equal(retrieveMoves([entry('house_woman_jacking',['woman'],'house_dance')],'house_dance')[0].label,'Jacking');
