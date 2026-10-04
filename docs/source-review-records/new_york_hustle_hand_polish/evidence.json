@@ -1,0 +1,1309 @@
+{
+  "author": "Codex",
+  "date": "2026-10-04",
+  "issue": "https://github.com/SanjoSolutions/dance-animations/issues/8",
+  "baseline": "7b8535fa37873dca51ac9f07b85e82918d5fa9b3",
+  "blender": "5.2.2 LTS (d13f752e3b9c)",
+  "clips": [
+    {
+      "id": "new_york_hustle_alternating_turns",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_alternating_turns.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_alternating_turns.glb",
+      "baselineSourceSha256": "0c6de97ec654d5ab1126126eb846ab8cfe931d9fb429113c482d00a43956fcb1",
+      "historicalOriginalSourceSha256": "273905d9f666cb5fc180e4ce71a664d86743439f64dfb1d29bfbd72c631b791b",
+      "sourceSha256": "237e81c4b413d477a46633055a85ca8ac88fc2cf454a7bf2b42a6d6c6e57c23e",
+      "baselineRuntimeSha256": "1771269f2c2e220c1114e215ef2a34a01f65099573ef7689151dee9e3d3b97ae",
+      "runtimeSha256": "4a8e84f5d4352721f0e5739249d36d95f7cadd1454f3f560f9521cb61fc22916",
+      "animationName": "new_york_hustle_alternating_turns.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 97,
+      "maximumAuthoredPalmGap": 0.004626269062732132,
+      "savedSourceReview": {
+        "id": "new_york_hustle_alternating_turns",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.0100233627625044,
+        "worstGapFrame": 130.0,
+        "maximumWristStep": 0.3374677896499634,
+        "maximumBakeError": 1.2993812561035156e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "R"
+          ],
+          131.0
+        ],
+        "bodyChannelSha256": "d09ed34ec1f0b2e1b156e883fb2e082b9a01892e37ac78af513f9ee4ef6a5bd6",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_basic_closed",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_closed.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_basic_closed.glb",
+      "baselineSourceSha256": "a2c19d88349072e4541b69eac4f141cc585f5f9e57828edfd411c175c7290284",
+      "historicalOriginalSourceSha256": "18fe5c6af24e63a57c0908dae00e75857a20b66598c4f78c983846031e124151",
+      "sourceSha256": "039fce1a4c0b893d68c71949c644693e33842d442a7d91a5c5e0b53db591b093",
+      "baselineRuntimeSha256": "1552357a8491a5fe1680f4c418ad917adc3944245567aa39378c11f78929fa2f",
+      "runtimeSha256": "8be38412208570b26263422a6ea6afb0995a348de189747a4d9e452925720844",
+      "animationName": "new_york_hustle_basic_closed.baked",
+      "duration": 3.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 17,
+      "maximumAuthoredPalmGap": 0.004000908655189275,
+      "savedSourceReview": {
+        "id": "new_york_hustle_basic_closed",
+        "sampledFrames": 145,
+        "maximumPalmGap": 0.004009559573310172,
+        "worstGapFrame": 51.5,
+        "maximumWristStep": 0.009003468789160252,
+        "maximumBakeError": 9.991228580474854e-06,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          6.5
+        ],
+        "bodyChannelSha256": "a26730fcb929fa80b49c1ff5f788ab5a27f266c11f148c33b616f74b35ec5940",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_basic_double",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_double.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_basic_double.glb",
+      "baselineSourceSha256": "aee29e8189b637ba96ba347a608af0473c42edeaf35401c80fcd35daedf7c079",
+      "historicalOriginalSourceSha256": "2b8588f4bb7f39b4af913910f9ba6a3fbb84bf90e59855d6a55de6c50ea2b3ae",
+      "sourceSha256": "05416e503d70868de510405055e9a63c50d6f7bab5fb293c1d182ad1e908dea2",
+      "baselineRuntimeSha256": "b89f774ab9663350ae033661fedf8bb41ec5832b5b1c67e183ae4dba683a2b36",
+      "runtimeSha256": "d00698e303744f1852aadd8d696395ae047b9edb1a0ee7c8d5fab965918dc14c",
+      "animationName": "new_york_hustle_basic_double.baked",
+      "duration": 3.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 17,
+      "maximumAuthoredPalmGap": 0.004000187107987021,
+      "savedSourceReview": {
+        "id": "new_york_hustle_basic_double",
+        "sampledFrames": 145,
+        "maximumPalmGap": 0.004003644254912642,
+        "worstGapFrame": 8.5,
+        "maximumWristStep": 0.009003468789160252,
+        "maximumBakeError": 1.008063554763794e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "L"
+          ],
+          33.5
+        ],
+        "bodyChannelSha256": "e9bbaad39c245729f39c913329a0e60866d3d6b845d2786e8f08a5500e38cde1",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_basic_in_place",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_in_place.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_basic_in_place.glb",
+      "baselineSourceSha256": "c8e04b76840dbd86f726a96117a1cb8366dbf26c0d1a23b63d77a6a2f57d56b3",
+      "historicalOriginalSourceSha256": "086aae38ae3c637068cf0fdc779a09e2433b1fe4b4552544bf6c1470013b9eec",
+      "sourceSha256": "51afa39f05cbe9b1157c6cbfebfd54ae695a44e2a99466c79ee4a6c99bfad019",
+      "baselineRuntimeSha256": "f277d6ba35677b12ff3b4ceb68316f472384a9d7234cd7ac31458301303d4c0e",
+      "runtimeSha256": "f10b4e885e36c6a9b8b76abbed194c92acd009236ec0842c6ea058d1a6f0228c",
+      "animationName": "new_york_hustle_basic_in_place.baked",
+      "duration": 3.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 17,
+      "maximumAuthoredPalmGap": 0.00400042550141236,
+      "savedSourceReview": {
+        "id": "new_york_hustle_basic_in_place",
+        "sampledFrames": 145,
+        "maximumPalmGap": 0.00400042550141236,
+        "worstGapFrame": 33.0,
+        "maximumWristStep": 0.005348854698240757,
+        "maximumBakeError": 1.0106712579727173e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          3.5
+        ],
+        "bodyChannelSha256": "77195a863f068c24483fb35b037be6b8666ba446190f14eb50375f10b81d67a1",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_basic_open",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_open.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_basic_open.glb",
+      "baselineSourceSha256": "1cde6eed1097a600961134e0f037ee02447c16a81c8b49095ce3c97a8c369dba",
+      "historicalOriginalSourceSha256": "2cd1dbfe967c8f86da54f37eec164fcff27c0b42c440bc16d7783e56c92238a6",
+      "sourceSha256": "ed4bf129c408e81c4935f859cecfb69859a56ae1ae887a548250c1a8e527b2ce",
+      "baselineRuntimeSha256": "06c7b3f97ef2c20ffdb456519cfc0d599009a3622e561d75ced3ceb83208b95f",
+      "runtimeSha256": "fd878f93fad3851777ba03603a1f1cddaaa67547cd03bf18b0e834d64c25ab23",
+      "animationName": "new_york_hustle_basic_open.baked",
+      "duration": 3.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 17,
+      "maximumAuthoredPalmGap": 0.004000187081652548,
+      "savedSourceReview": {
+        "id": "new_york_hustle_basic_open",
+        "sampledFrames": 145,
+        "maximumPalmGap": 0.004000352832916748,
+        "worstGapFrame": 25.5,
+        "maximumWristStep": 0.0117390938103199,
+        "maximumBakeError": 1.008063554763794e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          31.5
+        ],
+        "bodyChannelSha256": "e9bbaad39c245729f39c913329a0e60866d3d6b845d2786e8f08a5500e38cde1",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_combination",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_combination.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_combination.glb",
+      "baselineSourceSha256": "56fc2215d0e7fe15811e0281f86760becb669fdf45ef4f4604bd94e5285a941e",
+      "historicalOriginalSourceSha256": "750a7d3798b776aa6da4f277071107ec1cec05497dfa1b70959cbda4f6aadbc3",
+      "sourceSha256": "8164dd70a77788f65389d03482ce84dc0db921e1f860bd532248534d8108ecab",
+      "baselineRuntimeSha256": "d0c61bc52f806d2caece2005336669158c41987d673d8397247128e8bc349da5",
+      "runtimeSha256": "6ddffd44b239872a51db700f585d4ad9525d38fa80a2b77605870687623f737f",
+      "animationName": "new_york_hustle_combination.baked",
+      "duration": 12.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 101,
+      "maximumAuthoredPalmGap": 0.004008535449888645,
+      "savedSourceReview": {
+        "id": "new_york_hustle_combination",
+        "sampledFrames": 577,
+        "maximumPalmGap": 0.005553021627772818,
+        "worstGapFrame": 37.5,
+        "maximumWristStep": 0.19204843044281006,
+        "maximumBakeError": 1.2755393981933594e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          30.0
+        ],
+        "bodyChannelSha256": "75e44471ba35446613b80e613183af2f4e53640fde5eddcecfbfb7ce1b32fb95",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_counter_promenade_entry_exit",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_counter_promenade_entry_exit.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_counter_promenade_entry_exit.glb",
+      "baselineSourceSha256": "ee60c121d0ebf6ef99022c232e3a33dd3f09f11266d57b3db82c400c3c02f938",
+      "historicalOriginalSourceSha256": "6d7ce120c6e8916357e74910619f793279be47b796774d60f071f89e457d9685",
+      "sourceSha256": "96be76296b16178fc160c937dff2f73abd2a581bf425258e9cc6d7f47b7a2a2b",
+      "baselineRuntimeSha256": "13c1d0e0e322686196cc5e9da38523991505925a32015d65b0ec89c1cf160429",
+      "runtimeSha256": "368820e1d3097d7ad5cf6c489034d5552609f375f9f6d845c2ff6be1c11bcf3a",
+      "animationName": "new_york_hustle_counter_promenade_entry_exit.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000187427882592,
+      "savedSourceReview": {
+        "id": "new_york_hustle_counter_promenade_entry_exit",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004038433556634042,
+        "worstGapFrame": 123.0,
+        "maximumWristStep": 0.3556567132472992,
+        "maximumBakeError": 1.2814998626708984e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "R"
+          ],
+          109.0
+        ],
+        "bodyChannelSha256": "1cab9a3c3c47c39bb882628643f38aee61804ce2eff5b22128ac51542e05184f",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_cross_body_lead",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_cross_body_lead.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_cross_body_lead.glb",
+      "baselineSourceSha256": "b5fa51f60f4c980b347f604cd888b1df153af13fd68803c40e55ad62deba54e5",
+      "historicalOriginalSourceSha256": "9bc1c112ddfeec795808b7f14a3d7dc13aa6d03dad4d0cf36ae46af647b672ca",
+      "sourceSha256": "fec7751a1646f606cb1ffd9a54bb06103a2074294b8b9ee31b24f573ac6b75e4",
+      "baselineRuntimeSha256": "e0d7ef8ec402656ce7985344814c1b75f71d477f6e69f9af67ec1267756f9b10",
+      "runtimeSha256": "c54c473e4fb11af4899544d63ada1deb83d0b23661b8fc366c451897fe62cda0",
+      "animationName": "new_york_hustle_cross_body_lead.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.0040005457097247454,
+      "savedSourceReview": {
+        "id": "new_york_hustle_cross_body_lead",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.006361225712798781,
+        "worstGapFrame": 117.0,
+        "maximumWristStep": 0.06420385092496872,
+        "maximumBakeError": 1.2755393981933594e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "L"
+          ],
+          45.5
+        ],
+        "bodyChannelSha256": "610d0a73377db63485ab83e19ecf54c8ee4c050dd9e614c52388bfdef7c099d1",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_cuddle_entry_exit",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_cuddle_entry_exit.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_cuddle_entry_exit.glb",
+      "baselineSourceSha256": "4b1127ff09df3d4dc073855e65c4ef2376957fadca84b13d3daad711a651a804",
+      "historicalOriginalSourceSha256": "e9a3337aecbff965e55c452efa46946f4f2d6113b2eb365edad5f0a9d48e34d8",
+      "sourceSha256": "8c2a315477e8ab5329e81d12f84244792b3528f408251c2c8d71116333664074",
+      "baselineRuntimeSha256": "38bd6c1e53a501bd6621621ef6e27fe2a359f493406c7ae5f675963252808e31",
+      "runtimeSha256": "8b7f27e747bd79f7d369a9f0b02e2e653db9ac69232950298e422fe358aac1a8",
+      "animationName": "new_york_hustle_cuddle_entry_exit.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004004121810919055,
+      "savedSourceReview": {
+        "id": "new_york_hustle_cuddle_entry_exit",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004244087752073649,
+        "worstGapFrame": 51.0,
+        "maximumWristStep": 0.048071447759866714,
+        "maximumBakeError": 1.2040138244628906e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          42.5
+        ],
+        "bodyChannelSha256": "cbea819a04cbf80b84086f8e449009e7f882aec881d6084be2764ea104348588",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_follower_double_turn",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_double_turn.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_follower_double_turn.glb",
+      "baselineSourceSha256": "95f0a8fec0b32108f2171beaf0d25d7e446aab7faa26947d4adbe969147928ec",
+      "historicalOriginalSourceSha256": "38b91346b981033b1d669aba94dcf8a6d8915b8c8761287cac305793b2e20b0a",
+      "sourceSha256": "e985336c6cf27f25345d448cb3328fe3bc74c8b71fb687f36bcb87b317a76970",
+      "baselineRuntimeSha256": "7eef484353281be3fb476ea8137e082b2e188b95d7dfb083a9ca83fd79374ca1",
+      "runtimeSha256": "a0ca171e9522f2f21b8815367a26d80beac90d04b0fc67ddffe419c0264660ad",
+      "animationName": "new_york_hustle_follower_double_turn.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 145,
+      "maximumAuthoredPalmGap": 0.0040169137102677305,
+      "savedSourceReview": {
+        "id": "new_york_hustle_follower_double_turn",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.005709465742632776,
+        "worstGapFrame": 29.5,
+        "maximumWristStep": 0.2733439803123474,
+        "maximumBakeError": 1.2934207916259766e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "R"
+          ],
+          24.5
+        ],
+        "bodyChannelSha256": "c28ee83013743fa6d62d9234eadd49fdaf08208b8dd8f8799811aa9863e44299",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_follower_free_spin_left",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_free_spin_left.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_follower_free_spin_left.glb",
+      "baselineSourceSha256": "ccddc49e1fe81a6bde30e89939f8514fe09b36e141478738f76f519226a0816e",
+      "historicalOriginalSourceSha256": "a05b427ac8901f1d804c4d1cbd2f993b78a86cb65a8983739bad91ec2f7ba472",
+      "sourceSha256": "a62fcd406ca3c79049c886346939a3ae41933a982f18547286da134b842179d0",
+      "baselineRuntimeSha256": "5f6043c5402acdf65651ac4f92e8c0b6dd9903262336b3cdd44a2c00b5125355",
+      "runtimeSha256": "3b75664e477a1419b819b1141219afa425fed61abf09e9122d5af3ad9557b4db",
+      "animationName": "new_york_hustle_follower_free_spin_left.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.00399982931532453,
+      "savedSourceReview": {
+        "id": "new_york_hustle_follower_free_spin_left",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.0040025733873517875,
+        "worstGapFrame": 139.0,
+        "maximumWristStep": 0.07346084713935852,
+        "maximumBakeError": 1.1861324310302734e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "L"
+          ],
+          70.5
+        ],
+        "bodyChannelSha256": "36bb6c43ec9dd1a5b51310afc0a28c35b4394e2aef33c327bc2fc4b75901c0bd",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_follower_free_spin_right",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_free_spin_right.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_follower_free_spin_right.glb",
+      "baselineSourceSha256": "e4d5fbf9e00ee10498f52598261f05060ccaeb14ab78f4418e1e1ba018c93634",
+      "historicalOriginalSourceSha256": "7830c255dd176b9da987772245543f2b1f30f2e0440f85310227e6947faa9aad",
+      "sourceSha256": "8f886d82dd623ef79107d493df2b77679855a11bf2995feb14f72ee21b3bb26e",
+      "baselineRuntimeSha256": "6f4c0b94f5d90e8b3400657a1d22417209de9110c91fd652eea1921be0c9a1ef",
+      "runtimeSha256": "2f8fd3457d7e7fff3b1a86c0436872ec5bfa0d7f051ef4628d96b304989b46b8",
+      "animationName": "new_york_hustle_follower_free_spin_right.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000186913425039,
+      "savedSourceReview": {
+        "id": "new_york_hustle_follower_free_spin_right",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.0040037478507388416,
+        "worstGapFrame": 129.5,
+        "maximumWristStep": 0.08246322721242905,
+        "maximumBakeError": 1.2814998626708984e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "L"
+          ],
+          67.5
+        ],
+        "bodyChannelSha256": "30a01e127ae325bbce6d6f90492585c01504a4154266775061a7bc05a5d16742",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_follower_underarm_left",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_underarm_left.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_follower_underarm_left.glb",
+      "baselineSourceSha256": "ea9f538829eda8b6d7d432b91c622bb4b00b2692c91f1f90dbc9b828ba3a2954",
+      "historicalOriginalSourceSha256": "705cdcf15178d8477b6f82e64e2c08cc9cbe3abc8ddc493d188bccb2b85e8530",
+      "sourceSha256": "8c1a1f55a2f26d638bd13d6de1408bef6bc43cebb96aed321b4ad4bbca3987bf",
+      "baselineRuntimeSha256": "d33185d3e8de6842bd7e9f8a52c6c0cdfeb0df562ce4bfe513258d56faf727f0",
+      "runtimeSha256": "30354216f0a92720e71c80863a5300f366fa645dd0f038372d1fa2b4fccf868e",
+      "animationName": "new_york_hustle_follower_underarm_left.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 69,
+      "maximumAuthoredPalmGap": 0.004005672681642981,
+      "savedSourceReview": {
+        "id": "new_york_hustle_follower_underarm_left",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.00811790819565597,
+        "worstGapFrame": 71.5,
+        "maximumWristStep": 0.19204966723918915,
+        "maximumBakeError": 1.1920928955078125e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          30.0
+        ],
+        "bodyChannelSha256": "c7e89f2dfd4d0fc2da4e63232a200cc162cff1802040b78e4b09522f6e98ac27",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_follower_underarm_right",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_underarm_right.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_follower_underarm_right.glb",
+      "baselineSourceSha256": "0ae0bfcfedbe0ee5a959815dff35dbee3b1bea56215b6369cd1696a02807a401",
+      "historicalOriginalSourceSha256": "d876c31ad89a5d5e0256015f4facf4f8874c7d99479e6542f81c5ebf4c39323e",
+      "sourceSha256": "8549053d9d5a1881ed0f11a167847ddd9124782da0643cb092b1c7d71444dc32",
+      "baselineRuntimeSha256": "4d811d18b921fb976a5d8b6459491117db92cdf8aa29593ef993802cf563a4f9",
+      "runtimeSha256": "6160671e859ee714b1bc53b316e484c97dda7ce99e61e2bd2d60bc59a2cc9574",
+      "animationName": "new_york_hustle_follower_underarm_right.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 69,
+      "maximumAuthoredPalmGap": 0.0040045996283190255,
+      "savedSourceReview": {
+        "id": "new_york_hustle_follower_underarm_right",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.005553794450954286,
+        "worstGapFrame": 37.5,
+        "maximumWristStep": 0.19204966723918915,
+        "maximumBakeError": 1.2636184692382812e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          30.0
+        ],
+        "bodyChannelSha256": "faf7feb9fc3774444e7ff4e906bf3904c23a96f9e5d00e69607d384fec2164e2",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_inside_turn_pass",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_inside_turn_pass.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_inside_turn_pass.glb",
+      "baselineSourceSha256": "dbaff030865ef6cd1ca8765c91bbca1f6bf73f3d7f7f6c30a5fa5a56e3f97b6e",
+      "historicalOriginalSourceSha256": "441e25d05c4b0f206dab2184d1f0541dc5ad235ee893e90cbb6eba0d68b700cf",
+      "sourceSha256": "a8f99eedbeb4da226989d3671e896f22d1b249e7ecdfacd38b03756f09954a41",
+      "baselineRuntimeSha256": "c3602049992be58df2c819c8fb617f22ce44294a8ff88905d61da0685b57be00",
+      "runtimeSha256": "8b318da0e46ae94b260499c0fa1fd6c51c8a38064c888010a5761be574465ab6",
+      "animationName": "new_york_hustle_inside_turn_pass.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 145,
+      "maximumAuthoredPalmGap": 0.004008057725248048,
+      "savedSourceReview": {
+        "id": "new_york_hustle_inside_turn_pass",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004076599136173894,
+        "worstGapFrame": 126.5,
+        "maximumWristStep": 0.28327972093691045,
+        "maximumBakeError": 1.5497207641601562e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "R"
+          ],
+          130.5
+        ],
+        "bodyChannelSha256": "0592727046542ebbf351c6444af9a1fbfd2753cb87c619027042ab651711c0bd",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_leader_underarm_left",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_leader_underarm_left.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_leader_underarm_left.glb",
+      "baselineSourceSha256": "f64c8f3d16b8f2c4be772f9b3e955ff56c1303761a043d8f50d1f66934d100bb",
+      "historicalOriginalSourceSha256": "df3700ae57f6715b19b10c545456158a2ac3bf5361d5221db3da7ccdefdf6fb6",
+      "sourceSha256": "9920c667a51cb6ecbabcf4efce6c9e91d5408d317d6f53837aa4abc1734dd0c0",
+      "baselineRuntimeSha256": "a02556a761aac279908de7cbcec09407a444b4f0514cd394edfc13e18106450e",
+      "runtimeSha256": "a252a8d5b79092196806bd6fe51eb307c2938149f40af7d3465bcc7a710e7e53",
+      "animationName": "new_york_hustle_leader_underarm_left.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 69,
+      "maximumAuthoredPalmGap": 0.004005318488706882,
+      "savedSourceReview": {
+        "id": "new_york_hustle_leader_underarm_left",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004861153828327543,
+        "worstGapFrame": 43.5,
+        "maximumWristStep": 0.19355693459510803,
+        "maximumBakeError": 1.0125339031219482e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          30.0
+        ],
+        "bodyChannelSha256": "53f01c772c01f1fc2398995610c1ee1f1604641972c86a5573e99325561ed071",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_leader_underarm_right",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_leader_underarm_right.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_leader_underarm_right.glb",
+      "baselineSourceSha256": "0ca2bbbebf199d87d2e803e0f1990482ccf2912e0d4d1b775357c67035023c62",
+      "historicalOriginalSourceSha256": "c97c21b8794a02ea2c26964f38bf8159eee3622c1f3357fa389ea4020ff68f59",
+      "sourceSha256": "315c9a315532e027e9a61203e47e946d4a1f7421e2eed5d86c7ad6f042fad1d1",
+      "baselineRuntimeSha256": "a8e6b9582cfdd63f82f649bad0e980a6f3b5c1c9bd4284fd2c3fea524aa6c4e2",
+      "runtimeSha256": "69da5420e4d0c47df7623dca80204ece3540304a6eba7554ca1970053e57b809",
+      "animationName": "new_york_hustle_leader_underarm_right.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 69,
+      "maximumAuthoredPalmGap": 0.004005793904984071,
+      "savedSourceReview": {
+        "id": "new_york_hustle_leader_underarm_right",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.005376955576382541,
+        "worstGapFrame": 92.0,
+        "maximumWristStep": 0.19355693459510803,
+        "maximumBakeError": 1.0125339031219482e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          30.0
+        ],
+        "bodyChannelSha256": "49a678c95dc44fc42fd5f5b97d3180b7560bf3b1acd760089b855b298de3a626",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_left_side_pass",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_left_side_pass.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_left_side_pass.glb",
+      "baselineSourceSha256": "d8b5eea7e250a9b85e57e63e6f95c50fa2a8b91c390fdc6d98af36a233503bf9",
+      "historicalOriginalSourceSha256": "1f0717186a1dcc2af05018cd858c7698ca27e54c3b0d92fef8ac024255855553",
+      "sourceSha256": "b6b7474ca5f3a146f23eeaab05f444bcb0d62363bb26400abdb4d070fc545b48",
+      "baselineRuntimeSha256": "685b5e5f6ea14d3110db54144e82d51c0d30cac8af3a843f3b8dc67fde6ed4a5",
+      "runtimeSha256": "dfc7041e69043007d13f9dee673d2563beeb9817d71e20d1e96db6c5b778ff74",
+      "animationName": "new_york_hustle_left_side_pass.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000544812009758,
+      "savedSourceReview": {
+        "id": "new_york_hustle_left_side_pass",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.00565629503067708,
+        "worstGapFrame": 128.5,
+        "maximumWristStep": 0.12700074911117554,
+        "maximumBakeError": 1.2993812561035156e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "R"
+          ],
+          118.5
+        ],
+        "bodyChannelSha256": "7b5c4b6e57a8f21931c85024e1eceaa239670b96aae52965d55e4b3a09df23a2",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_outside_turn_pass",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_outside_turn_pass.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_outside_turn_pass.glb",
+      "baselineSourceSha256": "9871267cb291900ffd8f4dd9273482b922d9f304a0e3141ef94c17750cb19b7c",
+      "historicalOriginalSourceSha256": "cfa4c3ba3bb3c63d550e25d0efad70a54255443f96a72f33690ca5efe5add16e",
+      "sourceSha256": "6901d57c31f91485aca62013197f310a174375d03da37a0360acef99890744c2",
+      "baselineRuntimeSha256": "4e676de59b4d3c48652f9ddff0bfec49e5b83d3e239e25ae2f4697f1389fa87d",
+      "runtimeSha256": "53f6e683036b24c59581d858b47d794b2e90f172938ee2e2cedec04e7d99ddfc",
+      "animationName": "new_york_hustle_outside_turn_pass.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000186913425039,
+      "savedSourceReview": {
+        "id": "new_york_hustle_outside_turn_pass",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.0048564992475123685,
+        "worstGapFrame": 135.0,
+        "maximumWristStep": 0.08288151770830154,
+        "maximumBakeError": 1.2934207916259766e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "R"
+          ],
+          121.5
+        ],
+        "bodyChannelSha256": "41393ec3e91cbb2e68c80d16d1df2a48653069038e972535b143d14bbb8d9044",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_closed",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_closed.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_closed.glb",
+      "baselineSourceSha256": "ff89c1c9c25ec868f34401dea3191de0546a039311bf3b86feb35a396ea0a54b",
+      "historicalOriginalSourceSha256": "6973754ef8eec13b86b0cb2d1154095b4c59c62a1f2d128ac733ef9fa7a43ca9",
+      "sourceSha256": "faaad3cf6aab049c815f6665327dff710c5abf9ca24bb010aee5b8e67b758748",
+      "baselineRuntimeSha256": "7cbd28f8b8686e158f87a5b1cb6b244c156000e3efe9c702e9f39b7feff8ae62",
+      "runtimeSha256": "90898398f64fab268b65f2715dacfd5a089808a2dab8268bd084ae16a0714904",
+      "animationName": "new_york_hustle_position_closed.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.004000193878854949,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_closed",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.004000313003977881,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.685754776000977e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "1ddcceac17bd9f07356f1391b073f444c88d676b54171cfdea30ce6237685bc4",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_counter_promenade",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_counter_promenade.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_counter_promenade.glb",
+      "baselineSourceSha256": "e60750cb8b804b2ec5cbe5721674d1904b43228ff31efab3dbcbff7803137a4f",
+      "historicalOriginalSourceSha256": "9a6c367bfa4f5924acd1388e5fdfdcac3b5a178574171f4232171fbe4c0122b9",
+      "sourceSha256": "026ab38e601730f17dce3f813591db507d991c56baa751b2151a5ca0f34b6d55",
+      "baselineRuntimeSha256": "cc5bd5d0c07455670a9c6cfc96a399bca2764183fb7290fdff76fe20deb3e2e1",
+      "runtimeSha256": "46fc8e2e81cff45344b2794892745a166dd9e0e82b9a94f5dec1a6a6fe9a9511",
+      "animationName": "new_york_hustle_position_counter_promenade.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.004000306599693652,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_counter_promenade",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.004000306599693652,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.804964065551758e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "3bcfd91c2990b99880b207d2c9d80b15688c5aa195c4310290a249746c434ea4",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_cuddle",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_cuddle.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_cuddle.glb",
+      "baselineSourceSha256": "15e501bd52c8289f2a99dbf13c6146233fbb0cd39941b93b4f7b10758340e296",
+      "historicalOriginalSourceSha256": "8fb0c6e2699fa9533115723b46adaa123fa2ee265820db253528633958ea5558",
+      "sourceSha256": "0c2465738574717156fdaaf61df7a0b0ad3787dd254d2a8802f08d46a8fdc61f",
+      "baselineRuntimeSha256": "4fb0af1ec6b23079a53a7e4681bb3b4657502355c3f4e85d2f60e717075e5941",
+      "runtimeSha256": "4f9cc856a55aaaf1fd75b3e849eba15bb6f9fb575ef083c7c0bb616ddb53a17c",
+      "animationName": "new_york_hustle_position_cuddle.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.003999948616857302,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_cuddle",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.003999948616857302,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.51811671257019e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "7032e1147ffeba33d94d08c10ef49b67a8b5516f1774ed6a3d4b9af8a897ba45",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_double",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_double.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_double.glb",
+      "baselineSourceSha256": "6c620f11566af1fd03e4aa34b1bbd90e161096c4305add599d15c05336d57233",
+      "historicalOriginalSourceSha256": "e928e0657c4c0776341276f6ae76a505399f86d8fee63e6f1582059eaba1aaec",
+      "sourceSha256": "22043420957a1a71d922fbac3c30e0bb9913be8ab5a1a098318e3026e87d9f76",
+      "baselineRuntimeSha256": "b9cf927c9533210e8c347be67b85a01530071ec4b7be32d89c88dec7ae45965d",
+      "runtimeSha256": "c1caa1af6001c86b9a773a047387d8a85a20f8d11b6a31b3eaedc9eeaa2f8920",
+      "animationName": "new_york_hustle_position_double.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.0039997102980224705,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_double",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.0039997102980224705,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.719282388687134e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "05cf2bcba2fd0629d4c85df51250194fca9faa59d803ed00549af112cef15982",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_left_hand",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_left_hand.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_left_hand.glb",
+      "baselineSourceSha256": "36bd7bad4632973b00dec0bb33f3f6990c671ec2ec50b964c0dd55b221c44043",
+      "historicalOriginalSourceSha256": "d1016ada3dc037fbc4047ba08cab174bb370e3bcfb11c652d26ff81d116c97a3",
+      "sourceSha256": "2beece8028b7cb06f9470cc8acf8fdfd80b02e09016b650397e8525a266572f1",
+      "baselineRuntimeSha256": "79e09393b9a9eb685da042c95f18891c05bf16ad923121c44075766c96ce0923",
+      "runtimeSha256": "8943010e3284ff9e5a04f6e12d82de47ceeab3bd4ce0ed0fa27698a751354c24",
+      "animationName": "new_york_hustle_position_left_hand.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.003999471904619945,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_left_hand",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.003999471904619945,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.719282388687134e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "05cf2bcba2fd0629d4c85df51250194fca9faa59d803ed00549af112cef15982",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_open",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_open.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_open.glb",
+      "baselineSourceSha256": "b9da0654857de35ebbcbcced1a564b15fde3e03d47647fd1b2c143b2eeb1f39c",
+      "historicalOriginalSourceSha256": "76a7843b3dbc7ebfb7c45ea1baf310c5dbe984f1b8dec8225469b81378f23750",
+      "sourceSha256": "dca0bf0629eaeeb69633ffd47a8414bef266aae7b2876f5feab840e347c69bc9",
+      "baselineRuntimeSha256": "3bae156f76a9656446809ba08cff7c034fe5c8cf7733f5e1cedfc7c37aa025e2",
+      "runtimeSha256": "5fd9ca50dd7b91d9108fb8d3872025aca84e3c8b685a4dbb514121f44a37e2f5",
+      "animationName": "new_york_hustle_position_open.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.003999471925030299,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_open",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.003999471925030299,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.719282388687134e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "546f9173d7570bf73bcb71bd1aa3d2196e2159dfccb20fe3683f448de04c91fe",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_promenade",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_promenade.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_promenade.glb",
+      "baselineSourceSha256": "ad41a773ae7b96f0182253a85fedcab80aa973a420a163c9b722f0efc4891938",
+      "historicalOriginalSourceSha256": "66a2071518d95855f133cdbea422f4e846ba879fe40722b460f13724518d3a5c",
+      "sourceSha256": "8bad087dbb71dae67e5965012844af93f20d9ade4a006dc2dac56b996855980c",
+      "baselineRuntimeSha256": "ed13e15467a12b6ccf73e2fcc077c9277b4048bbb738a8e32fbcc5670476e9f9",
+      "runtimeSha256": "50e15119e5fe53fb63e064fbffa1b3dd5936533f324d22c291c14bca8a31a817",
+      "animationName": "new_york_hustle_position_promenade.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.003999591062778896,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_promenade",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.003999591062778896,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.5367431640625e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "f23141a46199425794a4ee6f782a5ce866cce3101d0b34af67fb66d1af601147",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_right_hand",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_right_hand.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_right_hand.glb",
+      "baselineSourceSha256": "3293658bb18e232e4d26b943121ba198d21dcbe794d2d914b4111c30e8581e29",
+      "historicalOriginalSourceSha256": "831940ea5fdbf084e3590c25035666e4b54c268cb89f9214c0c38da7f983f04b",
+      "sourceSha256": "235e133107979720baf51bb7c271eba6e9f54231771888e18e74b628a5b33ff6",
+      "baselineRuntimeSha256": "042dc274e230f79001f895aa0e9e2131b021d36fb6781421d2eab358b0ea38e9",
+      "runtimeSha256": "b9a782ac11842590e1eebb3d4e460ea2f4b26b0dd83550a9080b13f5ae9238b6",
+      "animationName": "new_york_hustle_position_right_hand.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.0039999486753292115,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_right_hand",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.0039999486753292115,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.719282388687134e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "05cf2bcba2fd0629d4c85df51250194fca9faa59d803ed00549af112cef15982",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_shadow",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_shadow.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_shadow.glb",
+      "baselineSourceSha256": "f59eba1bfcf51f86369c3d3baa0621eb731a2f0973ba35e1d32c7d76ca62b3cc",
+      "historicalOriginalSourceSha256": "205556b501e21e7f1c71eefd95d44caf6f32e6f472b7470351c35bb99bdddf15",
+      "sourceSha256": "341ed7641d549b4a80fb5c1f03e691d61101a0033121bba34d08a189e580ef74",
+      "baselineRuntimeSha256": "d182a9963e7d112b037265594334a39dfe3a4bb4e194646029952a70555ab043",
+      "runtimeSha256": "9a3e14dde2f772aef5b4110217f6265c110ce4387e745cb27a02257d0be700bf",
+      "animationName": "new_york_hustle_position_shadow.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.003998399270405015,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_shadow",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.003998399270405015,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.618699550628662e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "306321c2de15f020b461a91373ac6bf8b086d8ec7eff07137ae4a6ddcced178c",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_position_side_by_side",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_side_by_side.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_position_side_by_side.glb",
+      "baselineSourceSha256": "95c52e908cf00d7f6c91f57477adb35da0f1d05e8aa8a77d31e6672ff6f441dd",
+      "historicalOriginalSourceSha256": "a0b80ec7850e728b04cee238b063d3db1927b748887603484fbcc1f1df6cb7ad",
+      "sourceSha256": "a9acc7d8a71915d56fe491a77f68c3ba6cf8f9f1cbeb3db2138b18690501c4be",
+      "baselineRuntimeSha256": "0597c289317ccc3ed831e241b02f71a26a34cd3565052fe86a503de43c019db6",
+      "runtimeSha256": "73a66b8b97588800c9bd9151a659e3663b5527b6a49efec88729d1ecb59373e5",
+      "animationName": "new_york_hustle_position_side_by_side.baked",
+      "duration": 1.5,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 1,
+      "maximumAuthoredPalmGap": 0.003999233225977445,
+      "savedSourceReview": {
+        "id": "new_york_hustle_position_side_by_side",
+        "sampledFrames": 73,
+        "maximumPalmGap": 0.003999233225977445,
+        "worstGapFrame": 0.0,
+        "maximumWristStep": 0.0,
+        "maximumBakeError": 9.51811671257019e-06,
+        "worstWristStep": null,
+        "bodyChannelSha256": "d6a4e00a3505bf21980c2eb380dadeb72e01d4a8d859fd67824e26232f056b86",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_promenade_entry_exit",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_promenade_entry_exit.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_promenade_entry_exit.glb",
+      "baselineSourceSha256": "8fadab1ecc23f39a5fa284a56427c409760651cb5effcbd2ddb3d76fb8f274df",
+      "historicalOriginalSourceSha256": "d59854a0d1ba1a15d67d6ddbd5098ff22aa70bd2bb02ba1a07841e24820f66b0",
+      "sourceSha256": "63e22591c8a2e4a040edb8895136f6417f2e036a310f3f18dc222f0ddddaa24d",
+      "baselineRuntimeSha256": "178ab0899f49b25c90270de33ecfa97c0cff472e191bc4e9a138ae52fbde5beb",
+      "runtimeSha256": "928d56533622a84cb28afaa5989cae10f8bc85c35876b17e05c54a074806a861",
+      "animationName": "new_york_hustle_promenade_entry_exit.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000186913425039,
+      "savedSourceReview": {
+        "id": "new_york_hustle_promenade_entry_exit",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004037489093618574,
+        "worstGapFrame": 45.0,
+        "maximumWristStep": 0.033836569637060165,
+        "maximumBakeError": 1.1444091796875e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "L"
+          ],
+          40.5
+        ],
+        "bodyChannelSha256": "5357bacaddb7ecbc7f8fe3f5886f1d006fd54687cf744da6c4c9fed520522f7c",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_return_to_closed",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_return_to_closed.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_return_to_closed.glb",
+      "baselineSourceSha256": "3b8eeee067442712091d7dea74b0779ffd28d6f854dc844037fe269bff41818b",
+      "historicalOriginalSourceSha256": "572cbaed62e3849d7748b8a85827286f2cdd910eb0e5d28bd01624676e3e8dd2",
+      "sourceSha256": "7373d5e7d5c36ec8b59aad0554ac8536d87d490f4061dafd68d60dcf9d80359f",
+      "baselineRuntimeSha256": "cf780f0ef84cefd7211e1d1a92b4cca51c936bf94d02753628e9eb9b50ee1010",
+      "runtimeSha256": "fa34b94433a4d9f3c6e47a11c0feed3ba7dec18e8f3b154256d2a5294a4c9274",
+      "animationName": "new_york_hustle_return_to_closed.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.0040011474133924895,
+      "savedSourceReview": {
+        "id": "new_york_hustle_return_to_closed",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004068418447302745,
+        "worstGapFrame": 87.0,
+        "maximumWristStep": 0.021661309525370598,
+        "maximumBakeError": 1.0125339031219482e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "L"
+          ],
+          87.5
+        ],
+        "bodyChannelSha256": "64461cf2618ee6d958f41ab61cd4d37a626df06f6cab46ea60998966a16c4b4d",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_right_side_pass",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_right_side_pass.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_right_side_pass.glb",
+      "baselineSourceSha256": "1687ed639fe06d6827e68c6ebec9364128007e2eb3fecc097541c947c73b6924",
+      "historicalOriginalSourceSha256": "f3ca97587d8e0529e74de5b286d52fa13726645c12e456865081f6d16bc05881",
+      "sourceSha256": "06e3ac3f5e9aeeda74c9b40d811936adb5d47ce042d15467216834a3a6a113a7",
+      "baselineRuntimeSha256": "8d2272d4fdfd83aa16b05ddec30d353789c180a3765fd2905e4bb0ba1acd6d63",
+      "runtimeSha256": "7089f00b524e7fc10db71e588a164f8056ab2d0332112ef5a1a61d9ce7cb9d4c",
+      "animationName": "new_york_hustle_right_side_pass.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000186913425039,
+      "savedSourceReview": {
+        "id": "new_york_hustle_right_side_pass",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.005271178146129637,
+        "worstGapFrame": 129.0,
+        "maximumWristStep": 0.06262831389904022,
+        "maximumBakeError": 1.245737075805664e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          117.0
+        ],
+        "bodyChannelSha256": "cb2877ad366bb92d68c6790e8b25caf270c1ff518803930b12aeba4e13cef473",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_send_out",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_send_out.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_send_out.glb",
+      "baselineSourceSha256": "45768b33f0efdb57d6e1b35e13a3a44ce84c5abb2b109ac2e5e779f1e173d540",
+      "historicalOriginalSourceSha256": "a81d947a43b2fbaa1da70c759e1d9b7544cd69dc0c949f11cf2972fc5935837e",
+      "sourceSha256": "6a8d693f39f5a3cf353656819cc7a87e5412fc9d7ca9147ceff3970bda6fcf61",
+      "baselineRuntimeSha256": "07db268e65e691b081a74bd1badfc4944fb7d44ab6c30558223c0179f0c08274",
+      "runtimeSha256": "769a43f8f8ad6b77823c9ea4035cf9db717a5266e3d294fe3fa352628aa8409a",
+      "animationName": "new_york_hustle_send_out.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000551394546435,
+      "savedSourceReview": {
+        "id": "new_york_hustle_send_out",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004071502019370732,
+        "worstGapFrame": 45.0,
+        "maximumWristStep": 0.023294780403375626,
+        "maximumBakeError": 1.0102987289428711e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "L"
+          ],
+          44.5
+        ],
+        "bodyChannelSha256": "5bcd50c02217b112885ac7a250d5c88dda79f48e9db0e3970bbf8b6988ad954d",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_shadow_entry_exit",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_shadow_entry_exit.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_shadow_entry_exit.glb",
+      "baselineSourceSha256": "da2dfd0c80e492cfb0ef461f5532dcac1fb25a6606c545f9544fce3fec4e20d5",
+      "historicalOriginalSourceSha256": "bf821907307b19804e98c381cb03dcd0166ae48ebca312aef32a3b1a7d644fc2",
+      "sourceSha256": "aa38ef7cb0c38fc5fed4b9161f678596f28c26d1f1b8a86d10da372fab7a7590",
+      "baselineRuntimeSha256": "afebe1a5779b2aa9ec7315ae57cb6cb05e8241d39855a95a89d260aff2038802",
+      "runtimeSha256": "01259d008fa38953b72e7a56ed4e4c62cf9a3a5035e756c5473309e8af0bcf28",
+      "animationName": "new_york_hustle_shadow_entry_exit.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000067815223742,
+      "savedSourceReview": {
+        "id": "new_york_hustle_shadow_entry_exit",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.0041884063965939395,
+        "worstGapFrame": 70.5,
+        "maximumWristStep": 0.17373180389404297,
+        "maximumBakeError": 1.2040138244628906e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          109.5
+        ],
+        "bodyChannelSha256": "dd8e979ecd15b1f4108d02933e0dbd4407518e4336235a475883b896f2f3cbce",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_side_break_left",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_break_left.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_side_break_left.glb",
+      "baselineSourceSha256": "4d23baaef87bef655cf125a0ebf1bc586a96716ac499b39fafae390959f3b749",
+      "historicalOriginalSourceSha256": "db102b721e09c3420cbac4fdd2487a11a86994cda75fd8ab3bd51312a1c27c41",
+      "sourceSha256": "fad0f7d63f8bd8b1ba3aa9c726c24802aa6f6e79afa1fffadf097d3905054e68",
+      "baselineRuntimeSha256": "44b8956f239e9be9ea2c076819f7d11004006ba7b279af3b4576ad0328dac9fd",
+      "runtimeSha256": "47cbe9892359f1c8cb4b9737dd63ff733d00ba3f0fed4905e39538b5ed9f16cc",
+      "animationName": "new_york_hustle_side_break_left.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000067921595445,
+      "savedSourceReview": {
+        "id": "new_york_hustle_side_break_left",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.0040075701190837015,
+        "worstGapFrame": 99.0,
+        "maximumWristStep": 0.012000218965113163,
+        "maximumBakeError": 1.0091811418533325e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          66.5
+        ],
+        "bodyChannelSha256": "97353a590d02e9984cc111d2a0b8509bc18a8711c474e4c6f9ae94da41e7dd53",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_side_break_right",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_break_right.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_side_break_right.glb",
+      "baselineSourceSha256": "e689d7c496691b77769e39486ca51157738d821967ec0e0eefa31d5bcee90e86",
+      "historicalOriginalSourceSha256": "bd3d165952925ef5a72fcf4240a2ce554122df90e44cbdb8e05d65ba082c5ad2",
+      "sourceSha256": "ca4b58a2059fc7dc7887c055b94a2cd7d3011a8236f3c99eef34e7655f6c3d44",
+      "baselineRuntimeSha256": "4af94b9c385445fdb164b39dd02e435710c0d3c31d56ec558ea73eb548c69c07",
+      "runtimeSha256": "df8d078833218e5b1ffcf4e84361ceb418a7de2af99d0970b784103430a154fa",
+      "animationName": "new_york_hustle_side_break_right.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000306043059782,
+      "savedSourceReview": {
+        "id": "new_york_hustle_side_break_right",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004007928316687367,
+        "worstGapFrame": 27.0,
+        "maximumWristStep": 0.014352509751915932,
+        "maximumBakeError": 1.0099261999130249e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          0.5
+        ],
+        "bodyChannelSha256": "cac702d433ed75b16034fae9e87141f5705e158ba52e748d73e29d84311ffd0e",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_side_by_side_entry_exit",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_by_side_entry_exit.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_side_by_side_entry_exit.glb",
+      "baselineSourceSha256": "40bc0323a7300dceec3140473f3c0557b15c29c17178ae8da1db9e478f9c3a20",
+      "historicalOriginalSourceSha256": "9888053aa6180e5a97be86845d695fca989693b1223f65fa82efcd9936e93a68",
+      "sourceSha256": "fd921fc500638739a3459a3bd4c6025608cca0aa9161b6731926fa5daa4eb042",
+      "baselineRuntimeSha256": "3f40ea571d1168c8ef62b67e84565195ead93ab9e69a09eda7ff966d199cfd6d",
+      "runtimeSha256": "9539b466eb0f8d9dfc05bfc2ed3fabf9789ce43ec7dcaa7267939b4202381dc3",
+      "animationName": "new_york_hustle_side_by_side_entry_exit.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000306082333085,
+      "savedSourceReview": {
+        "id": "new_york_hustle_side_by_side_entry_exit",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004081432723830962,
+        "worstGapFrame": 27.0,
+        "maximumWristStep": 0.04412487894296646,
+        "maximumBakeError": 1.2099742889404297e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          104.0
+        ],
+        "bodyChannelSha256": "cc3f0de89911d10a9713f9da111515686812a3c0241c70118a37d4c19638ef10",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_traveling_basic",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_traveling_basic.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_traveling_basic.glb",
+      "baselineSourceSha256": "8e4bdc91201222188a16d393db6a5ec7706e80f6ffd04cd8cac46839d35c976a",
+      "historicalOriginalSourceSha256": "45105481a0faf4eed604559da0d133a6563f3c6e7f77228580d63c09d36db811",
+      "sourceSha256": "f38dd6701cf3be2c8edc2f25384874d14f3a42ef415699927d80eff5988c86ad",
+      "baselineRuntimeSha256": "69d3b08d453dbc2aa6d394f82201e622659217f648573aad8e171b7f47a11bc5",
+      "runtimeSha256": "58645f8f3d14e503e6b8c2e328f94ccba7232a80a59984a48617acbbf32567ef",
+      "animationName": "new_york_hustle_traveling_basic.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000186926605008,
+      "savedSourceReview": {
+        "id": "new_york_hustle_traveling_basic",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.004011267338643992,
+        "worstGapFrame": 51.0,
+        "maximumWristStep": 0.013689328916370869,
+        "maximumBakeError": 1.0084360837936401e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          119.0
+        ],
+        "bodyChannelSha256": "baa5e449733ffa36c0cc8a83dff9fd06729ab7efb77f55db6f9b9ff147a00628",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_wheel_left",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_wheel_left.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_wheel_left.glb",
+      "baselineSourceSha256": "55a331ebba8cd77ee2dc228d8881a6575c3a81cfd613e89e45ff0eab5ffebe29",
+      "historicalOriginalSourceSha256": "18da8ccaede046bb706443c40b85e958146f3180e9c59fc04cb5a85dcc0796e4",
+      "sourceSha256": "a558ed16a4f265e4dcaf3d5dac9318e56ffc49915abba97d31ae988de57b8977",
+      "baselineRuntimeSha256": "499e14f6d1d7e8246875ac681a0d9b9e3d79183fc396b02423e7840687cc977a",
+      "runtimeSha256": "5ba732593e3ac55268a97c4eb65746b0da153f94ea08985b6c742fa532e400d6",
+      "animationName": "new_york_hustle_wheel_left.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000426571060326,
+      "savedSourceReview": {
+        "id": "new_york_hustle_wheel_left",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.005775688041474068,
+        "worstGapFrame": 81.0,
+        "maximumWristStep": 0.05431733280420303,
+        "maximumBakeError": 1.2099742889404297e-05,
+        "worstWristStep": [
+          [
+            "Woman",
+            "L"
+          ],
+          68.0
+        ],
+        "bodyChannelSha256": "d0c6a96fd0daaee395d0c6a226f1f115249b7f660bb0475567f2113e5ab4246c",
+        "deformationBones": 418
+      }
+    },
+    {
+      "id": "new_york_hustle_wheel_right",
+      "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_wheel_right.blend",
+      "runtimeExport": "animations/new_york_hustle/new_york_hustle_wheel_right.glb",
+      "baselineSourceSha256": "dd2a97b81742c5a4c9b9f05829c662c9d562823fff633dfb77586855ac4533b4",
+      "historicalOriginalSourceSha256": "368fcab3c487891542d9f3c473fe08b9f7c377b513271495a4646e2318e2c2ba",
+      "sourceSha256": "0df3984c11d099cf77d191eec0bf8857fca56bc4f683f7d74e0ad5bf88588379",
+      "baselineRuntimeSha256": "21c152c063bbbd78b6c371f1bdda0f7e12ea01ba7ccf2ac4b4e4cd9a687de981",
+      "runtimeSha256": "82143554ff42a1f3b28f81d19e346aa0f7dc4e9d6a72fed285ecb3cde5a2b418",
+      "animationName": "new_york_hustle_wheel_right.baked",
+      "duration": 6.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish",
+      "authoredFrames": 33,
+      "maximumAuthoredPalmGap": 0.004000545296313254,
+      "savedSourceReview": {
+        "id": "new_york_hustle_wheel_right",
+        "sampledFrames": 289,
+        "maximumPalmGap": 0.006084345119193844,
+        "worstGapFrame": 81.0,
+        "maximumWristStep": 0.05727050080895424,
+        "maximumBakeError": 1.2278556823730469e-05,
+        "worstWristStep": [
+          [
+            "Man",
+            "R"
+          ],
+          67.5
+        ],
+        "bodyChannelSha256": "a7d40fa224127cc1798242547c3292be57a77d090c878fd6b77088821a032123",
+        "deformationBones": 418
+      }
+    }
+  ],
+  "savedSourceLimits": {
+    "palmSeparation": 0.025,
+    "wristStep": 0.6,
+    "bakeMatrixComponent": 0.0001
+  },
+  "units": {
+    "palmSeparation": "meters",
+    "wristStep": "radians per half frame",
+    "duration": "seconds"
+  },
+  "totalSavedSourceSamples": 9112,
+  "maximumPalmGap": 0.0100233627625044,
+  "maximumWristStep": 0.3556567132472992,
+  "maximumBakeError": 1.5497207641601562e-05,
+  "browserReview": "browser-review.json",
+  "verification": {
+    "assetAndLicenseChecks": "passed",
+    "runtimeTests": {
+      "passed": 39,
+      "failed": 0
+    },
+    "productionBuild": "passed",
+    "anatomicalJointFrameRegression": "passed",
+    "nativeAuthoringSaveReopen": "passed"
+  },
+  "integrationBase": "044615a26951dea18111d6542117d8622aad56ee",
+  "dependencySha256": {
+    "animations/shared_scene_data.blend": "c0ffb9e16789f1b15c9e4b8b55097bdd1658e1634e6cf8dcf6ccf9a683b5e094",
+    "assets/characters/mpfb-characters.blend": "3e422c42ec5ffc3dec22d18521c0c95125e40bfed4a599cb0c2ec0ee633b9e3b",
+    "assets/characters/rig-schema.json": "1728841061a31c1170cf00a4eeb38a9c1bd39339375ca2389ed32b976d87e58a"
+  },
+  "postRebaseVerification": {
+    "nativeClipIds": [
+      "new_york_hustle_follower_double_turn",
+      "new_york_hustle_inside_turn_pass"
+    ],
+    "nativeSourceAndBakeComparison": "passed",
+    "nativeAuthoringSaveReopen": "passed",
+    "browserReview": "post-rebase-browser.json"
+  }
+}

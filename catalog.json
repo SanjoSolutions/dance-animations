@@ -34517,9 +34517,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_alternating_turns.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "0c6de97ec654d5ab1126126eb846ab8cfe931d9fb429113c482d00a43956fcb1",
-      "animationName": "new_york_hustle_alternating_turns.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "237e81c4b413d477a46633055a85ca8ac88fc2cf454a7bf2b42a6d6c6e57c23e",
+      "animationName": "new_york_hustle_alternating_turns.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_basic_closed",
@@ -34534,9 +34535,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_closed.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "a2c19d88349072e4541b69eac4f141cc585f5f9e57828edfd411c175c7290284",
-      "animationName": "new_york_hustle_basic_closed.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "039fce1a4c0b893d68c71949c644693e33842d442a7d91a5c5e0b53db591b093",
+      "animationName": "new_york_hustle_basic_closed.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_basic_double",
@@ -34551,9 +34553,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_double.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "aee29e8189b637ba96ba347a608af0473c42edeaf35401c80fcd35daedf7c079",
-      "animationName": "new_york_hustle_basic_double.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "05416e503d70868de510405055e9a63c50d6f7bab5fb293c1d182ad1e908dea2",
+      "animationName": "new_york_hustle_basic_double.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_basic_in_place",
@@ -34568,9 +34571,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_in_place.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "c8e04b76840dbd86f726a96117a1cb8366dbf26c0d1a23b63d77a6a2f57d56b3",
-      "animationName": "new_york_hustle_basic_in_place.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "51afa39f05cbe9b1157c6cbfebfd54ae695a44e2a99466c79ee4a6c99bfad019",
+      "animationName": "new_york_hustle_basic_in_place.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_basic_open",
@@ -34585,9 +34589,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_open.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "1cde6eed1097a600961134e0f037ee02447c16a81c8b49095ce3c97a8c369dba",
-      "animationName": "new_york_hustle_basic_open.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "ed4bf129c408e81c4935f859cecfb69859a56ae1ae887a548250c1a8e527b2ce",
+      "animationName": "new_york_hustle_basic_open.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_combination",
@@ -34602,9 +34607,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_combination.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "56fc2215d0e7fe15811e0281f86760becb669fdf45ef4f4604bd94e5285a941e",
-      "animationName": "new_york_hustle_combination.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "8164dd70a77788f65389d03482ce84dc0db921e1f860bd532248534d8108ecab",
+      "animationName": "new_york_hustle_combination.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_counter_promenade_entry_exit",
@@ -34619,9 +34625,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_counter_promenade_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ee60c121d0ebf6ef99022c232e3a33dd3f09f11266d57b3db82c400c3c02f938",
-      "animationName": "new_york_hustle_counter_promenade_entry_exit.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "96be76296b16178fc160c937dff2f73abd2a581bf425258e9cc6d7f47b7a2a2b",
+      "animationName": "new_york_hustle_counter_promenade_entry_exit.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_cross_body_lead",
@@ -34636,9 +34643,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_cross_body_lead.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "b5fa51f60f4c980b347f604cd888b1df153af13fd68803c40e55ad62deba54e5",
-      "animationName": "new_york_hustle_cross_body_lead.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "fec7751a1646f606cb1ffd9a54bb06103a2074294b8b9ee31b24f573ac6b75e4",
+      "animationName": "new_york_hustle_cross_body_lead.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_cuddle_entry_exit",
@@ -34653,9 +34661,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_cuddle_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "4b1127ff09df3d4dc073855e65c4ef2376957fadca84b13d3daad711a651a804",
-      "animationName": "new_york_hustle_cuddle_entry_exit.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "8c2a315477e8ab5329e81d12f84244792b3528f408251c2c8d71116333664074",
+      "animationName": "new_york_hustle_cuddle_entry_exit.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_follower_double_turn",
@@ -34670,9 +34679,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_double_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "95f0a8fec0b32108f2171beaf0d25d7e446aab7faa26947d4adbe969147928ec",
-      "animationName": "new_york_hustle_follower_double_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "e985336c6cf27f25345d448cb3328fe3bc74c8b71fb687f36bcb87b317a76970",
+      "animationName": "new_york_hustle_follower_double_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_follower_free_spin_left",
@@ -34687,9 +34697,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_free_spin_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ccddc49e1fe81a6bde30e89939f8514fe09b36e141478738f76f519226a0816e",
-      "animationName": "new_york_hustle_follower_free_spin_left.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "a62fcd406ca3c79049c886346939a3ae41933a982f18547286da134b842179d0",
+      "animationName": "new_york_hustle_follower_free_spin_left.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_follower_free_spin_right",
@@ -34704,9 +34715,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_free_spin_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "e4d5fbf9e00ee10498f52598261f05060ccaeb14ab78f4418e1e1ba018c93634",
-      "animationName": "new_york_hustle_follower_free_spin_right.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "8f886d82dd623ef79107d493df2b77679855a11bf2995feb14f72ee21b3bb26e",
+      "animationName": "new_york_hustle_follower_free_spin_right.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_follower_underarm_left",
@@ -34721,9 +34733,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_underarm_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ea9f538829eda8b6d7d432b91c622bb4b00b2692c91f1f90dbc9b828ba3a2954",
-      "animationName": "new_york_hustle_follower_underarm_left.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "8c1a1f55a2f26d638bd13d6de1408bef6bc43cebb96aed321b4ad4bbca3987bf",
+      "animationName": "new_york_hustle_follower_underarm_left.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_follower_underarm_right",
@@ -34738,9 +34751,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_underarm_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "0ae0bfcfedbe0ee5a959815dff35dbee3b1bea56215b6369cd1696a02807a401",
-      "animationName": "new_york_hustle_follower_underarm_right.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "8549053d9d5a1881ed0f11a167847ddd9124782da0643cb092b1c7d71444dc32",
+      "animationName": "new_york_hustle_follower_underarm_right.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_inside_turn_pass",
@@ -34755,9 +34769,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_inside_turn_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "dbaff030865ef6cd1ca8765c91bbca1f6bf73f3d7f7f6c30a5fa5a56e3f97b6e",
-      "animationName": "new_york_hustle_inside_turn_pass.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "a8f99eedbeb4da226989d3671e896f22d1b249e7ecdfacd38b03756f09954a41",
+      "animationName": "new_york_hustle_inside_turn_pass.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_leader_underarm_left",
@@ -34772,9 +34787,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_leader_underarm_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "f64c8f3d16b8f2c4be772f9b3e955ff56c1303761a043d8f50d1f66934d100bb",
-      "animationName": "new_york_hustle_leader_underarm_left.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "9920c667a51cb6ecbabcf4efce6c9e91d5408d317d6f53837aa4abc1734dd0c0",
+      "animationName": "new_york_hustle_leader_underarm_left.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_leader_underarm_right",
@@ -34789,9 +34805,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_leader_underarm_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "0ca2bbbebf199d87d2e803e0f1990482ccf2912e0d4d1b775357c67035023c62",
-      "animationName": "new_york_hustle_leader_underarm_right.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "315c9a315532e027e9a61203e47e946d4a1f7421e2eed5d86c7ad6f042fad1d1",
+      "animationName": "new_york_hustle_leader_underarm_right.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_left_side_pass",
@@ -34806,9 +34823,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_left_side_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "d8b5eea7e250a9b85e57e63e6f95c50fa2a8b91c390fdc6d98af36a233503bf9",
-      "animationName": "new_york_hustle_left_side_pass.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "b6b7474ca5f3a146f23eeaab05f444bcb0d62363bb26400abdb4d070fc545b48",
+      "animationName": "new_york_hustle_left_side_pass.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_outside_turn_pass",
@@ -34823,9 +34841,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_outside_turn_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "9871267cb291900ffd8f4dd9273482b922d9f304a0e3141ef94c17750cb19b7c",
-      "animationName": "new_york_hustle_outside_turn_pass.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "6901d57c31f91485aca62013197f310a174375d03da37a0360acef99890744c2",
+      "animationName": "new_york_hustle_outside_turn_pass.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_closed",
@@ -34840,9 +34859,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_closed.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ff89c1c9c25ec868f34401dea3191de0546a039311bf3b86feb35a396ea0a54b",
-      "animationName": "new_york_hustle_position_closed.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "faaad3cf6aab049c815f6665327dff710c5abf9ca24bb010aee5b8e67b758748",
+      "animationName": "new_york_hustle_position_closed.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_counter_promenade",
@@ -34857,9 +34877,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_counter_promenade.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "e60750cb8b804b2ec5cbe5721674d1904b43228ff31efab3dbcbff7803137a4f",
-      "animationName": "new_york_hustle_position_counter_promenade.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "026ab38e601730f17dce3f813591db507d991c56baa751b2151a5ca0f34b6d55",
+      "animationName": "new_york_hustle_position_counter_promenade.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_cuddle",
@@ -34874,9 +34895,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_cuddle.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "15e501bd52c8289f2a99dbf13c6146233fbb0cd39941b93b4f7b10758340e296",
-      "animationName": "new_york_hustle_position_cuddle.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "0c2465738574717156fdaaf61df7a0b0ad3787dd254d2a8802f08d46a8fdc61f",
+      "animationName": "new_york_hustle_position_cuddle.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_double",
@@ -34891,9 +34913,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_double.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "6c620f11566af1fd03e4aa34b1bbd90e161096c4305add599d15c05336d57233",
-      "animationName": "new_york_hustle_position_double.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "22043420957a1a71d922fbac3c30e0bb9913be8ab5a1a098318e3026e87d9f76",
+      "animationName": "new_york_hustle_position_double.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_left_hand",
@@ -34908,9 +34931,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_left_hand.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "36bd7bad4632973b00dec0bb33f3f6990c671ec2ec50b964c0dd55b221c44043",
-      "animationName": "new_york_hustle_position_left_hand.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "2beece8028b7cb06f9470cc8acf8fdfd80b02e09016b650397e8525a266572f1",
+      "animationName": "new_york_hustle_position_left_hand.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_open",
@@ -34925,9 +34949,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_open.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "b9da0654857de35ebbcbcced1a564b15fde3e03d47647fd1b2c143b2eeb1f39c",
-      "animationName": "new_york_hustle_position_open.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "dca0bf0629eaeeb69633ffd47a8414bef266aae7b2876f5feab840e347c69bc9",
+      "animationName": "new_york_hustle_position_open.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_promenade",
@@ -34942,9 +34967,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_promenade.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ad41a773ae7b96f0182253a85fedcab80aa973a420a163c9b722f0efc4891938",
-      "animationName": "new_york_hustle_position_promenade.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "8bad087dbb71dae67e5965012844af93f20d9ade4a006dc2dac56b996855980c",
+      "animationName": "new_york_hustle_position_promenade.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_right_hand",
@@ -34959,9 +34985,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_right_hand.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "3293658bb18e232e4d26b943121ba198d21dcbe794d2d914b4111c30e8581e29",
-      "animationName": "new_york_hustle_position_right_hand.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "235e133107979720baf51bb7c271eba6e9f54231771888e18e74b628a5b33ff6",
+      "animationName": "new_york_hustle_position_right_hand.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_shadow",
@@ -34976,9 +35003,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_shadow.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "f59eba1bfcf51f86369c3d3baa0621eb731a2f0973ba35e1d32c7d76ca62b3cc",
-      "animationName": "new_york_hustle_position_shadow.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "341ed7641d549b4a80fb5c1f03e691d61101a0033121bba34d08a189e580ef74",
+      "animationName": "new_york_hustle_position_shadow.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_position_side_by_side",
@@ -34993,9 +35021,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_side_by_side.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "95c52e908cf00d7f6c91f57477adb35da0f1d05e8aa8a77d31e6672ff6f441dd",
-      "animationName": "new_york_hustle_position_side_by_side.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "a9acc7d8a71915d56fe491a77f68c3ba6cf8f9f1cbeb3db2138b18690501c4be",
+      "animationName": "new_york_hustle_position_side_by_side.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_promenade_entry_exit",
@@ -35010,9 +35039,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_promenade_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8fadab1ecc23f39a5fa284a56427c409760651cb5effcbd2ddb3d76fb8f274df",
-      "animationName": "new_york_hustle_promenade_entry_exit.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "63e22591c8a2e4a040edb8895136f6417f2e036a310f3f18dc222f0ddddaa24d",
+      "animationName": "new_york_hustle_promenade_entry_exit.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_return_to_closed",
@@ -35027,9 +35057,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_return_to_closed.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "3b8eeee067442712091d7dea74b0779ffd28d6f854dc844037fe269bff41818b",
-      "animationName": "new_york_hustle_return_to_closed.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "7373d5e7d5c36ec8b59aad0554ac8536d87d490f4061dafd68d60dcf9d80359f",
+      "animationName": "new_york_hustle_return_to_closed.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_right_side_pass",
@@ -35044,9 +35075,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_right_side_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "1687ed639fe06d6827e68c6ebec9364128007e2eb3fecc097541c947c73b6924",
-      "animationName": "new_york_hustle_right_side_pass.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "06e3ac3f5e9aeeda74c9b40d811936adb5d47ce042d15467216834a3a6a113a7",
+      "animationName": "new_york_hustle_right_side_pass.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_send_out",
@@ -35061,9 +35093,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_send_out.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "45768b33f0efdb57d6e1b35e13a3a44ce84c5abb2b109ac2e5e779f1e173d540",
-      "animationName": "new_york_hustle_send_out.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "6a8d693f39f5a3cf353656819cc7a87e5412fc9d7ca9147ceff3970bda6fcf61",
+      "animationName": "new_york_hustle_send_out.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_shadow_entry_exit",
@@ -35078,9 +35111,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_shadow_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "da2dfd0c80e492cfb0ef461f5532dcac1fb25a6606c545f9544fce3fec4e20d5",
-      "animationName": "new_york_hustle_shadow_entry_exit.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "aa38ef7cb0c38fc5fed4b9161f678596f28c26d1f1b8a86d10da372fab7a7590",
+      "animationName": "new_york_hustle_shadow_entry_exit.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_side_break_left",
@@ -35095,9 +35129,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_break_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "4d23baaef87bef655cf125a0ebf1bc586a96716ac499b39fafae390959f3b749",
-      "animationName": "new_york_hustle_side_break_left.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "fad0f7d63f8bd8b1ba3aa9c726c24802aa6f6e79afa1fffadf097d3905054e68",
+      "animationName": "new_york_hustle_side_break_left.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_side_break_right",
@@ -35112,9 +35147,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_break_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "e689d7c496691b77769e39486ca51157738d821967ec0e0eefa31d5bcee90e86",
-      "animationName": "new_york_hustle_side_break_right.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "ca4b58a2059fc7dc7887c055b94a2cd7d3011a8236f3c99eef34e7655f6c3d44",
+      "animationName": "new_york_hustle_side_break_right.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_side_by_side_entry_exit",
@@ -35129,9 +35165,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_by_side_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "40bc0323a7300dceec3140473f3c0557b15c29c17178ae8da1db9e478f9c3a20",
-      "animationName": "new_york_hustle_side_by_side_entry_exit.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "fd921fc500638739a3459a3bd4c6025608cca0aa9161b6731926fa5daa4eb042",
+      "animationName": "new_york_hustle_side_by_side_entry_exit.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_traveling_basic",
@@ -35146,9 +35183,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_traveling_basic.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8e4bdc91201222188a16d393db6a5ec7706e80f6ffd04cd8cac46839d35c976a",
-      "animationName": "new_york_hustle_traveling_basic.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "f38dd6701cf3be2c8edc2f25384874d14f3a42ef415699927d80eff5988c86ad",
+      "animationName": "new_york_hustle_traveling_basic.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_wheel_left",
@@ -35163,9 +35201,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_wheel_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "55a331ebba8cd77ee2dc228d8881a6575c3a81cfd613e89e45ff0eab5ffebe29",
-      "animationName": "new_york_hustle_wheel_left.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "a558ed16a4f265e4dcaf3d5dac9318e56ffc49915abba97d31ae988de57b8977",
+      "animationName": "new_york_hustle_wheel_left.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "new_york_hustle_wheel_right",
@@ -35180,9 +35219,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_wheel_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "dd2a97b81742c5a4c9b9f05829c662c9d562823fff633dfb77586855ac4533b4",
-      "animationName": "new_york_hustle_wheel_right.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "0df3984c11d099cf77d191eec0bf8857fca56bc4f683f7d74e0ad5bf88588379",
+      "animationName": "new_york_hustle_wheel_right.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; hand-contact polish"
     },
     {
       "id": "nightclub_two_step_basic_closed",
