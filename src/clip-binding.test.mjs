@@ -6,6 +6,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
 import { clone } from 'three/addons/utils/SkeletonUtils.js';
 import { bindClip } from './clip-binding.ts';
+import { retrieveMoves, retrieveVariant } from './moves.ts';
 
 // Geometry tests run in Node; actual texture decoding is checked in the browser.
 globalThis.createImageBitmap = async () => ({ width: 1, height: 1, close() {} });
@@ -19,6 +20,34 @@ async function load(path) {
 const catalog = JSON.parse(await readFile('catalog.json', 'utf8'));
 const man = await load(catalog.models.man.file);
 const woman = await load(catalog.models.woman.file);
+
+test('every Go-go move offers Man and Woman solos with their original tracks and provenance', async () => {
+  const moves = retrieveMoves(catalog.animations, 'gogo');
+  assert.equal(moves.length, 64);
+  for (const move of moves) {
+    assert.ok(move.solo, move.id);
+    assert.equal(move.variants.length, 2, move.id);
+    const manEntry = retrieveVariant(move, 'man');
+    const womanEntry = retrieveVariant(move, 'woman');
+    for (const key of ['file', 'sourceFile', 'sourceSha256', 'originalExport', 'originalExportSha256', 'animationName', 'duration', 'status']) {
+      assert.equal(womanEntry[key], manEntry[key], `${move.id}: ${key}`);
+    }
+    const source = await load(manEntry.file);
+    const models = new Map([['man', clone(man.scene)], ['woman', clone(woman.scene)]]);
+    const complete = await bindClip(source, models);
+    for (const actor of ['man', 'woman']) {
+      const entry = retrieveVariant(move, actor);
+      assert.deepEqual(entry.performers, [actor], move.id);
+      const model = models.get(actor);
+      const identifiers = new Set();
+      model.traverse(node => identifiers.add(node.uuid));
+      const solo = await bindClip(source, new Map([[actor, model]]));
+      assert.deepEqual(solo.tracks, complete.tracks.filter(track => identifiers.has(track.name.split('.')[0])), entry.id);
+      assert.ok(solo.tracks.length > 100, entry.id);
+      assert.equal(solo.duration, complete.duration, entry.id);
+    }
+  }
+});
 
 test('both standard MPFB bodies fit their skeletons at rest and during a solo move', async () => {
   for (const [actor, template] of [['man', man], ['woman', woman]]) {

@@ -34,7 +34,7 @@ export async function bindClip(source: GLTF, models: Map<Performer, Object3D>): 
     const original = sourceTargets.get(binding.nodeName);
     if (!original) throw new Error(`Missing animation target: ${track.name}`);
     const actor = performerFor(original);
-    if (actor) {
+    if (actor && models.has(actor)) {
       const target = targets.get(actor)?.get(baseName(original.name));
       if (!target) throw new Error(`Missing ${actor} joint: ${original.name}`);
       const bound = track.clone();
