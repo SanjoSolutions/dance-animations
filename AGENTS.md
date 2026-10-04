@@ -7,6 +7,7 @@ Co-authored-by: Codex <noreply@openai.com>
 ## GitHub
 
 Identify Codex-authored GitHub communication as written by Codex.
+Always state at the start of the PR "Created by Codex.".
 Publish only to main after the user approves the local quality review.
 
 ## Assets
