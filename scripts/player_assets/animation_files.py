@@ -218,6 +218,7 @@ class AnimationFileWriter:
                 member.name = original_name + "_split_source"
                 duplicate = member.copy()
                 duplicate.name = original_name
+                duplicate['animation_frame_rate'] = [scene.render.fps, scene.render.fps_base]
                 if member.asset_data:
                     duplicate.asset_mark()
                     for field in ("author", "description", "copyright", "license", "catalog_id"):
@@ -315,6 +316,8 @@ class AnimationAuthoringScene:
             with bpy.data.libraries.load(str(template), link=False) as (available, loaded):
                 loaded.scenes = available.scenes
             scene = loaded.scenes[0]
+            scene['animation_default_frame_rate'] = [scene.render.fps, scene.render.fps_base]
+            scene.render.fps, scene.render.fps_base = descriptor.render.fps, descriptor.render.fps_base
             for owner in set(bpy.data.user_map()) - existing:
                 if owner.library is None:
                     owner.is_runtime_data = True
@@ -327,6 +330,8 @@ class AnimationAuthoringScene:
                 AnimationFileLibrary._install_bindings(action)
             name = descriptor[SOURCE_PROPERTY]
             action = bpy.data.actions.get(name)
+            if action:
+                action['animation_frame_rate'] = [descriptor.render.fps, descriptor.render.fps_base]
             binding = next((binding for binding in json.loads(action.get(TRACKS_PROPERTY, "[]"))
                             if binding["action"] == name), None) if action else None
             if action:
@@ -371,6 +376,12 @@ def store_animation_file(*args):
         for action in actions:
             action.is_runtime_data = retrieve_base_name(action.name) != primary
         actions = {action for action in actions if not action.is_runtime_data}
+        if retrieve_base_name(scene.get("Track Chooser Selection", primary)) == primary:
+            for action in actions:
+                action['animation_frame_rate'] = [scene.render.fps, scene.render.fps_base]
+            for descriptor in bpy.data.scenes:
+                if descriptor.get(TEMPLATE_PROPERTY) and not descriptor.is_runtime_data:
+                    descriptor.render.fps, descriptor.render.fps_base = scene.render.fps, scene.render.fps_base
         snapshot = AnimationTracks()
         for action in actions:
             family = {candidate for candidate in actions if retrieve_base_name(candidate.name) == action.name}

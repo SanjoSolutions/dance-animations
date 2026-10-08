@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { AnimationMixer, Box3, Group, Vector3 } from 'three';
+import { AnimationMixer, Box3, Group, LoopOnce, Vector3 } from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
 import { clone } from 'three/addons/utils/SkeletonUtils.js';
@@ -111,5 +111,37 @@ test('a paired clip animates each skeleton independently', async () => {
       const width = track.getValueSize();
       return track.values.some((value, index) => Math.abs(value - track.values[index % width]) > 1e-4);
     }), 'Each performer moves');
+  }
+});
+
+test('Salsa cross body outside turn keeps both chest regions attached to each torso', async () => {
+  const entry = catalog.animations.find(entry => entry.id === 'salsa_cross_body_outside_turn');
+  const source = await load(entry.file);
+  for (const models of [catalog.models, catalog.wardrobe.profiles.latin.models]) {
+    for (const actor of entry.performers) {
+      const model = clone((await load(models[actor].file)).scene);
+      const clip = await bindClip(source, new Map([[actor, model]]));
+      const mixer = new AnimationMixer(model);
+      const action = mixer.clipAction(clip).setLoop(LoopOnce, 1);
+      action.clampWhenFinished = true;
+      action.play();
+      const torso = model.getObjectByName('DEF-spine004');
+      const chest = ['L', 'R'].map(side => model.getObjectByName(`DEF-breast${side}`));
+      assert.ok(torso && chest.every(Boolean), `${actor}: chest and torso joints`);
+      const offsets = [];
+      // Cover every stored frame, fractional poses, and the directed move's endpoint.
+      for (let sample = 0; sample <= 640; sample++) {
+        mixer.setTime(sample / 96);
+        model.updateMatrixWorld(true);
+        for (const [index, joint] of chest.entries()) {
+          const offset = torso.worldToLocal(joint.getWorldPosition(new Vector3()));
+          if (sample === 0) offsets[index] = offset.clone();
+          assert.ok(offset.distanceTo(offsets[index]) < .0003,
+            `${models[actor].file}: ${joint.name} follows its torso at frame ${sample / 4}`);
+        }
+      }
+      mixer.stopAllAction();
+      mixer.uncacheRoot(model);
+    }
   }
 });
