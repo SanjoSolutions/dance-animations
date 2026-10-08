@@ -2,6 +2,7 @@ import { PhraseTiming, PlaybackClock, type MusicTrack } from './timing.ts';
 
 interface MoveSelection {
   timing: PhraseTiming;
+  looping: boolean;
   /** Starting position in seconds on the continuous music clock. */
   start: number;
   /** Automatic change interval in bars; zero uses the current phrase. */
@@ -25,6 +26,7 @@ export class DancePlayback {
   private enabled = false;
   private awaitingAudio = false;
   private looping = true;
+  private motionLooping = true;
   private advancing = false;
   private volume = .5;
   private previewSpeed = 1;
@@ -62,7 +64,7 @@ export class DancePlayback {
     if (this.track?.style !== style) this.clear();
   }
 
-  select(sourceDuration: number, track: MusicTrack, buffer: AudioBuffer, activate: (start: number) => void = () => {}, interval?: number): Promise<boolean> {
+  select(sourceDuration: number, track: MusicTrack, buffer: AudioBuffer, activate: (start: number) => void = () => {}, interval?: number, looping = true): Promise<boolean> {
     this.cancelSelection();
     const timing = new PhraseTiming(sourceDuration, track);
     const matching = this.timing && this.track?.style === track.style && this.buffer === buffer;
@@ -71,13 +73,14 @@ export class DancePlayback {
     if (continuing) {
       const start = this.retrieveSelectionStart(interval);
       return new Promise(complete => {
-        this.selection = { timing, start, interval, activate, complete };
+        this.selection = { timing, looping, start, interval, activate, complete };
         this.scheduleSoundEnd();
       });
     } else {
       this.stopSound();
       this.buffer = buffer;
       this.timing = timing;
+      this.motionLooping = looping;
       this.motionOrigin = 0;
       this.clock.seek(0);
       this.clock.setPaused(false);
@@ -145,7 +148,7 @@ export class DancePlayback {
   }
 
   setPaused(paused: boolean): void {
-    if (!paused && !this.looping && !this.advancing && !this.selection && this.timing && this.clock.retrieveTime() - this.motionOrigin >= this.timing.duration) {
+    if (!paused && !(this.looping && this.motionLooping) && !this.advancing && !this.selection && this.timing && this.clock.retrieveTime() - this.motionOrigin >= this.timing.duration) {
       this.clock.seek(0);
       this.motionOrigin = 0;
     }
@@ -199,7 +202,7 @@ export class DancePlayback {
     const elapsed = this.clock.retrieveTime();
     if (this.selection && !this.clock.retrievePaused() && elapsed >= this.selection.start) this.activateSelection(this.selection.start);
     if (this.timing) {
-      const position = this.timing.retrievePosition(elapsed - this.motionOrigin, this.looping);
+      const position = this.timing.retrievePosition(elapsed - this.motionOrigin, this.looping && this.motionLooping);
       if (position.finished && !this.selection && !this.advancing && !this.clock.retrievePaused()) {
         this.clock.seek(this.motionOrigin + this.timing.duration);
         this.setPaused(true);
@@ -255,6 +258,7 @@ export class DancePlayback {
       const selection = this.selection;
       this.selection = undefined;
       this.timing = selection.timing;
+      this.motionLooping = selection.looping;
       this.motionOrigin = start;
       selection.activate(start);
       selection.complete(true);

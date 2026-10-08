@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>House animation review</title>
+<style>
+  body { font: 16px system-ui; color: #182333; background: #f4f6f9; margin: 2rem auto; max-width: 1400px; padding: 0 1rem; }
+  input, select { padding: .65rem; font: inherit; border: 1px solid #bbc4d0; border-radius: .3rem; }
+  nav { display: flex; gap: .75rem; flex-wrap: wrap; margin: 1.5rem 0; }
+  main { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 1rem; }
+  article { background: white; border: 1px solid #d7dee8; border-radius: .4rem; overflow: hidden; }
+  article > div { padding: 1rem; }
+  h2 { font-size: 1.1rem; margin: 0 0 .6rem; }
+  video { display: block; width: 100%; background: #e9eef4; }
+  a { color: #185aa5; } p { line-height: 1.5; }
+</style>
+<h1>House animation review</h1>
+<p>45 phrases for each performer · 4 seconds · 8 beats at 120 BPM. Front and side views use the project’s MPFB characters. These clips are procedural practice studies. Directed transitions hold their final pose.</p>
+<p><a href="README.md">Review record</a> · <a href="summary.json">Measured summary</a></p>
+<nav>
+  <input id="search" type="search" placeholder="Find a phrase" aria-label="Find a phrase" autofocus>
+  <select id="actor" aria-label="Performer"><option value="">Both performers</option><option value="man">Man</option><option value="woman">Woman</option></select>
+  <span id="count" aria-live="polite"></span>
+</nav>
+<main></main>
+<script type="module">
+  const clips = await fetch('./gallery.json').then(response => response.json());
+  const main = document.querySelector('main');
+  const search = document.querySelector('#search');
+  const actor = document.querySelector('#actor');
+  function render() {
+    const selected = clips.filter(clip => (!actor.value || clip.actor === actor.value) && clip.phrase.toLowerCase().includes(search.value.toLowerCase()));
+    document.querySelector('#count').textContent = `${selected.length} clips`;
+    main.replaceChildren(...selected.map(clip => {
+      const article = document.createElement('article');
+      const video = document.createElement('video');
+      video.src = `./media/${clip.id}.webm`; video.controls = true; video.preload = 'none'; video.loop = clip.loop; video.playsInline = true;
+      video.poster = `./media/${clip.id}-poster.jpg`;
+      const body = document.createElement('div');
+      const title = document.createElement('h2'); title.textContent = `${clip.phrase} · ${clip.actor === 'man' ? 'Man' : 'Woman'}`;
+      const text = document.createElement('p'); text.textContent = clip.description;
+      body.append(title, text);
+      for (const [label, href] of [['Contact sheet', `media/${clip.id}.jpg`], ['Clip evidence', `clips/${clip.id}.json`]]) {
+        const link = document.createElement('a'); link.href = href; link.textContent = label;
+        body.append(link, document.createTextNode(' · '));
+      }
+      article.append(video, body); return article;
+    }));
+  }
+  search.addEventListener('input', render); actor.addEventListener('change', render); render();
+</script>
+</html>

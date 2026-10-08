@@ -1,0 +1,28 @@
+{
+  "clips": 90,
+  "phrases": 45,
+  "performers": [
+    "man",
+    "woman"
+  ],
+  "frames": [
+    0,
+    96
+  ],
+  "effectiveFrameRate": 24,
+  "runtimeSampleRate": 48,
+  "duration": 4,
+  "tempo": 120,
+  "beats": 8,
+  "maximumSkinPenetration": 0.002140522003173828,
+  "maximumSupportGap": 0.0038614424411207438,
+  "maximumPalmGap": 0.002930760383605957,
+  "maximumBakePositionError": 0.004455644637346268,
+  "maximumBakeAngularError": 0.01699897274374962,
+  "maximumRuntimePositionError": 0.0043907157409793065,
+  "maximumRelocatedPlaybackError": 0.0,
+  "totalSourceBytes": 582958894,
+  "passed": true,
+  "status": "Local procedural repertoire review",
+  "publication": "Awaiting local quality review"
+}
