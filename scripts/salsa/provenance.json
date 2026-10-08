@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/SanjoSolutions/sanjo-solutions",
+  "sources": [
+    {"path": "apps/a-game/scripts/salsa_choreography.py", "blob": "095a806a15f6de8cd7367bba6443f4b6821ebad4"},
+    {"path": "apps/a-game/scripts/create_salsa_dance.py", "blob": "bab10975e6db16cff3e3cc9b48b8c05810b5a062"},
+    {"path": "apps/a-game/scripts/review_salsa_dance.py", "blob": "22c6cc7019f574bc928fede84db0be3d4fe8db32"}
+  ],
+  "adaptations": [
+    "Retain the original On1 repertoire, routes, footfalls, and 144 BPM timing.",
+    "Refine existing saved native sources with controlled turning-foot pivots and MPFB sole calibration.",
+    "Recheck authored support and contacts with the local rig helpers and fractional-frame sampling."
+  ],
+  "status": "Procedural dance study"
+}

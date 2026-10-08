@@ -1,0 +1,184 @@
+[
+  {
+    "id": "hip_hop_man_kick_step",
+    "file": "docs/animation_work_status/priority_recovery/hip_hop_man_kick_step.mp4",
+    "sha256": "12c1c4c8777b8f0a06187dd1936a7cbb842a0126b431b56f9ad2172b8eaa40db",
+    "capture": {
+      "sourceSha256": "1867c614f9caa404c1505acedb0b7cf974804d66ffc08c0a78e86a47660e52aa",
+      "exportSha256": "c566c60036e48320b2e3370530eae5f4f7b2744b0b877c5b27e1a14c77e78902",
+      "duration": 2.5,
+      "frames": 61,
+      "rate": 24,
+      "model": "catalog wardrobe MPFB profile",
+      "camera": "three-quarter"
+    },
+    "models": {
+      "man": {
+        "file": "models/wardrobe/street/mpfb-man.glb",
+        "sha256": "ba981a163eb4e776e29dc01f28a70a200cb7b7b7bfd0a5ea349550607e4fada8"
+      },
+      "woman": {
+        "file": "models/wardrobe/street/mpfb-woman.glb",
+        "sha256": "beb810d83c46f5d1131ea08b52c44c8796d41625ed5d3a27a4a8cea0bd7e226e"
+      }
+    },
+    "installedSourceSha256": "2898e637dcf4ac884abbeef6014210c982b9a7b3633556fced638af6a1f07510",
+    "installedExportSha256": "a072c2123cebb53c7828e91b4e62b1f2b4afc68553e7a0237005006bb7b70e79"
+  },
+  {
+    "id": "new_york_hustle_alternating_turns",
+    "file": "docs/animation_work_status/priority_recovery/new_york_hustle_alternating_turns.mp4",
+    "sha256": "1f839afdbdb9fb71f7a5a65944f26d6bf5fea48fe0f7069bf3566a5494489ec4",
+    "capture": {
+      "sourceSha256": "4f4828f5f8f7b5cfe3a530d35be169e653cc03597bd7e000489471aeb08c32c1",
+      "exportSha256": "a80adbab9f9b8dcb86f63983a19af7c6306633d5b7f792fa6d25dccc7006fe56",
+      "duration": 6,
+      "frames": 145,
+      "rate": 24,
+      "model": "catalog wardrobe MPFB profile",
+      "camera": "three-quarter"
+    },
+    "models": {
+      "man": {
+        "file": "models/wardrobe/street/mpfb-man.glb",
+        "sha256": "ba981a163eb4e776e29dc01f28a70a200cb7b7b7bfd0a5ea349550607e4fada8"
+      },
+      "woman": {
+        "file": "models/wardrobe/street/mpfb-woman.glb",
+        "sha256": "beb810d83c46f5d1131ea08b52c44c8796d41625ed5d3a27a4a8cea0bd7e226e"
+      }
+    },
+    "installedSourceSha256": "c4d1ff381c2db08ad42bbeab62d3d8e80d8f1e779eae8f5878c90f85eaa2963c",
+    "installedExportSha256": "05ae3ea32f5557e69db9aa89f664b55e04cda40b90c798612c33465d8a6beae0"
+  },
+  {
+    "id": "new_york_hustle_basic_closed",
+    "file": "docs/animation_work_status/priority_recovery/new_york_hustle_basic_closed.mp4",
+    "sha256": "3348a9d292db3bb59f8f9d93f08f5c91004a105668408fbbc62fb09a5c358365",
+    "capture": {
+      "sourceSha256": "da0a3f8aa15eaabfd20ec324a7e24ff6b9a1a67f2afb93c388340b76cbe49586",
+      "exportSha256": "76763044584a2e0f5639c5686f56cf39fff8bd8420e10a12453ca18d91460465",
+      "duration": 3,
+      "frames": 73,
+      "rate": 24,
+      "model": "catalog wardrobe MPFB profile",
+      "camera": "three-quarter"
+    },
+    "models": {
+      "man": {
+        "file": "models/wardrobe/street/mpfb-man.glb",
+        "sha256": "ba981a163eb4e776e29dc01f28a70a200cb7b7b7bfd0a5ea349550607e4fada8"
+      },
+      "woman": {
+        "file": "models/wardrobe/street/mpfb-woman.glb",
+        "sha256": "beb810d83c46f5d1131ea08b52c44c8796d41625ed5d3a27a4a8cea0bd7e226e"
+      }
+    },
+    "installedSourceSha256": "7458696a0c956d3ba870b6b912d56a691a1d5138dfaacf4ebb96397ef0c2ce57",
+    "installedExportSha256": "ccde4432c5b21ccde4d14ba213e4da275557811016851d1870a1ae6f0b7f674e"
+  },
+  {
+    "id": "new_york_hustle_shadow_entry_exit",
+    "file": "docs/animation_work_status/priority_recovery/new_york_hustle_shadow_entry_exit.mp4",
+    "sha256": "be40ef8fd49e0164b8b462de5dba2e97ab1c71e76411b83421c25a5218d3627f",
+    "capture": {
+      "sourceSha256": "8d973d4030177102c0a00d391afd11e87279f220f4b756018d09d9f1ef359f8b",
+      "exportSha256": "5a33e67dead8ccabd68901641b0a71d4333db7ff9b71241dc25681e48064b50a",
+      "duration": 6,
+      "frames": 145,
+      "rate": 24,
+      "model": "catalog wardrobe MPFB profile",
+      "camera": "three-quarter"
+    },
+    "models": {
+      "man": {
+        "file": "models/wardrobe/street/mpfb-man.glb",
+        "sha256": "ba981a163eb4e776e29dc01f28a70a200cb7b7b7bfd0a5ea349550607e4fada8"
+      },
+      "woman": {
+        "file": "models/wardrobe/street/mpfb-woman.glb",
+        "sha256": "beb810d83c46f5d1131ea08b52c44c8796d41625ed5d3a27a4a8cea0bd7e226e"
+      }
+    },
+    "installedSourceSha256": "39a3ca1091afb915975369824e106c60ba4afe97feaebe70206d1d615846690b",
+    "installedExportSha256": "e179d5fb9ee52302aa3308ef3481b505be53bcb8a9154703f964322cf8841e93"
+  },
+  {
+    "id": "popping_woman_finger_tutting",
+    "file": "docs/animation_work_status/priority_recovery/popping_woman_finger_tutting.mp4",
+    "sha256": "d260843da19fa039463b0ea4aeb99c87638c07084347c623abfb7b7122c671c4",
+    "capture": {
+      "sourceSha256": "9f74f7ff01caa86b922056dfe2b3d1a0d87a29518470bf94fc3f204753033d80",
+      "exportSha256": "beb5c53c93f78a96f970c5c061e485e601490122271c0db1d8c706e40edb30ed",
+      "duration": 2,
+      "frames": 49,
+      "rate": 24,
+      "model": "catalog wardrobe MPFB profile",
+      "camera": "three-quarter"
+    },
+    "models": {
+      "man": {
+        "file": "models/wardrobe/street/mpfb-man.glb",
+        "sha256": "ba981a163eb4e776e29dc01f28a70a200cb7b7b7bfd0a5ea349550607e4fada8"
+      },
+      "woman": {
+        "file": "models/wardrobe/street/mpfb-woman.glb",
+        "sha256": "beb810d83c46f5d1131ea08b52c44c8796d41625ed5d3a27a4a8cea0bd7e226e"
+      }
+    },
+    "installedSourceSha256": "975a001ca6949e3b2a4aa103aaf42614ae16dd493db89cf8a148216c37d8edbc",
+    "installedExportSha256": "857ee9fd2950c1e6e2b0cc0c566bad07e60813a85c7e3b25eafd642a37ca1376"
+  },
+  {
+    "id": "salsa_around_the_world",
+    "file": "docs/animation_work_status/priority_recovery/salsa_around_the_world.mp4",
+    "sha256": "9b578154915f3ce68abadd0a234e6079e04e7ba58e89413fb3154af1c3f87c31",
+    "capture": {
+      "sourceSha256": "1d1e5cfa9fba7ad2bccff9ef8ff57c63f289210f58fc4689ca09e0f3f1c4ba74",
+      "exportSha256": "e1870cff591a3aa2849b5ae822300987f6cda31da191cb12a3e3eee1cfa47236",
+      "duration": 6.666666507720947,
+      "frames": 161,
+      "rate": 24,
+      "model": "catalog wardrobe MPFB profile",
+      "camera": "three-quarter"
+    },
+    "models": {
+      "man": {
+        "file": "models/wardrobe/latin/mpfb-man.glb",
+        "sha256": "f371474363b76203f92704e65152cbf2af162d51ff57ffff6677ce715e23453e"
+      },
+      "woman": {
+        "file": "models/wardrobe/latin/mpfb-woman.glb",
+        "sha256": "2f07cb5a2e136ffb8e47f7257a13e53c1e6e8f68671c857c6fe495629dae9e0c"
+      }
+    },
+    "installedSourceSha256": "143c51ae2909390d67ac83d2475107476538cd125eb0aae3021877cde45242e6",
+    "installedExportSha256": "fe1fa1f9b5e8b0ab10724a421bf58c4e804807e765e9307ff65f729007cdc8bf"
+  },
+  {
+    "id": "salsa_leader_left_turn",
+    "file": "docs/animation_work_status/priority_recovery/salsa_leader_left_turn.mp4",
+    "sha256": "6ef35ce66737078c19a80ef11edf3df96fa3e6378e4ebb73514991f328d0ad85",
+    "capture": {
+      "sourceSha256": "17e52e18b16b658b264597758098422ce304959892dd1cde3b3b74d9f3abc2de",
+      "exportSha256": "954bf1bdaa44c151289e1a6aab19d9d8a84f87a9fdcbb53d41ed5cb595e8f1cb",
+      "duration": 3.3333332538604736,
+      "frames": 81,
+      "rate": 24,
+      "model": "catalog wardrobe MPFB profile",
+      "camera": "three-quarter"
+    },
+    "models": {
+      "man": {
+        "file": "models/wardrobe/latin/mpfb-man.glb",
+        "sha256": "f371474363b76203f92704e65152cbf2af162d51ff57ffff6677ce715e23453e"
+      },
+      "woman": {
+        "file": "models/wardrobe/latin/mpfb-woman.glb",
+        "sha256": "2f07cb5a2e136ffb8e47f7257a13e53c1e6e8f68671c857c6fe495629dae9e0c"
+      }
+    },
+    "installedSourceSha256": "5ccc45ded7a77a65f961317c137bdd68ffb62efba885b70935b95fa6af6a1227",
+    "installedExportSha256": "183fde2de4a8a04a8f3048801f6887cdd70fb17f5ca070a87319bf394bf4232b"
+  }
+]
