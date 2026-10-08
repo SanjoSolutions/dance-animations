@@ -1,12 +1,13 @@
 # Local validation
 
-The library contains 3,599 selectable runtime variants from 3,517 GLB clips and 3,517 Blender sources across 92 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
+The library contains 3,676 selectable runtime variants from 3,558 GLB clips and 3,558 Blender sources across 92 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
 
 The automated checks cover:
 
 - Every runtime clip loads with Three.js and Meshopt support, binds to the requested MPFB skeletons, matches its catalog duration, and seeks to finite transforms at the start, middle, and end.
 - Both full MPFB bodies have human proportions at rest and during a solo move. The Woman body's inherited scale was corrected in both Blender studios and the exported model.
 - Paired playback binds each performer independently.
+- Each of the 36 Cutting shapes moves offers selectable Man and Woman solos. Their shared-origin action slots describe independent solos. Each choice binds the selected performer's original tracks and retains the source/export provenance, timing, and study status. Existing move URLs select the Man solo; the character selector offers the Woman solo. Catalog imports and native exports use the same variant mapping.
 - Each of the 64 Go-go moves offers selectable Man and Woman solos. Each choice binds that performer's original tracks from the shared GLB and retains the source hash, duration, animation name, and draft review status. Catalog imports, saved-source preview merges, and native exports preserve the character choices.
 - Each of the 18 Jazz moves offers Man and Woman solo choices. Their shared-origin source slots describe independent solos; each choice binds that character's original tracks from the shared GLB and retains source provenance and draft status. The 17 saved Euler studies receive whole-character preview heading corrections (Man −90 degrees, Woman +90 degrees) so both face forward, matching the quaternion front kick. Poses and travel rotate together; source files and downloaded GLBs retain their recorded transforms.
 - Move grouping separates dance style and character from move names and preserves move words such as “Running man.” Selection changes push browser history entries with their URL parameters; Back and Forward restore the style, move, and character. The website uses in-memory selections and browser history.
@@ -25,9 +26,9 @@ The automated checks cover:
 - The Woman's standard MPFB braid and dark brown tint match Melissa's saved playground appearance in a-game. Every exported outfit includes the textured, head-skinned braid.
 - The Game Rig Tools archive passes Blender extension validation and installation in an isolated profile. Native creation, source saving, and baking also pass with the installed extension.
 - Dependency copyright notices, character asset credits, and the complete GPL extension source accompany the website and installation archive. Character exports embed their applicable credits; Blender artifacts retain license and attribution texts.
-- TypeScript checking, source hash validation, GLB structure validation, and the Vite production build pass. Packaged runtime assets occupy approximately 793.4 MiB, with Blender sources kept in Git.
+- TypeScript checking, source hash validation, GLB structure validation, and the Vite production build pass. Packaged runtime assets occupy approximately 808.8 MiB, with Blender sources kept in Git.
 
-Browser review covered complete Man and Woman models, solo character selection, paired merengue playback, OS dark mode, and the packaged preview's compressed delivery. The source's historical dance review records remain under `source-review-records/`.
+Browser review covered complete Man and Woman models, solo character selection, paired merengue playback, OS dark mode, and the packaged preview's compressed delivery. Cutting shapes review covered the original Cross step URL, both clothed solo characters, all 36 move choices, Running man naming, character URLs, and Back/Forward restoration. The source's historical dance review records remain under `source-review-records/`.
 
 The [priority animation recovery](animation_work_status/priority_recovery.md)
 records current per-clip source, native bake, runtime, sole, contact, transition,

@@ -1,5 +1,7 @@
 export interface DanceAnimation {
   id: string;
+  /** Shared move identity for independent character versions. */
+  moveId?: string;
   style: string;
   label: string;
   performers: ('man' | 'woman')[];

@@ -7,7 +7,7 @@ from import_assets import retrieve_playback_variants
 
 class PlaybackVariantsTest(unittest.TestCase):
     def test_shared_origin_solos_have_independent_choices(self):
-        for style, duration in [('jazz', 2.25), ('gogo', 4.0)]:
+        for style, duration in [('jazz', 2.25), ('gogo', 4.0), ('cutting_shapes', 2.0)]:
             with self.subTest(style=style):
                 entry = dict(id=f'{style}_step_touch', style=style, label=f'{style.capitalize()} step touch',
                              performers=['man', 'woman'], duration=duration,
@@ -20,7 +20,7 @@ class PlaybackVariantsTest(unittest.TestCase):
                                  [f'{style}_step_touch', f'{style}_step_touch_woman'])
                 self.assertEqual([variant['performers'] for variant in variants], [['man'], ['woman']])
                 for variant, actor in zip(variants, entry['performers']):
-                    expected = dict(entry, id=entry['id'] if actor == 'man' else f'{entry["id"]}_{actor}',
+                    expected = dict(entry, moveId=entry['id'], id=entry['id'] if actor == 'man' else f'{entry["id"]}_{actor}',
                                     label=f'{entry["label"]} · {actor.capitalize()}', performers=[actor])
                     if style == 'jazz':
                         expected['previewRotation'] = -math.pi / 2 if actor == 'man' else math.pi / 2
