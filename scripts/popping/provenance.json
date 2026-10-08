@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/SanjoSolutions/sanjo-solutions",
+  "sources": [
+    {
+      "path": "apps/a-game/scripts/create_popping.py",
+      "blob": "e564c75b29c91b0da827f11b49d570a4bc6ea342"
+    },
+    {
+      "path": "apps/a-game/scripts/create_woman_yoga.py",
+      "blob": "3484a711db7483285c59e07dea5ba1c9aeddbe7a"
+    },
+    {
+      "path": "apps/a-game/scripts/create_disco_dance.py",
+      "blob": "2b02e01f46180adc11d75f31d4038e19cf328e20"
+    }
+  ],
+  "adaptations": [
+    "Retain the original Popping vocabulary and native IK posing.",
+    "Use local MPFB character names and the project native bake/export helpers.",
+    "Preserve shared quaternion control modes and source frame-rate metadata."
+  ],
+  "status": "Procedural dance study"
+}

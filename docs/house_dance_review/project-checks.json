@@ -5,10 +5,10 @@
     {
       "command": "npm run check",
       "exitCode": 0,
-      "clips": 3623,
-      "sources": 3541,
+      "clips": 3640,
+      "sources": 3558,
       "styles": 92,
-      "runtimeAssetsMiB": 769.9
+      "runtimeAssetsMiB": 804.5
     },
     {
       "command": "npm test",
@@ -20,7 +20,7 @@
     {
       "command": "npm run build",
       "exitCode": 0,
-      "packagedClips": 3623
+      "packagedClips": 3640
     },
     {
       "command": "python -m compileall -q scripts/house_dance",
@@ -38,8 +38,15 @@
     {
       "command": "python scripts/lfs_policy.py sync; python scripts/lfs_policy.py check",
       "exitCode": 0,
-      "stagedFiles": 8096,
+      "stagedFiles": 8189,
       "maximumTaskSourceMiB": 7.516161918640137
+    },
+    {
+      "command": "blender --factory-startup --background --python-exit-code 1 --python scripts/player_assets/animation_timing.test.py",
+      "exitCode": 0,
+      "coverage": "Saved source timing and mixed-rate selection after integration with current main."
     }
-  ]
+  ],
+  "integrationBase": "05124580b3f5fb5fdc901de8c89c332889d39327",
+  "integrationNote": "Catalog entries retain the reviewed House content and the current main content for every other style."
 }

@@ -24,6 +24,8 @@ BOLD_LABEL_CHARACTERS = str.maketrans(
 class TrackChooser:
     def __init__(self, scene):
         self.scene = scene
+        if 'animation_default_frame_rate' not in scene:
+            scene['animation_default_frame_rate'] = [scene.render.fps, scene.render.fps_base]
 
     def retrieve_owners(self):
         owners = list(self.scene.objects)
@@ -112,7 +114,10 @@ class TrackChooser:
             self.scene["Track Chooser Selection"] = name
             from animation_participants import retrieve_actions
             from animation_wrist_constraints import AnimationWristConstraints
-            AnimationWristConstraints(self.scene).apply(retrieve_actions().get(name))
+            action = retrieve_actions().get(name)
+            rate = action.get('animation_frame_rate', self.scene['animation_default_frame_rate']) if action else self.scene['animation_default_frame_rate']
+            self.scene.render.fps, self.scene.render.fps_base = int(rate[0]), rate[1]
+            AnimationWristConstraints(self.scene).apply(action)
             self.scene.frame_set(self.scene.frame_start)
             if self.scene == bpy.context.scene:
                 from animation_camera import AnimationCamera
