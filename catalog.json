@@ -410,8 +410,8 @@
     {
       "id": "popping",
       "label": "Popping",
-      "playable": 67,
-      "sources": 67
+      "playable": 84,
+      "sources": 84
     },
     {
       "id": "quickstep",
@@ -21638,7 +21638,8 @@
       "originalExportSha256": "08b3448ae4db983f4e5b6125bf6403324830e838cc1f45fb9994d06de485ff79",
       "animationName": "hip_hop_man_arm_roll.baked",
       "status": "Game export",
-      "sourceSha256": "9622c2d2f08812f5c64800b8df0d1a57dc85b83fbbd427facb3604cf07e490f5"
+      "sourceSha256": "4852f384f89c3ff9f65686edbdaeeed582e177e39a94cad692095aa895559391",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_arm_wave",
@@ -21654,7 +21655,8 @@
       "originalExportSha256": "6606bf2c5821d3db8ad1fdc3a730e6a2cfe9f053bc00395ac9fa585f1c7dbf4d",
       "animationName": "hip_hop_man_arm_wave.baked",
       "status": "Game export",
-      "sourceSha256": "75652afba0bd76e1461d4543eb96f5c95aadbd3ab7273f80b9442702312eff64"
+      "sourceSha256": "130dfe2b53b429c7028d065124895fb8fd63c5ee7782bfb523431fc2983b1c85",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_bart_simpson",
@@ -21670,7 +21672,8 @@
       "originalExportSha256": "dd83394d223c370daac49f8f471d90072fea336396ee923b4a1496e52b9cddb2",
       "animationName": "hip_hop_man_bart_simpson.baked",
       "status": "Game export",
-      "sourceSha256": "3e10ae4d67b0d100044278920dc94af20b96088a9365cbddae117b8fbf4822d1"
+      "sourceSha256": "4feb75c0060215a0d06cbc4b2367a4416581095c447a46e785376753e0571776",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_body_roll",
@@ -21686,7 +21689,8 @@
       "originalExportSha256": "a985388127ca97276abebb88717ca9c744c801aa56536d30a869e615e9b8743d",
       "animationName": "hip_hop_man_body_roll.baked",
       "status": "Game export",
-      "sourceSha256": "396cf1c6b206020bbc97e44219cb3d864d6067f994ac9a01f0f11c19d459eae1"
+      "sourceSha256": "7c35dc673ae501bd4ee0273d2e092c6e9b772da39bd0117273eacd55f5d27112",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_box_step",
@@ -21702,7 +21706,8 @@
       "originalExportSha256": "33c9d6b9272075fbc5612b426239340974c7a5b128f179cb339e3eee649973c0",
       "animationName": "hip_hop_man_box_step.baked",
       "status": "Game export",
-      "sourceSha256": "29750cb707caa7f19be0a62ec12d75d9927603eefcc0c8961745cc6e0eb3b0ab"
+      "sourceSha256": "05e1f48bb890a48680fdaff2c65600d42aadbb062f92c5590aab50177414618c",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_cabbage_patch",
@@ -21718,7 +21723,8 @@
       "originalExportSha256": "00f909668dcd7d2ba4c774a952339468442143c7096cc53ee24a2170580262be",
       "animationName": "hip_hop_man_cabbage_patch.baked",
       "status": "Game export",
-      "sourceSha256": "f2e3a6a05114a4350b1e86dbd36becbc5331ba10fbf09ec51bf91f469716b013"
+      "sourceSha256": "8e3a7cdebb2d47f16383e60e349647d72de7b2db112fa3f642c35758880ff03f",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_chest_pop",
@@ -21734,7 +21740,8 @@
       "originalExportSha256": "4d3c7bba411d37e1dd3b31cd2b06d386005795044cd2d52305b2ed2869f7991a",
       "animationName": "hip_hop_man_chest_pop.baked",
       "status": "Game export",
-      "sourceSha256": "524a233a56654af6c54dc474e38feb0d6ecc00b28d777087a9f632b60a19a1b8"
+      "sourceSha256": "6706d70b7c1cfe9abd8e98f8761a69e306a5886926d4799a0e6cf2be4f793b9d",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_down_bounce",
@@ -21750,7 +21757,8 @@
       "originalExportSha256": "4dfc07a099ca930999e8361d14e39e7e2d2b0793236482e368e170920b0db6e3",
       "animationName": "hip_hop_man_down_bounce.baked",
       "status": "Game export",
-      "sourceSha256": "482706adf529e00f47257e8a47d1d0ab2c61f1ee6b7e944950013238007ccb82"
+      "sourceSha256": "e6e54f440ed7bfdfe49c77cc37ca89271e56dc740da64ac9781b96cfa446d93d",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_forward_rock",
@@ -21766,7 +21774,8 @@
       "originalExportSha256": "465be411674aa5b6e33597c13d9cdddcab2eced51371e472051501d1bfde864c",
       "animationName": "hip_hop_man_forward_rock.baked",
       "status": "Game export",
-      "sourceSha256": "358d66f651614eee4f48b9e1ebb9f092ebed2211af4ae3ad8b872eeb8508e6bd"
+      "sourceSha256": "392316e2fbc94129a01a03977c9ded3b0fa83b50a24582da81c4c8e7456f0221",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_foundation_flow",
@@ -21782,7 +21791,8 @@
       "originalExportSha256": "b1c4448dd2a6179b7ac4acd6b1292c2306b121e4351a89cbe878718c8630d57e",
       "animationName": "hip_hop_man_foundation_flow.baked",
       "status": "Game export",
-      "sourceSha256": "7bd0756a0f61a2286b70e7424dfd2554aa22b95561c0d26d3a0ec926a3232edc"
+      "sourceSha256": "2cac6c7f496bdefd4fd76a1b55a37f3b765b84b91a7e0face93fc3b88e2004f0",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_happy_feet",
@@ -21798,7 +21808,8 @@
       "originalExportSha256": "f7bba99b8186a52d1bcfe585b52ba2a217a7b49de364dbbd29e10fc55e6c0aca",
       "animationName": "hip_hop_man_happy_feet.baked",
       "status": "Game export",
-      "sourceSha256": "3092abf0a49c96c4b753389f807aab5029f8d35b725461fc2dbf575cae26d7ac"
+      "sourceSha256": "82aa12b661b11aac8947cfb0180e8968d2b39f88f474bcf7dcb7cb91e93d987e",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_heel_toe",
@@ -21814,7 +21825,8 @@
       "originalExportSha256": "3c9a4c56bef42ef7ec4fa4b8424bf85f33608a8491a6949071116e7d4e6bff75",
       "animationName": "hip_hop_man_heel_toe.baked",
       "status": "Game export",
-      "sourceSha256": "1b694daafa924b7e80f1bbff3c1c04232b343f00f4e7291fd5b81a019e205131"
+      "sourceSha256": "8fc2fd34af99d7301d8da7ea3cf8b6212de0ec4cff46c3419ca55ad796069629",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_isolation_flow",
@@ -21830,7 +21842,8 @@
       "originalExportSha256": "d83bf0dd957068e5bab78a2d8193a5d750446fa16c031ec5b02fa0d0869923f0",
       "animationName": "hip_hop_man_isolation_flow.baked",
       "status": "Game export",
-      "sourceSha256": "6606572032e841dce3398e8ec3939032e5e2f6c862b922fe0cc531936500c0db"
+      "sourceSha256": "b30bd2a8946331bc2e205a5f8b22416825fc0fe98428f486aa27f5bf0845e4b2",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_kick_step",
@@ -21846,7 +21859,8 @@
       "originalExportSha256": "620017d4e638c488f44497f7380e685d28b7e6d8b4d364101d8d16dcaec668b2",
       "animationName": "hip_hop_man_kick_step.baked",
       "status": "Game export",
-      "sourceSha256": "842fa976414337947dda6cbf9d8f6271245909d49181f02c745502af87be62fa"
+      "sourceSha256": "2898e637dcf4ac884abbeef6014210c982b9a7b3633556fced638af6a1f07510",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_low_to_neutral",
@@ -21862,7 +21876,8 @@
       "originalExportSha256": "a1beeaa63d364b7c68bc35024839b42cc9c606cc4bdbd3d07cf90c2ac3a5c4cf",
       "animationName": "hip_hop_man_low_to_neutral.baked",
       "status": "Game export",
-      "sourceSha256": "1aad082aefbec8064a4f073ed961d2ab7fb15a279e6d63af224738dd11c31bbf"
+      "sourceSha256": "bb7d43304b209819a87f173dcfa27687a4b29dfffddac03c159c64a472e94e16",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_neutral_to_low",
@@ -21878,7 +21893,8 @@
       "originalExportSha256": "306b8feab6f0a0fded6dafdfd860ab97cd8ebc6cacbd58041ae600588f20a347",
       "animationName": "hip_hop_man_neutral_to_low.baked",
       "status": "Game export",
-      "sourceSha256": "28cea1dd9b02907e05586880126f2a716ed57e02eb52141d77fd3f30dfe5ea46"
+      "sourceSha256": "91a7cead090c081df3631d57e4c2f5c0757cc233a3485d677f9ee49b9a25868f",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_neutral_to_wide",
@@ -21894,7 +21910,8 @@
       "originalExportSha256": "40a5a65283405c6ed7e419f5cef25a8a613a0aa82ab2cf68a1e4e1dfbd7ac2de",
       "animationName": "hip_hop_man_neutral_to_wide.baked",
       "status": "Game export",
-      "sourceSha256": "485aeb51c20c410606de3b60984d3b4b997e09c45464458bc1182989032edb1a"
+      "sourceSha256": "26e225863749787bee81aa59f2085ed7883233838dd31808003c3a29cbbfee86",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_party_machine",
@@ -21910,7 +21927,8 @@
       "originalExportSha256": "88f4fd38e9b5199d1f73c8aff10e464d18dbb9e4087f8eb78f0e6aa4077ddad3",
       "animationName": "hip_hop_man_party_machine.baked",
       "status": "Game export",
-      "sourceSha256": "becda39c4129eb05a9771319b5bf4c8c1e6a83027ed15b6715eac5e4500f0e19"
+      "sourceSha256": "26cbe5b6b00204c7d5890dc9e39d09da64639391f3888bfa8e99dc01e95bb6c1",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_lean_left",
@@ -21926,7 +21944,8 @@
       "originalExportSha256": "252fa2bef788bb401294c0d2f4a8c0c218d665219f1faafb3dd6c080899e8280",
       "animationName": "hip_hop_man_pose_lean_left.baked",
       "status": "Game export",
-      "sourceSha256": "d7589ee2d3c1bf7995a45852ef6f8e67d627d7508e1d913c149de119d34468ec"
+      "sourceSha256": "a8e374205e1c85805198cc9aae8e356c73447a615adaff6dd1622c38e3e79a81",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_lean_right",
@@ -21942,7 +21961,8 @@
       "originalExportSha256": "10ad40a5888f05b88fd52a9f0eb1cde265f61628e7c6084fc94eba883af357ff",
       "animationName": "hip_hop_man_pose_lean_right.baked",
       "status": "Game export",
-      "sourceSha256": "744010e7a2562b77be1f37c855d16b74942ad96b84f35c5aed0d1798f652ef46"
+      "sourceSha256": "6df4d76c78d81af25e3262fa800a81985174dcaba26b15e2f6d6acaabb35f674",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_low",
@@ -21958,7 +21978,8 @@
       "originalExportSha256": "5de43ab33c17a83aa2ea6011ac6dc960947441ebb3ad920a32a8033c398e136a",
       "animationName": "hip_hop_man_pose_low.baked",
       "status": "Game export",
-      "sourceSha256": "e1871cb640b7fac6c88045f71aade7ca8d87ab41f3e1be5cfee2a0c90b04ae7d"
+      "sourceSha256": "5e79ece64b97a1feefceebcbf6f9edbf707f5d26b134859eb229d1eb37358c8c",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_neutral",
@@ -21974,7 +21995,8 @@
       "originalExportSha256": "3a652b6141dae0d16a2f736cb0fc5863674f11848f6be3066559631b23141a9d",
       "animationName": "hip_hop_man_pose_neutral.baked",
       "status": "Game export",
-      "sourceSha256": "9180f3285eb41bae80488df205cc52a606ad1912f35c20f45eed499ea4b8b83f"
+      "sourceSha256": "7f955b2f9658ad51e0a4092799404b60f48b8b2b0727e3af2aee201f4eb040ef",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_open_hit",
@@ -21990,7 +22012,8 @@
       "originalExportSha256": "d67acf78400c7d6ad960d611a47942e7e0499bba92ef0a4af336ffa2553dfb07",
       "animationName": "hip_hop_man_pose_open_hit.baked",
       "status": "Game export",
-      "sourceSha256": "39c1eb7e1319f05896e5b7954d379bc7f5c5f38d1e5e5b8d03ee9e05076d3fd5"
+      "sourceSha256": "cec820803be49ca8d7835931b27a29aff3ac98cfe431a7bd3436edcc3c61cff9",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_stagger_left",
@@ -22006,7 +22029,8 @@
       "originalExportSha256": "f9a467b0aa98c09fef746bcc900aacf0d2c0e2b47253f8e8c72e6f826364488e",
       "animationName": "hip_hop_man_pose_stagger_left.baked",
       "status": "Game export",
-      "sourceSha256": "7c5c8e200a09c7239ccb527ba8b8adb206c66e00c72490ac480d1b41cb2f20da"
+      "sourceSha256": "41309c587a26793b50dd8e507e37999fa55ba5fceb6bbace3de58cf44a1001bc",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_stagger_right",
@@ -22022,7 +22046,8 @@
       "originalExportSha256": "ac23f4383b07939b8a76a8300ed132eba0a2e762fa391f292cf246b1b28bb6a2",
       "animationName": "hip_hop_man_pose_stagger_right.baked",
       "status": "Game export",
-      "sourceSha256": "a7188b868e3d9e19b5d387075902a336db8d13d2e6b331b676299f0c6ff8eaa8"
+      "sourceSha256": "c59be2bc9aa4770e57463babe7c206fd8decfbded24ad69c477363341e6025a1",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_pose_wide",
@@ -22038,7 +22063,8 @@
       "originalExportSha256": "f1f9282c65cc2a70c41c657f2aff06e1ea1d353c2f67e9ac522296fd87df8492",
       "animationName": "hip_hop_man_pose_wide.baked",
       "status": "Game export",
-      "sourceSha256": "056670920a20bde6ca5e3ec2139f5844922969dccd9a806c273af481012d2aec"
+      "sourceSha256": "3d027f19861ecfb83c590c212c0216d0dbc12d599a7a6d8c348496c6fba2136f",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_reebok",
@@ -22054,7 +22080,8 @@
       "originalExportSha256": "e7af8d07d948525b046c32516895f54b986404c0bfef185a258f3a158c2728c0",
       "animationName": "hip_hop_man_reebok.baked",
       "status": "Game export",
-      "sourceSha256": "001bcc646cb5f37c43a72e6620fc38ac122539a7eb54dfe223ccbc380d8ef654"
+      "sourceSha256": "3969519be5fc51151c8944aee8567cb95b1aa63364b343d8d426929e8dca7b71",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_roger_rabbit",
@@ -22070,7 +22097,8 @@
       "originalExportSha256": "2398a915c369e6376b1c43cfa800755b7808e8ad488c8f3427a75bff9f2bdb76",
       "animationName": "hip_hop_man_roger_rabbit.baked",
       "status": "Game export",
-      "sourceSha256": "99348de716e1f8de3bb030002c574515ce400ac4932624e8afd223d5be15fd28"
+      "sourceSha256": "23b33beb40a5e63349e1b380d231f08f22fb4bca15a5d3a01b4145dc55f51ab1",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_running_man",
@@ -22086,7 +22114,8 @@
       "originalExportSha256": "fa98b2c9bd4cf94b758b8be9dc6ef03224f0f973d73b15c89e03c7527e46763c",
       "animationName": "hip_hop_man_running_man.baked",
       "status": "Game export",
-      "sourceSha256": "58004299180eaecbbbcee23ffbeae19c9ab9ba5c3d8cc65ddf8dd51e23875870"
+      "sourceSha256": "7df3842823b669089f86ebfb2b41a060ea0f833ad4938c3c76d329997cbec66a",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_shoulder_bounce",
@@ -22102,7 +22131,8 @@
       "originalExportSha256": "2dbe53478d6b43b56359350afbfc7d290b070fd96ff507c7d2dbf91c38de8489",
       "animationName": "hip_hop_man_shoulder_bounce.baked",
       "status": "Game export",
-      "sourceSha256": "e88fea9e27a872b7ad478f5baa976dec31d4cf832da0c58c70691164e9d61d94"
+      "sourceSha256": "2ba7418fb00b01bdca1f472cd76d3072902087bf9a7d8434d02a7e5c55587adf",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_side_rock",
@@ -22118,7 +22148,8 @@
       "originalExportSha256": "531c9235b3d8b085662a56ef4fe746cd4dc67abe39449df893678168fef4b70f",
       "animationName": "hip_hop_man_side_rock.baked",
       "status": "Game export",
-      "sourceSha256": "4c6a27eb2a3e2ab77035f1510d440a79ca4889ad53a73038291d891af0d23056"
+      "sourceSha256": "0f1004bb6f97416776048fc5dcfc20401a5367e409cef1abe9e34df6ece319fa",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_skate",
@@ -22134,7 +22165,8 @@
       "originalExportSha256": "5b7146395c1fe8012909888ded5203ab19de9006bc6062b91fd713225fc4bb8a",
       "animationName": "hip_hop_man_skate.baked",
       "status": "Game export",
-      "sourceSha256": "46d9debe69ded4bd7cf19b1643a3aa177c3d21a329801cb9c46a36872dfb3d83"
+      "sourceSha256": "1e062919b3795cb16c06c2c9fc36b2b8d925a2770c0a5724de972ad086478855",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_smurf",
@@ -22150,7 +22182,8 @@
       "originalExportSha256": "6ad7b602832f20ada02a8721277205aec7c9c9a962860eac0c95838b203ad7af",
       "animationName": "hip_hop_man_smurf.baked",
       "status": "Game export",
-      "sourceSha256": "31d70ccc34d93941880bd14cf04238d358c43a7cecacc17e08ce61a94050e178"
+      "sourceSha256": "17a7ec737f6fdd18869911776a1dd788a540cde3f436cc9be700ef2c3c664469",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_step_touch",
@@ -22166,7 +22199,8 @@
       "originalExportSha256": "3362c97114c6c2d4e4dcaa7ae87207ef94d4733863b6c75e8e1310299f055227",
       "animationName": "hip_hop_man_step_touch.baked",
       "status": "Game export",
-      "sourceSha256": "5faaf77cc6d63f156195451074e39a206bd6f6198323d58f6cb71b838d6ef0a1"
+      "sourceSha256": "3efd6dd182eda1562333ab85df703c15e217b82405e9d0a33100e68d0b12aa5b",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_two_step",
@@ -22182,7 +22216,8 @@
       "originalExportSha256": "e19df061e3117fee3d41775463561ee3412158b413648b9c2c068c53522d0f7d",
       "animationName": "hip_hop_man_two_step.baked",
       "status": "Game export",
-      "sourceSha256": "1355d912f48232f15b5c4bd1a1497f131a17f5fde7c299a93114bf6732947bda"
+      "sourceSha256": "028d5f3a26b942aa3653aef30c997e89638e7b39e17357bef83e2c5612d747d0",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_up_groove",
@@ -22198,7 +22233,8 @@
       "originalExportSha256": "5b9f4b4918dbdb6f90aeba8c882a697ea9ae467eaa4bedfa02e14ee154b209e3",
       "animationName": "hip_hop_man_up_groove.baked",
       "status": "Game export",
-      "sourceSha256": "fef854949cbb2fbe0ac43c284143ad4ac614aeb6128ec68457b54cf6ef72855d"
+      "sourceSha256": "100bd2fa551227dab88beb61159085dfe454d594d6329a44bcde3f76cc83b504",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_v_step",
@@ -22214,7 +22250,8 @@
       "originalExportSha256": "73f7fb5292535db6f5c33b3293082694ecb353e022709ca1ac92425cdca290ca",
       "animationName": "hip_hop_man_v_step.baked",
       "status": "Game export",
-      "sourceSha256": "e79087581a847a28da29f3f070e6709079cfdd639cd9d05150a6b4689e48a4ee"
+      "sourceSha256": "2083d8c85580ea874fe4e2ef8ac861aa925efcf996b44d171b9fbf841418397a",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_man_wide_to_neutral",
@@ -22230,7 +22267,8 @@
       "originalExportSha256": "e30822da2623e3c1f965b219e09020c8922a0f230633a057963b0231d7941e40",
       "animationName": "hip_hop_man_wide_to_neutral.baked",
       "status": "Game export",
-      "sourceSha256": "4b2dbcc2ad6d22cd5ec99fdbba53dc875cddcb98cd65507fa7690eb6efc61109"
+      "sourceSha256": "fb6f49e8b191641b6a842413d8b80a976b881f32c0cea2f2acc0479c4dc55cd6",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_arm_roll",
@@ -22245,7 +22283,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_arm_roll_baked_3dbfa4598720.glb",
       "originalExportSha256": "e5da4fddf753ddb5f9ecaca99c95cb18012f83b2fefef86d5758a85fe412abf3",
       "animationName": "hip_hop_woman_arm_roll.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "a4365f8c792c6e44398185a0d095049253e34586c20e48437f3888aaa6084d80",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_arm_wave",
@@ -22260,7 +22300,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_arm_wave_baked_99548942d54a.glb",
       "originalExportSha256": "fc8ac0ea00499d7908945ea1451c686be1ee44672693811cd017a0fe051b85c4",
       "animationName": "hip_hop_woman_arm_wave.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "7fde18ef606716fb362b90fda68678cb8c311406910ec35ea59435e0d2dc7099",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_bart_simpson",
@@ -22275,7 +22317,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_bart_simpson_baked_e94baa195c0d.glb",
       "originalExportSha256": "a4be6e9dd6ca0aac7ca8b96578243fa633e828780e9e14372043f55b48dc2f16",
       "animationName": "hip_hop_woman_bart_simpson.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "11a014d9a5f27199b8f8e51e97e932cbbbd38fc27c3217bffe14217e85aa2712",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_body_roll",
@@ -22290,7 +22334,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_body_roll_baked_4a10d5be9237.glb",
       "originalExportSha256": "7ee033266ff60085e3a2828798c18ddf20f9d27ecc28a1b6af634313534ede58",
       "animationName": "hip_hop_woman_body_roll.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "aa5d9fa53f1884eda0fc728396ae9f829cbcec6f1af4f15cdd3cd6f137b8242e",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_box_step",
@@ -22305,7 +22351,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_box_step_baked_465721f8acdc.glb",
       "originalExportSha256": "3267a2e69f6b97c44c7ed52bd9b67c1677a3afbce017b6596d117b6c768235a8",
       "animationName": "hip_hop_woman_box_step.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "6bbe0ca48f3266459b4c4143543997c51e0a431f8c6bdd9988d3f6b1fbe7ec1f",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_cabbage_patch",
@@ -22320,7 +22368,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_cabbage_patch_baked_3ccee97c2a01.glb",
       "originalExportSha256": "1d7505f02b64efc9cee61bc1e37387f89b867144052558c6b12bcdbc1d217097",
       "animationName": "hip_hop_woman_cabbage_patch.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "5d6a98dd1ee2f899dcdc65966d2260e770cbc03dfe9516ee6a359d83ed3b114e",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_chest_pop",
@@ -22335,7 +22385,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_chest_pop_baked_27f3b359c508.glb",
       "originalExportSha256": "09354321222b500b754f0deb9659bd46effb0d4de2a7c63e76441f15aaedce97",
       "animationName": "hip_hop_woman_chest_pop.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "901decc77338cb700d2bb9516d27d25232f6cbbd1968d82b56606934453b8591",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_down_bounce",
@@ -22350,7 +22402,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_down_bounce_baked_5a66de594176.glb",
       "originalExportSha256": "97ff42ea3859f9e2d8b2e1fa39baec03cb3183f1ed495eea7d240050931c847f",
       "animationName": "hip_hop_woman_down_bounce.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "c435f3ededdf7b1afe18c25222a7aca62b9f8d655ff40e3ba83de33640810f59",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_forward_rock",
@@ -22365,7 +22419,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_forward_rock_baked_43c41307cb09.glb",
       "originalExportSha256": "effb077539759c9b5c7f503633fdfef0c6dd8c72d89b65b9befb106daac9c76a",
       "animationName": "hip_hop_woman_forward_rock.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "9ca3362319948dffbcc3afec5eb5d4499880dc4831064c5ebab8b9b219ad890f",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_foundation_flow",
@@ -22380,7 +22436,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_foundation_flow_baked_de39cbc26f09.glb",
       "originalExportSha256": "5da24b55ec51ed8982f9bcf58c58f9210989ef51e439f70b3f8b07114ed06e2d",
       "animationName": "hip_hop_woman_foundation_flow.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "69c99327bf0681f4234e65a47dfbc1005ddea832ca905243382d904624fbdfc4",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_happy_feet",
@@ -22395,7 +22453,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_happy_feet_baked_aeb20c5625cc.glb",
       "originalExportSha256": "705fc9972c8bc6293baf6292ad60a8f3f6dac6d2d22abd79d201cce8a1c4ce0e",
       "animationName": "hip_hop_woman_happy_feet.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "acdc02736dc5dcd103a85628fdf7db54e1c5334c0b928212da346542ab47f6c7",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_heel_toe",
@@ -22410,7 +22470,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_heel_toe_baked_620ba238b308.glb",
       "originalExportSha256": "82688fcdde476e7ec6caadf20c63147bf569f22d1419c984a40aa075af88af0f",
       "animationName": "hip_hop_woman_heel_toe.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "97118f107c1b3502d1d4c02d59c49b2dad900b9229e72979396da6b49651fb1f",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_isolation_flow",
@@ -22425,7 +22487,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_isolation_flow_baked_d5246e979d94.glb",
       "originalExportSha256": "76ca16e01e55ba94a9bc291ea14cb5b12e6e463182b099b068879cf157101f60",
       "animationName": "hip_hop_woman_isolation_flow.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "5fd6a4871a2d7ae237c06c354cd311caf259df0b39c2b23ffebeadf74babdd90",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_kick_step",
@@ -22440,7 +22504,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_kick_step_baked_93b2bba88f6e.glb",
       "originalExportSha256": "90d3d7ef206112f54a6a22045df5f5ec165d7d565a0a3a44302c2228b7da73aa",
       "animationName": "hip_hop_woman_kick_step.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "76a29efac75a169ac1956825f03cfca1a3f427470827fe2f508c4ea92e1ddcd7",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_low_to_neutral",
@@ -22455,7 +22521,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_low_to_neutral_baked_519d9a339251.glb",
       "originalExportSha256": "d66d30d9e4a62e43bee0a30a393284b67d29ae1ff1e5aaf9b294e2e3a761d674",
       "animationName": "hip_hop_woman_low_to_neutral.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "3a325b3fb507df862c450849d8b2bb65708ced0ab55e3927cce4ac663f489481",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_neutral_to_low",
@@ -22470,7 +22538,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_neutral_to_low_baked_4c8939a614c2.glb",
       "originalExportSha256": "bdbfb0cc7ad0818765a77ffe89eed6884b4f4c6e9d8d587557079af33235c297",
       "animationName": "hip_hop_woman_neutral_to_low.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "948fc4c107aa5a0d4464ccfd01ad2960df887dc83e916e89653f3fde40b45525",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_neutral_to_wide",
@@ -22485,7 +22555,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_neutral_to_wide_baked_7ee479780801.glb",
       "originalExportSha256": "608e48225f1d7cbf28bcf70ec3d380044c2e4665b4f1baa2cda4d85cd1df8465",
       "animationName": "hip_hop_woman_neutral_to_wide.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "9e8338f4fdf2fae082a76fd848ee1e8730fee86f0b251acf0c4deb0454b3c2e2",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_party_machine",
@@ -22500,7 +22572,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_party_machine_baked_11fc4b89f1dc.glb",
       "originalExportSha256": "125d9687f4a5b5bbddb9a5363b7bb14f5ba55b41bee33a1e6545da6970300928",
       "animationName": "hip_hop_woman_party_machine.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "2d390c47bf109b7a4d1710a0f178d558ad41717a33005049e508a814c6e9d871",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_lean_left",
@@ -22515,7 +22589,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_lean_left_baked_58209d27e5b6.glb",
       "originalExportSha256": "80078ba9ba391c7abcc9e1093fd2a691d23a057047b53e948c7ed799163b7e17",
       "animationName": "hip_hop_woman_pose_lean_left.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "649bf1a340e09709fa88e4dcc9e9ee9f9aeeb64d3ec405cfd72ff7d39659a86a",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_lean_right",
@@ -22530,7 +22606,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_lean_right_baked_62a06d93a575.glb",
       "originalExportSha256": "783d4d410a66a135050f4c36970fa78a1cb5812909e560516cd337bb598517f2",
       "animationName": "hip_hop_woman_pose_lean_right.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "24fec6dd8ece8e3a1fe21d7580a7750ae4a02db9c7f2ddfdd6d5d99045b11afd",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_low",
@@ -22545,7 +22623,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_low_baked_88e6bff68644.glb",
       "originalExportSha256": "f0452d806cd4f3885188ead6f4d6c330d513c54da53514b484215112e8b51d52",
       "animationName": "hip_hop_woman_pose_low.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "231f9694cb900fa3223b0dbb366b0c16d81aa12dbe6545ed3cd1fb8cc1d722ff",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_neutral",
@@ -22560,7 +22640,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_neutral_baked_2be64af5919f.glb",
       "originalExportSha256": "6ea42d82506a77134e2cd73fd30fc8013b01fc60c0e214248ef66fc3db0170fd",
       "animationName": "hip_hop_woman_pose_neutral.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "58e8df8cfb3211c232deadcb4e225a1cca79de3af962e58d06db048f680a70a6",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_open_hit",
@@ -22575,7 +22657,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_open_hit_baked_53cc23d13df3.glb",
       "originalExportSha256": "04f2f49ebaf974886abf0e39c7af27a91c620918b75898c63f4283d85eb70c1f",
       "animationName": "hip_hop_woman_pose_open_hit.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "a0c62188d5312084e525ec51250536915400d4c85a8d49d8c5c8e6435a23ecdf",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_stagger_left",
@@ -22590,7 +22674,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_stagger_left_baked_886f964401e3.glb",
       "originalExportSha256": "4c32dae4ce5ad6ad3f0df01e30bba2045e7f7b1c1006e86d5a7b9e5a7818f097",
       "animationName": "hip_hop_woman_pose_stagger_left.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "93cb7d98df26eade648afc5bb74b7f0f64b0755c239683bfa95e9f315adedba8",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_stagger_right",
@@ -22605,7 +22691,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_stagger_right_baked_e012f9605bc7.glb",
       "originalExportSha256": "05ec14aaa1d6fc7ca2198183d8254311c2f223b4d81e5f9bd77c4a27f590babf",
       "animationName": "hip_hop_woman_pose_stagger_right.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "936720cc518d5fc4892942858b2e73c027ffa8ee5c6ec647e89fd392c371136a",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_pose_wide",
@@ -22620,7 +22708,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_pose_wide_baked_8c0024e193e1.glb",
       "originalExportSha256": "ce90973c0a202714c5a7468a3c91a01b662acfdbf9ecbeced4b85a34366c0c08",
       "animationName": "hip_hop_woman_pose_wide.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "7ef2d95d800c9b788365bd153690aa3b4951d9e3bdedbec6953280732171fa2b",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_reebok",
@@ -22635,7 +22725,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_reebok_baked_c6feb2e7a9d7.glb",
       "originalExportSha256": "ecab96fdad5ea724ee097c586d1a67d90da9538607d89e438820420c067b1e4c",
       "animationName": "hip_hop_woman_reebok.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "8c38f5f1d7da0a07a5f9a9e875176496f83e9a76668ff170711fd2217d9bef1e",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_roger_rabbit",
@@ -22650,7 +22742,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_roger_rabbit_baked_7ab19742e94e.glb",
       "originalExportSha256": "b4aa1c72881723979bb523a4542fa5234a9809fe0dcd9203653e1df1627f2e59",
       "animationName": "hip_hop_woman_roger_rabbit.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "3e389cec740e9e69d8860a524411d15e8003b3857934be6220e79f1c63536056",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_running_man",
@@ -22665,7 +22759,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_running_man_baked_301ef8b84858.glb",
       "originalExportSha256": "faec6bf0994cddb77ba3ca4ef7fc05839cd57d9d148749694ca8376628fcfc87",
       "animationName": "hip_hop_woman_running_man.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "662f122101d7ee271958531bcc498bcfb54425a125d193c37fa4eacbdc349a12",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_shoulder_bounce",
@@ -22680,7 +22776,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_shoulder_bounce_baked_8575e6ecae03.glb",
       "originalExportSha256": "05904a84a0da7bb03cbc7c4285d6ef17a2131e6719ba53db25ad89b918254f36",
       "animationName": "hip_hop_woman_shoulder_bounce.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "0a5b82a90390dc333d9e26868d15d25ca9f27ae1d5e3d26a10cbe21b28c03976",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_side_rock",
@@ -22695,7 +22793,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_side_rock_baked_92d13b10014c.glb",
       "originalExportSha256": "aca4d75cf9135945689bcddf88d23770179cccc3fab69944a1c5000ae9b85d00",
       "animationName": "hip_hop_woman_side_rock.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "d3337b533e58550557c5f9ef7b6d15fcb072bb5dbc13f832e0f19a0c89f409e4",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_skate",
@@ -22710,7 +22810,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_skate_baked_e8de54fbc1f6.glb",
       "originalExportSha256": "137b1882f48edd0d671873a5cc3552f55619c09520af2b985aab96d7ddd0074f",
       "animationName": "hip_hop_woman_skate.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "97c56f8829333b442cc81e100d28c34233cf31d26dcd83ac0a7d8b8ddb1ebcda",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_smurf",
@@ -22725,7 +22827,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_smurf_baked_0d162c45730f.glb",
       "originalExportSha256": "9a5ebfd82f4dbfba4b5ccd5be8a0f140c4e4a1b7d53173b746f88b534a70c7a3",
       "animationName": "hip_hop_woman_smurf.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "043e307bcfacec7033f2d01ecd0eae606e12079ee7437e31c4ecd59b9de23c48",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_step_touch",
@@ -22740,7 +22844,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_step_touch_baked_9dce2b616e13.glb",
       "originalExportSha256": "6beaf637e91ca9b06727c008a22bef15ad3d8ac41300e00c740bb43d368e7805",
       "animationName": "hip_hop_woman_step_touch.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "537b6f37a70b5e96818d09b205803ca56ca276c582822e60c4568881552f7782",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_two_step",
@@ -22755,7 +22861,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_two_step_baked_103f19e9bf87.glb",
       "originalExportSha256": "afee663c5f652fd36265160b313aa9568458bb411a0df835f0192341d1b7ccd7",
       "animationName": "hip_hop_woman_two_step.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "965b5e919e7c3bab0dfd2fe9d6e7fed046f9903f6fe19cdd95d9880399ed58f7",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_up_groove",
@@ -22770,7 +22878,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_up_groove_baked_3665c1249a68.glb",
       "originalExportSha256": "73a2d9642b6f6df285e10bb4c51702a82e1f1398cf5ba21d94625418f9fe0a7f",
       "animationName": "hip_hop_woman_up_groove.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "d9477f9692913a459d9f39c134d9eea65e97643af0d724c454b0de37407f1702",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_v_step",
@@ -22785,7 +22895,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_v_step_baked_7f475b1b3f21.glb",
       "originalExportSha256": "4f0d85236a796ce2755ca09b0584ad1f3d2176988d6ba05b3fa68d3f65bb1f84",
       "animationName": "hip_hop_woman_v_step.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "f8020fcbbdea6cd83bad4004b231b37d9f88d7345342e59a15ceb6e612966ba5",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "hip_hop_woman_wide_to_neutral",
@@ -22800,7 +22912,9 @@
       "originalExport": "models/player/animation_updates/hip_hop_woman_wide_to_neutral_baked_ff22cec2353d.glb",
       "originalExportSha256": "db2c057364ebe2db18f6306785028dc14bfc2d9a82e55430e640b92bc1aca010",
       "animationName": "hip_hop_woman_wide_to_neutral.baked",
-      "status": "Game export"
+      "status": "Game export",
+      "sourceSha256": "69d4d4858d10ffece4be52ccf1caf82ae9005bf0ac0d0e1b965b8409b837e316",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "house_man_body_roll",
@@ -34512,15 +34626,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_alternating_turns.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_alternating_turns.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "237e81c4b413d477a46633055a85ca8ac88fc2cf454a7bf2b42a6d6c6e57c23e",
+      "sourceSha256": "c4d1ff381c2db08ad42bbeab62d3d8e80d8f1e779eae8f5878c90f85eaa2963c",
       "animationName": "new_york_hustle_alternating_turns.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_basic_closed",
@@ -34530,15 +34644,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.0,
+      "duration": 3,
       "file": "animations/new_york_hustle/new_york_hustle_basic_closed.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_closed.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "039fce1a4c0b893d68c71949c644693e33842d442a7d91a5c5e0b53db591b093",
+      "sourceSha256": "7458696a0c956d3ba870b6b912d56a691a1d5138dfaacf4ebb96397ef0c2ce57",
       "animationName": "new_york_hustle_basic_closed.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_basic_double",
@@ -34548,15 +34662,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.0,
+      "duration": 3,
       "file": "animations/new_york_hustle/new_york_hustle_basic_double.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_double.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "05416e503d70868de510405055e9a63c50d6f7bab5fb293c1d182ad1e908dea2",
+      "sourceSha256": "f577aa5f4ec855e54878b0e1b33dd00a19d374f2cc5245c94f0c1e6a5290309f",
       "animationName": "new_york_hustle_basic_double.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_basic_in_place",
@@ -34566,15 +34680,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.0,
+      "duration": 3,
       "file": "animations/new_york_hustle/new_york_hustle_basic_in_place.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_in_place.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "51afa39f05cbe9b1157c6cbfebfd54ae695a44e2a99466c79ee4a6c99bfad019",
+      "sourceSha256": "e45b3d1cce8d171a3512f0f1b3e2ae60824e729a1b5336642f74082ae3147d2d",
       "animationName": "new_york_hustle_basic_in_place.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_basic_open",
@@ -34584,15 +34698,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.0,
+      "duration": 3,
       "file": "animations/new_york_hustle/new_york_hustle_basic_open.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_basic_open.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ed4bf129c408e81c4935f859cecfb69859a56ae1ae887a548250c1a8e527b2ce",
+      "sourceSha256": "f1e15150262c764babcbcd850a5ed33bf0fd4f42ecd193c3e106d26f85e77b9b",
       "animationName": "new_york_hustle_basic_open.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_combination",
@@ -34602,15 +34716,15 @@
         "man",
         "woman"
       ],
-      "duration": 12.0,
+      "duration": 12,
       "file": "animations/new_york_hustle/new_york_hustle_combination.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_combination.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8164dd70a77788f65389d03482ce84dc0db921e1f860bd532248534d8108ecab",
+      "sourceSha256": "4610e2105ce9567501645836502302d0a092268008e9af19d969b5ba896707e7",
       "animationName": "new_york_hustle_combination.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_counter_promenade_entry_exit",
@@ -34620,15 +34734,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_counter_promenade_entry_exit.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_counter_promenade_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "96be76296b16178fc160c937dff2f73abd2a581bf425258e9cc6d7f47b7a2a2b",
+      "sourceSha256": "59fc84132eeb3e8d3689140a45b6fa08b5a030ce38fe16d6215272fa8cec4692",
       "animationName": "new_york_hustle_counter_promenade_entry_exit.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_cross_body_lead",
@@ -34638,15 +34752,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_cross_body_lead.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_cross_body_lead.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "fec7751a1646f606cb1ffd9a54bb06103a2074294b8b9ee31b24f573ac6b75e4",
+      "sourceSha256": "b7942ef4cff96cb834f29b3f708176a4347a1a11f5188e376932ee4b62f038fb",
       "animationName": "new_york_hustle_cross_body_lead.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_cuddle_entry_exit",
@@ -34656,15 +34770,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_cuddle_entry_exit.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_cuddle_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8c2a315477e8ab5329e81d12f84244792b3528f408251c2c8d71116333664074",
+      "sourceSha256": "0019fba3033d5ae70d25ed6163599f88e457294c414c13f65aa50c25de1c6cb0",
       "animationName": "new_york_hustle_cuddle_entry_exit.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_follower_double_turn",
@@ -34674,15 +34788,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_follower_double_turn.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_double_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "e985336c6cf27f25345d448cb3328fe3bc74c8b71fb687f36bcb87b317a76970",
+      "sourceSha256": "54f82b1a863613b884ecf065f8d002bf195dafb47685dcb945992e492474b529",
       "animationName": "new_york_hustle_follower_double_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_follower_free_spin_left",
@@ -34692,15 +34806,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_follower_free_spin_left.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_free_spin_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "a62fcd406ca3c79049c886346939a3ae41933a982f18547286da134b842179d0",
+      "sourceSha256": "1fd51e679fbf59338fd450f7cfb46557f7ebaa8fd3951dd48ab4453b41f5bda8",
       "animationName": "new_york_hustle_follower_free_spin_left.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_follower_free_spin_right",
@@ -34710,15 +34824,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_follower_free_spin_right.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_free_spin_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8f886d82dd623ef79107d493df2b77679855a11bf2995feb14f72ee21b3bb26e",
+      "sourceSha256": "5dcd88c8a8f03d78af98c0c85873af4c302f018c9a1ce75b8416bb594698b0a7",
       "animationName": "new_york_hustle_follower_free_spin_right.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_follower_underarm_left",
@@ -34728,15 +34842,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_follower_underarm_left.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_underarm_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8c1a1f55a2f26d638bd13d6de1408bef6bc43cebb96aed321b4ad4bbca3987bf",
+      "sourceSha256": "2bcc062816daa3b4a8876bd19740aaa8b3fee18977ae18b3eda958620c6ca082",
       "animationName": "new_york_hustle_follower_underarm_left.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_follower_underarm_right",
@@ -34746,15 +34860,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_follower_underarm_right.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_follower_underarm_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8549053d9d5a1881ed0f11a167847ddd9124782da0643cb092b1c7d71444dc32",
+      "sourceSha256": "b2aa553761b73f8b843bdc9740589ff428c8f203c8c8801925b22984a7c3fc14",
       "animationName": "new_york_hustle_follower_underarm_right.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_inside_turn_pass",
@@ -34764,15 +34878,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_inside_turn_pass.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_inside_turn_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "a8f99eedbeb4da226989d3671e896f22d1b249e7ecdfacd38b03756f09954a41",
+      "sourceSha256": "2de6641096f0bda1713758cc8ebd031e85e954f7053a6eee4d75635ed287d446",
       "animationName": "new_york_hustle_inside_turn_pass.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_leader_underarm_left",
@@ -34782,15 +34896,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_leader_underarm_left.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_leader_underarm_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "9920c667a51cb6ecbabcf4efce6c9e91d5408d317d6f53837aa4abc1734dd0c0",
+      "sourceSha256": "a6b49f79a9b9658204f562217b9aaf31d72e5681063057248fd1cd79d315ed64",
       "animationName": "new_york_hustle_leader_underarm_left.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_leader_underarm_right",
@@ -34800,15 +34914,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_leader_underarm_right.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_leader_underarm_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "315c9a315532e027e9a61203e47e946d4a1f7421e2eed5d86c7ad6f042fad1d1",
+      "sourceSha256": "449d71ffdd9c80274f4cacf6ea72f365f20877cd2b034b685b18e2d5d2fa4605",
       "animationName": "new_york_hustle_leader_underarm_right.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_left_side_pass",
@@ -34818,15 +34932,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_left_side_pass.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_left_side_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "b6b7474ca5f3a146f23eeaab05f444bcb0d62363bb26400abdb4d070fc545b48",
+      "sourceSha256": "9120aedb739e8e7e1c2b3c66875f2eb56626030d3e27cea49d14864eb70ba32e",
       "animationName": "new_york_hustle_left_side_pass.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_outside_turn_pass",
@@ -34836,15 +34950,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_outside_turn_pass.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_outside_turn_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "6901d57c31f91485aca62013197f310a174375d03da37a0360acef99890744c2",
+      "sourceSha256": "fb10c3f8b36484777b449c6149f813f3acfb0d74cf28a4678beb452b74537dec",
       "animationName": "new_york_hustle_outside_turn_pass.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_closed",
@@ -34859,10 +34973,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_closed.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "faaad3cf6aab049c815f6665327dff710c5abf9ca24bb010aee5b8e67b758748",
+      "sourceSha256": "bfcdb9b0849f646641b1e46f3ccf8c7d9f764bdfbe36385205d9bd1ef7146063",
       "animationName": "new_york_hustle_position_closed.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_counter_promenade",
@@ -34877,10 +34991,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_counter_promenade.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "026ab38e601730f17dce3f813591db507d991c56baa751b2151a5ca0f34b6d55",
+      "sourceSha256": "3e98bde65e660fae1780ffd1745d349476602cd5ee179a1a7370690afb428cb3",
       "animationName": "new_york_hustle_position_counter_promenade.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_cuddle",
@@ -34895,10 +35009,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_cuddle.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "0c2465738574717156fdaaf61df7a0b0ad3787dd254d2a8802f08d46a8fdc61f",
+      "sourceSha256": "124da8862e702ef60c3c7c245978be054dbd6a2125dc229383735b5410dcc3f0",
       "animationName": "new_york_hustle_position_cuddle.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_double",
@@ -34913,10 +35027,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_double.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "22043420957a1a71d922fbac3c30e0bb9913be8ab5a1a098318e3026e87d9f76",
+      "sourceSha256": "195ae1321b1a6bef9261b68e6f80bafe06a7c4a08dc1cd5c36efafeb9a62465c",
       "animationName": "new_york_hustle_position_double.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_left_hand",
@@ -34931,10 +35045,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_left_hand.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "2beece8028b7cb06f9470cc8acf8fdfd80b02e09016b650397e8525a266572f1",
+      "sourceSha256": "b99c54a0d30c97d9ca9ec17b855d1ad39c61c681403db4ca3738c1cf101023bf",
       "animationName": "new_york_hustle_position_left_hand.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_open",
@@ -34949,10 +35063,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_open.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "dca0bf0629eaeeb69633ffd47a8414bef266aae7b2876f5feab840e347c69bc9",
+      "sourceSha256": "a00e11050438fa11fe91853cd048a0e0a1ae1415462230bb51d91f606cba5aca",
       "animationName": "new_york_hustle_position_open.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_promenade",
@@ -34967,10 +35081,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_promenade.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "8bad087dbb71dae67e5965012844af93f20d9ade4a006dc2dac56b996855980c",
+      "sourceSha256": "2c3c743f1e5ccdde3c68ba5ff777a26887ec8589a93159037713781d2045fae5",
       "animationName": "new_york_hustle_position_promenade.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_right_hand",
@@ -34985,10 +35099,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_right_hand.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "235e133107979720baf51bb7c271eba6e9f54231771888e18e74b628a5b33ff6",
+      "sourceSha256": "1d3529d771c97957bab3182256890854f69ae3252681f42a06675018f1240066",
       "animationName": "new_york_hustle_position_right_hand.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_shadow",
@@ -35003,10 +35117,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_shadow.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "341ed7641d549b4a80fb5c1f03e691d61101a0033121bba34d08a189e580ef74",
+      "sourceSha256": "9891b22be7f15189e2b410d132a19a6b3f8c75c5c9f85c36432325fbb06fd14e",
       "animationName": "new_york_hustle_position_shadow.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_position_side_by_side",
@@ -35021,10 +35135,10 @@
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_position_side_by_side.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "a9acc7d8a71915d56fe491a77f68c3ba6cf8f9f1cbeb3db2138b18690501c4be",
+      "sourceSha256": "310b6db4cb9be8b81155da3c07c2e9a5a9dc69d70310ebda06a71696dbeabce6",
       "animationName": "new_york_hustle_position_side_by_side.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_promenade_entry_exit",
@@ -35034,15 +35148,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_promenade_entry_exit.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_promenade_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "63e22591c8a2e4a040edb8895136f6417f2e036a310f3f18dc222f0ddddaa24d",
+      "sourceSha256": "5607b7e00168c4e4a785ee6bb8e87e2bc61b4a076578a6daad10ad809fa2ee09",
       "animationName": "new_york_hustle_promenade_entry_exit.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_return_to_closed",
@@ -35052,15 +35166,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_return_to_closed.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_return_to_closed.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "7373d5e7d5c36ec8b59aad0554ac8536d87d490f4061dafd68d60dcf9d80359f",
+      "sourceSha256": "265ed1add06dec4c140e33f3455e185cc4bc5923c64ce4110b9928719df2b5ca",
       "animationName": "new_york_hustle_return_to_closed.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_right_side_pass",
@@ -35070,15 +35184,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_right_side_pass.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_right_side_pass.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "06e3ac3f5e9aeeda74c9b40d811936adb5d47ce042d15467216834a3a6a113a7",
+      "sourceSha256": "0a2b3b1057d958f5d6707c0f23ab34503941061cb5dcd4b919c39d91c3aee4c1",
       "animationName": "new_york_hustle_right_side_pass.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_send_out",
@@ -35088,15 +35202,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_send_out.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_send_out.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "6a8d693f39f5a3cf353656819cc7a87e5412fc9d7ca9147ceff3970bda6fcf61",
+      "sourceSha256": "60997b7e76ccefdaab7e38cd541656012a1b557f5e3603fcbc4b181c4cf77875",
       "animationName": "new_york_hustle_send_out.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_shadow_entry_exit",
@@ -35106,15 +35220,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_shadow_entry_exit.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_shadow_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "aa38ef7cb0c38fc5fed4b9161f678596f28c26d1f1b8a86d10da372fab7a7590",
+      "sourceSha256": "39a3ca1091afb915975369824e106c60ba4afe97feaebe70206d1d615846690b",
       "animationName": "new_york_hustle_shadow_entry_exit.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_side_break_left",
@@ -35124,15 +35238,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_side_break_left.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_break_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "fad0f7d63f8bd8b1ba3aa9c726c24802aa6f6e79afa1fffadf097d3905054e68",
+      "sourceSha256": "4a2ac719b995a519485799f368028b9d0399c42c5f8d75a3f4d0ffd2b8d264e4",
       "animationName": "new_york_hustle_side_break_left.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_side_break_right",
@@ -35142,15 +35256,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_side_break_right.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_break_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ca4b58a2059fc7dc7887c055b94a2cd7d3011a8236f3c99eef34e7655f6c3d44",
+      "sourceSha256": "6ec55f82e037b6a9ccdbc1079575dd44593f25a53f474f360e89fa6e511848cf",
       "animationName": "new_york_hustle_side_break_right.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_side_by_side_entry_exit",
@@ -35160,15 +35274,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_side_by_side_entry_exit.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_side_by_side_entry_exit.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "fd921fc500638739a3459a3bd4c6025608cca0aa9161b6731926fa5daa4eb042",
+      "sourceSha256": "0f64549947c6efde23ddfeee178b09142236013a4d9af85f94fb2381d5e86593",
       "animationName": "new_york_hustle_side_by_side_entry_exit.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_traveling_basic",
@@ -35178,15 +35292,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_traveling_basic.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_traveling_basic.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "f38dd6701cf3be2c8edc2f25384874d14f3a42ef415699927d80eff5988c86ad",
+      "sourceSha256": "0306d1adb4f89dc2cc901d54840a757ad81dbd68b7818bb96339b52c8305192f",
       "animationName": "new_york_hustle_traveling_basic.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_wheel_left",
@@ -35196,15 +35310,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_wheel_left.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_wheel_left.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "a558ed16a4f265e4dcaf3d5dac9318e56ffc49915abba97d31ae988de57b8977",
+      "sourceSha256": "01e6b871f63cb9f2bbec726b5face5aaebc032ce646af64e72d60764bf36ace1",
       "animationName": "new_york_hustle_wheel_left.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "new_york_hustle_wheel_right",
@@ -35214,15 +35328,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.0,
+      "duration": 6,
       "file": "animations/new_york_hustle/new_york_hustle_wheel_right.glb",
       "sourceFile": "animations/new_york_hustle/sources/new_york_hustle_wheel_right.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "0df3984c11d099cf77d191eec0bf8857fca56bc4f683f7d74e0ad5bf88588379",
+      "sourceSha256": "66bc73e859653437ba92dc92352f072b05c1f349f4e74aa19777efa0e7b7ca9c",
       "animationName": "new_york_hustle_wheel_right.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; hand-contact polish"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "nightclub_two_step_basic_closed",
@@ -42353,7 +42467,9 @@
       "originalExport": "docs/animation_work_status/popping_repertoire/exports/popping_woman_finger_tutting_baked_d954dadecd88.glb",
       "originalExportSha256": "24bac7d85a9314995d15b3c7fc5d565f474712af6c6309e2d695abdcc5220a13",
       "animationName": "popping_woman_finger_tutting.baked",
-      "status": "Provisional export"
+      "status": "Provisional export",
+      "sourceSha256": "975a001ca6949e3b2a4aa103aaf42614ae16dd493db89cf8a148216c37d8edbc",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "popping_woman_forearm_roll",
@@ -42578,7 +42694,9 @@
       "originalExport": "docs/animation_work_status/popping_repertoire/exports/popping_woman_tutting_box_baked_12b369d083f8.glb",
       "originalExportSha256": "f80bde1f91494c5ca35d12d375b1ac01b6e75edd712e63046d830161494d5664",
       "animationName": "popping_woman_tutting_box.baked",
-      "status": "Provisional export"
+      "status": "Provisional export",
+      "sourceSha256": "7646c1be268808ac3bfc9c24d7432128a379ca7ebd39f05842e9e2ee0f2eb20c",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "popping_woman_twist_o_flex",
@@ -45420,14 +45538,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.666666666666667,
+      "duration": 6.666666507720947,
       "file": "animations/salsa/salsa_around_the_world.glb",
       "sourceFile": "animations/salsa/sources/salsa_around_the_world.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ac750d5a7be06c5b5e8631638ed173160f957bbc1ac725bd7284cd4bd2bec8e4",
-      "animationName": "salsa_around_the_world.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "143c51ae2909390d67ac83d2475107476538cd125eb0aae3021877cde45242e6",
+      "animationName": "salsa_around_the_world.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_back_basic",
@@ -45437,14 +45556,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_back_basic.glb",
       "sourceFile": "animations/salsa/sources/salsa_back_basic.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "6155ac3c2410fda52d9f29682b3424e2cac19cb665b24767d11e820264f26ee9",
-      "animationName": "salsa_back_basic.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "6887ba27e1210dd5c85b1b1ca705d3f80ebfb5eeba75a02c25818f251c1e5b4b",
+      "animationName": "salsa_back_basic.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_basic",
@@ -45454,14 +45574,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_basic.glb",
       "sourceFile": "animations/salsa/sources/salsa_basic.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "d7fcbcdda5d7656c22bbe814c8812ef59cd0fcfa13c43aba99b443a8f3e6f34d",
-      "animationName": "salsa_basic.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "e1878c69105c6b829eafb79b79e65195a41c98f9d8288a3fc4c9e9b08623ca3b",
+      "animationName": "salsa_basic.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_body_wave",
@@ -45471,14 +45592,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_body_wave.glb",
       "sourceFile": "animations/salsa/sources/salsa_body_wave.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "e381c6394b05ea127681b6d1dd586b699fc0121ad772b5821c329045b62772f9",
-      "animationName": "salsa_body_wave.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "3e0e078bf70b593c8aa5a68aad8d4e82339f29c31fc998de0394fcfc8801fcae",
+      "animationName": "salsa_body_wave.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_closed_basic",
@@ -45488,14 +45610,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_closed_basic.glb",
       "sourceFile": "animations/salsa/sources/salsa_closed_basic.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "f6399d2e327fc1dae36f723b39717776512c8f8c76f698d30e9e65152f75ec76",
-      "animationName": "salsa_closed_basic.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "f02ecab6eb96b6297660d6693a5bcf3819fdf207905e50494a8c5cc80630ad20",
+      "animationName": "salsa_closed_basic.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_copa",
@@ -45505,14 +45628,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_copa.glb",
       "sourceFile": "animations/salsa/sources/salsa_copa.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ea8181e5745af4bfc3979738035765fb97c1a5ed6e9ca8ccc770c23ce1579fbd",
-      "animationName": "salsa_copa.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "bb7e766b9162af224ebc09c64fabb7af4d887951ca6d859f6c97a7621394cca4",
+      "animationName": "salsa_copa.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_cross_body_inside_turn",
@@ -45522,14 +45646,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.666666666666667,
+      "duration": 6.666666507720947,
       "file": "animations/salsa/salsa_cross_body_inside_turn.glb",
       "sourceFile": "animations/salsa/sources/salsa_cross_body_inside_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "12a9398dcb9f3c368fdb8311cadba5ba7de2c95bbfd1d603449c83490bc471af",
-      "animationName": "salsa_cross_body_inside_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "c1d4c813ffea2ba269a28e168be7658ca023af156e0271a1060fedd01ee2f8e5",
+      "animationName": "salsa_cross_body_inside_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_cross_body_lead",
@@ -45539,14 +45664,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_cross_body_lead.glb",
       "sourceFile": "animations/salsa/sources/salsa_cross_body_lead.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "2cef414701059efb05991b2c4a044be794e4c218e988215c85ced860c03f3c5f",
-      "animationName": "salsa_cross_body_lead.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "e449056dac9bde67c94f8b03facfb8fe966237d6aeb39a51b30c6afd95355caa",
+      "animationName": "salsa_cross_body_lead.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_cross_body_outside_turn",
@@ -45556,14 +45682,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.666666666666667,
+      "duration": 6.666666507720947,
       "file": "animations/salsa/salsa_cross_body_outside_turn.glb",
       "sourceFile": "animations/salsa/sources/salsa_cross_body_outside_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "76d481af4de395e251975b8a910d7f4cda6528ffd62a1edf1f5d01e31106683d",
-      "animationName": "salsa_cross_body_outside_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "de3497cc1db1d1f6a75a69fa81c55e621c1dbf0223392d8b94eb2ea5fd27f02a",
+      "animationName": "salsa_cross_body_outside_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_crossover_breaks",
@@ -45573,14 +45700,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_crossover_breaks.glb",
       "sourceFile": "animations/salsa/sources/salsa_crossover_breaks.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "019a6da0bcff4761059681a14aa25deb6d32c5437eff925f8fa478ede08d9caf",
-      "animationName": "salsa_crossover_breaks.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "5351bfdae529bef633640231073b7e07bdb668c0222ebae7a3aa9861eb7bbb84",
+      "animationName": "salsa_crossover_breaks.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_cuban_rocks",
@@ -45590,14 +45718,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_cuban_rocks.glb",
       "sourceFile": "animations/salsa/sources/salsa_cuban_rocks.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "66028ab0b37858dadce16eedf4a3c70ebeab57695b6e2776e6db72df40ab4890",
-      "animationName": "salsa_cuban_rocks.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "9c01cfd82eff25f030fef37d268a7affda7c9c0abf436846db67533f096c8684",
+      "animationName": "salsa_cuban_rocks.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_cumbia_basic",
@@ -45607,14 +45736,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_cumbia_basic.glb",
       "sourceFile": "animations/salsa/sources/salsa_cumbia_basic.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "12786d5559fc5f55449d299b53ca265d710921bdb47954a07c8c1f1523a0bb9a",
-      "animationName": "salsa_cumbia_basic.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "8f595d3d752d205ef648d9966cd44d7f01319313ff3de97d90e60d2f96f9349e",
+      "animationName": "salsa_cumbia_basic.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_diagonal_breaks",
@@ -45624,14 +45754,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_diagonal_breaks.glb",
       "sourceFile": "animations/salsa/sources/salsa_diagonal_breaks.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "27fab6e89d9ec5054cff8513e7f77d4707f9bbd3c96c32d8d614c5e8b95eaaf8",
-      "animationName": "salsa_diagonal_breaks.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "f118288445e1c8395cea35b553fb762910a6fade64744fc2d6745ec5b2051213",
+      "animationName": "salsa_diagonal_breaks.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_diamond_step",
@@ -45641,14 +45772,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_diamond_step.glb",
       "sourceFile": "animations/salsa/sources/salsa_diamond_step.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "cd6f9b8540573f9538931ceec63d5d590981be6cd27dde5f8ba35d62fbf042be",
-      "animationName": "salsa_diamond_step.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "be21def170787e1d266f8e910bf24eabba67f9dfecbfd1e04b46325ec691ce6f",
+      "animationName": "salsa_diamond_step.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_dile_que_no",
@@ -45658,14 +45790,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_dile_que_no.glb",
       "sourceFile": "animations/salsa/sources/salsa_dile_que_no.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "519fff1b2620254a7bbb68b1787b19787b877e4ae812ad902722586f07ee0834",
-      "animationName": "salsa_dile_que_no.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "61edb648b23645ddb27e8144c00836283ce977996001172937082d127f6bd54c",
+      "animationName": "salsa_dile_que_no.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_enchufla",
@@ -45675,14 +45808,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_enchufla.glb",
       "sourceFile": "animations/salsa/sources/salsa_enchufla.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "33477633380835645294957ab15712a6559ac65eff42c74ad9265208b9f42fc5",
-      "animationName": "salsa_enchufla.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "d91b4f68fa06930e14c6e283b270085804b9a0a4081a74671ea29688d4a30f8d",
+      "animationName": "salsa_enchufla.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_follower_double_right_turn",
@@ -45692,14 +45826,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.666666666666667,
+      "duration": 6.666666507720947,
       "file": "animations/salsa/salsa_follower_double_right_turn.glb",
       "sourceFile": "animations/salsa/sources/salsa_follower_double_right_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "78e435178f3b74a5dc7ade66244a59c357dfbac91396a78687f4cf3e6a779afb",
-      "animationName": "salsa_follower_double_right_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "91914af354afa6901af4aa95d1ecb353c4384efe55501e42ebb42c2c03fc427c",
+      "animationName": "salsa_follower_double_right_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_follower_left_turn",
@@ -45709,14 +45844,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_follower_left_turn.glb",
       "sourceFile": "animations/salsa/sources/salsa_follower_left_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "2180c3992ae013534c9769ec5c6b1de62ee95c548ebd41b48e12577e57afc44f",
-      "animationName": "salsa_follower_left_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "1ae951401418611c7e6c7886ab1ea30bb3ac6f593dcdcbe2aa39a597301c2c88",
+      "animationName": "salsa_follower_left_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_follower_right_turn",
@@ -45726,14 +45862,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_follower_right_turn.glb",
       "sourceFile": "animations/salsa/sources/salsa_follower_right_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "2fcb6cf8c13d9b177a10c22ec5bfa17b140af82f690c3b9624c64e843a88b867",
-      "animationName": "salsa_follower_right_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "ba90c61014f09c8a53551bcc37243393f9019ca1508b907f16b02c29dba1f4c9",
+      "animationName": "salsa_follower_right_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_grapevine",
@@ -45743,14 +45880,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_grapevine.glb",
       "sourceFile": "animations/salsa/sources/salsa_grapevine.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ec200144c134bfa3992516b78979f355631bb983d0aee246e01036a4be2b303d",
-      "animationName": "salsa_grapevine.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "fd110cf133c3047ddd341f8e28b3beeb48fbf67b6e2495db639b030b00ae1e17",
+      "animationName": "salsa_grapevine.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_guapea",
@@ -45760,14 +45898,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_guapea.glb",
       "sourceFile": "animations/salsa/sources/salsa_guapea.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "630e6567eb94114fefce12549b9e7a50ed437f0f99138268f9daffbf4fe320e8",
-      "animationName": "salsa_guapea.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "3a7c7c44fbc4e72bc9a3de3c6dbc58b21f96f88900b5c0a8d60b54610abf28c1",
+      "animationName": "salsa_guapea.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_hecho",
@@ -45777,14 +45916,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_hecho.glb",
       "sourceFile": "animations/salsa/sources/salsa_hecho.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "aad08e85813774b2313160737f213f44955a17e64a9653f2b3ffad0414dee0aa",
-      "animationName": "salsa_hecho.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "6e04c5751c24ad99894334f6eb6bbe1e8e903f48815de00e9a190031cf850a1f",
+      "animationName": "salsa_hecho.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_heel_digs",
@@ -45794,14 +45934,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_heel_digs.glb",
       "sourceFile": "animations/salsa/sources/salsa_heel_digs.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "757209295c6a7fca105d5e71f1a755c64384d1e1fe2be9f77fd25ff055644287",
-      "animationName": "salsa_heel_digs.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "b48c9a5aded4e0925ed42f44dbe8c60ed7c0690579f1608733bce202c0b86027",
+      "animationName": "salsa_heel_digs.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_kick_ball_change",
@@ -45811,14 +45952,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_kick_ball_change.glb",
       "sourceFile": "animations/salsa/sources/salsa_kick_ball_change.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "1a57905f94840c4481c53a2db92c64cdb2fc71738953ddb2afc4efc3f5dbb525",
-      "animationName": "salsa_kick_ball_change.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "4159a5029d115a319466f095a156fdee49aeb79b628f39c2e0660432b7c6757d",
+      "animationName": "salsa_kick_ball_change.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_leader_left_turn",
@@ -45828,14 +45970,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_leader_left_turn.glb",
       "sourceFile": "animations/salsa/sources/salsa_leader_left_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "df1f2eab0cd412c47a22fec995e509e53dffd05bca90cac1b042902fcae0d61b",
-      "animationName": "salsa_leader_left_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "5ccc45ded7a77a65f961317c137bdd68ffb62efba885b70935b95fa6af6a1227",
+      "animationName": "salsa_leader_left_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_leader_right_turn",
@@ -45845,14 +45988,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_leader_right_turn.glb",
       "sourceFile": "animations/salsa/sources/salsa_leader_right_turn.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "477fda532628b2f373228c311c29c43d16349fab49bdfa318a8ae3d0cf679a7e",
-      "animationName": "salsa_leader_right_turn.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "0b6ed6a98272a187ab7296f14c7fcd23244c8300fa8f03ceb824f1b7cb95048a",
+      "animationName": "salsa_leader_right_turn.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_mambo_shine",
@@ -45862,14 +46006,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_mambo_shine.glb",
       "sourceFile": "animations/salsa/sources/salsa_mambo_shine.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "6ebdcfb7cc8b3b5b930f2ca6aa16073ad171cb6fd53cc08179822d9b7ead1311",
-      "animationName": "salsa_mambo_shine.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "d50c21d20648366b66712a31b7767cb4a37148bd89f434fa6bc74fdd5671e2ea",
+      "animationName": "salsa_mambo_shine.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_open_break",
@@ -45879,14 +46024,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_open_break.glb",
       "sourceFile": "animations/salsa/sources/salsa_open_break.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "21a4d7190f4f1b274c5e3a4870350793d3d57f83b43305d3bd20a9960f2aa9f0",
-      "animationName": "salsa_open_break.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "f06848ef93f71d09470a78fd92dbdb2325f5832dfb69e5f4c804c32b7d6ddf4e",
+      "animationName": "salsa_open_break.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_reverse_cross_body",
@@ -45896,14 +46042,15 @@
         "man",
         "woman"
       ],
-      "duration": 6.666666666666667,
+      "duration": 6.666666507720947,
       "file": "animations/salsa/salsa_reverse_cross_body.glb",
       "sourceFile": "animations/salsa/sources/salsa_reverse_cross_body.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "00dbea76050e3bebd5e2d914bc531744b5bb8abf11e320b6ed71c321fc6dc782",
-      "animationName": "salsa_reverse_cross_body.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "618f08125c38fcf1ae6d9eea5cbbf465b153ad7ec265a607e9653a96edf357dc",
+      "animationName": "salsa_reverse_cross_body.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_shoulder_shimmy",
@@ -45913,14 +46060,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_shoulder_shimmy.glb",
       "sourceFile": "animations/salsa/sources/salsa_shoulder_shimmy.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "0e65a7ce2b023b979420ef4bdfd96f756f826c50c4e68fc93162d6a7f22ec800",
-      "animationName": "salsa_shoulder_shimmy.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "c76f9cc4ba7c02b1d7581d826bbc791f5e60236d03abe58d947956df9644c027",
+      "animationName": "salsa_shoulder_shimmy.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_side_basic",
@@ -45930,14 +46078,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_side_basic.glb",
       "sourceFile": "animations/salsa/sources/salsa_side_basic.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "430d1286e05c56ed0c8547bccf5153ae58589d907dc374804c04c22543a8987a",
-      "animationName": "salsa_side_basic.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "c5daa465b53fd5cd95b44b59e63f68c3e362b3347bd56d95b3c59701daad1a21",
+      "animationName": "salsa_side_basic.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_side_shine",
@@ -45947,14 +46096,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_side_shine.glb",
       "sourceFile": "animations/salsa/sources/salsa_side_shine.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "ddbac6e5d79b00437419382a9e828f74b2ae83ad9b14f3dd018d79236a4375c0",
-      "animationName": "salsa_side_shine.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "277748d2ce862870c5075223fbbe9b4b877b1b1f7e6207a2cbbf139284e5f0cc",
+      "animationName": "salsa_side_shine.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_suzie_q",
@@ -45964,14 +46114,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_suzie_q.glb",
       "sourceFile": "animations/salsa/sources/salsa_suzie_q.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "9b44efeb4dab5f0f33c28da94fcd330bf76e97a8f2e1ee3e3debe7d3deacd65a",
-      "animationName": "salsa_suzie_q.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "0edbd321e81e0f08b99a84d413260d52f10f16462b112abb4b9bf1d265006a6f",
+      "animationName": "salsa_suzie_q.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_toe_taps",
@@ -45981,14 +46132,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_toe_taps.glb",
       "sourceFile": "animations/salsa/sources/salsa_toe_taps.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "5d63ddf80f4b920069766ec5ab41c2435191ff2100935c2ac1497a9c7519ffd6",
-      "animationName": "salsa_toe_taps.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "4b76c38389bf2379b84ba7344eec5087f984e9f35e4874a5fa5a17cef67b905b",
+      "animationName": "salsa_toe_taps.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "salsa_vacilala",
@@ -45998,14 +46150,15 @@
         "man",
         "woman"
       ],
-      "duration": 3.3333333333333335,
+      "duration": 3.3333332538604736,
       "file": "animations/salsa/salsa_vacilala.glb",
       "sourceFile": "animations/salsa/sources/salsa_vacilala.blend",
       "originalExport": null,
       "originalExportSha256": null,
-      "sourceSha256": "2a24e64b183f1b8e448c5c2dfecc03e129d151aa7d7a3186277b33c57da67b1c",
-      "animationName": "salsa_vacilala.review",
-      "status": "Saved-source draft preview"
+      "sourceSha256": "b618bd6b9e2a3074fc7630f2f8a6e096de3ceec3d9f289bb09f497da45487d95",
+      "animationName": "salsa_vacilala.baked",
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "samba_de_gafieira_balanco",
@@ -59328,9 +59481,315 @@
       "animationName": "wobble_rock_triple_right_man.baked",
       "status": "Game export",
       "sourceSha256": "2456f8cb1ea879dc5b02c4a923ed9163cef899ba291f6dd696b146c840e6d6c1"
+    },
+    {
+      "id": "popping_woman_backslide",
+      "style": "popping",
+      "label": "Woman backslide",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_backslide.blend",
+      "file": "animations/popping/popping_woman_backslide.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "5d5f0d048f6b1754e9215a48064c546460d86a146447157321c88df6c560898a",
+      "animationName": "popping_woman_backslide.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_fresno",
+      "style": "popping",
+      "label": "Woman fresno",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_fresno.blend",
+      "file": "animations/popping/popping_woman_fresno.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "460d1d6a05917ede8a895a92d59a4a6acc263d06eb8f904e4ccd4e2cc6b894b5",
+      "animationName": "popping_woman_fresno.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_heel_toe",
+      "style": "popping",
+      "label": "Woman heel toe",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_heel_toe.blend",
+      "file": "animations/popping/popping_woman_heel_toe.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "582f0af1b6a7ca824d55628fb9db1f2373f2bbb9a74be377aef4bb95b1c511fd",
+      "animationName": "popping_woman_heel_toe.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_lean",
+      "style": "popping",
+      "label": "Woman lean",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_lean.blend",
+      "file": "animations/popping/popping_woman_lean.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "cd1f39918bf9a81de6407c81056340f9e8ec02078952d11936c686517f5dcae0",
+      "animationName": "popping_woman_lean.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_box",
+      "style": "popping",
+      "label": "Woman pose box",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_box.blend",
+      "file": "animations/popping/popping_woman_pose_box.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "88fd24bd7e63594553174bf8758b4ac1364747ade53307c3eb48f8f7a633a2b2",
+      "animationName": "popping_woman_pose_box.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_low",
+      "style": "popping",
+      "label": "Woman pose low",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_low.blend",
+      "file": "animations/popping/popping_woman_pose_low.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "7aa8410c6bf68084d81d507cca8b6b8bfb05f745f9b860339956214126eb444a",
+      "animationName": "popping_woman_pose_low.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_ready",
+      "style": "popping",
+      "label": "Woman pose ready",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_ready.blend",
+      "file": "animations/popping/popping_woman_pose_ready.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "0e0f9a0f2314972e3f018f268622df05e5afdd48315acada6111fd41349c71b0",
+      "animationName": "popping_woman_pose_ready.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_robot",
+      "style": "popping",
+      "label": "Woman pose robot",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_robot.blend",
+      "file": "animations/popping/popping_woman_pose_robot.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "3854b9169cc8a5ff7cbb7c5bcf63a1051302160505e2f586752a7f1ffd549f92",
+      "animationName": "popping_woman_pose_robot.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_scarecrow",
+      "style": "popping",
+      "label": "Woman pose scarecrow",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_scarecrow.blend",
+      "file": "animations/popping/popping_woman_pose_scarecrow.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "02f13271ee2376bf7bbaa5ec7b7d2e123bc8c12485b78380c15946a78b7e2820",
+      "animationName": "popping_woman_pose_scarecrow.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_staggered",
+      "style": "popping",
+      "label": "Woman pose staggered",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_staggered.blend",
+      "file": "animations/popping/popping_woman_pose_staggered.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "9ab900bb0613588ba473afbfc6cd1b41b63d7c2fc9c483ddae848e3da893d96d",
+      "animationName": "popping_woman_pose_staggered.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_t_arm",
+      "style": "popping",
+      "label": "Woman pose t arm",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_t_arm.blend",
+      "file": "animations/popping/popping_woman_pose_t_arm.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "86dea5d63396e6264ed78e4dc36034484789d964291eb4776889d28685f7b645",
+      "animationName": "popping_woman_pose_t_arm.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_pose_wide",
+      "style": "popping",
+      "label": "Woman pose wide",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_pose_wide.blend",
+      "file": "animations/popping/popping_woman_pose_wide.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "f68eedd04ec0acb77bc140f7b216a2cf05bc1c5689a5be7298924a300ae57e1c",
+      "animationName": "popping_woman_pose_wide.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_puppet",
+      "style": "popping",
+      "label": "Woman puppet",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_puppet.blend",
+      "file": "animations/popping/popping_woman_puppet.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "75f166541fa311a0f231929c54b5aa09c0366e054ace81fca84caa73378e86a1",
+      "animationName": "popping_woman_puppet.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_scarecrow",
+      "style": "popping",
+      "label": "Woman scarecrow",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_scarecrow.blend",
+      "file": "animations/popping/popping_woman_scarecrow.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "44f7030d1dca692cd8ef4639061a1bb2bb06affd46ee0dbccb9752a011af6dcb",
+      "animationName": "popping_woman_scarecrow.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_side_glide",
+      "style": "popping",
+      "label": "Woman side glide",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_side_glide.blend",
+      "file": "animations/popping/popping_woman_side_glide.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "49d6657b738d57a1881cfcb27f3f33265f7ed25e7305b25d3781c0606c258023",
+      "animationName": "popping_woman_side_glide.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_tutting_angles",
+      "style": "popping",
+      "label": "Woman tutting angles",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_tutting_angles.blend",
+      "file": "animations/popping/popping_woman_tutting_angles.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "906540dacda6b8ec7787840e3d21827dcc53dabbdb345cb1868c675fbf492174",
+      "animationName": "popping_woman_tutting_angles.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "popping_woman_walkout",
+      "style": "popping",
+      "label": "Woman walkout",
+      "performers": [
+        "woman"
+      ],
+      "sourceFile": "animations/popping/sources/popping_woman_walkout.blend",
+      "file": "animations/popping/popping_woman_walkout.glb",
+      "originalExport": null,
+      "originalExportSha256": null,
+      "status": "Saved-source draft preview",
+      "recipeProvenance": "scripts/popping/provenance.json",
+      "sourceSha256": "9084389f21aa32c1cfecd69dbc4b237a7154639025a506445a0722593576bb87",
+      "animationName": "popping_woman_walkout.baked",
+      "duration": 2,
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     }
   ],
-  "sourceCount": 3500,
+  "sourceCount": 3517,
   "sourceOnlyCount": 0,
   "props": {
     "pole": {

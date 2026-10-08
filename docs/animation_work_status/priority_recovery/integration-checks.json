@@ -1,0 +1,144 @@
+{
+  "recordedAt": "2026-10-08T05:51:36.835645+00:00",
+  "baseCommit": "079ae9c24f8c230a1ecc3d86a03dd17b2445deb2",
+  "installedCounts": {
+    "hip_hop": 76,
+    "new_york_hustle": 40,
+    "popping": 19,
+    "salsa": 35
+  },
+  "catalogSha256": "04c0aa2302e87248704eea766a2420620d4b9db5f9f87974ee1ff379f6f31687",
+  "inventorySha256": "56ac8ff2b5b9bbb537aa291b398c7e19553b77f959e37b257a13191a6c6a3ac2",
+  "node": "v24.19.0",
+  "blender": "5.2.2 LTS",
+  "checks": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/project-check-final.log",
+      "logSha256": "d70771f42ceaaf9bb1dc6ed396eb6ad16ec0af58215a8f3e03d99c43a46656be",
+      "result": [
+        "Validated 92 styles with 50 attributed human music excerpts, samples, loop boundaries, and hashes.",
+        "Validated 3599 clips, 3517 source hashes, 92 playable styles; runtime assets 793.4 MiB.",
+        "Runtime copyright notices, model credits, and complete GPL extension source passed."
+      ]
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/project-test-final.log",
+      "logSha256": "63fc0159838d2ba9b86e964cfa3c9648a07ca84990793f60c08fe4a94a84a8c5",
+      "result": [
+        "\u2139 tests 40",
+        "\u2139 pass 40",
+        "\u2139 fail 0"
+      ]
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/project-build.log",
+      "logSha256": "f9b5aabc9fb43361a17cff1f4e312f7a928318d7bde1c646610d484f9f0879d6",
+      "result": [
+        "Packaged 3599 runtime clips."
+      ]
+    },
+    {
+      "command": "blender -b --factory-startup --python-exit-code 1 --python scripts/dance_tools.test.py",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/dance-tools-test-final.log",
+      "logSha256": "2e19eb830b3082aec2337eccc596521fafcef5dc2960429df0429ab7bfb28762",
+      "result": [
+        "Native studio and authoring workflow passed; maximum bone difference: 8.344650268554688e-07"
+      ]
+    },
+    {
+      "command": "blender -b --factory-startup --python-exit-code 1 --python scripts/player_assets/animation_files.test.py",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/animation-files-test-final.log",
+      "logSha256": "8399c88960ab3850aca70e393ccff146eacd564593084f974b1f2b2135176aeb",
+      "result": [
+        "Fresh source editor and save/reopen passed: afro_house_woman_alternating_arm_pump",
+        "Fresh source editor and save/reopen passed: hip_hop_man_bart_simpson",
+        "Fresh source editor and save/reopen passed: salsa_basic"
+      ]
+    },
+    {
+      "command": "blender -b --factory-startup --python-exit-code 1 --python scripts/player_assets/animation_timing.test.py",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/timing-test-final.log",
+      "logSha256": "f358c3baeeb13bd98ab02f5a82a24fcedfb9cb31528f8015374c86a4b6a05af9",
+      "result": [
+        "Saved source timing and mixed-rate selection passed"
+      ]
+    },
+    {
+      "command": "blender -b --factory-startup --python-exit-code 1 --python scripts/motion_recovery/refinements.test.py",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/refinement-resume-test.log",
+      "logSha256": "bf4ccb204e168b192388cfad11658f2ca60f7940a44d7e618db206c563b8c8e0",
+      "result": [
+        "RESUME new_york_hustle_inside_turn_pass preserved native poses, key counts, and clock 0.0",
+        "RESUME new_york_hustle_shadow_entry_exit preserved native poses, key counts, and clock 0.0",
+        "RESUME salsa_leader_left_turn preserved native poses, key counts, and clock 0.0"
+      ]
+    },
+    {
+      "command": "blender -b --factory-startup --python-exit-code 1 --python scripts/popping/coverage.py",
+      "exitCode": 0,
+      "log": ".cache/motion-recovery/popping-coverage-final.log",
+      "logSha256": "76cd60c14f354cedc1b724c8616c1bfa2a7d6a3c142a6963590a789240bb118e",
+      "result": [
+        "Popping repertoire coverage 84 of 84"
+      ]
+    }
+  ],
+  "finalMotionChecks": "170 installed source/bake/runtime reviews, 146 loop reviews, 8 Hip-hop transition reviews, all targeted contact and sole checks passed",
+  "currentRecipeSha256": {
+    "scripts/motion_recovery/audit_installed.py": "0fe4f0491af02c62b8c5d406ed6545917c4ccaf63c04cb56b7206eba44011b54",
+    "scripts/motion_recovery/refine_batch.py": "52c700f99fd5425385d5da74dfdd842d8a502486b0235649e9786ba18102a058",
+    "scripts/motion_recovery/batch.py": "77d2a14e9aa0d5eef973a58b9bddc458de52a36393346529043bc711f6026e9b",
+    "scripts/motion_recovery/loop_review.mjs": "5fe39ab1bd472b83994b65dcdb4e80d8cbe891a31f1c2e5aa364a1a1bc9e2e3f",
+    "scripts/motion_recovery/report.py": "e69031351b68d958597b706c34d3f93913ce5c2c6e73d0d3aa8e4a8e812fcc8e",
+    "scripts/motion_recovery/install.py": "69d11c31ec91a3e365a07d6cc25d1feb2c9cd22f51279728fec1aa2c125c3f0d",
+    "scripts/motion_recovery/runtime.mjs": "a96927b835e336505f048196078d12f5ec0f06379ab6264e6b6995753e7b6b88",
+    "scripts/motion_recovery/validate.py": "2f72f869ff2d30c37b9ac6cbc0fd71157355328ab7f9b717d818ecde00509381",
+    "scripts/motion_recovery/foot_pivots.py": "8b2922b7532e04b1b6a7674469a8d378eaf2e9dce0585f7026f595fd75b3beba",
+    "scripts/motion_recovery/repair.py": "135c1f4a68bb05e647df2e8fc31c62b0757bbe2116b57a46469db833ef7d80c9",
+    "scripts/motion_recovery/transitions.py": "33c1d7a6f7dcb4ee2e04eccc33e9a15c4d5500332d7d62ff65bb919f86dca43d",
+    "scripts/motion_recovery/ready.py": "e14d0a00dcf2eeac2e860c5cca3504b02c209ea5e2d3e77eaf1e3b4d5a59803b",
+    "scripts/motion_recovery/runtime_batch.py": "2b13b751778b4eb9a12b6605829948a4aa1a8abf6a110b9abd56056f88036d7b",
+    "scripts/motion_recovery/sole_calibration.py": "388ac8d14865356bfa2ea5098cbcb9070da751f80f2f516e68c1e17f51838668",
+    "scripts/motion_recovery/record_previews.py": "438337d7078ff007a6428f744d80ee7044dcb6449af1b534de3bf4fb64631f65",
+    "scripts/motion_recovery/refinements.test.py": "9e0f362b97d1d77ecf0edd2ef392256a090b1abf9622f0a599d607ba13f8fa64",
+    "scripts/motion_recovery/surfaces.mjs": "c0385128d993ddbb0a5541ac3098dd656d669925ec8d81af056a1641309881e4",
+    "scripts/hip_hop/refine_transitions.py": "c9f20589a4c43ea06802dd7ca02f7fe9ea69b37aa587fce74a2ddad6c772936b",
+    "scripts/popping/coverage.py": "8c2583a0a22160276ea7418c9dc793ebfbe3a757c20b4358ea20ca1d990cbfec",
+    "scripts/popping/provenance.json": "b6d87bcf0c3327c95dde1d67edea7d809a3c01bfda3e4de207b40515655361ae",
+    "scripts/popping/choreography.py": "7ee0694a91c6a96a4ab3374aca531d49ef511bd3b7bf81c163737513e04bb085",
+    "scripts/popping/native_poses.py": "f1c27b7bf91b736ac27331b2476f8f531f94b69f0fc1708a32cff75e29c77643",
+    "scripts/popping/complete.py": "ab8fc5f2c39e64835a7a2163966cf0a74fd0bc5223233ef20603b54b3c43f980",
+    "scripts/salsa/review_recovery.py": "f6e98c847cedf85f863c1b178a342f83547f19773b76e6b22d683b59ebebbcd2",
+    "scripts/salsa/provenance.json": "9b1350f8ac40fc12a95e7c364b9d32cfcf0831a628231d6dd026825e6f8fee6f",
+    "scripts/salsa/choreography.py": "6f0bd6d6dd75218adcc1b2f22881bf0029c3c56459e5ce8e14a2f418468e2433",
+    "scripts/salsa/refine_turn.py": "8ac38249728e6568d0079c99b8f430597e0cfeb5d59ac0e692e86e116bf2ebd8",
+    "scripts/salsa/refine_motion.py": "2280aa528455c25a7e39f434c994743a5ede7bec2ffdda8a3228e31a9186bd97",
+    "scripts/new_york_hustle/refine_motion.py": "aa9b123d63499cb1646d93d82808d62903c8eb6e4fbe2da91ae34ca23704c0f0",
+    "scripts/new_york_hustle/refine_turn.py": "8b99dab288fa476663c8a5bd277d20508bb0e8a66eb8372a333ba9cb4e530527",
+    "scripts/new_york_hustle/refine_shadow.py": "92a841f8e32ecc88372c23a20521eec98bca2ea6fc535757990a73caa653b4a9",
+    "scripts/new_york_hustle/review_recovery.py": "3e61ec30678572a67edeba64a4dbc952566fe843f4937da6345d7f5fb265d3c5",
+    "scripts/player_assets/animation_files.py": "d531e13ddbe5fdffd8b8222c859fec3528178d3719ea35a6ed2b4dc1d8412e05",
+    "scripts/track_chooser.py": "11061a0013ec6367f10ca5d2df9c1f6548f374594a7ffd5b7db117f18939023f"
+  },
+  "processState": "Generation, installation, native validation, and build completed; local review dev server retained",
+  "publicationState": "Local changes available for quality review",
+  "sourceHydration": "Restored recorded Git LFS content for slow_dance_routine; source/inventory revisions retained",
+  "formatOnlyChanges": [
+    {
+      "file": "scripts/salsa/choreography.py",
+      "beforeSha256": "801e375874053296b8a2a072a948a062cdec95e1a60ed7aaf419ab5a18aa6dff",
+      "afterSha256": "6f0bd6d6dd75218adcc1b2f22881bf0029c3c56459e5ce8e14a2f418468e2433",
+      "change": "Trim trailing blank line before PR creation; Python statements retained"
+    }
+  ]
+}

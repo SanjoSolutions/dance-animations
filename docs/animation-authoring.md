@@ -81,6 +81,10 @@ All paths below are relative to the dance-animations checkout.
 - Reuse `AnimationFileWriter` and `AnimationAuthoringScene` in
   `scripts/player_assets/animation_files.py`. Source descriptors retain the
   relative shared-template reference, timing, and selected source action.
+- Saved actions carry `animation_frame_rate` as `[fps, fps_base]`. Chooser
+  selection restores that action's clock, and normal source saves preserve an
+  edited clock in the descriptor. Scale key times and frame rate together when
+  increasing bake density to retain musical timing.
 - Assign a layered action to each owner before
   `action.fcurve_ensure_for_datablock(owner, ...)`. Bind NLA strips to slots for
   the owner's ID type: rigs use `OBJECT`; shape-key datablocks use `KEY`.
@@ -158,6 +162,7 @@ For fresh startup, editing, and save/reopen of supported source formats:
 
 ```powershell
 & $blenderExecutable --factory-startup --background --python-exit-code 1 --python scripts/player_assets/animation_files.test.py
+& $blenderExecutable --factory-startup --background --python-exit-code 1 --python scripts/player_assets/animation_timing.test.py
 ```
 
 For character or wardrobe changes, select the relevant tests and prerequisites
