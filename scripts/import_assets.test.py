@@ -7,7 +7,7 @@ from import_assets import retrieve_playback_variants
 
 class PlaybackVariantsTest(unittest.TestCase):
     def test_shared_origin_solos_have_independent_choices(self):
-        for style, duration in [('jazz', 2.25), ('gogo', 4.0), ('cutting_shapes', 2.0)]:
+        for style, duration in [('jazz', 2.25), ('gogo', 4.0), ('cutting_shapes', 2.0), ('solo_disco_dance', 16.0)]:
             with self.subTest(style=style):
                 entry = dict(id=f'{style}_step_touch', style=style, label=f'{style.capitalize()} step touch',
                              performers=['man', 'woman'], duration=duration,

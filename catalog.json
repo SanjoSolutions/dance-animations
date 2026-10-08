@@ -176,7 +176,7 @@
     {
       "id": "solo_disco_dance",
       "label": "Disco",
-      "playable": 1,
+      "playable": 2,
       "sources": 1
     },
     {
@@ -52743,9 +52743,24 @@
     {
       "id": "solo_disco_dance",
       "style": "solo_disco_dance",
-      "label": "Solo disco dance",
+      "label": "Solo disco dance \u00b7 Man",
       "performers": [
-        "man",
+        "man"
+      ],
+      "duration": 16,
+      "file": "animations/solo_disco_dance/solo_disco_dance.glb",
+      "sourceFile": "animations/solo_disco_dance/sources/solo_disco_dance.blend",
+      "originalExport": "models/player/animations.glb",
+      "originalExportSha256": "18cf8ef20b68f811b0c97e4940a02976dff34a9b6c38cc8153dee692fda566de",
+      "animationName": "solo_disco_dance.baked",
+      "status": "Game export",
+      "sourceSha256": "3cc2d41249567ac223a30bcd5f180d150664d36cb56574afb7450a6624bbc2e3"
+    },
+    {
+      "id": "solo_disco_dance_woman",
+      "style": "solo_disco_dance",
+      "label": "Solo disco dance \u00b7 Woman",
+      "performers": [
         "woman"
       ],
       "duration": 16,
