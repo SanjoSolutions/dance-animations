@@ -1,12 +1,13 @@
 # Local validation
 
-The library contains 3,583 selectable runtime variants from 3,500 GLB clips and 3,500 Blender sources across 92 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
+The library contains 3,677 selectable runtime variants from 3,558 GLB clips and 3,558 Blender sources across 92 styles. Sources retain their recorded hashes. Pole dance actions extracted from the main scene carry their own provenance.
 
 The automated checks cover:
 
 - Every runtime clip loads with Three.js and Meshopt support, binds to the requested MPFB skeletons, matches its catalog duration, and seeks to finite transforms at the start, middle, and end.
 - Both full MPFB bodies have human proportions at rest and during a solo move. The Woman body's inherited scale was corrected in both Blender studios and the exported model.
 - Paired playback binds each performer independently.
+- Each of the 36 Cutting shapes moves offers selectable Man and Woman solos. Their shared-origin action slots describe independent solos. Each choice binds the selected performer's original tracks and retains the source/export provenance, timing, and study status. Existing move URLs select the Man solo; the character selector offers the Woman solo. Catalog imports and native exports use the same variant mapping.
 - Each of the 64 Go-go moves offers selectable Man and Woman solos. Each choice binds that performer's original tracks from the shared GLB and retains the source hash, duration, animation name, and draft review status. Catalog imports, saved-source preview merges, and native exports preserve the character choices.
 - The Disco routine offers Man and Woman solos through one move and the character selector. Each choice binds its performer's original tracks from the shared 16-second GLB and retains the source/export hashes and recorded status. The existing routine URL selects the Man variant. Catalog imports, saved-source preview merges, and native exports preserve both choices.
 - Each of the 18 Jazz moves offers Man and Woman solo choices. Their shared-origin source slots describe independent solos; each choice binds that character's original tracks from the shared GLB and retains source provenance and draft status. The 17 saved Euler studies receive whole-character preview heading corrections (Man −90 degrees, Woman +90 degrees) so both face forward, matching the quaternion front kick. Poses and travel rotate together; source files and downloaded GLBs retain their recorded transforms.
@@ -20,15 +21,21 @@ The automated checks cover:
 - The studios link editable MPFB body meshes and target stacks from the 15.2 MB character library. The original fitted shape is preserved within 0.000001; the observed maximum difference was 0.000000481. MPFB macro editing, save/reopen, and relocated library loading pass.
 - Character controls, deformation rigs, and matching animation tracks follow the shared dance skeleton in `assets/characters/rig-schema.json`.
 - Source cleanup retains original hashes while recording the updated files. Shared character labels, hand-contact options, material metadata, and exported node names belong to the dance authoring setup.
-- A full scan of 3,532 Blender files, 3,531 GLB metadata documents, other tracked files, and archive contents passes the reference cleanup check. Comparing 17 updated sources with their originals preserves supported motion channels, keys, handles, action slots, and frame ranges.
+- A recorded reference-cleanup scan of 3,532 Blender files, 3,531 GLB metadata documents, other tracked files, and archive contents passes the reference cleanup check. Comparing 17 updated sources with their originals preserves supported motion channels, keys, handles, action slots, and frame ranges.
 - Both studios and the editable character library are below 100 MB. Every garment library is below 100 MB, with the largest approximately 40.9 MB. These files use regular Git under the project's strict size-based LFS policy.
 - Fresh Blender startup composes action-only Afro house and Salsa sources and descriptor-based Hip hop sources with their characters, editable rigs, and selected native animation. Saving and reopening the working scene retains the editing setup; opening retains the original source hashes.
 - The Woman's standard MPFB braid and dark brown tint match Melissa's saved playground appearance in a-game. Every exported outfit includes the textured, head-skinned braid.
 - The Game Rig Tools archive passes Blender extension validation and installation in an isolated profile. Native creation, source saving, and baking also pass with the installed extension.
 - Dependency copyright notices, character asset credits, and the complete GPL extension source accompany the website and installation archive. Character exports embed their applicable credits; Blender artifacts retain license and attribution texts.
-- TypeScript checking, source hash validation, GLB structure validation, and the Vite production build pass. Packaged runtime assets occupy approximately 728 MiB, with Blender sources kept in Git.
+- TypeScript checking, source hash validation, GLB structure validation, and the Vite production build pass. Packaged runtime assets occupy approximately 809.2 MiB, with Blender sources kept in Git.
 
-Browser review covered complete Man and Woman models, solo character selection, paired merengue playback, OS dark mode, and the packaged preview's compressed delivery. The source's historical dance review records remain under `source-review-records/`.
+Browser review covered complete Man and Woman models, solo character selection, paired merengue playback, OS dark mode, and the packaged preview's compressed delivery. Cutting shapes review covered the original Cross step URL, both clothed solo characters, all 36 move choices, Running man naming, character URLs, and Back/Forward restoration. The source's historical dance review records remain under `source-review-records/`.
+
+The [priority animation recovery](animation_work_status/priority_recovery.md)
+records current per-clip source, native bake, runtime, sole, contact, transition,
+and loop measurements separately from the historical reviews. Its evidence links
+the installed files to SHA-256 hashes and explicit sampling coverage. Popping's
+original finite repertoire now has all 84 source/export pairs.
 
 These checks establish asset coverage and structural playback. Each procedural study and provisional export retains its review status; dance accuracy, foot placement, hand contacts, performer clearance, and loop seams remain individual visual review tasks.
 

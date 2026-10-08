@@ -242,3 +242,35 @@ test('default music waits for browser audio permission and Play resumes the shar
   audioContext.currentTime = 20.5;
   close(playback.retrievePosition().time, 1);
 });
+
+test('directed transitions finish once and restart from their entry pose', async context => {
+  const { playback, track, buffer, audioContext, sources } = await preparePlayback(context);
+  playback.setPaused(true);
+  await playback.select(4, track, buffer, () => {}, undefined, false);
+  audioContext.currentTime = 5;
+  close(playback.retrievePosition().sourceTime, 4);
+  assert.equal(playback.retrievePosition().paused, true);
+  assert.equal(sources.at(-1).stopped, true);
+  playback.setPaused(false);
+  close(playback.retrievePosition().sourceTime, 0);
+  audioContext.currentTime = 6;
+  close(playback.retrievePosition().sourceTime, 1);
+});
+
+test('automatic playback holds a directed endpoint until the next scheduled move', async context => {
+  const { playback, track, buffer, audioContext } = await preparePlayback(context);
+  playback.setLoop(true, true);
+  const transition = playback.select(4, track, buffer, () => {}, 0, false);
+  audioContext.currentTime = 4;
+  close(playback.retrievePosition().sourceTime, 0);
+  assert.equal(await transition, true);
+  audioContext.currentTime = 9;
+  close(playback.retrievePosition().sourceTime, 4);
+  assert.equal(playback.retrievePosition().paused, false);
+  const next = playback.select(4, track, buffer, () => {}, 4);
+  audioContext.currentTime = 12;
+  close(playback.retrievePosition().sourceTime, 0);
+  assert.equal(await next, true);
+  audioContext.currentTime = 17;
+  close(playback.retrievePosition().sourceTime, 1);
+});

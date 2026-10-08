@@ -1,5 +1,7 @@
 export interface DanceAnimation {
   id: string;
+  /** Shared move identity for independent character versions. */
+  moveId?: string;
   style: string;
   label: string;
   performers: ('man' | 'woman')[];
@@ -11,6 +13,8 @@ export interface DanceAnimation {
   sourceFile: string | null;
   animationName: string;
   status: string;
+  /** Directed transitions hold their final pose after one playback. */
+  loop?: boolean;
 }
 
 export interface DanceCatalog {

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "house_man_jack",
+    "phrase": "Jack",
+    "actor": "man",
+    "family": "jacking",
+    "loop": true,
+    "description": "Elastic knee compression with chest-led forward/back jack."
+  },
+  {
+    "id": "house_woman_jack",
+    "phrase": "Jack",
+    "actor": "woman",
+    "family": "jacking",
+    "loop": true,
+    "description": "Elastic knee compression with chest-led forward/back jack."
+  },
+  {
+    "id": "house_man_side_jack",
+    "phrase": "Side jack",
+    "actor": "man",
+    "family": "jacking",
+    "loop": true,
+    "description": "Lateral weight transfer through a deeper jack."
+  },
+  {
+    "id": "house_woman_side_jack",
+    "phrase": "Side jack",
+    "actor": "woman",
+    "family": "jacking",
+    "loop": true,
+    "description": "Lateral weight transfer through a deeper jack."
+  },
+  {
+    "id": "house_man_body_roll",
+    "phrase": "Body roll",
+    "actor": "man",
+    "family": "jacking",
+    "loop": true,
+    "description": "Chest-to-pelvis wave over planted feet."
+  },
+  {
+    "id": "house_woman_body_roll",
+    "phrase": "Body roll",
+    "actor": "woman",
+    "family": "jacking",
+    "loop": true,
+    "description": "Chest-to-pelvis wave over planted feet."
+  },
+  {
+    "id": "house_man_side_step",
+    "phrase": "Side step",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_side_step",
+    "phrase": "Side step",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_skate",
+    "phrase": "Skate",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_skate",
+    "phrase": "Skate",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_shuffle",
+    "phrase": "Shuffle",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_shuffle",
+    "phrase": "Shuffle",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_loose_legs",
+    "phrase": "Loose legs",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_loose_legs",
+    "phrase": "Loose legs",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_pas_de_bourree",
+    "phrase": "Pas de bourree",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_pas_de_bourree",
+    "phrase": "Pas de bourree",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_cross_step",
+    "phrase": "Cross step",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_cross_step",
+    "phrase": "Cross step",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_salsa_step",
+    "phrase": "Salsa step",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_salsa_step",
+    "phrase": "Salsa step",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_train",
+    "phrase": "Train",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_train",
+    "phrase": "Train",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_running_man",
+    "phrase": "Running man",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_running_man",
+    "phrase": "Running man",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_farmer",
+    "phrase": "Farmer",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_farmer",
+    "phrase": "Farmer",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_stomp",
+    "phrase": "Stomp",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_stomp",
+    "phrase": "Stomp",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_tip_tap",
+    "phrase": "Tip tap",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_tip_tap",
+    "phrase": "Tip tap",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_kick_ball_change",
+    "phrase": "Kick ball change",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_kick_ball_change",
+    "phrase": "Kick ball change",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_scissors",
+    "phrase": "Scissors",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_scissors",
+    "phrase": "Scissors",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_charleston",
+    "phrase": "Charleston",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_charleston",
+    "phrase": "Charleston",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_box_step",
+    "phrase": "Box step",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_box_step",
+    "phrase": "Box step",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_diamond_step",
+    "phrase": "Diamond step",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_diamond_step",
+    "phrase": "Diamond step",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_heel_dig",
+    "phrase": "Heel dig",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_heel_dig",
+    "phrase": "Heel dig",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_toe_touch",
+    "phrase": "Toe touch",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_toe_touch",
+    "phrase": "Toe touch",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_heel_toe",
+    "phrase": "Heel toe",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_heel_toe",
+    "phrase": "Heel toe",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_swivel",
+    "phrase": "Swivel",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_swivel",
+    "phrase": "Swivel",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_open_close",
+    "phrase": "Open close",
+    "actor": "man",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_open_close",
+    "phrase": "Open close",
+    "actor": "woman",
+    "family": "footwork",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_quarter_turn_left",
+    "phrase": "Quarter turn left",
+    "actor": "man",
+    "family": "turns",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_quarter_turn_left",
+    "phrase": "Quarter turn left",
+    "actor": "woman",
+    "family": "turns",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_quarter_turn_right",
+    "phrase": "Quarter turn right",
+    "actor": "man",
+    "family": "turns",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_quarter_turn_right",
+    "phrase": "Quarter turn right",
+    "actor": "woman",
+    "family": "turns",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_half_turn_return",
+    "phrase": "Half turn return",
+    "actor": "man",
+    "family": "turns",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_half_turn_return",
+    "phrase": "Half turn return",
+    "actor": "woman",
+    "family": "turns",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_low_sweep",
+    "phrase": "Low sweep",
+    "actor": "man",
+    "family": "lofting_preparation",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_low_sweep",
+    "phrase": "Low sweep",
+    "actor": "woman",
+    "family": "lofting_preparation",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_deep_jack",
+    "phrase": "Deep jack",
+    "actor": "man",
+    "family": "lofting_preparation",
+    "loop": true,
+    "description": "Grounded low-level jack for lofting entry."
+  },
+  {
+    "id": "house_woman_deep_jack",
+    "phrase": "Deep jack",
+    "actor": "woman",
+    "family": "lofting_preparation",
+    "loop": true,
+    "description": "Grounded low-level jack for lofting entry."
+  },
+  {
+    "id": "house_man_relaxed_position",
+    "phrase": "Relaxed position",
+    "actor": "man",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_relaxed_position",
+    "phrase": "Relaxed position",
+    "actor": "woman",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_ready_position",
+    "phrase": "Ready position",
+    "actor": "man",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_ready_position",
+    "phrase": "Ready position",
+    "actor": "woman",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_low_position",
+    "phrase": "Low position",
+    "actor": "man",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_low_position",
+    "phrase": "Low position",
+    "actor": "woman",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_wide_position",
+    "phrase": "Wide position",
+    "actor": "man",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_wide_position",
+    "phrase": "Wide position",
+    "actor": "woman",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_staggered_position",
+    "phrase": "Staggered position",
+    "actor": "man",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_staggered_position",
+    "phrase": "Staggered position",
+    "actor": "woman",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_floor_support_position",
+    "phrase": "Floor support position",
+    "actor": "man",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_floor_support_position",
+    "phrase": "Floor support position",
+    "actor": "woman",
+    "family": "positions",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_lofting_floor_rock",
+    "phrase": "Lofting floor rock",
+    "actor": "man",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_lofting_floor_rock",
+    "phrase": "Lofting floor rock",
+    "actor": "woman",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_lofting_leg_sweep_left",
+    "phrase": "Lofting leg sweep left",
+    "actor": "man",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_lofting_leg_sweep_left",
+    "phrase": "Lofting leg sweep left",
+    "actor": "woman",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_lofting_leg_sweep_right",
+    "phrase": "Lofting leg sweep right",
+    "actor": "man",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_lofting_leg_sweep_right",
+    "phrase": "Lofting leg sweep right",
+    "actor": "woman",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_lofting_knee_switch",
+    "phrase": "Lofting knee switch",
+    "actor": "man",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_lofting_knee_switch",
+    "phrase": "Lofting knee switch",
+    "actor": "woman",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_lofting_body_wave",
+    "phrase": "Lofting body wave",
+    "actor": "man",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_woman_lofting_body_wave",
+    "phrase": "Lofting body wave",
+    "actor": "woman",
+    "family": "lofting",
+    "loop": true,
+    "description": ""
+  },
+  {
+    "id": "house_man_relaxed_to_ready",
+    "phrase": "Relaxed to ready",
+    "actor": "man",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  },
+  {
+    "id": "house_woman_relaxed_to_ready",
+    "phrase": "Relaxed to ready",
+    "actor": "woman",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  },
+  {
+    "id": "house_man_ready_to_relaxed",
+    "phrase": "Ready to relaxed",
+    "actor": "man",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  },
+  {
+    "id": "house_woman_ready_to_relaxed",
+    "phrase": "Ready to relaxed",
+    "actor": "woman",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  },
+  {
+    "id": "house_man_ready_to_low",
+    "phrase": "Ready to low",
+    "actor": "man",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  },
+  {
+    "id": "house_woman_ready_to_low",
+    "phrase": "Ready to low",
+    "actor": "woman",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  },
+  {
+    "id": "house_man_low_to_ready",
+    "phrase": "Low to ready",
+    "actor": "man",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  },
+  {
+    "id": "house_woman_low_to_ready",
+    "phrase": "Low to ready",
+    "actor": "woman",
+    "family": "transitions",
+    "loop": false,
+    "description": ""
+  }
+]

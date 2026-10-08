@@ -12,7 +12,7 @@ export interface DanceMove {
 export function retrieveMoves(entries: DanceAnimation[], style: string): DanceMove[] {
   const groups = new Map<string, DanceMove>();
   for (const entry of entries.filter(entry => entry.style === style)) {
-    let name = entry.id;
+    let name = entry.moveId ?? entry.id;
     let actorRemoved = /^(man|woman)_/.test(name);
     name = name.replace(/^(man|woman)_/, '');
     const prefix = (style === 'house_dance' ? ['house_dance', 'house'] : [style])
@@ -26,7 +26,7 @@ export function retrieveMoves(entries: DanceAnimation[], style: string): DanceMo
       actorRemoved = true;
       name = name.replace(/^(man|woman)_/, '');
     }
-    if (!actorRemoved) name = name.replace(/_(man|woman)$/, '');
+    if (!actorRemoved && !entry.moveId) name = name.replace(/_(man|woman)$/, '');
     if (name === 'man' || name === 'woman') name = 'routine';
     const solo = entry.performers.length === 1;
     const id = solo ? name : `${name}:partners`;

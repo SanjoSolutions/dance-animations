@@ -1,5 +1,7 @@
 # House dance animation work status
 
+> Current checkout, 2026-10-08: the resumed work and complete 90-clip repertoire are documented in the [local completion review](../house_dance_review/README.md), with a [motion gallery](../house_dance_review/index.html) and per-clip source/export evidence. The record below preserves the original 2026-10-02 stopping point and its historical paths.
+
 - Date: 2026-10-02 (Europe/Berlin).
 - Chat/task title: House dance animations for man_and_woman3.blend. The exact UI title was unavailable in the app's most-recent-50-chat listing; this is the task label.
 - Task branch: `codex/house-dance`.

@@ -34,3 +34,16 @@ test('partner moves retain both performers and their own choice', () => {
   assert.equal(moves.length, 2);
   assert.equal(moves.find(move => !move.solo).label, 'Basic (Partners)');
 });
+test('shared solo move identities retain Running man and group character choices', () => {
+  for (const name of ['running_man', 'small_running_man', 'enter_running_man', 'exit_running_man']) {
+    const moveId = `cutting_shapes_${name}`;
+    const variants = ['man', 'woman'].map(actor => ({
+      ...entry(actor === 'man' ? moveId : `${moveId}_${actor}`, [actor], 'cutting_shapes'), moveId,
+    }));
+    const moves = retrieveMoves(variants, 'cutting_shapes');
+    assert.equal(moves.length, 1);
+    assert.equal(moves[0].label, name.replaceAll('_', ' ').replace(/^./, letter => letter.toUpperCase()));
+    assert.equal(retrieveVariant(moves[0], 'man').id, moveId);
+    assert.equal(retrieveVariant(moves[0], 'woman').id, `${moveId}_woman`);
+  }
+});
