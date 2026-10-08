@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-08",
+  "passed": true,
+  "checks": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "clips": 3623,
+      "sources": 3541,
+      "styles": 92,
+      "runtimeAssetsMiB": 769.9
+    },
+    {
+      "command": "npm test",
+      "exitCode": 0,
+      "tests": 42,
+      "passed": 42,
+      "failed": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "packagedClips": 3623
+    },
+    {
+      "command": "python -m compileall -q scripts/house_dance",
+      "exitCode": 0
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0
+    },
+    {
+      "command": "node scripts/house_dance/browser_review.mjs",
+      "exitCode": 0,
+      "report": "browser-review.json"
+    },
+    {
+      "command": "python scripts/lfs_policy.py sync; python scripts/lfs_policy.py check",
+      "exitCode": 0,
+      "stagedFiles": 8096,
+      "maximumTaskSourceMiB": 7.516161918640137
+    }
+  ]
+}

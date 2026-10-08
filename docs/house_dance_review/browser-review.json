@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "viewerMoves": 45,
+  "performers": [
+    "man",
+    "woman"
+  ],
+  "directedTransition": "holds endpoint with Loop checked; Play restarts at entry",
+  "galleryClips": 90,
+  "filteredClips": 45,
+  "reviewVideoDuration": 4.125,
+  "browser": "Chromium WebGL",
+  "consoleErrors": []
+}

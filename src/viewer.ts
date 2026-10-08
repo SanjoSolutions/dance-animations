@@ -102,7 +102,7 @@ export class DanceViewer {
       if (request !== this.request) return false;
       motion.prepare(clip);
       const duration = Math.min(.35, 30 / track.tempo, new PhraseTiming(clip.duration, track).duration / 2);
-      applied = await this.playback.select(clip.duration, track, music, start => motion.select(clip, start, duration), interval);
+      applied = await this.playback.select(clip.duration, track, music, start => motion.select(clip, start, duration), interval, entry.loop !== false);
       if (!applied) motion.release(clip);
     } else {
       const templates = await Promise.all(entry.performers.map(actor => {
@@ -161,7 +161,7 @@ export class DanceViewer {
           this.camera.position.set(distance * .32, center.y + distance * .15, distance);
           this.controls.update();
         }
-      }, interval);
+      }, interval, entry.loop !== false);
       if (!applied) motion.dispose();
     }
     return applied;
