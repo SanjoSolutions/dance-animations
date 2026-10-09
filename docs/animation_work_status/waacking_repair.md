@@ -100,7 +100,7 @@ uses the denser clock above.
 | Wrist bend | 6.968 degrees | 85 degrees |
 | Hand IK reach error | 0.007751 mm | 6 mm |
 | Runtime joint-position error | 1.491 mm | 2 mm |
-| Runtime orientation error | 0.596 degrees | 3 degrees |
+| Runtime orientation error | 0.596 degrees | 0.035 radians (2.005 degrees) |
 | Runtime loop position difference | 0.000820 mm | 1 mm |
 | Runtime loop velocity difference | 0.004368 m/s | 0.12 m/s |
 
