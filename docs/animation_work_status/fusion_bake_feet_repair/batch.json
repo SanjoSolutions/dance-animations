@@ -1,0 +1,16 @@
+{
+  "generators": {
+    "scripts/fusion_repair/review.py": "5d8b568526c48a879ca7502193eb514077752282bc3ff22498dc6c1f669a1270",
+    "scripts/fusion_repair/surfaces.mjs": "1479d70643d90029761f9bba3e7bafdedc2b09d65d49cc80ae5a536f332318e3",
+    "scripts/motion_recovery/repair.py": "4a614975d17647668a3409053bc659c212b3e74b37c91406ce0c9390f6fa5337",
+    "scripts/motion_recovery/runtime.mjs": "a96927b835e336505f048196078d12f5ec0f06379ab6264e6b6995753e7b6b88",
+    "scripts/fusion_repair/repair_supports.py": "cdd958f3fbe372146a6303d921feae4dbfdb45c9f43194aa2997f6964f6a48bc",
+    "scripts/fusion_repair/run.ps1": "c72ae1164f2517b9a2e43b98786e4aaedfc544544a89a1f4de44079f9c3f18f7",
+    "scripts/motion_recovery/loop_review.mjs": "5fe39ab1bd472b83994b65dcdb4e80d8cbe891a31f1c2e5aa364a1a1bc9e2e3f",
+    "scripts/motion_recovery/validate.py": "2f72f869ff2d30c37b9ac6cbc0fd71157355328ab7f9b717d818ecde00509381"
+  },
+  "workers": 1,
+  "clips": [
+    "fusion_triple_step"
+  ]
+}

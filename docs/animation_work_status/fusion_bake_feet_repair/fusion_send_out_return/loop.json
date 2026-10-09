@@ -1,0 +1,15 @@
+{
+  "exportSha256": "33daf0ee6fa7fac8c814cca6098dee4f8489401cc1241bfbac391b2a0624d2c1",
+  "position": 6.201480178054171e-7,
+  "rotation": 6.867479456545692e-7,
+  "velocity": 0.014663513597904125,
+  "worstVelocity": "DEF-f_middle03L",
+  "step": 0.001,
+  "units": "meters, radians, meters/second",
+  "limits": {
+    "position": 0.001,
+    "rotation": 0.035,
+    "velocity": 0.12
+  },
+  "passed": true
+}

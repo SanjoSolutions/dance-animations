@@ -1,0 +1,56 @@
+npm notice run dance-animations@0.1.0 test
+npm notice run node --test src/*.test.mjs src/music/*.test.mjs
+✔ clip delivery works with explicit gzip and automatic HTTP decompression (83.4384ms)
+✔ Jazz character choices share a heading through holds, steps, kicks, and turns (3232.9969ms)
+✔ every Jazz move offers Man and Woman solos with their original tracks and provenance (1506.6264ms)
+✔ every Go-go move offers Man and Woman solos with their original tracks and provenance (4304.9652ms)
+✔ every Cutting shapes move offers Man and Woman solos with their original tracks and provenance (2276.1222ms)
+✔ every Disco move offers Man and Woman solos with their original tracks and provenance (56.1736ms)
+✔ both standard MPFB bodies fit their skeletons at rest and during a solo move (155.6085ms)
+✔ all library clips bind to the requested MPFB performers and seek to finite transforms (349550.8696ms)
+✔ a paired clip animates each skeleton independently (41.2746ms)
+✔ Salsa cross body outside turn keeps both chest regions attached to each torso (722.8649ms)
+✔ preloaded solo clips blend on the same characters and retain their floor-plane root position (8.9335ms)
+✔ partner transitions preserve their shared center and the new move’s authored spacing (1.153ms)
+✔ rapid choices blend from the visible pose and cancelled preloads retain the active pose (1.018ms)
+✔ prop-based dances retain the incoming clip’s authored placement (0.6792ms)
+✔ actual House clips reuse MPFB characters through finite blended poses (307.1707ms)
+✔ solo character versions share a move choice with the move name (1.8117ms)
+✔ style prefixes and character suffixes become separate selectors (0.4102ms)
+✔ a routine named after its style groups both solo character choices (0.3547ms)
+✔ a move name retains meaningful words and recognizes style aliases (0.3661ms)
+✔ partner moves retain both performers and their own choice (18.3045ms)
+✔ shared solo move identities retain Running man and group character choices (0.8024ms)
+✔ music sets dance timing and retains its recorded rate through preview speed, pause, seek, and loop changes (8.4764ms)
+✔ same-style moves retain continuous audio through loading and begin on the next measure (1.4916ms)
+✔ rapid move choices replace queued transitions and pause retains their musical phase (0.7238ms)
+✔ a queued one-shot move keeps the recording alive until the new phrase completes (0.7273ms)
+✔ automatic moves finish their phrase and join the following measure with continuous music (1.0188ms)
+✔ sixteen-bar changes preload, repeat moves, retain music, and restart their deadline (1.1077ms)
+✔ music toggles preserve automatic deadlines and manual selections join silent preview immediately (0.842ms)
+✔ default music waits for browser audio permission and Play resumes the shared transport (0.7825ms)
+✔ directed transitions finish once and restart from their entry pose (0.9913ms)
+✔ automatic playback holds a directed endpoint until the next scheduled move (0.7534ms)
+✔ every style has attributed human music and every clip preserves its authored beat count (18.2965ms)
+✔ authored Hip hop and triple-meter Waltz timing preserves beat landings (0.3475ms)
+✔ Tutting closing hold supplies the same beat spacing across repeated phrases (0.1728ms)
+✔ the shared clock retains phase through pause, seek, speed, and clock changes (0.3936ms)
+✔ the clock advances through a delayed render by the full elapsed musical time (0.2263ms)
+✔ fresh playback defaults to music, half volume, and Random mode (1.265ms)
+✔ music, volume, and mode choices survive a new playback session (0.452ms)
+✔ session preferences remain available when persistent storage requires fallback (0.2936ms)
+✔ stored values outside the supported ranges recover the playback defaults (0.2542ms)
+✔ Single selects the current move for manual playback (1.0191ms)
+✔ each style retains its own configurable interval across sessions (0.4778ms)
+✔ Sequential advances in selector order and cycles to the first move (0.2557ms)
+✔ Random chooses from the current style and supports each available move (0.2638ms)
+✔ every style selects clothing, and street, ballroom, and ballet use distinct outfits (1.7733ms)
+✔ each outfit includes textured skinned clothes that follow a solo dance (3486.6326ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 46
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 359231.2518

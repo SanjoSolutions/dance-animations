@@ -1,0 +1,228 @@
+[
+  {
+    "id": "fusion_box_basic",
+    "sourceSha256": "c37fd7cdc430a5570c5f1b75779db960431dbf17e634276c2ac6f97434898ad4",
+    "exportSha256": "ed13558ee0f7ca469fcba4bfa3fedb3395c0589a84417762503d6fd0016ccd82",
+    "maximumBonePositionError": 0.050859762600276484,
+    "worst": {
+      "frame": 66.0,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-elbow-helper.L"
+    },
+    "maximumControlPlantDrift": 0.011436464469912005
+  },
+  {
+    "id": "fusion_closed_offset",
+    "sourceSha256": "f538385c0f232a57d10866b350d295334a767b0ad25780faf1b840170be62acd",
+    "exportSha256": "8408fdc67f14c8924a4d118043751b8121faccd4836c7fd420a298b41a344932",
+    "maximumBonePositionError": 0.0001063517131365986,
+    "worst": {
+      "frame": 0.5,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-lid.B.L.003"
+    }
+  },
+  {
+    "id": "fusion_compression_stretch",
+    "sourceSha256": "5b380ca00dfab020fe99778ca9805d66fd91f89731d8d69db91b6fcb2b057bea",
+    "exportSha256": "2970ae87bec9430209a93c970e0cf6fc7c6e8341fcd31fd4317376940c375e75",
+    "maximumBonePositionError": 0.015585974871918831,
+    "worst": {
+      "frame": 8.5,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-elbow-helper.L"
+    }
+  },
+  {
+    "id": "fusion_counterbalance",
+    "sourceSha256": "c634c4e04aa2a18d350a63aa699a96f6b31119c2f3a2bb402ca289df3a3a75a9",
+    "exportSha256": "5fe516be5dbff399bff75bff792908b97e8bb82f9d626b156db98b0ca8ae08f5",
+    "maximumBonePositionError": 0.00011026465504736456,
+    "worst": {
+      "frame": 0.5,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-brow.B.L.003"
+    }
+  },
+  {
+    "id": "fusion_forward_back_basic",
+    "sourceSha256": "f872983bf45781e653cdc4462436ff7e98bcc17c242cbd77e4ef9291b8bad6ad",
+    "exportSha256": "6061003676d58c4ae52a9ec80ad62623676e41fa14e2724c586af2406b02837c",
+    "maximumBonePositionError": 0.050859917032986424,
+    "worst": {
+      "frame": 66.0,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-forearm.L"
+    },
+    "maximumControlPlantDrift": 0.011621037026536989
+  },
+  {
+    "id": "fusion_open_double_sway",
+    "sourceSha256": "95fba5b95f941aff68b10eb87443405bcb0246f96f29509670185817092046cd",
+    "exportSha256": "21a349a782a2b72a5248b21d01b8ff5ab580f211f36280f7091f6f47bf81d258",
+    "maximumBonePositionError": 0.00010622354187434574,
+    "worst": {
+      "frame": 0.5,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-upper_arm.L"
+    }
+  },
+  {
+    "id": "fusion_open_single_left",
+    "sourceSha256": "7d245ec696f515d5e412dcff4b6425bb28dba4a7bc934dcc4a4c3f3640b8ba5f",
+    "exportSha256": "8fb7140d9fc538f37809fdb4942d837d36a1dac9e1361492ddf166729fcb7d50",
+    "maximumBonePositionError": 0.0001370432631744586,
+    "worst": {
+      "frame": 59.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-f_middle.03.R"
+    }
+  },
+  {
+    "id": "fusion_open_single_right",
+    "sourceSha256": "39eb9778f478501653850babdfc6dcf24cac0efb5db1056936295dcdfa55278a",
+    "exportSha256": "b8acab706a5e972002fa7c521e818b7a1b35f6a171270cbe92895be41ee3f1b7",
+    "maximumBonePositionError": 0.00013720753360341032,
+    "worst": {
+      "frame": 11.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-f_middle.03.L"
+    }
+  },
+  {
+    "id": "fusion_promenade_left",
+    "sourceSha256": "a5886882572131f3de64f356c5fd546e971c77ec0a00c0b9d35cdf7b6d1568f5",
+    "exportSha256": "138a3777a1dab40db6492679ecf8c3344e92d00468f9c55f0d2816656af9cb46",
+    "maximumBonePositionError": 0.00018069413495556204,
+    "worst": {
+      "frame": 11.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-f_middle.03.R"
+    }
+  },
+  {
+    "id": "fusion_promenade_right",
+    "sourceSha256": "a96e5b1350f26f8208c4f04a27fdd26d8e4251cd10c0b45ceeaf9983baefc21a",
+    "exportSha256": "3274b18d41bd0ffab910976ed65b10d275dbfd04fb2e5a08edf1284c91a1a1f2",
+    "maximumBonePositionError": 0.00016289917793689884,
+    "worst": {
+      "frame": 42.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-f_middle.03.R"
+    }
+  },
+  {
+    "id": "fusion_promenade_walk",
+    "sourceSha256": "c2f62162af8068e660ba34546a131050a3fdee24d816796251444b2951b07371",
+    "exportSha256": "cfe9fe1040441f7bd770700a58ce7194279bb8c019453c870cd4d058b22601a3",
+    "maximumBonePositionError": 0.10403815128450994,
+    "worst": {
+      "frame": 78.0,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-forearm.R"
+    },
+    "maximumControlPlantDrift": 0.011621628954037575
+  },
+  {
+    "id": "fusion_pulse",
+    "sourceSha256": "d152c97d213ab5091a1a41eee798d8e9142d4de376b71e1afef45899d010f6fa",
+    "exportSha256": "52e2abec2fd61ad089d12213deb1ae00399b99fd15d8cc6e28ae4c2498fe4b9d",
+    "maximumBonePositionError": 0.0003248907211157916,
+    "worst": {
+      "frame": 23.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-shin.R"
+    }
+  },
+  {
+    "id": "fusion_send_out_return",
+    "sourceSha256": "90e20e074063d11e02b2435c3b0f02381488ea2e0aaf0f2ff6c3c2a2012c0dce",
+    "exportSha256": "9ac14eeebe0dc2570b1f90bfd7c77ef723fd40d37ef987fa3514f0bb38899ad4",
+    "maximumBonePositionError": 0.017996853808822006,
+    "worst": {
+      "frame": 10.5,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-forearm.L"
+    }
+  },
+  {
+    "id": "fusion_shadow",
+    "sourceSha256": "00772272eb9fe980179dd05e41a3621f6700c0af275f1980521dbe9dac61bacb",
+    "exportSha256": "88fa0660f1769f713fae47757d0658651399b9719775b916b1cd17a6da6069ee",
+    "maximumBonePositionError": 0.01879398458435452,
+    "worst": {
+      "frame": 19.0,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-elbow-helper.R"
+    }
+  },
+  {
+    "id": "fusion_shadow_walk",
+    "sourceSha256": "8f3d79315f22b714ec4665cbade13a56a69f2360af44ec9fedd82eebddc77f7f",
+    "exportSha256": "23a421f1fa5bbcf07a33d1452a077e7810b26100dbee25a0f0e582ed2b489c12",
+    "maximumBonePositionError": 0.05503836281079074,
+    "worst": {
+      "frame": 78.0,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-elbow-helper.R"
+    },
+    "maximumControlPlantDrift": 0.011621619676940897
+  },
+  {
+    "id": "fusion_side_basic",
+    "sourceSha256": "07fa89f77ddd2ef9b13f0856cf6ef98764d6669a280526258fe85c48eaed6f0e",
+    "exportSha256": "f684a8128058936172eba27d045efe2181c84eaeda5399077ff168238add61c9",
+    "maximumBonePositionError": 0.050860189301255465,
+    "worst": {
+      "frame": 66.0,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-elbow-helper.L"
+    },
+    "maximumControlPlantDrift": 0.0116297468008472
+  },
+  {
+    "id": "fusion_side_by_side",
+    "sourceSha256": "2946dc7576219c28a18f2e02041b0c4c6af554544ed484451fb5179210108b30",
+    "exportSha256": "69893a3924667870b4748d3357d73512a06960d3c2ad0f41201fe71a576c7d88",
+    "maximumBonePositionError": 0.00014808908041314534,
+    "worst": {
+      "frame": 95.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-f_middle.03.R"
+    }
+  },
+  {
+    "id": "fusion_sweetheart",
+    "sourceSha256": "35ab41a4d13aaf7dc8db2d95194a4917b91dd05f0d96231fa5b3865b26174b86",
+    "exportSha256": "9aea914bcbaaeba3f76cba9dcb9d9f9ac2e91b5c0ac79f83dcf8f151cf154409",
+    "maximumBonePositionError": 0.00027515908898325227,
+    "worst": {
+      "frame": 90.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-f_middle.03.R"
+    }
+  },
+  {
+    "id": "fusion_triple_step",
+    "sourceSha256": "36ca3c4696925023e729b006819568ff1561a92a494ca92c7eadfc64af852972",
+    "exportSha256": "6a77c64006c7ff7b5e82ab11cd87a7be31e2dd9d8a11fe8111d6961102bbea68",
+    "maximumBonePositionError": 0.050860189301255465,
+    "worst": {
+      "frame": 66.0,
+      "actor": "Woman.rigify_deform",
+      "bone": "DEF-elbow-helper.L"
+    },
+    "maximumControlPlantDrift": 0.0116297468008472
+  },
+  {
+    "id": "fusion_weight_transfer",
+    "sourceSha256": "e359201ae4a2c4d8e69f726cd53f43ac792487d621507724ca7699d5610a991a",
+    "exportSha256": "32cf6ac3d57c0c973994083ce70ad4c7b06dd873127af1a79d8e4972b48e12a2",
+    "maximumBonePositionError": 0.00027402093759117113,
+    "worst": {
+      "frame": 0.5,
+      "actor": "Man.rigify_deform",
+      "bone": "DEF-shoulder-helper.L"
+    }
+  }
+]

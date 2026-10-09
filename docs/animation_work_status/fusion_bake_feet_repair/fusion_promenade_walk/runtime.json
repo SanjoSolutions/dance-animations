@@ -1,0 +1,23 @@
+{
+  "sourceSha256": "af18ea9dcc3ec592387ddba3293c1852df2676bd4edab5ad702f3c5fa0a5d7b9",
+  "exportSha256": "4b6fd8e165ffcbce84a3e531f1d07c7758d6337d32c91fb8e40bbce197f9969a",
+  "validatorSha256": "a96927b835e336505f048196078d12f5ec0f06379ab6264e6b6995753e7b6b88",
+  "sampledFrames": 385,
+  "maximumJointPositionError": 0.000557144904047575,
+  "worst": {
+    "frame": 0.5,
+    "performer": "woman",
+    "bone": "DEF-upper_arm.R"
+  },
+  "duration": 4,
+  "maximumJointRotationError": 0.0027432779237983656,
+  "worstRotation": {
+    "frame": 11.5,
+    "performer": "woman",
+    "bone": "DEF-forearm.R"
+  },
+  "durationError": 0,
+  "tracks": 1260,
+  "animation": "fusion_promenade_walk.baked",
+  "passed": true
+}
