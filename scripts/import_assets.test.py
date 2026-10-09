@@ -1,11 +1,38 @@
 """Playback variants retain source motion and provenance."""
 import unittest
 import math
+import json
+from pathlib import Path
 
 from import_assets import retrieve_playback_variants
 
 
 class PlaybackVariantsTest(unittest.TestCase):
+    def test_reviewed_directed_clips_regenerate_one_shot_metadata(self):
+        root = Path(__file__).resolve().parents[1]
+        evidence = json.loads((root / 'docs/animation_work_status/priority_recovery/evidence.json').read_text())
+        directed = {clip['id'] for clip in evidence['clips'] if clip['loop'] is False}
+        self.assertEqual(len(directed), 24)
+        catalog = json.loads((root / 'catalog.json').read_text())
+        for entry in catalog['animations']:
+            with self.subTest(clip=entry['id']):
+                if entry['id'] in directed:
+                    self.assertIs(entry['loop'], False)
+                    for status in ('Provisional export', 'Saved-source draft preview', 'Native deformation bake'):
+                        for previous_loop in (None, True, False):
+                            incoming = dict(entry, status=status)
+                            incoming.pop('loop')
+                            if previous_loop is not None:
+                                incoming['loop'] = previous_loop
+                            original = dict(incoming)
+                            expected = dict(incoming, loop=False)
+                            self.assertEqual(retrieve_playback_variants(incoming), [expected])
+                            self.assertEqual(incoming, original)
+                            self.assertEqual(retrieve_playback_variants(expected), [expected])
+                else:
+                    # Existing loops, House transitions, solo choices, and provenance persist.
+                    self.assertEqual(retrieve_playback_variants(entry), [entry])
+
     def test_shared_origin_solos_have_independent_choices(self):
         for style, duration in [('jazz', 2.25), ('gogo', 4.0), ('cutting_shapes', 2.0), ('solo_disco_dance', 16.0)]:
             with self.subTest(style=style):
