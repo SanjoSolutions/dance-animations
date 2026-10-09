@@ -1,0 +1,845 @@
+{
+  "date": "2026-10-09",
+  "baselineCommit": "039e2626b490e07a1c95192c265e5635cc77f07c",
+  "scope": "Catalog one-shot settings for 24 hash-matched directed clips; saved animation bytes retained",
+  "recoveryEvidence": {
+    "file": "docs/animation_work_status/priority_recovery/evidence.json",
+    "sha256": "39b7b00b8585b66d4225dbc04bcd48f4e177a571c030502826fa18b980966761"
+  },
+  "clips": [
+    {
+      "id": "hip_hop_man_low_to_neutral",
+      "loop": false,
+      "performers": [
+        "man"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_man_low_to_neutral.blend",
+          "bytes": 1955417,
+          "sha256": "bb7d43304b209819a87f173dcfa27687a4b29dfffddac03c159c64a472e94e16"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_man_low_to_neutral.glb",
+          "bytes": 256948,
+          "sha256": "6c4c52bf3e6d6c6d78cf1bcfef55190cd80e731fa673e327042fa658edc1ca39"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "hip_hop_man_neutral_to_low",
+      "loop": false,
+      "performers": [
+        "man"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_man_neutral_to_low.blend",
+          "bytes": 1949750,
+          "sha256": "91a7cead090c081df3631d57e4c2f5c0757cc233a3485d677f9ee49b9a25868f"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_man_neutral_to_low.glb",
+          "bytes": 255588,
+          "sha256": "bc52d764a24b168c25207646d1a1ad4f622f63352a46f6c1e44cd846cf56b9c4"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "hip_hop_man_neutral_to_wide",
+      "loop": false,
+      "performers": [
+        "man"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_man_neutral_to_wide.blend",
+          "bytes": 2061912,
+          "sha256": "26e225863749787bee81aa59f2085ed7883233838dd31808003c3a29cbbfee86"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_man_neutral_to_wide.glb",
+          "bytes": 254308,
+          "sha256": "80e84465a883774a356e0c5243db7b19fb12af082f1a283754b559ada9f22838"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "hip_hop_man_wide_to_neutral",
+      "loop": false,
+      "performers": [
+        "man"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_man_wide_to_neutral.blend",
+          "bytes": 2063977,
+          "sha256": "fb6f49e8b191641b6a842413d8b80a976b881f32c0cea2f2acc0479c4dc55cd6"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_man_wide_to_neutral.glb",
+          "bytes": 254356,
+          "sha256": "371489fbb2851a7aa1e9e0f840864f2d43bfb0c13485af21284b79ab7e19e2ef"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "hip_hop_woman_low_to_neutral",
+      "loop": false,
+      "performers": [
+        "woman"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_woman_low_to_neutral.blend",
+          "bytes": 1951965,
+          "sha256": "3a325b3fb507df862c450849d8b2bb65708ced0ab55e3927cce4ac663f489481"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_woman_low_to_neutral.glb",
+          "bytes": 257352,
+          "sha256": "5ea383159683c983f4f2c73f658c7ae8ec0abe05fb2efcc2a36969948f9f10e4"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "hip_hop_woman_neutral_to_low",
+      "loop": false,
+      "performers": [
+        "woman"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_woman_neutral_to_low.blend",
+          "bytes": 1948645,
+          "sha256": "948fc4c107aa5a0d4464ccfd01ad2960df887dc83e916e89653f3fde40b45525"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_woman_neutral_to_low.glb",
+          "bytes": 256528,
+          "sha256": "11f9f8601fb2bd9ba3d809b6670aab11f250f36080256eaf7185bf1000fbd2e7"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "hip_hop_woman_neutral_to_wide",
+      "loop": false,
+      "performers": [
+        "woman"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_woman_neutral_to_wide.blend",
+          "bytes": 2062800,
+          "sha256": "9e8338f4fdf2fae082a76fd848ee1e8730fee86f0b251acf0c4deb0454b3c2e2"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_woman_neutral_to_wide.glb",
+          "bytes": 252636,
+          "sha256": "4b46aa7c4718593073afc553ca3eed2b4cf861abf2ba93769de0c2cdfea82c12"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "hip_hop_woman_wide_to_neutral",
+      "loop": false,
+      "performers": [
+        "woman"
+      ],
+      "duration": 1.25,
+      "storedRange": [
+        0.0,
+        60.0
+      ],
+      "rate": 48.0,
+      "status": "Game export",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/hip_hop/sources/hip_hop_woman_wide_to_neutral.blend",
+          "bytes": 2062316,
+          "sha256": "69d4d4858d10ffece4be52ccf1caf82ae9005bf0ac0d0e1b965b8409b837e316"
+        },
+        "export": {
+          "file": "animations/hip_hop/hip_hop_woman_wide_to_neutral.glb",
+          "bytes": 252996,
+          "sha256": "f3a2714dff78330d365247464d83ec59ea97a2099e0d6a77e9e8c4adc3fa4af1"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "new_york_hustle_return_to_closed",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 6,
+      "storedRange": [
+        0.0,
+        576.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/new_york_hustle/sources/new_york_hustle_return_to_closed.blend",
+          "bytes": 19335780,
+          "sha256": "265ed1add06dec4c140e33f3455e185cc4bc5923c64ce4110b9928719df2b5ca"
+        },
+        "export": {
+          "file": "animations/new_york_hustle/new_york_hustle_return_to_closed.glb",
+          "bytes": 913372,
+          "sha256": "a5c9ba16926c32aaa0e54139ed861628d8c64a819915bbc1573a62c7c410ec14"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "new_york_hustle_send_out",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 6,
+      "storedRange": [
+        0.0,
+        576.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/new_york_hustle/sources/new_york_hustle_send_out.blend",
+          "bytes": 19378859,
+          "sha256": "60997b7e76ccefdaab7e38cd541656012a1b557f5e3603fcbc4b181c4cf77875"
+        },
+        "export": {
+          "file": "animations/new_york_hustle/new_york_hustle_send_out.glb",
+          "bytes": 922420,
+          "sha256": "8a4d84f027451840627af06768755abd617b69b2ab0276c5357ca29f7cbaf4b5"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_around_the_world",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 6.666666507720947,
+      "storedRange": [
+        0.0,
+        640.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_around_the_world.blend",
+          "bytes": 23919893,
+          "sha256": "143c51ae2909390d67ac83d2475107476538cd125eb0aae3021877cde45242e6"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_around_the_world.glb",
+          "bytes": 1230216,
+          "sha256": "fe1fa1f9b5e8b0ab10724a421bf58c4e804807e765e9307ff65f729007cdc8bf"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_cross_body_inside_turn",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 6.666666507720947,
+      "storedRange": [
+        0.0,
+        1280.0
+      ],
+      "rate": 192.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_cross_body_inside_turn.blend",
+          "bytes": 47638165,
+          "sha256": "c1d4c813ffea2ba269a28e168be7658ca023af156e0271a1060fedd01ee2f8e5"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_cross_body_inside_turn.glb",
+          "bytes": 2037200,
+          "sha256": "f294731a921917cd3b1bd407d4240cdfa57a835bfea0ef651e5a93e2ccf278ba"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_cross_body_lead",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        640.0
+      ],
+      "rate": 192.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_cross_body_lead.blend",
+          "bytes": 22833587,
+          "sha256": "e449056dac9bde67c94f8b03facfb8fe966237d6aeb39a51b30c6afd95355caa"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_cross_body_lead.glb",
+          "bytes": 1160688,
+          "sha256": "ccd2a9cc7f15c8808e6c47120b3742134afc6612d15bc9757f374622c7fd67cc"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_cross_body_outside_turn",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 6.666666507720947,
+      "storedRange": [
+        0.0,
+        1280.0
+      ],
+      "rate": 192.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_cross_body_outside_turn.blend",
+          "bytes": 47618182,
+          "sha256": "de3497cc1db1d1f6a75a69fa81c55e621c1dbf0223392d8b94eb2ea5fd27f02a"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_cross_body_outside_turn.glb",
+          "bytes": 2017624,
+          "sha256": "3a663a48d5231aa174878349fae9258ee6ea0ddf5c0be1fce926db4fa9d94b5d"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_dile_que_no",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        640.0
+      ],
+      "rate": 192.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_dile_que_no.blend",
+          "bytes": 22827311,
+          "sha256": "61edb648b23645ddb27e8144c00836283ce977996001172937082d127f6bd54c"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_dile_que_no.glb",
+          "bytes": 1172816,
+          "sha256": "cacbaf3e51fa5ec3498ac5b4c2020e9d98963a877017c7471a10a43bceb932f1"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_enchufla",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        320.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_enchufla.blend",
+          "bytes": 11306935,
+          "sha256": "d91b4f68fa06930e14c6e283b270085804b9a0a4081a74671ea29688d4a30f8d"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_enchufla.glb",
+          "bytes": 774072,
+          "sha256": "5bca1934a958e78bb5d68243d711d7510b124ff9a949e2f659be03c82b0184fc"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_follower_double_right_turn",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 6.666666507720947,
+      "storedRange": [
+        0.0,
+        1280.0
+      ],
+      "rate": 192.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_follower_double_right_turn.blend",
+          "bytes": 44647058,
+          "sha256": "91914af354afa6901af4aa95d1ecb353c4384efe55501e42ebb42c2c03fc427c"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_follower_double_right_turn.glb",
+          "bytes": 1765520,
+          "sha256": "21a4fe73126282496f9fd43536e0802d83b61b02a554861aac3efeb03cd9157c"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_follower_left_turn",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        320.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_follower_left_turn.blend",
+          "bytes": 10795122,
+          "sha256": "1ae951401418611c7e6c7886ab1ea30bb3ac6f593dcdcbe2aa39a597301c2c88"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_follower_left_turn.glb",
+          "bytes": 715232,
+          "sha256": "858b30670ee4728e49e9262968e080ce0554640d76208ae7e389383112047714"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_follower_right_turn",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        320.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_follower_right_turn.blend",
+          "bytes": 10816491,
+          "sha256": "ba90c61014f09c8a53551bcc37243393f9019ca1508b907f16b02c29dba1f4c9"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_follower_right_turn.glb",
+          "bytes": 715748,
+          "sha256": "6dbf301e43730762617d7eb5192ad8dafa4b102d2821d3266fa9b757e723031b"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_hecho",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        320.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_hecho.blend",
+          "bytes": 10822465,
+          "sha256": "6e04c5751c24ad99894334f6eb6bbe1e8e903f48815de00e9a190031cf850a1f"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_hecho.glb",
+          "bytes": 715736,
+          "sha256": "848dbdd67670bec106550ea622a7e8ed6064be38846fe79fa337013fcc05a7eb"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_leader_left_turn",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        640.0
+      ],
+      "rate": 192.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_leader_left_turn.blend",
+          "bytes": 21893877,
+          "sha256": "5ccc45ded7a77a65f961317c137bdd68ffb62efba885b70935b95fa6af6a1227"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_leader_left_turn.glb",
+          "bytes": 1068100,
+          "sha256": "183fde2de4a8a04a8f3048801f6887cdd70fb17f5ca070a87319bf394bf4232b"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_leader_right_turn",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        640.0
+      ],
+      "rate": 192.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_leader_right_turn.blend",
+          "bytes": 21753009,
+          "sha256": "0b6ed6a98272a187ab7296f14c7fcd23244c8300fa8f03ceb824f1b7cb95048a"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_leader_right_turn.glb",
+          "bytes": 1074080,
+          "sha256": "5ee69b8f252e88e80b75904bf474f9306988d824fb106e6e7bb5bc91165ce9af"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_reverse_cross_body",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 6.666666507720947,
+      "storedRange": [
+        0.0,
+        640.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_reverse_cross_body.blend",
+          "bytes": 23391770,
+          "sha256": "618f08125c38fcf1ae6d9eea5cbbf465b153ad7ec265a607e9653a96edf357dc"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_reverse_cross_body.glb",
+          "bytes": 1185520,
+          "sha256": "c6269855a889cadc4c9a30860e9a654e546167277f3681037e1cd654fa4ae6d6"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    },
+    {
+      "id": "salsa_vacilala",
+      "loop": false,
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "duration": 3.3333332538604736,
+      "storedRange": [
+        0.0,
+        320.0
+      ],
+      "rate": 96.0,
+      "status": "Saved-source draft preview",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "files": {
+        "source": {
+          "file": "animations/salsa/sources/salsa_vacilala.blend",
+          "bytes": 10748752,
+          "sha256": "b618bd6b9e2a3074fc7630f2f8a6e096de3ceec3d9f289bb09f497da45487d95"
+        },
+        "export": {
+          "file": "animations/salsa/salsa_vacilala.glb",
+          "bytes": 725648,
+          "sha256": "28c1ca81eba046b9108eb67e370ee7e5ef83cf6c9936f17b931a6ed5d7d8899e"
+        }
+      },
+      "recoverySourceAndExportHashesMatch": true
+    }
+  ],
+  "models": {
+    "man": {
+      "file": "models/mpfb-man.glb",
+      "sha256": "a0f54db5aaae69e41d23591b93a1afcea43f93096cc4ef580a1aa18d9b5014cd"
+    },
+    "woman": {
+      "file": "models/mpfb-woman.glb",
+      "sha256": "c5c813bac76172b8b36dd0852fa455a951fc8c2b0ef1e2ef52d5f9b8516e6754"
+    },
+    "street-man": {
+      "file": "models/wardrobe/street/mpfb-man.glb",
+      "sha256": "ba981a163eb4e776e29dc01f28a70a200cb7b7b7bfd0a5ea349550607e4fada8"
+    },
+    "street-woman": {
+      "file": "models/wardrobe/street/mpfb-woman.glb",
+      "sha256": "beb810d83c46f5d1131ea08b52c44c8796d41625ed5d3a27a4a8cea0bd7e226e"
+    },
+    "latin-man": {
+      "file": "models/wardrobe/latin/mpfb-man.glb",
+      "sha256": "f371474363b76203f92704e65152cbf2af162d51ff57ffff6677ce715e23453e"
+    },
+    "latin-woman": {
+      "file": "models/wardrobe/latin/mpfb-woman.glb",
+      "sha256": "2f07cb5a2e136ffb8e47f7257a13e53c1e6e8f68671c857c6fe495629dae9e0c"
+    }
+  },
+  "runtimeSampling": {
+    "directedClips": 24,
+    "fractionsBeforeEnd": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      0.999
+    ],
+    "endpointAndHoldFractions": [
+      1,
+      1.5,
+      3
+    ],
+    "restartFractions": [
+      0,
+      0.5
+    ],
+    "poseComparison": "Every bound bone world matrix and three skinned vertices per mesh against direct source endpoint/start samples",
+    "componentTolerance": 1e-06,
+    "automaticAndLoopStyles": [
+      "hip_hop",
+      "new_york_hustle",
+      "salsa"
+    ],
+    "textures": "Node model checks stub bitmap decoding; browser review uses decoded textures"
+  },
+  "sourceAndBakeCoverage": "Retained saved source/export revisions; historical native measurements remain in recovery evidence with dependency comparison above. This metadata task performs runtime playback and regeneration checks.",
+  "dependencies": {
+    "animations/shared_scene_data.blend": {
+      "sha256": "c0ffb9e16789f1b15c9e4b8b55097bdd1658e1634e6cf8dcf6ccf9a683b5e094",
+      "recoverySha256": "c0ffb9e16789f1b15c9e4b8b55097bdd1658e1634e6cf8dcf6ccf9a683b5e094",
+      "matchesRecovery": true
+    },
+    "assets/characters/mpfb-characters.blend": {
+      "sha256": "3e422c42ec5ffc3dec22d18521c0c95125e40bfed4a599cb0c2ec0ee633b9e3b",
+      "recoverySha256": "3e422c42ec5ffc3dec22d18521c0c95125e40bfed4a599cb0c2ec0ee633b9e3b",
+      "matchesRecovery": true
+    },
+    "assets/characters/rig-schema.json": {
+      "sha256": "1728841061a31c1170cf00a4eeb38a9c1bd39339375ca2389ed32b976d87e58a",
+      "recoverySha256": "1728841061a31c1170cf00a4eeb38a9c1bd39339375ca2389ed32b976d87e58a",
+      "matchesRecovery": true
+    }
+  },
+  "browserReview": {
+    "passed": true,
+    "browser": "154.0.4258.62",
+    "results": [
+      {
+        "id": "hip_hop_man_neutral_to_low",
+        "loop": "hip_hop_man_down_bounce",
+        "following": "hip_hop_man_neutral_to_wide",
+        "endpoint": 1.263157894736842,
+        "checks": [
+          "natural endpoint with Loop checked",
+          "held endpoint",
+          "Restart",
+          "ordinary loop wrap",
+          "sequential advance"
+        ]
+      },
+      {
+        "id": "new_york_hustle_send_out",
+        "loop": "new_york_hustle_basic_closed",
+        "following": "new_york_hustle_shadow_entry_exit",
+        "endpoint": 6.260869565217392,
+        "checks": [
+          "natural endpoint with Loop checked",
+          "held endpoint",
+          "Restart",
+          "ordinary loop wrap",
+          "sequential advance"
+        ]
+      },
+      {
+        "id": "salsa_cross_body_lead",
+        "loop": "salsa_basic",
+        "following": "salsa_cross_body_outside_turn",
+        "endpoint": 3.310162197947699,
+        "checks": [
+          "natural endpoint with Loop checked",
+          "held endpoint",
+          "Restart",
+          "ordinary loop wrap",
+          "sequential advance"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "validationFiles": {
+    "scripts/import_assets.py": "f8e6b435ce814aeef82bd1e80384287ecc9b3f3e7988eb754884b360ac19213e",
+    "scripts/import_assets.test.py": "1515dbfdb9d33937a85af8a92c779111ed4d0f44d984489470977512e40f453d",
+    "src/clip-binding.test.mjs": "1686cf1254954aeeecd7a00a6b20222d6d8dfdf65b4c980cb3b7e0d093d6374b"
+  },
+  "processState": "Browser review completed and its temporary Edge process closed; source authoring and baking stayed at the recorded revision.",
+  "validation": [
+    {
+      "command": "python scripts/import_assets.test.py",
+      "passed": true,
+      "tests": 5
+    },
+    {
+      "command": "npm run check",
+      "passed": true,
+      "runtimeEntries": 3677,
+      "sourceHashes": 3558
+    },
+    {
+      "command": "npm test",
+      "passed": true,
+      "tests": 73
+    },
+    {
+      "command": "npm run build",
+      "passed": true,
+      "packagedEntries": 3677
+    }
+  ]
+}

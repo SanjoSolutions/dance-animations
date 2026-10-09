@@ -6,6 +6,8 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
 import { clone } from 'three/addons/utils/SkeletonUtils.js';
 import { bindClip } from './clip-binding.ts';
+import { DanceMotion } from './motion.ts';
+import { DancePlayback } from './music/playback.ts';
 import { retrieveMoves, retrieveVariant } from './moves.ts';
 
 // Geometry tests run in Node; actual texture decoding is checked in the browser.
@@ -145,3 +147,134 @@ test('Salsa cross body outside turn keeps both chest regions attached to each to
     }
   }
 });
+
+const recovery = JSON.parse(await readFile('docs/animation_work_status/priority_recovery/evidence.json', 'utf8'));
+const music = JSON.parse(await readFile('music.json', 'utf8'));
+const directed = recovery.clips.filter(clip => clip.loop === false);
+
+function retrievePose(group) {
+  group.updateMatrixWorld(true);
+  const pose = [];
+  group.traverse(node => {
+    if (node.isBone) pose.push(...node.matrixWorld.elements);
+    if (node.isSkinnedMesh) {
+      node.skeleton.update();
+      const count = node.geometry.attributes.position.count;
+      for (const index of [0, Math.floor(count / 2), count - 1]) {
+        pose.push(...node.getVertexPosition(index, new Vector3()).applyMatrix4(node.matrixWorld).toArray());
+      }
+    }
+  });
+  assert.ok(pose.length > 0 && pose.every(Number.isFinite));
+  return pose;
+}
+
+function comparePose(actual, expected) {
+  assert.equal(actual.length, expected.length);
+  const error = actual.reduce((maximum, value, index) => Math.max(maximum, Math.abs(value - expected[index])), 0);
+  assert.ok(error < 1e-6, `Maximum bone matrix / sampled surface component difference: ${error}`);
+}
+
+for (const record of directed) {
+  test(`${record.id} plays once on actual MPFB models, holds its endpoint, and restarts`, async context => {
+    let elapsed = 0;
+    context.mock.method(performance, 'now', () => elapsed * 1000);
+    const entry = catalog.animations.find(entry => entry.id === record.id);
+    const performers = new Map(entry.performers.map(actor => [actor, clone(actor === 'man' ? man.scene : woman.scene)]));
+    const group = new Group().add(...performers.values());
+    const clip = await bindClip(await load(entry.file), performers);
+    const motion = new DanceMotion(group, performers);
+    context.after(() => motion.dispose());
+    motion.select(clip, 0, 0);
+    motion.update(0, 0);
+    const start = retrievePose(group);
+    motion.update(clip.duration, clip.duration);
+    const end = retrievePose(group);
+    const playback = new DancePlayback();
+    const track = music.tracks.find(track => track.style === entry.style);
+    await playback.select(clip.duration, track, {}, () => {}, undefined, entry.loop !== false);
+    const duration = playback.retrievePosition().duration;
+    const sample = () => {
+      const position = playback.retrievePosition();
+      motion.update(position.sourceTime, position.elapsed);
+      return position;
+    };
+    for (const fraction of [0, .25, .5, .75, .999]) {
+      elapsed = duration * fraction;
+      assert.equal(sample().paused, false);
+      retrievePose(group);
+    }
+    for (const fraction of [1, 1.5, 3]) {
+      elapsed = duration * fraction;
+      const position = sample();
+      assert.equal(position.paused, true);
+      assert.ok(Math.abs(position.sourceTime - clip.duration) < 1e-6);
+      comparePose(retrievePose(group), end);
+    }
+    playback.restart();
+    assert.equal(sample().paused, false);
+    comparePose(retrievePose(group), start);
+    elapsed += duration / 2;
+    assert.ok(Math.abs(sample().sourceTime - clip.duration / 2) < 1e-6);
+  });
+}
+
+for (const [directedId, loopId] of [
+  ['hip_hop_man_neutral_to_low', 'hip_hop_man_down_bounce'],
+  ['new_york_hustle_send_out', 'new_york_hustle_basic_closed'],
+  ['salsa_cross_body_lead', 'salsa_basic'],
+]) {
+  test(`${directedId} holds until automatic selection and ${loopId} repeats on actual models`, async context => {
+    let elapsed = 0;
+    context.mock.method(performance, 'now', () => elapsed * 1000);
+    const entry = catalog.animations.find(entry => entry.id === directedId);
+    const next = catalog.animations.find(entry => entry.id === loopId);
+    assert.ok(entry && next);
+    const performers = new Map(entry.performers.map(actor => [actor, clone(actor === 'man' ? man.scene : woman.scene)]));
+    const group = new Group().add(...performers.values());
+    const motion = new DanceMotion(group, performers);
+    context.after(() => motion.dispose());
+    const clip = await bindClip(await load(entry.file), performers);
+    const nextClip = await bindClip(await load(next.file), performers);
+    const playback = new DancePlayback();
+    const track = music.tracks.find(track => track.style === entry.style);
+    const buffer = {};
+    playback.setLoop(true, true);
+    await playback.select(clip.duration, track, buffer, start => motion.select(clip, start, 0), undefined, entry.loop !== false);
+    const sample = () => {
+      const position = playback.retrievePosition();
+      motion.update(position.sourceTime, position.elapsed);
+      return position;
+    };
+    const duration = playback.retrievePosition().duration;
+    elapsed = duration;
+    sample();
+    const endpoint = retrievePose(group);
+    elapsed = duration * 1.25;
+    assert.equal(sample().paused, false);
+    comparePose(retrievePose(group), endpoint);
+    const interval = 16;
+    const deadline = interval * track.meter * 60 / track.tempo;
+    const selected = playback.select(nextClip.duration, track, buffer, start => motion.select(nextClip, start, 0), interval, next.loop !== false);
+    elapsed = deadline - .01;
+    assert.equal(sample().paused, false);
+    comparePose(retrievePose(group), endpoint);
+    elapsed = deadline;
+    const incoming = sample();
+    assert.equal(await selected, true);
+    assert.equal(incoming.sourceTime, 0);
+    const entryPose = retrievePose(group);
+    elapsed += incoming.duration / 4;
+    sample();
+    const quarterPose = retrievePose(group);
+    elapsed = deadline + incoming.duration;
+    assert.equal(sample().paused, false);
+    comparePose(retrievePose(group), entryPose);
+    elapsed += incoming.duration / 4;
+    sample();
+    comparePose(retrievePose(group), quarterPose);
+    playback.restart();
+    sample();
+    comparePose(retrievePose(group), entryPose);
+  });
+}
