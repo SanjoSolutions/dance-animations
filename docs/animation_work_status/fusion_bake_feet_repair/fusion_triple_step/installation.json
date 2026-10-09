@@ -1,0 +1,11 @@
+{
+  "source": "animations\\fusion\\sources\\fusion_triple_step.blend",
+  "export": "animations\\fusion\\fusion_triple_step.glb",
+  "sourceSha256": "e47b204dac97aaff17addfa5c89781a386a194f01106f0d30fe6ca81ab391df3",
+  "candidateSourceSha256": "49419b2a595d9bc4071ca3d1f6dd8a41ec73cbdf7106c55d7953f3bd81e2564e",
+  "candidateExportSha256": "650e7f8ad9667fc1d2593f6fa7dc5eeb94d3cc0bd8054d2e650b6d9e4efb81e5",
+  "actionFingerprint": "931ba2c433674979bce6097e1eb1ad3edf542f9b00feb6918d88ec6c87beb00f",
+  "fingerprintAlgorithm": "sha256-curves-v2",
+  "descriptor": "../../shared_scene_data.blend",
+  "exactCurveParity": true
+}

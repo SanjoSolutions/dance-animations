@@ -1,0 +1,610 @@
+{
+  "clips": [
+    {
+      "id": "fusion_box_basic",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_box_basic.blend",
+          "sha256": "3c8f1cba186628b19fa1bcbcd96bc215c34a39e4c663deae7d970962e597d8fd",
+          "bytes": 6712811
+        },
+        "export": {
+          "file": "animations/fusion/fusion_box_basic.glb",
+          "sha256": "8808a05369186909687df4b9ba305b8c47ff080a758fad5d8905f93d552f87c0",
+          "bytes": 733476
+        }
+      },
+      "candidateSourceSha256": "9697cb04840591b185029256e1bf2491196a999b6cc4b0f288803a037196112a",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 0.0007863752727463285,
+      "skinPlantDrift": 0.000892240911054705,
+      "runtimePositionError": 0.0007866544019792994,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_box_basic/front-side.mp4",
+        "sha256": "6fc992f48dcf8cf8881f76f3b5f53cc634c0a3b1f18f91e4f49c7ca3a3822def",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_compression_stretch",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_compression_stretch.blend",
+          "sha256": "467192d6752d6db50098342f7ce4e3db13ec6741d388aa3368a6df792890ca50",
+          "bytes": 6507695
+        },
+        "export": {
+          "file": "animations/fusion/fusion_compression_stretch.glb",
+          "sha256": "df50965df58a631c44db2240cb4f884cf1f13ee90e6722ead3c5e47e98cc8e5b",
+          "bytes": 660520
+        }
+      },
+      "candidateSourceSha256": "499a9f0b6364846ecc8607afc639429b1cee00508c9b29af1578096f05400c18",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 8.086032981742264e-05,
+      "skinPlantDrift": 0.0002972737197937873,
+      "runtimePositionError": 0.00014296076047832975,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_compression_stretch/front-side.mp4",
+        "sha256": "4ebcff1d1b5828225d6561abbbb8a8c90f22e2029060322f4c4c8fa09e1e1e8b",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_forward_back_basic",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_forward_back_basic.blend",
+          "sha256": "e28d25cc024d61ae7a678e2cec40cecd50c67a65c464298c10373e0cca194c75",
+          "bytes": 6731068
+        },
+        "export": {
+          "file": "animations/fusion/fusion_forward_back_basic.glb",
+          "sha256": "9bd92c59a4e2bdd33364e02bba9617f247a2f7855b703964e659a3ffa9de9d9c",
+          "bytes": 738912
+        }
+      },
+      "candidateSourceSha256": "2d499073a57bd0ff0c4d5944f063f690170042deb655629bedf077bfe96c2341",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 0.0006442607603085127,
+      "skinPlantDrift": 0.0004731961619730109,
+      "runtimePositionError": 0.0006441951621640095,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_forward_back_basic/front-side.mp4",
+        "sha256": "a5e464e829a4c29e986763d47ae7f839dc61a5238185555f878b2be2d5c353db",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_promenade_walk",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_promenade_walk.blend",
+          "sha256": "8c589b2f999a057fd1d8955813605c05726126630979e42cb46b89ca6d9f9566",
+          "bytes": 6628839
+        },
+        "export": {
+          "file": "animations/fusion/fusion_promenade_walk.glb",
+          "sha256": "4b6fd8e165ffcbce84a3e531f1d07c7758d6337d32c91fb8e40bbce197f9969a",
+          "bytes": 721628
+        }
+      },
+      "candidateSourceSha256": "af18ea9dcc3ec592387ddba3293c1852df2676bd4edab5ad702f3c5fa0a5d7b9",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 0.0005569841188918978,
+      "skinPlantDrift": 0.00047223114442540554,
+      "runtimePositionError": 0.000557144904047575,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_promenade_walk/front-side.mp4",
+        "sha256": "c32ab454df8672e8d7772e679951d68ddfa5554555a03d777d06bca100512751",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_send_out_return",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_send_out_return.blend",
+          "sha256": "7eb1044f09afdb210866e095a7ab294de8b8610012fb1b52a97d50c213916ac6",
+          "bytes": 6534671
+        },
+        "export": {
+          "file": "animations/fusion/fusion_send_out_return.glb",
+          "sha256": "33daf0ee6fa7fac8c814cca6098dee4f8489401cc1241bfbac391b2a0624d2c1",
+          "bytes": 697556
+        }
+      },
+      "candidateSourceSha256": "776294172becae4cb6240325dc1bb818ead6732d9fd66262ad0f0c38b44dc78a",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 8.261381830676133e-05,
+      "skinPlantDrift": 0.0003927116737001912,
+      "runtimePositionError": 0.00017593198722812596,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_send_out_return/front-side.mp4",
+        "sha256": "b4f82e00191f8504c022b54d75cf1d5511e36a6e2c1462f5b8198612e0903c97",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_shadow",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_shadow.blend",
+          "sha256": "6b4f2f9b3b82a27009b7911e9b07092c409ccd49106e3f903fc90516ce5c94d5",
+          "bytes": 6244922
+        },
+        "export": {
+          "file": "animations/fusion/fusion_shadow.glb",
+          "sha256": "569b4d03c273f86eeb1204bf0d3d50ab94ba5cd5cba418094430d73f54308333",
+          "bytes": 644528
+        }
+      },
+      "candidateSourceSha256": "242881b33f62e52ed842710587a2aeabef62a368cd15415b33b612aa201a7d52",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 7.043291526071085e-05,
+      "skinPlantDrift": 0.00024658269235596967,
+      "runtimePositionError": 0.00017011749081332776,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_shadow/front-side.mp4",
+        "sha256": "123327ee5a8144cd61b8b924fe3b60a3fb7c4cd550a6ef7c621a47f71d32966b",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_shadow_walk",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_shadow_walk.blend",
+          "sha256": "d108a7954512e1a7c4094d24819456ad0352f4bb5b701c2ae06daf38d8e5d7c1",
+          "bytes": 6614951
+        },
+        "export": {
+          "file": "animations/fusion/fusion_shadow_walk.glb",
+          "sha256": "1041de3fb1190ae0b8a37dd328310eb3a6192cb031c8dea4bd6397a9ca10d0a2",
+          "bytes": 714184
+        }
+      },
+      "candidateSourceSha256": "bdba918759b775fe65bc3db671f3d93ed16f04e21f3303b026b040a16b2f028b",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 0.0005570628520608777,
+      "skinPlantDrift": 0.00047217904526236393,
+      "runtimePositionError": 0.0005573470674976743,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_shadow_walk/front-side.mp4",
+        "sha256": "32ed4f50c5aec457e8f11ba1e4bcf6b8fd73525801e02741c893132447ffd956",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_side_basic",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_side_basic.blend",
+          "sha256": "7a87c7be16269951f35a1d165d5dc0c51bb83459ae69839bbf02ce95298bede7",
+          "bytes": 6537742
+        },
+        "export": {
+          "file": "animations/fusion/fusion_side_basic.glb",
+          "sha256": "ac5cb0f635df07d34d310addc2da2fb347dacfc2cd713b46aac170319d7acd0d",
+          "bytes": 714404
+        }
+      },
+      "candidateSourceSha256": "9187574aaa43414d0e8298d79038c19410deb0b53bb6b992619c1fd02fa991b1",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        192.0
+      ],
+      "rate": 48.0,
+      "playbackEnd": 191.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 0.0007973894681495788,
+      "skinPlantDrift": 0.0008695298539639457,
+      "runtimePositionError": 0.0007976560966724621,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_side_basic/front-side.mp4",
+        "sha256": "85db60d3afe8fe478ed9f1c75675b2e1182d5600cf8df2df9e08aad7f77d7633",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    },
+    {
+      "id": "fusion_triple_step",
+      "assets": {
+        "source": {
+          "file": "animations/fusion/sources/fusion_triple_step.blend",
+          "sha256": "e47b204dac97aaff17addfa5c89781a386a194f01106f0d30fe6ca81ab391df3",
+          "bytes": 24926355
+        },
+        "export": {
+          "file": "animations/fusion/fusion_triple_step.glb",
+          "sha256": "650e7f8ad9667fc1d2593f6fa7dc5eeb94d3cc0bd8054d2e650b6d9e4efb81e5",
+          "bytes": 1735164
+        }
+      },
+      "candidateSourceSha256": "49419b2a595d9bc4071ca3d1f6dd8a41ec73cbdf7106c55d7953f3bd81e2564e",
+      "performers": [
+        "man",
+        "woman"
+      ],
+      "storedRange": [
+        0.0,
+        768.0
+      ],
+      "rate": 192.0,
+      "playbackEnd": 767.0,
+      "sourceState": "saved source and bake validated",
+      "installedSourceState": "portable descriptor and curve parity checked",
+      "visualState": "12 sequential playback samples reviewed in two views; 97-frame video available",
+      "bakePositionError": 0.00019607402484898186,
+      "skinPlantDrift": 0.0006556879833705678,
+      "runtimePositionError": 0.00019595588616530034,
+      "numericalAcceptance": true,
+      "visual": {
+        "file": "docs/animation_work_status/fusion_bake_feet_repair/fusion_triple_step/front-side.mp4",
+        "sha256": "3475f969bb21de5992154f48153b9844eee0bb7be55032972209f1344667f559",
+        "renderedFrames": 97,
+        "reviewFrames": [
+          0,
+          6,
+          18,
+          27,
+          33,
+          42,
+          54,
+          66,
+          75,
+          81,
+          90,
+          96
+        ],
+        "views": [
+          "front at 15 degrees",
+          "side"
+        ]
+      },
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+    }
+  ],
+  "comparisonClips": [
+    {
+      "id": "fusion_closed_offset",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.0001063517131365986
+    },
+    {
+      "id": "fusion_counterbalance",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00011026465504736456
+    },
+    {
+      "id": "fusion_open_double_sway",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00010622354187434574
+    },
+    {
+      "id": "fusion_open_single_left",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.0001370432631744586
+    },
+    {
+      "id": "fusion_open_single_right",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00013720753360341032
+    },
+    {
+      "id": "fusion_promenade_left",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00018069413495556204
+    },
+    {
+      "id": "fusion_promenade_right",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00016289917793689884
+    },
+    {
+      "id": "fusion_pulse",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.0003248907211157916
+    },
+    {
+      "id": "fusion_side_by_side",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00014808908041314534
+    },
+    {
+      "id": "fusion_sweetheart",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00027515908898325227
+    },
+    {
+      "id": "fusion_weight_transfer",
+      "sourceAndExportHashParity": true,
+      "maximumBonePositionError": 0.00027402093759117113
+    }
+  ],
+  "baseCommit": "039e2626b490e07a1c95192c265e5635cc77f07c",
+  "blender": "5.2.1 LTS / 9e2066aef7ef",
+  "units": "meters, seconds, frames",
+  "tolerances": {
+    "plantDrift": 0.003,
+    "nativeSubframePosition": 0.002,
+    "runtimePosition": 0.002,
+    "savedSourceMatrix": 0.0001
+  },
+  "models": {
+    "man": {
+      "file": "models/mpfb-man.glb",
+      "sha256": "a0f54db5aaae69e41d23591b93a1afcea43f93096cc4ef580a1aa18d9b5014cd"
+    },
+    "woman": {
+      "file": "models/mpfb-woman.glb",
+      "sha256": "c5c813bac76172b8b36dd0852fa455a951fc8c2b0ef1e2ef52d5f9b8516e6754"
+    }
+  },
+  "generators": {
+    "scripts/fusion_repair/baseline.py": "bad304f2c20c73fe22be535722cec2bc3943ede4e3b458f8d205bea511443a96",
+    "scripts/fusion_repair/batch.ps1": "082c2f37a9f56a5f1dd2f80693403c29f414b9afa92d2eb1f0044ad52feb8c13",
+    "scripts/fusion_repair/capture.mjs": "7466a2ed2d7379e2c5bfbad43c89f9ffee3b559a3cf3433f29b49a5891f1b822",
+    "scripts/fusion_repair/install.py": "6748a35e1de935ae5e80cbc205cc6eb6540437175858b48d982f668662d353b6",
+    "scripts/fusion_repair/repair_supports.py": "59bc0c968cfe4e2eded32cc873e7f96bdea864118b82117858bc7ae404dcbf00",
+    "scripts/fusion_repair/repair_supports.test.py": "969927218fcaee7009a875747fc99555f82eb4663e72c2ff3f6615515319c12e",
+    "scripts/fusion_repair/report.py": "dcf473128ef12e9efd7f8c799aeab8b280b648e47dcdedaee111a0aea6ae1c6d",
+    "scripts/fusion_repair/review.html": "733fae0660f27c938afebb5727a093ebfa2373804a905e9cfae343e489c59e3c",
+    "scripts/fusion_repair/review.py": "5d8b568526c48a879ca7502193eb514077752282bc3ff22498dc6c1f669a1270",
+    "scripts/fusion_repair/review.ts": "5873bec2bb6ad309694d0263bfe6673567e0267653b55c855c7af3b58b1fdcee",
+    "scripts/fusion_repair/review_sheets.py": "265825d25a16dfc38af2f23242ac1a52a35e4e145a72d3614b703e1cf2c4e56b",
+    "scripts/fusion_repair/run.ps1": "c72ae1164f2517b9a2e43b98786e4aaedfc544544a89a1f4de44079f9c3f18f7",
+    "scripts/fusion_repair/surfaces.mjs": "1479d70643d90029761f9bba3e7bafdedc2b09d65d49cc80ae5a536f332318e3"
+  },
+  "processState": "complete; task Blender workers exited",
+  "publication": "PR review; main integration follows user approval"
+}

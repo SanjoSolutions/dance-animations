@@ -1,0 +1,11 @@
+{
+  "source": "animations\\fusion\\sources\\fusion_promenade_walk.blend",
+  "export": "animations\\fusion\\fusion_promenade_walk.glb",
+  "sourceSha256": "8c589b2f999a057fd1d8955813605c05726126630979e42cb46b89ca6d9f9566",
+  "candidateSourceSha256": "af18ea9dcc3ec592387ddba3293c1852df2676bd4edab5ad702f3c5fa0a5d7b9",
+  "candidateExportSha256": "4b6fd8e165ffcbce84a3e531f1d07c7758d6337d32c91fb8e40bbce197f9969a",
+  "actionFingerprint": "a64a77a9c9bcf6142d74e3e80f5ce6ebc4c6aea824e3f7022d191b6385452f2c",
+  "fingerprintAlgorithm": "sha256-curves-v2",
+  "descriptor": "../../shared_scene_data.blend",
+  "exactCurveParity": true
+}

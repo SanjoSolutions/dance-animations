@@ -1,0 +1,23 @@
+{
+  "sourceSha256": "e47b204dac97aaff17addfa5c89781a386a194f01106f0d30fe6ca81ab391df3",
+  "exportSha256": "650e7f8ad9667fc1d2593f6fa7dc5eeb94d3cc0bd8054d2e650b6d9e4efb81e5",
+  "validatorSha256": "a96927b835e336505f048196078d12f5ec0f06379ab6264e6b6995753e7b6b88",
+  "sampledFrames": 1537,
+  "maximumJointPositionError": 0.00019595588616530034,
+  "worst": {
+    "frame": 624.5,
+    "performer": "man",
+    "bone": "DEF-shin.L"
+  },
+  "duration": 4,
+  "maximumJointRotationError": 0.0004203269731507158,
+  "worstRotation": {
+    "frame": 624.5,
+    "performer": "man",
+    "bone": "DEF-shin.L"
+  },
+  "durationError": 0,
+  "tracks": 1260,
+  "animation": "fusion_triple_step.baked",
+  "passed": true
+}

@@ -1,0 +1,75 @@
+{
+  "id": "fusion_send_out_return",
+  "exportSha256": "33daf0ee6fa7fac8c814cca6098dee4f8489401cc1241bfbac391b2a0624d2c1",
+  "sampledFrames": 385,
+  "units": "meters",
+  "soleBand": 0.018,
+  "maximumPlantDrift": 0.0003927116737001912,
+  "limits": {
+    "plantDrift": 0.003,
+    "minimum": -0.002
+  },
+  "feet": [
+    {
+      "actor": "man",
+      "side": "L",
+      "vertices": 631,
+      "minimum": 0.0019983153969173415,
+      "maximumMinimum": 0.0020825496158204887,
+      "intervals": [
+        {
+          "start": 0,
+          "end": 96,
+          "drift": 0.00028245114837992133,
+          "samples": 385
+        }
+      ]
+    },
+    {
+      "actor": "man",
+      "side": "R",
+      "vertices": 631,
+      "minimum": 0.001998311151197264,
+      "maximumMinimum": 0.002082471444828711,
+      "intervals": [
+        {
+          "start": 0,
+          "end": 96,
+          "drift": 0.00028240751617000586,
+          "samples": 385
+        }
+      ]
+    },
+    {
+      "actor": "woman",
+      "side": "L",
+      "vertices": 604,
+      "minimum": 0.002002474479104705,
+      "maximumMinimum": 0.002154618978994852,
+      "intervals": [
+        {
+          "start": 0,
+          "end": 96,
+          "drift": 0.0003927116737001912,
+          "samples": 385
+        }
+      ]
+    },
+    {
+      "actor": "woman",
+      "side": "R",
+      "vertices": 604,
+      "minimum": 0.0020023230209367036,
+      "maximumMinimum": 0.0021545029924830423,
+      "intervals": [
+        {
+          "start": 0,
+          "end": 96,
+          "drift": 0.0003923550178249769,
+          "samples": 385
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

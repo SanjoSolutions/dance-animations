@@ -1,0 +1,16 @@
+{
+  "id": "fusion_shadow_walk",
+  "exportSha256": "1041de3fb1190ae0b8a37dd328310eb3a6192cb031c8dea4bd6397a9ca10d0a2",
+  "rendererRevision": "5873bec2bb6ad309694d0263bfe6673567e0267653b55c855c7af3b58b1fdcee",
+  "frames": 97,
+  "rate": 24,
+  "views": [
+    "front at 15 degrees",
+    "side"
+  ],
+  "models": [
+    "models/mpfb-man.glb",
+    "models/mpfb-woman.glb"
+  ],
+  "renderer": "Edge / Three.js WebGL"
+}

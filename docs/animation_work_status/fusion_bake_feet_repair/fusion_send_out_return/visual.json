@@ -1,0 +1,16 @@
+{
+  "id": "fusion_send_out_return",
+  "exportSha256": "33daf0ee6fa7fac8c814cca6098dee4f8489401cc1241bfbac391b2a0624d2c1",
+  "rendererRevision": "5873bec2bb6ad309694d0263bfe6673567e0267653b55c855c7af3b58b1fdcee",
+  "frames": 97,
+  "rate": 24,
+  "views": [
+    "front at 15 degrees",
+    "side"
+  ],
+  "models": [
+    "models/mpfb-man.glb",
+    "models/mpfb-woman.glb"
+  ],
+  "renderer": "Edge / Three.js WebGL"
+}

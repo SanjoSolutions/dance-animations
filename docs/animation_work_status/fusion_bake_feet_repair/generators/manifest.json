@@ -1,0 +1,19 @@
+{
+  "archive": "authored-generators.zip",
+  "files": [
+    {
+      "file": "docs/animation_work_status/fusion_bake_feet_repair/generators/repair_supports_initial.py",
+      "archivedFile": "repair_supports_initial.py",
+      "authoredSha256": "fade4520703cf0c0a1118abbad04585ae9f5c80ed3bf7ee28ec012f00a0d8290",
+      "publishedSha256": "fa691aeb8e696baea86811363779701739fb6f23d22314ecdab2754d53b2cbe7",
+      "change": "One trailing empty line trimmed; executable content identical."
+    },
+    {
+      "file": "scripts/fusion_repair/repair_supports.py",
+      "archivedFile": "repair_supports.py",
+      "authoredSha256": "cdd958f3fbe372146a6303d921feae4dbfdb45c9f43194aa2997f6964f6a48bc",
+      "publishedSha256": "59bc0c968cfe4e2eded32cc873e7f96bdea864118b82117858bc7ae404dcbf00",
+      "change": "One trailing empty line trimmed; executable content identical."
+    }
+  ]
+}

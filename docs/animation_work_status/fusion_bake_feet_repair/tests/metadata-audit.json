@@ -1,0 +1,92 @@
+[
+  {
+    "id": "fusion_box_basic",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_compression_stretch",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_forward_back_basic",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_promenade_walk",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_send_out_return",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_shadow",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_shadow_walk",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_side_basic",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      192.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  },
+  {
+    "id": "fusion_triple_step",
+    "passed": true,
+    "tracks": 4,
+    "range": [
+      0.0,
+      768.0
+    ],
+    "influence": "native exporter defaults; deformation strips retain zero serialized influence with animated influence disabled"
+  }
+]
