@@ -1,0 +1,204 @@
+{
+  "command": [
+    "node",
+    "scripts/compress-clips.mjs",
+    "waacking_man_alternating",
+    "waacking_man_backward_single_left",
+    "waacking_man_backward_single_right",
+    "waacking_man_double_backward",
+    "waacking_man_double_forward",
+    "waacking_man_forward_single_left",
+    "waacking_man_forward_single_right",
+    "waacking_man_windmill",
+    "waacking_woman_alternating",
+    "waacking_woman_backward_single_left",
+    "waacking_woman_backward_single_right",
+    "waacking_woman_double_backward",
+    "waacking_woman_double_forward",
+    "waacking_woman_forward_single_left",
+    "waacking_woman_forward_single_right",
+    "waacking_woman_windmill"
+  ],
+  "exitCode": 0,
+  "output": "Lossless GLB encoding: 18.0 \u2192 11.1 MiB\n",
+  "generatorSha256": "232e45b27d2dcea6df739b7d841c00128c6e01c3e31c5c3197655855ccac6b39",
+  "coverage": "Every decoded accessor value compared with its original value by the existing lossless compressor",
+  "clips": [
+    {
+      "id": "waacking_man_alternating",
+      "original": {
+        "sha256": "fbf60399f2ec24514cbbfcfbaac64bd94fbb632abe2a3ee06e554a2042798df1",
+        "bytes": 1192792
+      },
+      "compressed": {
+        "sha256": "bd365eefab3e0ae4eea8b0c43d2322bf4eea4a2cff7519025a93a0d2f4c6ef34",
+        "bytes": 741400
+      }
+    },
+    {
+      "id": "waacking_man_backward_single_left",
+      "original": {
+        "sha256": "f1413bb68a3aee50f41565cb6f63a8f6b30baac169a0085ef4a643ef741efbb9",
+        "bytes": 1192940
+      },
+      "compressed": {
+        "sha256": "e6e0d86c8372516dbafffa52de378dc5a22d1f218fac64134496c34327d584e3",
+        "bytes": 728732
+      }
+    },
+    {
+      "id": "waacking_man_backward_single_right",
+      "original": {
+        "sha256": "bb0f1c0a12c98cdc38ca6bb0ba57b2792f195c250b54d6c212135e51228a73e2",
+        "bytes": 1193076
+      },
+      "compressed": {
+        "sha256": "8c66ff4196c0267cd30d430c0ce05204c49bd34cc082952879682cdf6abf8ee6",
+        "bytes": 728956
+      }
+    },
+    {
+      "id": "waacking_man_double_backward",
+      "original": {
+        "sha256": "65d073d04891dfeed4abc0ce2c9340ba7f4578cbd7d879b4655d9c3120e33ece",
+        "bytes": 1193072
+      },
+      "compressed": {
+        "sha256": "bca441ebc8f23527bdd215e759422e7ec353b37d676ecec0583eb73dc8cdd8bd",
+        "bytes": 741672
+      }
+    },
+    {
+      "id": "waacking_man_double_forward",
+      "original": {
+        "sha256": "857d05ee6502fced2ba1cc6a19c31269339ce07a3949091f0b5447b0e40c8052",
+        "bytes": 1192932
+      },
+      "compressed": {
+        "sha256": "95c2d6a177c0649388418fa27532934067ece004461047c8d3e4ecb3f1f6cd94",
+        "bytes": 741324
+      }
+    },
+    {
+      "id": "waacking_man_forward_single_left",
+      "original": {
+        "sha256": "24b0287e413761516d9a91b8dbfd34ec2c5ca29f2261bce801dd989c62de0312",
+        "bytes": 1193076
+      },
+      "compressed": {
+        "sha256": "1c773012a38459dcc3d9a50778eebb216371e3b6df52debe9e925824806a7650",
+        "bytes": 728872
+      }
+    },
+    {
+      "id": "waacking_man_forward_single_right",
+      "original": {
+        "sha256": "8c71a02e37a3c803cd9a111341a28a8bbfb593a9242c8ca5668c6d458892d5cf",
+        "bytes": 1193216
+      },
+      "compressed": {
+        "sha256": "05c379655a6465e7a7c7610e41caa9c5b849bc19fff0c6280b05e7bb2aa2c448",
+        "bytes": 728876
+      }
+    },
+    {
+      "id": "waacking_man_windmill",
+      "original": {
+        "sha256": "f52c62b91ad2f514c3ced9dd47bf23ab501aea7d0a241330959ae794f6622a9e",
+        "bytes": 1193204
+      },
+      "compressed": {
+        "sha256": "73abbae83901b4d1275a46d0a62b9d8dd29b17c89fcebfd4da5b176252c82446",
+        "bytes": 742984
+      }
+    },
+    {
+      "id": "waacking_woman_alternating",
+      "original": {
+        "sha256": "df42050eb2b17c844459c42c71562a65d53b771c30dde11a45f752abfba5ce12",
+        "bytes": 1163376
+      },
+      "compressed": {
+        "sha256": "18384325ea0e0caf64e195afc2a3bbe87b90e2a3a17eaf5936e71dbec90d1315",
+        "bytes": 729792
+      }
+    },
+    {
+      "id": "waacking_woman_backward_single_left",
+      "original": {
+        "sha256": "e955f03c30cd45cb846109e382f7272a70b12fa11ca050bebc41896c4ffcf8f7",
+        "bytes": 1163248
+      },
+      "compressed": {
+        "sha256": "fbdf3e43a6a1fae4586d8617aa1c59797441f00fcb9ecbdfacb9d8e255c0722f",
+        "bytes": 720716
+      }
+    },
+    {
+      "id": "waacking_woman_backward_single_right",
+      "original": {
+        "sha256": "12163e01a1c988c3054907a62910c782744e495b91bb622329f2107d776be1e2",
+        "bytes": 1163384
+      },
+      "compressed": {
+        "sha256": "46c1e417230bfbc069cb9a60815f61986d8d896a8888ed3a252195d5471371cf",
+        "bytes": 720744
+      }
+    },
+    {
+      "id": "waacking_woman_double_backward",
+      "original": {
+        "sha256": "1edae6c62219489a0f5b98c96006566ef1506a1a2286f5886585b040fa6ff683",
+        "bytes": 1163380
+      },
+      "compressed": {
+        "sha256": "61c41688eab1f8a24ab225ce52adf7963f8aaeeeb2b5ab53ab7ceeba4d4a9b28",
+        "bytes": 730112
+      }
+    },
+    {
+      "id": "waacking_woman_double_forward",
+      "original": {
+        "sha256": "07a59113094f24aeb61a0ac9e11555131744076d653105f747bdeb36e630ea4a",
+        "bytes": 1163240
+      },
+      "compressed": {
+        "sha256": "007f9bb866be045fe62bc8e01d37affb8370540b13ffb1ebc3a17fdbbd1b5c6b",
+        "bytes": 729652
+      }
+    },
+    {
+      "id": "waacking_woman_forward_single_left",
+      "original": {
+        "sha256": "f6a780d07e494729f4e08f7309541c9a7697e4df3d40861605ce9a0731a8d952",
+        "bytes": 1163244
+      },
+      "compressed": {
+        "sha256": "92012ff070d4b2c259d19a215036f079fee00d5f929d087cfd5ee7e7abc832df",
+        "bytes": 720556
+      }
+    },
+    {
+      "id": "waacking_woman_forward_single_right",
+      "original": {
+        "sha256": "3a84dc8a547494aca9343b78e28870d892afffe6d3aa0b79a6aa1277afef8371",
+        "bytes": 1163248
+      },
+      "compressed": {
+        "sha256": "41773b09c3280f45cf17b14a7af5e5baf9f1862aaac88f51ffab4e65e36793e4",
+        "bytes": 720444
+      }
+    },
+    {
+      "id": "waacking_woman_windmill",
+      "original": {
+        "sha256": "3bfa9b7f1e2aa5df953e781e53ad732166b5dfdc1a66b365a0722ee16aff55a9",
+        "bytes": 1163372
+      },
+      "compressed": {
+        "sha256": "18e076024b9534ebde5c22e0174c4f1e8e1e716ecd78cf591a81ec2c24670428",
+        "bytes": 730748
+      }
+    }
+  ]
+}

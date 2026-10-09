@@ -37,6 +37,8 @@ and loop measurements separately from the historical reviews. Its evidence links
 the installed files to SHA-256 hashes and explicit sampling coverage. Popping's
 original finite repertoire now has all 84 source/export pairs.
 
+The [Waacking repair](animation_work_status/waacking_repair.md) records the 16 existing solo clips with fresh-source, native-bake, actual-model runtime, sampled skin-clearance and three-angle visual evidence. Per-clip hashes connect the reviewed candidates to their portable installed sources and exports.
+
 These checks establish asset coverage and structural playback. Each procedural study and provisional export retains its review status; dance accuracy, foot placement, hand contacts, performer clearance, and loop seams remain individual visual review tasks.
 
 Run `npm run check`, `npm test`, and `npm run build`. Run `scripts/dance_tools.test.py`, `scripts/wardrobe.test.py`, and `scripts/link_wardrobe.test.py` with `blender --factory-startup --background --python-exit-code 1 --python <script>`. Run `scripts/character_library.test.py` with MPFB enabled using `blender --background --python-exit-code 1 --python scripts/character_library.test.py`. The [Blender guide](blender.md) describes authoring and extension installation.

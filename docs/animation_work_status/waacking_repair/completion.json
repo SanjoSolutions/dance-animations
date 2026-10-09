@@ -1,0 +1,15 @@
+{
+  "clips": 16,
+  "sourceBakeExportReview": "complete for recorded sampled coverage",
+  "projectChecks": "check, 46 tests and build passed",
+  "processState": "Task-owned authoring, render, capture, preview and validation processes completed",
+  "publication": "Main integration awaits user quality approval",
+  "records": {
+    "evidence.json": "7581edce9c78a10ae51e87a2a01546006eb9842a1323b98eb2799ee9052b20ed",
+    "project-checks.json": "c1c52da35dd07df5eafb51b564991841405be051a5d60b73f15dad1cb1f0d1af",
+    "compression.json": "19fab4ba189c1b87161f6cf5c8f5e5667cfc0ba0e66fdac9f510fdb53c9f574b",
+    "runtime-capture.json": "d8eb1b7e0bd9cbc31c15281e72002283e247310dc4fae64b8ea21e63b783b711",
+    "recipe-byte-normalization.json": "6676d47116dbf6ab3514751ba0fd26edfde7afe13f894baab25d6b37cb72d4f2",
+    "recipe-byte-snapshots.zip": "bb2b5b6ac768bb9c47299012d42a0c9a45cadb89c712b590f48fdd643fefb187"
+  }
+}

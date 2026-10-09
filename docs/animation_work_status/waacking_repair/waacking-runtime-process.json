@@ -1,0 +1,466 @@
+{
+  "waacking_man_alternating": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_alternating"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_alternating"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_alternating"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "ea82f45fda12b34fe6045ae432699aba32289b6643c87e7f0fd0baba3df5eb0c"
+  },
+  "waacking_man_backward_single_left": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_backward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_backward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_backward_single_left"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "f9bb4c3918e12d6bd15dbc13f7bd1a74a8bb72461be7ea5da1dd0073ba702278"
+  },
+  "waacking_man_backward_single_right": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_backward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_backward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_backward_single_right"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "84e84f387286a98cd132f9b5394069cd86784e47d1593f3a21ec0ed3067c245a"
+  },
+  "waacking_man_double_backward": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_double_backward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_double_backward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_double_backward"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "754447ee72ccfd1602ea191e9ce405cb623f39b46a58764adc634f467f66564b"
+  },
+  "waacking_man_double_forward": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_double_forward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_double_forward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_double_forward"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "d6de7d7736fd74a8e8f827a76d67821e3497f63ae02278e163157612ac445d59"
+  },
+  "waacking_man_forward_single_left": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_forward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_forward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_forward_single_left"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "fbe3d049358621c8247d7e42157c15c99cd7c823d612fc6480216b7e09bf6b74"
+  },
+  "waacking_man_forward_single_right": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_forward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_forward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_forward_single_right"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "cc35a8390dff77d20462c4a6671ab00ccb64e83fef8f1fb641e7861d944b624a"
+  },
+  "waacking_man_windmill": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_man_windmill"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_man_windmill"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_man_windmill"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "1e4e79c0e9c33e9c3431a5dbfffa49ae391d5d5f37a65de4f1479591905e2954"
+  },
+  "waacking_woman_alternating": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_alternating"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_alternating"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_alternating"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "8bb7ede6ff71b893993378cc6968c619c76a8a594bf5e5c9bbd15af874df0d08"
+  },
+  "waacking_woman_backward_single_left": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_backward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_backward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_backward_single_left"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "df53b1777ea3eb77b7dc1c43e11b4697d7dd5908143c1e8aac877ca46ae6cde2"
+  },
+  "waacking_woman_backward_single_right": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_backward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_backward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_backward_single_right"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "8b4808c9c00f6e56c11a31853d17d75667de87d4f426fb3972c416b72f45d8c8"
+  },
+  "waacking_woman_double_backward": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_double_backward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_double_backward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_double_backward"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "5588f6685d9bad1fe9195f2d2835b81e52fac6925e4d6c300bec9f36e97afa00"
+  },
+  "waacking_woman_double_forward": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_double_forward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_double_forward"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_double_forward"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "b47dd179172381cc990b3f4c1f01f352291cfadc4f1ade946acb2c79fdb08349"
+  },
+  "waacking_woman_forward_single_left": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_forward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_forward_single_left"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_forward_single_left"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "e23009bbbc625b00f3566b30f2aec252d785507269468efb5391b20de7824da9"
+  },
+  "waacking_woman_forward_single_right": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_forward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_forward_single_right"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_forward_single_right"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "bb0ebf8fc4db0a72e0fa475fe74af2df8fb043619df44437ff46663a7b49c332"
+  },
+  "waacking_woman_windmill": {
+    "results": [
+      {
+        "command": [
+          ".cache/waacking-venv/Scripts/python.exe",
+          "scripts/motion_recovery/runtime_batch.py",
+          "waacking_woman_windmill"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/surfaces.mjs",
+          "waacking_woman_windmill"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "node",
+          "scripts/motion_recovery/loop_review.mjs",
+          "waacking_woman_windmill"
+        ],
+        "returncode": 0
+      }
+    ],
+    "sourceSha256": "eb0ce40e4c1e483dc09aae96c5a155e5b9f6b6ce944253f29182ab84b30ea013"
+  }
+}

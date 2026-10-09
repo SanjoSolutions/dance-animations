@@ -1,0 +1,2 @@
+-r ../motion_recovery/requirements.txt
+Pillow>=12.3,<13

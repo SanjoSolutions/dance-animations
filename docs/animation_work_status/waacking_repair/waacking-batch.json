@@ -1,0 +1,30 @@
+{
+  "clips": [
+    "waacking_man_alternating",
+    "waacking_man_backward_single_left",
+    "waacking_man_backward_single_right",
+    "waacking_man_double_backward",
+    "waacking_man_double_forward",
+    "waacking_man_forward_single_right",
+    "waacking_man_windmill",
+    "waacking_woman_alternating",
+    "waacking_woman_backward_single_left",
+    "waacking_woman_backward_single_right",
+    "waacking_woman_double_backward",
+    "waacking_woman_double_forward",
+    "waacking_woman_forward_single_left",
+    "waacking_woman_forward_single_right",
+    "waacking_woman_windmill"
+  ],
+  "generators": {
+    "scripts/waacking/sole_repair.py": "5e77652dfc3cb9698ef29ce280acd87efa2fb1fc13388d87dc50ea500452911f",
+    "scripts/waacking/refine_motion.py": "1f13710225f3a056edc6741c0ee892c703722ac340bb64a9940897108277cc46",
+    "scripts/waacking/review.py": "7620c43868a2ef25b0e8fbf2f0d7cf8eb250d15ba42684bbc28da74051ca0b1e",
+    "scripts/waacking/diagnose.py": "8d022e92c70fb667ffb096396baae8e5bd8dbc55a8b6462477e103706b155a5c",
+    "scripts/motion_recovery/repair.py": "135c1f4a68bb05e647df2e8fc31c62b0757bbe2116b57a46469db833ef7d80c9",
+    "scripts/motion_recovery/validate.py": "2f72f869ff2d30c37b9ac6cbc0fd71157355328ab7f9b717d818ecde00509381"
+  },
+  "blender": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+  "workers": 1,
+  "started": 1791535999.3595483
+}

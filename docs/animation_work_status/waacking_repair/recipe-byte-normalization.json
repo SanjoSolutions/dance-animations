@@ -1,0 +1,110 @@
+{
+  "archive": "docs/animation_work_status/waacking_repair/recipe-byte-snapshots.zip",
+  "archiveSha256": "bb2b5b6ac768bb9c47299012d42a0c9a45cadb89c712b590f48fdd643fefb187",
+  "transformation": "UTF-8 with LF line endings and one final newline; recorded Python syntax trees match",
+  "files": [
+    {
+      "file": "scripts/waacking/batch.py",
+      "recordedSha256": "6235db2a04e24872af864122e6d4af73e56f9357eb439e220c65c018d0d1e89a",
+      "normalizedSha256": "0295655a8f48d9791b09e1d21d44271c64abb6541372767239cad498d1f31205",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/capture_runtime.mjs",
+      "recordedSha256": "1a63fb50dd7c868477c9b85dc9142156e889e8d514203ad1bd5758ec97ebef08",
+      "normalizedSha256": "dd8b36d3e3ffbc56cccc94c2757454765a2be77fd648322d06da0dc88d301aae"
+    },
+    {
+      "file": "scripts/waacking/collect_evidence.py",
+      "recordedSha256": "03cc2e82e66251ab400dc05007961a2e9e31c8e3eaecb946ceb94c2c15faa74c",
+      "normalizedSha256": "283a1d666e2f633f9a45d2cdff64931b10c32b666c510b49a0c1bc81ba58e80f",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/contact_sheets.py",
+      "recordedSha256": "faa27dc7b7329d9815577ff64e50af7e7e5886e3e44edd5f8069269bacb57ba7",
+      "normalizedSha256": "233a3e3ac0e71231633002b5148d05c2528c74e250ef19ac06dbf4dc9b0c1638",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/diagnose.py",
+      "recordedSha256": "8d022e92c70fb667ffb096396baae8e5bd8dbc55a8b6462477e103706b155a5c",
+      "normalizedSha256": "dd01c2f3ee0cc3153e74c35d5828772255710344bce61a2583170b37f98811fe",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/finish_review.py",
+      "recordedSha256": "ff920850d669ff3bacba0f8910e2082553f267ed9c73f76aaea5b73848fffe3f",
+      "normalizedSha256": "20600252e1e641ae4441eefe92ca53020e5a610e57eaa7ccb54e0b26df2783b7",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/install_reviewed.py",
+      "recordedSha256": "ae7c1139cc467a9618c83f50def5482e6b85437d093a94ade6fc0012b0528fca",
+      "normalizedSha256": "f816e6dd09aa3c705c0579211cb52cb919fccf94d20e190b32ac98291f4b156e",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/preview.html",
+      "recordedSha256": "93d2676b2132f63bc7219e6bc61d9810b066b49112e2b7cf2869c78f7bf7831f",
+      "normalizedSha256": "14a48d46ce3a323ca65faf503f2b73d4a2d4dbb1d2a66eb11adae4d7c68a128a"
+    },
+    {
+      "file": "scripts/waacking/preview.js",
+      "recordedSha256": "0c3cec58fa1e1feef5b86e9fcbabb00376690897735b50a40270e26d0cb4b99f",
+      "normalizedSha256": "f336291988fbf028102565e344a1151ee23abcdc7b4b2da51be2bb00a7f84148"
+    },
+    {
+      "file": "scripts/waacking/refine_motion.py",
+      "recordedSha256": "1f13710225f3a056edc6741c0ee892c703722ac340bb64a9940897108277cc46",
+      "normalizedSha256": "5acd34469be7678d83e26e87bb076bcf893505462d6bbc58ca9069106e1570bc",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/render_review.py",
+      "recordedSha256": "3baf3d22891a429540459b31cfe4ee227a15af1a53c247fb45b224d21a6ea30a",
+      "normalizedSha256": "e4473e2ff1e159a72e575f45a11f860a69ca87008ffeea9b85ed9b90e182c3c3",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/replay_media.py",
+      "recordedSha256": "8f4ac8ae124c63d89fdbaae92fd0d1774a620561fde439bc9fb86d76dd70027a",
+      "normalizedSha256": "321ffda893dca667901c3b3b0711b70ed4a0eb95b33d13e04b7db20a5705b93e",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/requirements.txt",
+      "recordedSha256": "75d5bf687531902da0c4b0c3dca8df213161cba6c72eef0ebda0f2275ca4944b",
+      "normalizedSha256": "0efd19f52a80bbf12b1a6d0515a4349d8759ba69a3a5ac43a3b11fbdd6b69423"
+    },
+    {
+      "file": "scripts/waacking/review.py",
+      "recordedSha256": "7620c43868a2ef25b0e8fbf2f0d7cf8eb250d15ba42684bbc28da74051ca0b1e",
+      "normalizedSha256": "f550beb9394fa3d7afd85bd56eb55cfe3fcd48c51ce3ff3e6a0c17a57b56e923",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/run_blender.ps1",
+      "recordedSha256": "67a7989592cd20cdab12350223c4037f82044acf2e97e058c3c5ecb9b42de1bb",
+      "normalizedSha256": "ebbeb4e0242341bdbe163016355231ea5032b4d0dbe1cc360c8a821e5dd7577a"
+    },
+    {
+      "file": "scripts/waacking/runtime_review.py",
+      "recordedSha256": "183ffb7168a98de3917ac5e86d6ec31df4c1ddd05619f7f6517f7c06a2e6bab7",
+      "normalizedSha256": "b951087221915369fe72be08acab624c469c0a021a6cc5591ce57f15aa1f7d73",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/sole_repair.py",
+      "recordedSha256": "5e77652dfc3cb9698ef29ce280acd87efa2fb1fc13388d87dc50ea500452911f",
+      "normalizedSha256": "c9c3945b444787754d1dabf9a24ed99a55bad96d63cca4be5f223165a8d177b2",
+      "pythonSyntaxTreeParity": true
+    },
+    {
+      "file": "scripts/waacking/surface_review.py",
+      "recordedSha256": "8c90587795f0ea4a147948ea40a05201d667aebb6ad85ae762c6d01ef77378e7",
+      "normalizedSha256": "795edf24db3b504757625ba3753faa2b10c6ca59a7d39aae77d90c6032fc1c12",
+      "pythonSyntaxTreeParity": true
+    }
+  ]
+}

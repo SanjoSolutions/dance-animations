@@ -1,0 +1,210 @@
+[
+  {
+    "id": "waacking_man_alternating",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_backward_single_left",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_backward_single_right",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_double_backward",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_double_forward",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_forward_single_left",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_forward_single_right",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_windmill",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_alternating",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_backward_single_left",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_backward_single_right",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_double_backward",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_double_forward",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_forward_single_left",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_forward_single_right",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_windmill",
+    "phases": [
+      {
+        "phase": "surface_review",
+        "returncode": 0
+      },
+      {
+        "phase": "render_review",
+        "returncode": 0
+      }
+    ]
+  }
+]

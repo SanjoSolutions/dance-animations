@@ -1,0 +1,302 @@
+[
+  {
+    "id": "waacking_man_alternating",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791536017.5503488
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791536114.051516
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791536192.402445
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_backward_single_left",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791536210.7039917
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791536306.0488546
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791536389.3430958
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_backward_single_right",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791536409.0328634
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791536508.855875
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791536587.6568434
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_double_backward",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791536606.7786646
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791536709.9298112
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791536792.5374835
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_double_forward",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791536812.8866487
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791536923.1777737
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791537010.6866255
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_forward_single_right",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791537029.9098625
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791537132.8788843
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791537215.9928854
+      }
+    ]
+  },
+  {
+    "id": "waacking_man_windmill",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791537235.7261112
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791537337.2042627
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791537437.3583007
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_alternating",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791537457.3760357
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791537558.2138214
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791537635.9384632
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_backward_single_left",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791537650.396984
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791537727.581357
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791537795.6800332
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_backward_single_right",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791537812.0336304
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791537907.0076902
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791537992.897846
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_double_backward",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791538013.7219217
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791538114.6573257
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791538207.2900367
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_double_forward",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791538228.8713915
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791538328.8857124
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791538411.176076
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_forward_single_left",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791538431.4328513
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791538533.8805861
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791538619.6869328
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_forward_single_right",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791538640.425021
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791538744.1491992
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791538828.569039
+      }
+    ]
+  },
+  {
+    "id": "waacking_woman_windmill",
+    "phases": [
+      {
+        "phase": "diagnose",
+        "returncode": 0,
+        "completed": 1791538847.1325028
+      },
+      {
+        "phase": "refine_motion",
+        "returncode": 0,
+        "completed": 1791538950.6133513
+      },
+      {
+        "phase": "review",
+        "returncode": 0,
+        "completed": 1791539033.6864014
+      }
+    ]
+  }
+]

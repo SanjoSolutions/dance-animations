@@ -60457,8 +60457,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_alternating_baked_7db64b6a52ca.glb",
       "originalExportSha256": "f8400700609fa44cdbb77c1f1282ecc4a2df95e155efcf85bba62f395e2ccc8b",
       "animationName": "waacking_man_alternating.baked",
-      "status": "Provisional export",
-      "sourceSha256": "fd409acce0844b16e4a1739acca5a3d67c8b152dec560f69a89d619c1270bae2"
+      "status": "Native deformation bake",
+      "sourceSha256": "d45455e48c42911374ad80d5426455da6610b79480a9975374d6a89c99bc3916",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_alternating.json"
     },
     {
       "id": "waacking_man_backward_single_left",
@@ -60473,8 +60475,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_backward_single_left_baked_85978e77cf30.glb",
       "originalExportSha256": "01625879795ad83d3a16ebfcb4149fd459951d1b2ac5bda1c721c9434f84dd29",
       "animationName": "waacking_man_backward_single_left.baked",
-      "status": "Provisional export",
-      "sourceSha256": "a6dace81323c5e9ee5637bee584c3cb4456cfe7f69b81bbb46d5f9efacb292e9"
+      "status": "Native deformation bake",
+      "sourceSha256": "1f0420ef49704616ad1a548d9ffb9c94a314aca37fddee8ab30ed52458543692",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_backward_single_left.json"
     },
     {
       "id": "waacking_man_backward_single_right",
@@ -60489,8 +60493,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_backward_single_right_baked_4de856994524.glb",
       "originalExportSha256": "31fd275efd9f5c8d253e0d16aa15eb7ab41def45bbb0f2d9f90e488a589103d3",
       "animationName": "waacking_man_backward_single_right.baked",
-      "status": "Provisional export",
-      "sourceSha256": "0c287e7ed47cb779c2aa4ce057afab809071b5db5a8dab146ddbf8bc3b82f05c"
+      "status": "Native deformation bake",
+      "sourceSha256": "0a13c0ee00cd720712b5d2aa6e453523edb98b0c9c8ed5d481cb874221fe432d",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_backward_single_right.json"
     },
     {
       "id": "waacking_man_double_backward",
@@ -60505,8 +60511,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_double_backward_baked_5bc81fa089f0.glb",
       "originalExportSha256": "f721dca7b6ba7b63a9f99abaf4e5bf9c95c28c4b4be2e93095601e27fcf6b915",
       "animationName": "waacking_man_double_backward.baked",
-      "status": "Provisional export",
-      "sourceSha256": "40f9ff8b9e9e5e6d151fd0c14c8d835466b0301c90413c95b7ceaad3e5a484de"
+      "status": "Native deformation bake",
+      "sourceSha256": "ce040bc90a718b598b2917d2e0b930672b33c2951f357598afc40a7f728a3fe9",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_double_backward.json"
     },
     {
       "id": "waacking_man_double_forward",
@@ -60521,8 +60529,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_double_forward_baked_f7862f03309a.glb",
       "originalExportSha256": "519c43e10e66698faa15c0348ee0ecf43f5072aeeb032e15c1e7adc333a2379c",
       "animationName": "waacking_man_double_forward.baked",
-      "status": "Provisional export",
-      "sourceSha256": "9b72dd7266294262564932112d4dd68ec205e1b3e190f1a180b277db3f5ab408"
+      "status": "Native deformation bake",
+      "sourceSha256": "ee7eb8ba2c5ee5438c3134a1453d547feb8c322c205c741875fec950562dfb0e",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_double_forward.json"
     },
     {
       "id": "waacking_man_forward_single_left",
@@ -60537,8 +60547,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_forward_single_left_baked_47bc0a93fd24.glb",
       "originalExportSha256": "62b5e5e7ebc3cdd319a6e80a706f14e7ea48ab2e21ed642e67564703044ebcb1",
       "animationName": "waacking_man_forward_single_left.baked",
-      "status": "Provisional export",
-      "sourceSha256": "0f5f5d488476163f5f659f972a5f0c8106f296f5279f48ae0c46d5860457404c"
+      "status": "Native deformation bake",
+      "sourceSha256": "8e4432c9131ee4aa1d231d9edc3bd318ac215f6587326c455da6f81578d26189",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_forward_single_left.json"
     },
     {
       "id": "waacking_man_forward_single_right",
@@ -60553,8 +60565,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_forward_single_right_baked_b9e3103706c0.glb",
       "originalExportSha256": "a9ecdf7952cbfe0b8d6f1e0bbbcb3cfe5c504d76bf41273d32339f387ada82e0",
       "animationName": "waacking_man_forward_single_right.baked",
-      "status": "Provisional export",
-      "sourceSha256": "0bd28c10c92d2465eff40a7a0f68333d2d9d3182bf08acec4f0f41eb19cba0e4"
+      "status": "Native deformation bake",
+      "sourceSha256": "5cd961c2a018b7e39cc273156f6d0832f4674cacc2ad6d55e5803f8b362b7d35",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_forward_single_right.json"
     },
     {
       "id": "waacking_man_windmill",
@@ -60569,8 +60583,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_man_windmill_baked_a4d77eea72a1.glb",
       "originalExportSha256": "718defb29c71d7d5c9ecb8d9047542d5f57d7a69bb200b0c42936a7ec8cdd87f",
       "animationName": "waacking_man_windmill.baked",
-      "status": "Provisional export",
-      "sourceSha256": "d6ebc417434ce6e9da6fb5d7172d8debe50cec92946757dca4ca1cbb7613d7f4"
+      "status": "Native deformation bake",
+      "sourceSha256": "cf1e39d50b9b1600083cafddffa508434fa958d7537ee4ffc1c2f9b7c10d94d3",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_man_windmill.json"
     },
     {
       "id": "waacking_woman_alternating",
@@ -60585,7 +60601,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_alternating_baked_9b02180ce0d4.glb",
       "originalExportSha256": "e4c7997e5650f8b959d0dfb71bc915908fef88b10f282e8d1f9f6ba15eb32349",
       "animationName": "waacking_woman_alternating.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "1adff23a0437eb1fced2996f32a605cb97ac8e09a5659e06004033672a1cff45",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_alternating.json"
     },
     {
       "id": "waacking_woman_backward_single_left",
@@ -60600,7 +60619,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_backward_single_left_baked_7a426551558a.glb",
       "originalExportSha256": "59879c41294154392db8c3f8cb3ed65519f9836a8d78e910fad7bec55df049e9",
       "animationName": "waacking_woman_backward_single_left.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "3d6585aebb19632be4cbd79b41335dedbf92077487496abd1f4070fd5a9ebdce",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_backward_single_left.json"
     },
     {
       "id": "waacking_woman_backward_single_right",
@@ -60615,7 +60637,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_backward_single_right_baked_9d4de8705e8e.glb",
       "originalExportSha256": "beed4e5ab39f3090a9e67181d86989be2eee153fa467912d5fb33700bc21c158",
       "animationName": "waacking_woman_backward_single_right.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "ea6eeb7c76d9978ce9e8bc70753c5120550aaf5a4fe367e86ee30977b30c1977",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_backward_single_right.json"
     },
     {
       "id": "waacking_woman_double_backward",
@@ -60630,7 +60655,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_double_backward_baked_487d6425be15.glb",
       "originalExportSha256": "e87fbb9065caaf5c61914c9283661449102015154c620ae577ee26215326fbd2",
       "animationName": "waacking_woman_double_backward.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "bbd2c5dd6210486db61e34046bb5e8879e404e264cbe6f2c6d69554100035ac9",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_double_backward.json"
     },
     {
       "id": "waacking_woman_double_forward",
@@ -60645,7 +60673,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_double_forward_baked_8a1636d150a9.glb",
       "originalExportSha256": "f8c422193be5fc450bfde606e9ff72198e81a15e507148877235193a360140c8",
       "animationName": "waacking_woman_double_forward.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "52d5a1d098eb38bae3122767de6c2efe88ed9a8a55442de37bfd960dab83680a",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_double_forward.json"
     },
     {
       "id": "waacking_woman_forward_single_left",
@@ -60660,7 +60691,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_forward_single_left_baked_a3fba23b3a14.glb",
       "originalExportSha256": "03ada71f4df3e23d885985a34e78827debcd87957d923f6b29f1d9545cda4f74",
       "animationName": "waacking_woman_forward_single_left.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "35a2fc96711ed7f885f7bdbb1dfc494165d1c01e37066ef6aed489297cf9f058",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_forward_single_left.json"
     },
     {
       "id": "waacking_woman_forward_single_right",
@@ -60675,7 +60709,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_forward_single_right_baked_aacfb253e185.glb",
       "originalExportSha256": "e2dc764489bed369e95e5a0b7504c11328572f523e86979656f5d700b8bfdf6c",
       "animationName": "waacking_woman_forward_single_right.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "63b4405970b086e74a7d6d2633ba094f5e096cbce2000b1930eb79105135ab68",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_forward_single_right.json"
     },
     {
       "id": "waacking_woman_windmill",
@@ -60690,7 +60727,10 @@
       "originalExport": "docs/animation_work_status/waacking_repertoire_evidence/provisional_exports/waacking_woman_windmill_baked_8d19799adf0a.glb",
       "originalExportSha256": "0a3ec37346b9ed54a39ae0d55b22f7753c07c749876fdf1960f12f95b288dd63",
       "animationName": "waacking_woman_windmill.baked",
-      "status": "Provisional export"
+      "status": "Native deformation bake",
+      "sourceSha256": "295034aa846cf109828b5473bc16bedb8e682d73a194c52e249b31c72e426085",
+      "studyStatus": "Procedural study; source, bake, runtime, sampled surfaces and poses reviewed",
+      "reviewRecord": "docs/animation_work_status/waacking_repair/waacking_woman_windmill.json"
     },
     {
       "id": "man_watusi_alternating_swing",
