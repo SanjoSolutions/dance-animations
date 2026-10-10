@@ -22489,7 +22489,8 @@
       "animationName": "hip_hop_man_low_to_neutral.baked",
       "status": "Game export",
       "sourceSha256": "bb7d43304b209819a87f173dcfa27687a4b29dfffddac03c159c64a472e94e16",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "hip_hop_man_neutral_to_low",
@@ -22506,7 +22507,8 @@
       "animationName": "hip_hop_man_neutral_to_low.baked",
       "status": "Game export",
       "sourceSha256": "91a7cead090c081df3631d57e4c2f5c0757cc233a3485d677f9ee49b9a25868f",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "hip_hop_man_neutral_to_wide",
@@ -22523,7 +22525,8 @@
       "animationName": "hip_hop_man_neutral_to_wide.baked",
       "status": "Game export",
       "sourceSha256": "26e225863749787bee81aa59f2085ed7883233838dd31808003c3a29cbbfee86",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "hip_hop_man_party_machine",
@@ -22880,7 +22883,8 @@
       "animationName": "hip_hop_man_wide_to_neutral.baked",
       "status": "Game export",
       "sourceSha256": "fb6f49e8b191641b6a842413d8b80a976b881f32c0cea2f2acc0479c4dc55cd6",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "hip_hop_woman_arm_roll",
@@ -23135,7 +23139,8 @@
       "animationName": "hip_hop_woman_low_to_neutral.baked",
       "status": "Game export",
       "sourceSha256": "3a325b3fb507df862c450849d8b2bb65708ced0ab55e3927cce4ac663f489481",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "hip_hop_woman_neutral_to_low",
@@ -23152,7 +23157,8 @@
       "animationName": "hip_hop_woman_neutral_to_low.baked",
       "status": "Game export",
       "sourceSha256": "948fc4c107aa5a0d4464ccfd01ad2960df887dc83e916e89653f3fde40b45525",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "hip_hop_woman_neutral_to_wide",
@@ -23169,7 +23175,8 @@
       "animationName": "hip_hop_woman_neutral_to_wide.baked",
       "status": "Game export",
       "sourceSha256": "9e8338f4fdf2fae082a76fd848ee1e8730fee86f0b251acf0c4deb0454b3c2e2",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "hip_hop_woman_party_machine",
@@ -23526,7 +23533,8 @@
       "animationName": "hip_hop_woman_wide_to_neutral.baked",
       "status": "Game export",
       "sourceSha256": "69d4d4858d10ffece4be52ccf1caf82ae9005bf0ac0d0e1b965b8409b837e316",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "house_man_body_roll",
@@ -37072,7 +37080,8 @@
       "sourceSha256": "265ed1add06dec4c140e33f3455e185cc4bc5923c64ce4110b9928719df2b5ca",
       "animationName": "new_york_hustle_return_to_closed.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "new_york_hustle_right_side_pass",
@@ -37108,7 +37117,8 @@
       "sourceSha256": "60997b7e76ccefdaab7e38cd541656012a1b557f5e3603fcbc4b181c4cf77875",
       "animationName": "new_york_hustle_send_out.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "new_york_hustle_shadow_entry_exit",
@@ -47444,7 +47454,8 @@
       "sourceSha256": "143c51ae2909390d67ac83d2475107476538cd125eb0aae3021877cde45242e6",
       "animationName": "salsa_around_the_world.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_back_basic",
@@ -47552,7 +47563,8 @@
       "sourceSha256": "c1d4c813ffea2ba269a28e168be7658ca023af156e0271a1060fedd01ee2f8e5",
       "animationName": "salsa_cross_body_inside_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_cross_body_lead",
@@ -47570,7 +47582,8 @@
       "sourceSha256": "e449056dac9bde67c94f8b03facfb8fe966237d6aeb39a51b30c6afd95355caa",
       "animationName": "salsa_cross_body_lead.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_cross_body_outside_turn",
@@ -47588,7 +47601,8 @@
       "sourceSha256": "de3497cc1db1d1f6a75a69fa81c55e621c1dbf0223392d8b94eb2ea5fd27f02a",
       "animationName": "salsa_cross_body_outside_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_crossover_breaks",
@@ -47696,7 +47710,8 @@
       "sourceSha256": "61edb648b23645ddb27e8144c00836283ce977996001172937082d127f6bd54c",
       "animationName": "salsa_dile_que_no.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_enchufla",
@@ -47714,7 +47729,8 @@
       "sourceSha256": "d91b4f68fa06930e14c6e283b270085804b9a0a4081a74671ea29688d4a30f8d",
       "animationName": "salsa_enchufla.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_follower_double_right_turn",
@@ -47732,7 +47748,8 @@
       "sourceSha256": "91914af354afa6901af4aa95d1ecb353c4384efe55501e42ebb42c2c03fc427c",
       "animationName": "salsa_follower_double_right_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_follower_left_turn",
@@ -47750,7 +47767,8 @@
       "sourceSha256": "1ae951401418611c7e6c7886ab1ea30bb3ac6f593dcdcbe2aa39a597301c2c88",
       "animationName": "salsa_follower_left_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_follower_right_turn",
@@ -47768,7 +47786,8 @@
       "sourceSha256": "ba90c61014f09c8a53551bcc37243393f9019ca1508b907f16b02c29dba1f4c9",
       "animationName": "salsa_follower_right_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_grapevine",
@@ -47822,7 +47841,8 @@
       "sourceSha256": "6e04c5751c24ad99894334f6eb6bbe1e8e903f48815de00e9a190031cf850a1f",
       "animationName": "salsa_hecho.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_heel_digs",
@@ -47876,7 +47896,8 @@
       "sourceSha256": "5ccc45ded7a77a65f961317c137bdd68ffb62efba885b70935b95fa6af6a1227",
       "animationName": "salsa_leader_left_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_leader_right_turn",
@@ -47894,7 +47915,8 @@
       "sourceSha256": "0b6ed6a98272a187ab7296f14c7fcd23244c8300fa8f03ceb824f1b7cb95048a",
       "animationName": "salsa_leader_right_turn.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_mambo_shine",
@@ -47948,7 +47970,8 @@
       "sourceSha256": "618f08125c38fcf1ae6d9eea5cbbf465b153ad7ec265a607e9653a96edf357dc",
       "animationName": "salsa_reverse_cross_body.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "salsa_shoulder_shimmy",
@@ -48056,7 +48079,8 @@
       "sourceSha256": "b618bd6b9e2a3074fc7630f2f8a6e096de3ceec3d9f289bb09f497da45487d95",
       "animationName": "salsa_vacilala.baked",
       "status": "Saved-source draft preview",
-      "studyStatus": "Procedural study; native source, bake, and runtime checked"
+      "studyStatus": "Procedural study; native source, bake, and runtime checked",
+      "loop": false
     },
     {
       "id": "samba_de_gafieira_balanco",

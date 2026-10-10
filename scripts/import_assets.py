@@ -183,8 +183,37 @@ def participants(document, animation):
     return sorted(performers)
 
 
+# Directed clips verified in docs/animation_work_status/priority_recovery/evidence.json.
+DIRECTED_CLIPS = frozenset({
+    'hip_hop_man_low_to_neutral',
+    'hip_hop_man_neutral_to_low',
+    'hip_hop_man_neutral_to_wide',
+    'hip_hop_man_wide_to_neutral',
+    'hip_hop_woman_low_to_neutral',
+    'hip_hop_woman_neutral_to_low',
+    'hip_hop_woman_neutral_to_wide',
+    'hip_hop_woman_wide_to_neutral',
+    'new_york_hustle_return_to_closed',
+    'new_york_hustle_send_out',
+    'salsa_around_the_world',
+    'salsa_cross_body_inside_turn',
+    'salsa_cross_body_lead',
+    'salsa_cross_body_outside_turn',
+    'salsa_dile_que_no',
+    'salsa_enchufla',
+    'salsa_follower_double_right_turn',
+    'salsa_follower_left_turn',
+    'salsa_follower_right_turn',
+    'salsa_hecho',
+    'salsa_leader_left_turn',
+    'salsa_leader_right_turn',
+    'salsa_reverse_cross_body',
+    'salsa_vacilala',
+})
+
+
 def retrieve_playback_variants(entry):
-    """Expose shared-origin solo action slots as character choices."""
+    """Apply reviewed playback metadata and expose solo character choices."""
     if entry['style'] in {'jazz', 'gogo', 'cutting_shapes', 'solo_disco_dance'} and len(entry['performers']) > 1:
         # The Man choice retains existing library URLs.
         variants = [dict(entry, moveId=entry['id'], id=entry['id'] if actor == 'man' else f'{entry["id"]}_{actor}',
@@ -193,6 +222,8 @@ def retrieve_playback_variants(entry):
     else:
         variants = [dict(entry)]
     for variant in variants:
+        if variant['id'] in DIRECTED_CLIPS:
+            variant['loop'] = False
         if variant['style'] == 'jazz':
             # The saved Euler studies face opposite sides; the quaternion kick faces forward.
             source = (Path(variant['sourceFile']).stem if variant.get('sourceFile')
