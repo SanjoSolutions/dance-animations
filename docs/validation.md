@@ -40,3 +40,8 @@ original finite repertoire now has all 84 source/export pairs.
 These checks establish asset coverage and structural playback. Each procedural study and provisional export retains its review status; dance accuracy, foot placement, hand contacts, performer clearance, and loop seams remain individual visual review tasks.
 
 Run `npm run check`, `npm test`, and `npm run build`. Run `scripts/dance_tools.test.py`, `scripts/wardrobe.test.py`, and `scripts/link_wardrobe.test.py` with `blender --factory-startup --background --python-exit-code 1 --python <script>`. Run `scripts/character_library.test.py` with MPFB enabled using `blender --background --python-exit-code 1 --python scripts/character_library.test.py`. The [Blender guide](blender.md) describes authoring and extension installation.
+
+PR descriptions include playable Before and After videos or animated GIFs for
+each changed animation and performer variant. The [PR animation media guide](pull-request-animation-media.md)
+defines capture revisions, the comparison format, playback verification, and the
+local/CI coverage check.

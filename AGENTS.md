@@ -10,6 +10,28 @@ Identify Codex-authored GitHub communication as written by Codex.
 Always state at the start of the PR "Created by Codex.".
 Publish only to main after the user approves the local quality review.
 
+### Animation media in pull requests
+
+Every PR that changes animations includes playable **Before** and **After**
+videos or animated GIFs for each changed animation in its description. Include
+each performer variant and animations affected by shared playback changes.
+
+- Capture Before from the PR's merge base and After from its current head.
+  Label each comparison with its animation ID and full commit revisions.
+- Use matching views, framing, playback speed, and standard MPFB base bodies.
+  Show the complete motion and its loop seam or transition; add useful angles
+  for changed contacts and poses.
+- Upload persistent media and embed it in the PR description. Verify playback
+  from the rendered PR, including reviewer access. Still images, local paths,
+  and download-only artifacts serve as supplemental evidence.
+- For additions, label Before `Added in this PR` and show After. For removals,
+  show Before and label After `Removed in this PR`.
+- Refresh comparisons and revision labels after animation edits. Prepare the
+  complete comparisons for local quality review, then verify their published
+  playback before requesting PR review.
+- Follow [the PR media format and check](docs/pull-request-animation-media.md).
+  Complete its per-animation playback checklist before requesting PR review.
+
 ## Assets
 
 Use the project's strict size-based LFS policy:

@@ -1,0 +1,33 @@
+name: Animation media
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: animation-media-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  animation-media:
+    name: Animation before and after media
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /scripts/pr_animation_media/
+            /catalog.json
+            /source-inventory.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test comparison checks
+        run: python scripts/pr_animation_media/check.test.py
+      - name: Check changed animation comparisons
+        run: python scripts/pr_animation_media/check.py --event "$GITHUB_EVENT_PATH"
