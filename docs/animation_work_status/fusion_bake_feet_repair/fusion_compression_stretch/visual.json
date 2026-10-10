@@ -1,0 +1,16 @@
+{
+  "id": "fusion_compression_stretch",
+  "exportSha256": "df50965df58a631c44db2240cb4f884cf1f13ee90e6722ead3c5e47e98cc8e5b",
+  "rendererRevision": "5873bec2bb6ad309694d0263bfe6673567e0267653b55c855c7af3b58b1fdcee",
+  "frames": 97,
+  "rate": 24,
+  "views": [
+    "front at 15 degrees",
+    "side"
+  ],
+  "models": [
+    "models/mpfb-man.glb",
+    "models/mpfb-woman.glb"
+  ],
+  "renderer": "Edge / Three.js WebGL"
+}

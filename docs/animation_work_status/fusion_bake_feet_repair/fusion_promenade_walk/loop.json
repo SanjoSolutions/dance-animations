@@ -1,0 +1,15 @@
+{
+  "exportSha256": "4b6fd8e165ffcbce84a3e531f1d07c7758d6337d32c91fb8e40bbce197f9969a",
+  "position": 6.272829614093447e-7,
+  "rotation": 4.98688236793326e-7,
+  "velocity": 0.08961229143742741,
+  "worstVelocity": "DEF-knee-helperR",
+  "step": 0.001,
+  "units": "meters, radians, meters/second",
+  "limits": {
+    "position": 0.001,
+    "rotation": 0.035,
+    "velocity": 0.12
+  },
+  "passed": true
+}

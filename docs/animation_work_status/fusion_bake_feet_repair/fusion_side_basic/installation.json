@@ -1,0 +1,11 @@
+{
+  "source": "animations\\fusion\\sources\\fusion_side_basic.blend",
+  "export": "animations\\fusion\\fusion_side_basic.glb",
+  "sourceSha256": "7a87c7be16269951f35a1d165d5dc0c51bb83459ae69839bbf02ce95298bede7",
+  "candidateSourceSha256": "9187574aaa43414d0e8298d79038c19410deb0b53bb6b992619c1fd02fa991b1",
+  "candidateExportSha256": "ac5cb0f635df07d34d310addc2da2fb347dacfc2cd713b46aac170319d7acd0d",
+  "actionFingerprint": "d8b66a546e20c16bc7b093bb909ba8a593a0c669cf0098f371610596fcff8b4f",
+  "fingerprintAlgorithm": "sha256-curves-v2",
+  "descriptor": "../../shared_scene_data.blend",
+  "exactCurveParity": true
+}

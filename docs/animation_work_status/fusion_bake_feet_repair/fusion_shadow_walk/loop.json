@@ -1,0 +1,15 @@
+{
+  "exportSha256": "1041de3fb1190ae0b8a37dd328310eb3a6192cb031c8dea4bd6397a9ca10d0a2",
+  "position": 6.479042614675115e-7,
+  "rotation": 4.042583693936634e-7,
+  "velocity": 0.0896379061619446,
+  "worstVelocity": "DEF-shinR",
+  "step": 0.001,
+  "units": "meters, radians, meters/second",
+  "limits": {
+    "position": 0.001,
+    "rotation": 0.035,
+    "velocity": 0.12
+  },
+  "passed": true
+}

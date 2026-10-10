@@ -1,0 +1,5 @@
+npm notice run dance-animations@0.1.0 check
+npm notice run tsc --noEmit && python scripts/validate_assets.py && python scripts/validate_licenses.py
+Validated 92 styles with 50 attributed human music excerpts, samples, loop boundaries, and hashes.
+Validated 3677 clips, 3558 source hashes, 92 playable styles; runtime assets 812.4 MiB.
+Runtime copyright notices, model credits, and complete GPL extension source passed.

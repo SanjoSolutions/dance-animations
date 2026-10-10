@@ -19863,7 +19863,8 @@
       "originalExportSha256": "4de9a6cdbae14b4ef3aed42b9f63b7ef2120d7dcf59f3db0cad5532059f564fb",
       "animationName": "fusion_box_basic.baked",
       "status": "Provisional export",
-      "sourceSha256": "c37fd7cdc430a5570c5f1b75779db960431dbf17e634276c2ac6f97434898ad4"
+      "sourceSha256": "3c8f1cba186628b19fa1bcbcd96bc215c34a39e4c663deae7d970962e597d8fd",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_closed_offset",
@@ -19897,7 +19898,8 @@
       "originalExportSha256": "d2fa67f099ca0ae0008f4c99ed6f2de64aac4d05e4fffda9d207de8499ce8d35",
       "animationName": "fusion_compression_stretch.baked",
       "status": "Provisional export",
-      "sourceSha256": "5b380ca00dfab020fe99778ca9805d66fd91f89731d8d69db91b6fcb2b057bea"
+      "sourceSha256": "467192d6752d6db50098342f7ce4e3db13ec6741d388aa3368a6df792890ca50",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_counterbalance",
@@ -19931,7 +19933,8 @@
       "originalExportSha256": "0f4ebccaf2e2910ccfd315b0eb36b6888a7ad7346b0e5913542b07598b146c60",
       "animationName": "fusion_forward_back_basic.baked",
       "status": "Provisional export",
-      "sourceSha256": "f872983bf45781e653cdc4462436ff7e98bcc17c242cbd77e4ef9291b8bad6ad"
+      "sourceSha256": "e28d25cc024d61ae7a678e2cec40cecd50c67a65c464298c10373e0cca194c75",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_open_double_sway",
@@ -20033,7 +20036,8 @@
       "originalExportSha256": "7d6e1578a3c89b3509e42c361bf45e46978eec4722a8df6425e0deb2c7b4d167",
       "animationName": "fusion_promenade_walk.baked",
       "status": "Provisional export",
-      "sourceSha256": "c2f62162af8068e660ba34546a131050a3fdee24d816796251444b2951b07371"
+      "sourceSha256": "8c589b2f999a057fd1d8955813605c05726126630979e42cb46b89ca6d9f9566",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_pulse",
@@ -20067,7 +20071,8 @@
       "originalExportSha256": "e7616c8202884bdfffc71cc39e558c035f644eed30a6412947618e86d9646ae2",
       "animationName": "fusion_send_out_return.baked",
       "status": "Provisional export",
-      "sourceSha256": "90e20e074063d11e02b2435c3b0f02381488ea2e0aaf0f2ff6c3c2a2012c0dce"
+      "sourceSha256": "7eb1044f09afdb210866e095a7ab294de8b8610012fb1b52a97d50c213916ac6",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_shadow",
@@ -20084,7 +20089,8 @@
       "originalExportSha256": "c22b09f278e7271c472649aba3a6e998bfab3b1406a3fb799b33726739ea483f",
       "animationName": "fusion_shadow.baked",
       "status": "Provisional export",
-      "sourceSha256": "00772272eb9fe980179dd05e41a3621f6700c0af275f1980521dbe9dac61bacb"
+      "sourceSha256": "6b4f2f9b3b82a27009b7911e9b07092c409ccd49106e3f903fc90516ce5c94d5",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_shadow_walk",
@@ -20101,7 +20107,8 @@
       "originalExportSha256": "0bf0693e7af0a078bcd9c6533cd6bb7d211b7ed775f219f11d5c3f2a1086bbf7",
       "animationName": "fusion_shadow_walk.baked",
       "status": "Provisional export",
-      "sourceSha256": "8f3d79315f22b714ec4665cbade13a56a69f2360af44ec9fedd82eebddc77f7f"
+      "sourceSha256": "d108a7954512e1a7c4094d24819456ad0352f4bb5b701c2ae06daf38d8e5d7c1",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_side_basic",
@@ -20118,7 +20125,8 @@
       "originalExportSha256": "e5f79e69e0d18cf30e14d7e00aa41122b8c560452c831da262c17ee38fb9bf38",
       "animationName": "fusion_side_basic.baked",
       "status": "Provisional export",
-      "sourceSha256": "07fa89f77ddd2ef9b13f0856cf6ef98764d6669a280526258fe85c48eaed6f0e"
+      "sourceSha256": "7a87c7be16269951f35a1d165d5dc0c51bb83459ae69839bbf02ce95298bede7",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_side_by_side",
@@ -20169,7 +20177,8 @@
       "originalExportSha256": "f9710247fc1cf78bc62d318bb23fa9806043c133dd0b764f7ce66c4b79c0fcdd",
       "animationName": "fusion_triple_step.baked",
       "status": "Provisional export",
-      "sourceSha256": "36ca3c4696925023e729b006819568ff1561a92a494ca92c7eadfc64af852972"
+      "sourceSha256": "e47b204dac97aaff17addfa5c89781a386a194f01106f0d30fe6ca81ab391df3",
+      "studyStatus": "Procedural study; native source, bake, and runtime checked"
     },
     {
       "id": "fusion_weight_transfer",

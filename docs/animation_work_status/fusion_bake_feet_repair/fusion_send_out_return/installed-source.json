@@ -1,0 +1,105 @@
+{
+  "sourceSha256": "7eb1044f09afdb210866e095a7ab294de8b8610012fb1b52a97d50c213916ac6",
+  "owners": [
+    "OBMan.rigify",
+    "OBWoman.rigify"
+  ],
+  "participants": "BOTH",
+  "frameRange": [
+    0.0,
+    192.0
+  ],
+  "rate": [
+    48,
+    1.0
+  ],
+  "playbackEnd": 191,
+  "template": "animations\\shared_scene_data.blend",
+  "bindings": [
+    {
+      "owner": "Man.rigify_deform",
+      "type": "OBJECT",
+      "track": "fusion_send_out_return",
+      "action": "fusion_send_out_return.baked",
+      "slot": "OBMan.rigify_deform",
+      "properties": {
+        "action_frame_start": 0.0,
+        "action_frame_end": 192.0,
+        "scale": 1.0,
+        "repeat": 1.0,
+        "frame_start": 0.0,
+        "frame_end": 192.0,
+        "blend_type": "REPLACE",
+        "extrapolation": "HOLD",
+        "use_animated_influence": false,
+        "use_animated_time": false,
+        "use_animated_time_cyclic": false,
+        "strip_time": 0.0,
+        "influence": 0.0,
+        "blend_in": 0.0,
+        "blend_out": 0.0,
+        "use_auto_blend": false,
+        "use_reverse": false,
+        "use_sync_length": true,
+        "mute": false
+      }
+    },
+    {
+      "owner": "Woman.rigify_deform",
+      "type": "OBJECT",
+      "track": "fusion_send_out_return",
+      "action": "fusion_send_out_return.baked",
+      "slot": "OBWoman.rigify_deform",
+      "properties": {
+        "action_frame_start": 0.0,
+        "action_frame_end": 192.0,
+        "scale": 1.0,
+        "repeat": 1.0,
+        "frame_start": 0.0,
+        "frame_end": 192.0,
+        "blend_type": "REPLACE",
+        "extrapolation": "HOLD",
+        "use_animated_influence": false,
+        "use_animated_time": false,
+        "use_animated_time_cyclic": false,
+        "strip_time": 0.0,
+        "influence": 0.0,
+        "blend_in": 0.0,
+        "blend_out": 0.0,
+        "use_auto_blend": false,
+        "use_reverse": false,
+        "use_sync_length": true,
+        "mute": false
+      }
+    },
+    {
+      "owner": "Man.rigify",
+      "type": "OBJECT",
+      "track": "fusion_send_out_return",
+      "action": "fusion_send_out_return",
+      "slot": "OBMan.rigify",
+      "properties": {
+        "frame_start": 0.0,
+        "frame_end": 192.0,
+        "action_frame_start": 0.0,
+        "action_frame_end": 192.0,
+        "use_sync_length": true
+      }
+    },
+    {
+      "owner": "Woman.rigify",
+      "type": "OBJECT",
+      "track": "fusion_send_out_return",
+      "action": "fusion_send_out_return",
+      "slot": "OBWoman.rigify",
+      "properties": {
+        "frame_start": 0.0,
+        "frame_end": 192.0,
+        "action_frame_start": 0.0,
+        "action_frame_end": 192.0,
+        "use_sync_length": true
+      }
+    }
+  ],
+  "passed": true
+}

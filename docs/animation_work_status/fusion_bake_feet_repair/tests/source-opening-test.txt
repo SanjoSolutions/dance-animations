@@ -1,0 +1,39 @@
+00:00.046  color_management | Using OCIO=C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\colormanagement\config.ocio
+00:01.203  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\animations\afro_house\sources\afro_house_woman_alternating_arm_pump.blend"
+00:01.250  reports          | WARNING File written by newer Blender binary (502.45), expect loss of data!
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.250  reports          | WARNING Library file, loading empty scene
+Dance helpers ready: Helpers > Animation
+00:03.593  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\.cache\source-editor-ce8ot0ia\afro_house_woman_alternating_arm_pump.blend"
+Info: Saved as "afro_house_woman_alternating_arm_pump.blend"
+Fresh source editor and save/reopen passed: afro_house_woman_alternating_arm_pump
+
+Blender quit
+
+00:00.062  color_management | Using OCIO=C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\colormanagement\config.ocio
+00:01.203  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\animations\hip_hop\sources\hip_hop_man_bart_simpson.blend"
+00:01.359  reports          | WARNING File written by newer Blender binary (502.45), expect loss of data!
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.359  reports          | WARNING Library file, loading empty scene
+Dance helpers ready: Helpers > Animation
+00:03.921  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\.cache\source-editor-3_kdpm_e\hip_hop_man_bart_simpson.blend"
+Info: Saved as "hip_hop_man_bart_simpson.blend"
+Fresh source editor and save/reopen passed: hip_hop_man_bart_simpson
+
+Blender quit
+
+00:00.047  color_management | Using OCIO=C:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\colormanagement\config.ocio
+00:01.094  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\animations\salsa\sources\salsa_basic.blend"
+00:01.375  reports          | WARNING File written by newer Blender binary (502.45), expect loss of data!
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.375  reports          | WARNING Library file, loading empty scene
+Dance helpers ready: Helpers > Animation
+00:03.672  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\.cache\source-editor-vo12v2g4\salsa_basic.blend"
+Info: Saved as "salsa_basic.blend"
+Fresh source editor and save/reopen passed: salsa_basic
+
+Blender quit
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

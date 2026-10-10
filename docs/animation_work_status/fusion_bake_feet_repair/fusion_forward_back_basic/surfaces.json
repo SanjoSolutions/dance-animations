@@ -1,0 +1,147 @@
+{
+  "id": "fusion_forward_back_basic",
+  "exportSha256": "9bd92c59a4e2bdd33364e02bba9617f247a2f7855b703964e659a3ffa9de9d9c",
+  "sampledFrames": 385,
+  "units": "meters",
+  "soleBand": 0.018,
+  "maximumPlantDrift": 0.0004731961619730109,
+  "limits": {
+    "plantDrift": 0.003,
+    "minimum": -0.002
+  },
+  "feet": [
+    {
+      "actor": "man",
+      "side": "L",
+      "vertices": 631,
+      "minimum": 0.0016702990238586166,
+      "maximumMinimum": 0.04703231500110794,
+      "intervals": [
+        {
+          "start": 12,
+          "end": 24,
+          "drift": 0.00030566924006175834,
+          "samples": 49
+        },
+        {
+          "start": 36,
+          "end": 48,
+          "drift": 0.000415591287269417,
+          "samples": 49
+        },
+        {
+          "start": 60,
+          "end": 72,
+          "drift": 0.0003264441884661582,
+          "samples": 49
+        },
+        {
+          "start": 84,
+          "end": 96,
+          "drift": 0.00041694445562514274,
+          "samples": 49
+        }
+      ]
+    },
+    {
+      "actor": "man",
+      "side": "R",
+      "vertices": 631,
+      "minimum": 0.0016000690688905768,
+      "maximumMinimum": 0.04700128039722888,
+      "intervals": [
+        {
+          "start": 0,
+          "end": 12,
+          "drift": 0.0004371072473039483,
+          "samples": 49
+        },
+        {
+          "start": 24,
+          "end": 36,
+          "drift": 0.00035860508813336694,
+          "samples": 49
+        },
+        {
+          "start": 48,
+          "end": 60,
+          "drift": 0.0003183002365091463,
+          "samples": 49
+        },
+        {
+          "start": 72,
+          "end": 84,
+          "drift": 0.0003307969384883041,
+          "samples": 49
+        }
+      ]
+    },
+    {
+      "actor": "woman",
+      "side": "L",
+      "vertices": 604,
+      "minimum": 0.0018970843074733342,
+      "maximumMinimum": 0.04707709740684664,
+      "intervals": [
+        {
+          "start": 12,
+          "end": 24,
+          "drift": 0.00041567068840972667,
+          "samples": 49
+        },
+        {
+          "start": 36,
+          "end": 48,
+          "drift": 0.00045738479034196426,
+          "samples": 49
+        },
+        {
+          "start": 60,
+          "end": 72,
+          "drift": 0.0004551985476817464,
+          "samples": 49
+        },
+        {
+          "start": 84,
+          "end": 96,
+          "drift": 0.0004182402241705498,
+          "samples": 49
+        }
+      ]
+    },
+    {
+      "actor": "woman",
+      "side": "R",
+      "vertices": 604,
+      "minimum": 0.0018900291041008513,
+      "maximumMinimum": 0.047083817127989945,
+      "intervals": [
+        {
+          "start": 0,
+          "end": 12,
+          "drift": 0.0004731961619730109,
+          "samples": 49
+        },
+        {
+          "start": 24,
+          "end": 36,
+          "drift": 0.0004142920270119591,
+          "samples": 49
+        },
+        {
+          "start": 48,
+          "end": 60,
+          "drift": 0.0004342930451173351,
+          "samples": 49
+        },
+        {
+          "start": 72,
+          "end": 84,
+          "drift": 0.0004327836312544856,
+          "samples": 49
+        }
+      ]
+    }
+  ],
+  "passed": true
+}

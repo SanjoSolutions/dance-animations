@@ -1,0 +1,166 @@
+00:01.172  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\main.blend"
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\aethelraed_flapper_dress.blend', '//assets\wardrobe\aethelraed_flapper_dress.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\female_casualsuit01.blend', '//assets\wardrobe\female_casualsuit01.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\female_casualsuit02.blend', '//assets\wardrobe\female_casualsuit02.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\animations\hip_hop\sources\hip_hop_man_bart_simpson.blend', '//animations\hip_hop\sources\hip_hop_man_bart_simpson.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\male_casualsuit03.blend', '//assets\wardrobe\male_casualsuit03.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\male_casualsuit04.blend', '//assets\wardrobe\male_casualsuit04.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\male_casualsuit06.blend', '//assets\wardrobe\male_casualsuit06.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\mindfront_ballet_dress_the_swan.blend', '//assets\wardrobe\mindfront_ballet_dress_the_swan.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\characters\mpfb-characters.blend', '//assets\characters\mpfb-characters.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\punkduck_sleeveless_shirt.blend', '//assets\wardrobe\punkduck_sleeveless_shirt.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\punkduck_tennis_shoes.blend', '//assets\wardrobe\punkduck_tennis_shoes.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\shoes01.blend', '//assets\wardrobe\shoes01.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\shoes03.blend', '//assets\wardrobe\shoes03.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\toigo_ballet_flats.blend', '//assets\wardrobe\toigo_ballet_flats.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\toigo_camisole_dress_with_full_skirt.blend', '//assets\wardrobe\toigo_camisole_dress_with_full_skirt.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\toigo_fisherman_sweater.blend', '//assets\wardrobe\toigo_fisherman_sweater.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\toigo_halter_dress_knee_length.blend', '//assets\wardrobe\toigo_halter_dress_knee_length.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\toigo_male_suit_3.blend', '//assets\wardrobe\toigo_male_suit_3.blend', parent '<direct>'
+Info: Read library: 'C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\assets\wardrobe\toigo_wool_pants.blend', '//assets\wardrobe\toigo_wool_pants.blend', parent '<direct>'
+Dance helpers ready: Helpers > Animation
+Animation library: 1/1 salsa_basic.blend
+00:03.625  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\animations\hip_hop\sources\hip_hop_man_bart_simpson.blend"
+Warning: File written by newer Blender binary (502.45), expect loss of data!
+Warning: Library file, loading empty scene
+register_class(...):
+Info: Registering panel class: 'RigBakeSettings', bl_idname 'VIEW3D_PT_rig_bake_settings_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigUI', bl_idname 'VIEW3D_PT_rig_ui_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigLayers', bl_idname 'VIEW3D_PT_rig_layers_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'RIGIFY_OT_get_frame_range', bl_idname 'rigify.get_frame_range_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap', bl_idname 'pose.rigify_generic_snap_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap_bake', bl_idname 'pose.rigify_generic_snap_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_clear_keyframes', bl_idname 'pose.rigify_clear_keyframes_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk', bl_idname 'pose.rigify_limb_ik2fk_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk_bake', bl_idname 'pose.rigify_limb_ik2fk_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole', bl_idname 'pose.rigify_limb_toggle_pole_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole_bake', bl_idname 'pose.rigify_limb_toggle_pole_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk', bl_idname 'pose.rigify_leg_roll_ik2fk_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk_bake', bl_idname 'pose.rigify_leg_roll_ik2fk_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent', bl_idname 'pose.rigify_switch_parent_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent_bake', bl_idname 'pose.rigify_switch_parent_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigBakeSettings', bl_idname 'VIEW3D_PT_rig_bake_settings_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigUI', bl_idname 'VIEW3D_PT_rig_ui_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigLayers', bl_idname 'VIEW3D_PT_rig_layers_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'RIGIFY_OT_get_frame_range', bl_idname 'rigify.get_frame_range_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap', bl_idname 'pose.rigify_generic_snap_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap_bake', bl_idname 'pose.rigify_generic_snap_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_clear_keyframes', bl_idname 'pose.rigify_clear_keyframes_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk', bl_idname 'pose.rigify_limb_ik2fk_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk_bake', bl_idname 'pose.rigify_limb_ik2fk_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole', bl_idname 'pose.rigify_limb_toggle_pole_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole_bake', bl_idname 'pose.rigify_limb_toggle_pole_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk', bl_idname 'pose.rigify_leg_roll_ik2fk_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk_bake', bl_idname 'pose.rigify_leg_roll_ik2fk_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent', bl_idname 'pose.rigify_switch_parent_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent_bake', bl_idname 'pose.rigify_switch_parent_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+Dance helpers ready: Helpers > Animation
+Baked hip_hop_man_bart_simpson in 4.31 seconds
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+11:32:00 | INFO: Starting glTF 2.0 export
+11:32:00 | INFO: Extracting primitive: Player clip skin
+11:32:00 | INFO: Primitives created: 1
+11:32:00 | INFO: Extracting primitive: Player clip skin.001
+11:32:00 | INFO: Primitives created: 1
+11:32:05 | INFO: Finished glTF 2.0 export in 5.276409387588501 s
+00:16.766  blend            | Read blend: "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\.cache\native-export\sources\hip_hop_man_bart_simpson.blend"
+
+Warning: Library file, loading empty scene
+register_class(...):
+Info: Registering panel class: 'RigBakeSettings', bl_idname 'VIEW3D_PT_rig_bake_settings_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigUI', bl_idname 'VIEW3D_PT_rig_ui_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigLayers', bl_idname 'VIEW3D_PT_rig_layers_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'RIGIFY_OT_get_frame_range', bl_idname 'rigify.get_frame_range_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap', bl_idname 'pose.rigify_generic_snap_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap_bake', bl_idname 'pose.rigify_generic_snap_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_clear_keyframes', bl_idname 'pose.rigify_clear_keyframes_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk', bl_idname 'pose.rigify_limb_ik2fk_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk_bake', bl_idname 'pose.rigify_limb_ik2fk_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole', bl_idname 'pose.rigify_limb_toggle_pole_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole_bake', bl_idname 'pose.rigify_limb_toggle_pole_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk', bl_idname 'pose.rigify_leg_roll_ik2fk_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk_bake', bl_idname 'pose.rigify_leg_roll_ik2fk_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent', bl_idname 'pose.rigify_switch_parent_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent_bake', bl_idname 'pose.rigify_switch_parent_bake_vau2vunjc9a3e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigBakeSettings', bl_idname 'VIEW3D_PT_rig_bake_settings_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigUI', bl_idname 'VIEW3D_PT_rig_ui_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'RigLayers', bl_idname 'VIEW3D_PT_rig_layers_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'RIGIFY_OT_get_frame_range', bl_idname 'rigify.get_frame_range_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap', bl_idname 'pose.rigify_generic_snap_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_generic_snap_bake', bl_idname 'pose.rigify_generic_snap_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_clear_keyframes', bl_idname 'pose.rigify_clear_keyframes_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk', bl_idname 'pose.rigify_limb_ik2fk_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_ik2fk_bake', bl_idname 'pose.rigify_limb_ik2fk_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole', bl_idname 'pose.rigify_limb_toggle_pole_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_limb_toggle_pole_bake', bl_idname 'pose.rigify_limb_toggle_pole_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk', bl_idname 'pose.rigify_leg_roll_ik2fk_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_leg_roll_ik2fk_bake', bl_idname 'pose.rigify_leg_roll_ik2fk_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent', bl_idname 'pose.rigify_switch_parent_gluemxhv0184e4a6' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'POSE_OT_rigify_switch_parent_bake', bl_idname 'pose.rigify_switch_parent_bake_gluemxhv0184e4a6' has been registered before, unregistering previous
+Dance helpers ready: Helpers > Animation
+Native studio and authoring workflow passed; maximum bone difference: 8.344650268554688e-07
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+scripts disabled for "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\main.blend", skipping 'dance_helpers.py'
+scripts disabled for "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\main.blend", skipping 'Human.rigify_ui.py'
+scripts disabled for "C:\Users\jonas\.codex\worktrees\fusion-bake-feet-repair\dance-animations\main.blend", skipping 'Human.rigify_ui.py.001'
+
+Blender quit

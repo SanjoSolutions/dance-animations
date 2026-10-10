@@ -1,0 +1,23 @@
+{
+  "sourceSha256": "776294172becae4cb6240325dc1bb818ead6732d9fd66262ad0f0c38b44dc78a",
+  "exportSha256": "33daf0ee6fa7fac8c814cca6098dee4f8489401cc1241bfbac391b2a0624d2c1",
+  "validatorSha256": "a96927b835e336505f048196078d12f5ec0f06379ab6264e6b6995753e7b6b88",
+  "sampledFrames": 385,
+  "maximumJointPositionError": 0.00017593198722812596,
+  "worst": {
+    "frame": 47.5,
+    "performer": "woman",
+    "bone": "DEF-f_middle.03.L"
+  },
+  "duration": 4,
+  "maximumJointRotationError": 0.000525402144250926,
+  "worstRotation": {
+    "frame": 191.5,
+    "performer": "woman",
+    "bone": "DEF-f_pinky.02.L"
+  },
+  "durationError": 0,
+  "tracks": 1260,
+  "animation": "fusion_send_out_return.baked",
+  "passed": true
+}

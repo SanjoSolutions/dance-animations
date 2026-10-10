@@ -1,0 +1,58 @@
+[
+  {
+    "command": "npm run check",
+    "passed": true,
+    "log": "check-final.txt",
+    "sha256": "0d2fff9fcdc6f58b42890aad5c43372c26f24599cb31f41422173d56b656c18f",
+    "rawLocalLogSha256": "c235dfc6d6bf5cfd7d261b6078b13b05f9ee360d121ea28419de1df1ce15527c",
+    "format": "UTF-8 with LF; trailing whitespace trimmed from the raw local log"
+  },
+  {
+    "command": "npm test",
+    "passed": true,
+    "log": "test-final.txt",
+    "sha256": "5e1f27b5f093e9febe7888255d0b4e469e7c132ccf8977d17c686610f899ca91",
+    "rawLocalLogSha256": "00045d4c9b37090585b2b277e48cab20957298dde1de7be3457c29c8710d785a",
+    "format": "UTF-8 with LF; trailing whitespace trimmed from the raw local log"
+  },
+  {
+    "command": "Native bake helper test",
+    "passed": true,
+    "log": "dance_tools.test-native-helper-tests.txt",
+    "sha256": "9c21cd61591d17278ee509a6e5c7f3bd7cc0e1b8d687b543aacc7ca66669e759",
+    "rawLocalLogSha256": "878111185a950580075b4697e7098b1cc07f4f20c7bc93b4dc8636fe77dcaeb0",
+    "format": "UTF-8 with LF; trailing whitespace trimmed from the raw local log"
+  },
+  {
+    "command": "Animation timing test",
+    "passed": true,
+    "log": "animation_timing.test-timing-tests.txt",
+    "sha256": "70609576e7d579637e28dd0e8c8ea66218cdf1992a8124ad107908d548a39ea9",
+    "rawLocalLogSha256": "0ef0c038dc8818ca215063d0458ddae577df73ffe776427df7f1e9dbddad99e2",
+    "format": "UTF-8 with LF; trailing whitespace trimmed from the raw local log"
+  },
+  {
+    "command": "Fresh source opening test",
+    "passed": true,
+    "log": "source-opening-test.txt",
+    "sha256": "0af70948a5e45a057b2c46c6742e8882fa0641be55fd8ade2d74cd8b63930e81",
+    "rawLocalLogSha256": "a39c8f4a9ea067940c84c4462d18a9c1b6422bc152c87ec92698858a5739be1e",
+    "format": "UTF-8 with LF; trailing whitespace trimmed from the raw local log"
+  },
+  {
+    "command": "FootPhrase public API tests",
+    "passed": true,
+    "log": "repair_supports.test-phrase-tests.txt",
+    "sha256": "20cbda69341c8db94c54c9a6f00681cbd167c9bae2e98af7098498138bb30fe0",
+    "rawLocalLogSha256": "bc9d1b5a63b0962e180844ecf8e1b5bf14546cd0ac637ae0c14ff70e6240214e",
+    "format": "UTF-8 with LF; trailing whitespace trimmed from the raw local log"
+  },
+  {
+    "command": "npm run build",
+    "passed": true,
+    "log": "build-final.txt",
+    "sha256": "3eaf8a4f5a6befe8ee7eeaa7146c4de7cd55230dba610de73376a0eb27e0a570",
+    "rawLocalLogSha256": "47abf55d8de068c621d615218183fba5d2d38cf190efbceec406fe998b058cb8",
+    "format": "UTF-8 with LF; trailing whitespace trimmed from the raw local log"
+  }
+]

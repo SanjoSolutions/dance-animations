@@ -1,0 +1,11 @@
+{
+  "source": "animations\\fusion\\sources\\fusion_shadow_walk.blend",
+  "export": "animations\\fusion\\fusion_shadow_walk.glb",
+  "sourceSha256": "d108a7954512e1a7c4094d24819456ad0352f4bb5b701c2ae06daf38d8e5d7c1",
+  "candidateSourceSha256": "bdba918759b775fe65bc3db671f3d93ed16f04e21f3303b026b040a16b2f028b",
+  "candidateExportSha256": "1041de3fb1190ae0b8a37dd328310eb3a6192cb031c8dea4bd6397a9ca10d0a2",
+  "actionFingerprint": "a7f91f61c0990cc9d7575258c40842efe85b014eda1eabc492d409d9118f8480",
+  "fingerprintAlgorithm": "sha256-curves-v2",
+  "descriptor": "../../shared_scene_data.blend",
+  "exactCurveParity": true
+}

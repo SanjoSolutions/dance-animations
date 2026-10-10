@@ -123,7 +123,7 @@ def retime(action, factor):
     bpy.context.scene.frame_end = int(action.frame_end) - int(action.use_cyclic)
 
 
-def main(refinement=None, sampling=2):
+def main(refinement=None, sampling=2, rotation_repair=ConstantRotationRepair):
     identifier = sys.argv[sys.argv.index('--') + 1]
     record = next(entry for entry in json.loads((ROOT / 'catalog.json').read_text())['animations'] if entry['id'] == identifier)
     directory = ROOT / '.cache/motion-recovery' / identifier
@@ -139,7 +139,7 @@ def main(refinement=None, sampling=2):
     for candidate in list(bpy.data.actions):
         if candidate.name in (identifier + '.baked', identifier + '_baked'):
             bpy.data.actions.remove(candidate)
-    repairs = ConstantRotationRepair(action).apply()
+    repairs = rotation_repair(action).apply()
     action['player_asset_participants'] = 'BOTH' if len(record['performers']) == 2 else 'PLAYER' if record['performers'] == ['man'] else 'PARTNER'
     action['Motion Recovery'] = 'Native quaternion controls; dense sampling; procedural study'
     action['animation_loop_end_exclusive'] = bool(action.use_cyclic)

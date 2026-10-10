@@ -1,0 +1,23 @@
+{
+  "sourceSha256": "2d499073a57bd0ff0c4d5944f063f690170042deb655629bedf077bfe96c2341",
+  "exportSha256": "9bd92c59a4e2bdd33364e02bba9617f247a2f7855b703964e659a3ffa9de9d9c",
+  "validatorSha256": "a96927b835e336505f048196078d12f5ec0f06379ab6264e6b6995753e7b6b88",
+  "sampledFrames": 385,
+  "maximumJointPositionError": 0.0006441951621640095,
+  "worst": {
+    "frame": 0.5,
+    "performer": "woman",
+    "bone": "DEF-cheek.B.L.001"
+  },
+  "duration": 4,
+  "maximumJointRotationError": 0.002824590214120584,
+  "worstRotation": {
+    "frame": 180.5,
+    "performer": "woman",
+    "bone": "DEF-elbow-helper.L"
+  },
+  "durationError": 0,
+  "tracks": 1260,
+  "animation": "fusion_forward_back_basic.baked",
+  "passed": true
+}
